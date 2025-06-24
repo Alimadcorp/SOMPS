@@ -1,11 +1,12 @@
 const fs = require("fs");
 const axios = require("axios");
-let projects = [];
+let projectss = [];
+let projects = {};
 let users = {};
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
-r.forEach(e => {
-  env[e.split("=")[0]] = e.split["="][1];
+r.forEach((e) => {
+  env[e.split("===")[0]] = e.split("===")[1];
 });
 const SLACK_TOKEN = env.SLACK_TOKEN;
 function delay(ms) {
@@ -13,76 +14,93 @@ function delay(ms) {
 }
 try {
   const data = fs.readFileSync("projects.json", "utf8");
-  projects = JSON.parse(data);
+  projectss = JSON.parse(data);
+  for (let i = 0; i < projectss.length; i++) {
+    projects[projectss[i].id] = { ...projectss[i] };
+  }
 } catch (err) {
   console.error(err);
 }
 
 async function fetchAllUsers() {
-    const allUsers = [];
-  
-    const fetchPage = async (cursor) => {
-      let attempts = 0;
-      while (attempts < 3) {
-        try {
-          const url = new URL("https://slack.com/api/users.list");
-          url.searchParams.set("limit", 1000);
-          if (cursor) url.searchParams.set("cursor", cursor);
-          console.log("Fetching page...");
-  
-          const res = await axios.get(url.toString(), {
-            headers: { Authorization: `Bearer ${SLACK_TOKEN}` },
-            validateStatus: () => true,
-          });
-  
-          if (res.status !== 200 || !res.data.ok)
-            throw new Error("Slack API failed");
-  
-          console.log("Success");
-  
-          const users = res.data.members.map((x) => ({
-            id: x.id,
+  let allUsers = {};
+
+  const fetchPage = async (cursor) => {
+    let attempts = 0;
+    while (attempts < 3) {
+      try {
+        const url = new URL("https://slack.com/api/users.list");
+        url.searchParams.set("limit", 1000);
+        if (cursor) url.searchParams.set("cursor", cursor);
+        console.log("Fetching...");
+
+        const res = await axios.get(url.toString(), {
+          headers: { Authorization: `Bearer ${SLACK_TOKEN}` },
+          validateStatus: () => true,
+        });
+        if (res.status !== 200 || !res.data.ok)
+          throw new Error("Slack API failed");
+
+        console.log(`Fetched 1000 ${cursor ? "more " : ""}users`);
+        let users = {};
+        for (let i = 0; i < res.data.members.length; i++) {
+          let x = res.data.members[i];
+          users[x.id] = {
             name: x.name,
             real_name: x.real_name,
             tz: x.tz,
-            tz_offset: x.tz_offset,
-            title: x.profile.title,
-            phone: x.profile.phone,
             start_date: x.profile.start_date,
             pronouns: x.profile.pronouns,
             image: x.profile.image_512,
             deleted: x.deleted,
-          }));
-  
-          const nextCursor = res.data.response_metadata?.next_cursor || "";
-          return { users, nextCursor };
-        } catch (e) {
-          attempts++;
-          if (attempts >= 3) {
-            console.error("Failed after 3 retries:", e);
-            return { users: [], nextCursor: "" };
-          }
+          };
+        }
+        const nextCursor = res.data.response_metadata?.next_cursor || "";
+        return { users, nextCursor };
+      } catch (e) {
+        attempts++;
+        if (attempts >= 3) {
+          console.error("Failed after 3 retries:", e);
+          return { users: {}, nextCursor: "" };
         }
       }
-      return { users: [], nextCursor: "" };
-    };
-  
-    let cursor = "";
-    do {
-      const { users, nextCursor } = await fetchPage(cursor);
-      allUsers.push(...users);
-      cursor = nextCursor;
-      if (cursor) await delay(2000); // throttle
-    } while (cursor);
-  
-    return allUsers;
-  }
-  
+    }
+    return { users: {}, nextCursor: "" };
+  };
+
+  let cursor = "";
+  do {
+    let { users, nextCursor } = await fetchPage(cursor);
+    allUsers = { ...allUsers, ...users };
+    cursor = nextCursor;
+    if (cursor) await delay(2000);
+  } while (cursor);
+
+  return allUsers;
+}
 
 async function main() {
-  users = await fetchAllUsers();
-  fs.writeFileSync("users.json", JSON.stringify(users), "utf8");
+  if (/*You want to fetch all users again:*/ false) {
+    users = await fetchAllUsers();
+    fs.writeFileSync("users.json", JSON.stringify(users), "utf8");
+  }
+  users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
+  let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
+  const k = Object.keys(projects);
+  for (let i = 0; i < k.length; i++) {
+    let j = k[i];
+    let x = projects[j];
+    let u = users[x.slack_id] || {};
+    let b = banners[j] || {};
+    x = {
+      ...x,
+      ...u,
+      ...b,
+    };
+    projects[j] = x;
+  }
   fs.writeFileSync("projectsfinal.json", JSON.stringify(projects), "utf8");
+  fs.writeFileSync("../frontend/data/projects.json", JSON.stringify(projects), "utf8");
 }
 
 async function mainStarter() {

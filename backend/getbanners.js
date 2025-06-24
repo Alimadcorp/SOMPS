@@ -1,15 +1,15 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 106;
-const endPage = 200;
-const wait = 10000; // Wait ten second coz we dont wanna hang the api
+const startPage = 160;
+const endPage = 160;
+const wait = 5000; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = false;
 const resultPath = "banners.json";
 let allProjects = {};
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
 r.forEach(e => {
-  env[e.split("=")[0]] = e.split("=")[1];
+  env[e.split("===")[0]] = e.split("===")[1];
 });
 const myCookie = env.COOKIE;
 // Get a cookie from the soc website by inspecting the Cookie header of any web request sent to the same domain
@@ -77,7 +77,7 @@ function parseImages(dat) {
         prevProjects.push(projectId);
         if(!tProjects.includes(projectId)) {
           console.log(`New Project Id: ${projectId}`);
-          if(!allProjects.includes(projectId)) {
+          if(!Object.keys(allProjects).includes(projectId)) {
             console.log(`Actually New Project Id: ${projectId}`);
           }
         }
@@ -89,7 +89,7 @@ async function fetchPage(page) {
   let previous;
   if (fs.existsSync(`./cache/page${page}.html`)) {
     if (!replacePrevious) {
-      return fs.readFileSync(`./cache/page${page}.html`, "utf8");
+      return { "data": fs.readFileSync(`./cache/page${page}.html`, "utf8") };
     } else {
       previous = fs.readFileSync(`./cache/page${page}.html`, "utf8");
     }
