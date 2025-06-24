@@ -18,5 +18,7 @@ React + NextJS
 My Brain
 
 ## Devlog:
+### [6/24/2025]
 Starting with backend, we fetch the project list from the SOM API, we fetch the list of all hackclub slack users, and we incorporate all users names into the project list
 This will allow searching by author name
+Creating getbanners.json, that uses the pages browse endpoint to fetch all project banners
