@@ -2,8 +2,12 @@ const fs = require("fs");
 const axios = require("axios");
 let projects = [];
 let users = {};
-const SLACK_TOKEN = "xoxb-2210535565-8750527517188-Ab7tYR6S5kAG1NrVsIMyUwOp";
-const EXPECTED_TOTAL_USERS = 58876 + 19747;
+let env = {};
+let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
+r.forEach(e => {
+  env[e.split("=")[0]] = e.split["="][1];
+});
+const SLACK_TOKEN = env.SLACK_TOKEN;
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
