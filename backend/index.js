@@ -46,13 +46,13 @@ async function fetchAllUsers() {
         for (let i = 0; i < res.data.members.length; i++) {
           let x = res.data.members[i];
           users[x.id] = {
-            name: x.name,
-            real_name: x.real_name,
-            tz: x.tz,
-            start_date: x.profile.start_date,
-            pronouns: x.profile.pronouns,
-            image: x.profile.image_512,
-            deleted: x.deleted,
+            author_name: x.name,
+            author_real_name: x.real_name,
+            author_timezone: x.tz,
+            author_slack_start_date: x.profile.start_date,
+            author_pronouns: x.profile.pronouns,
+            author_pfp: x.profile.image_512,
+            is_author_deleted: x.deleted,
           };
         }
         const nextCursor = res.data.response_metadata?.next_cursor || "";
@@ -87,20 +87,27 @@ async function main() {
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
   const k = Object.keys(projects);
+  let unf = [], bnf = [];
   for (let i = 0; i < k.length; i++) {
     let j = k[i];
     let x = projects[j];
     let u = users[x.slack_id] || {};
+    if(u == {}) { unf.push(x.slack_id); }
     let b = banners[j] || {};
+    if(b == {}) { bnf.push(j); }
     x = {
       ...x,
       ...u,
       ...b,
     };
     projects[j] = x;
+    console.log(parseInt(j));
   }
+  console.log(`Could not find ${unf.length} users and ${bnf.length} banners:`);
+  console.log(unf.join(", "));
+  console.log(bnf.join(", "));
   fs.writeFileSync("projectsfinal.json", JSON.stringify(projects), "utf8");
-  fs.writeFileSync("../frontend/data/projects.json", JSON.stringify(projects), "utf8");
+  fs.writeFileSync("../frontend/data/projects.js", `export const projects = ${JSON.stringify(projects)};`, "utf8");
 }
 
 async function mainStarter() {

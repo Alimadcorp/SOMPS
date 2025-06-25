@@ -1,14 +1,15 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 160;
-const endPage = 160;
+const startPage = 164;
+const endPage = 167;
 const wait = 5000; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
-const replacePrevious = false;
+const replacePrevious = true;
 const resultPath = "banners.json";
 let allProjects = {};
+let initialLength = 0;
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
-r.forEach(e => {
+r.forEach((e) => {
   env[e.split("===")[0]] = e.split("===")[1];
 });
 const myCookie = env.COOKIE;
@@ -18,6 +19,7 @@ function delay(ms) {
 }
 async function start() {
   allProjects = JSON.parse(fs.readFileSync(resultPath));
+  initialLength = Object.keys(allProjects).length;
   const promises = [];
 
   for (let i = startPage; i <= endPage; i++) {
@@ -35,6 +37,9 @@ async function start() {
     `Processed ${endPage - startPage + 1} new pages and found ${
       Object.keys(allProjects).length
     } projects`
+  );
+  console.log(
+    `Increase in length: ${Object.keys(allProjects).length - initialLength}`
   );
 }
 
@@ -60,11 +65,14 @@ function parseImages(dat) {
       time: info[2].trim(),
     };
   });
+  fs.writeFileSync(resultPath, JSON.stringify(allProjects));
   if (dat.previous) {
+    let npi = [],
+      anpi = [];
     if (dat.data != dat.previous) {
       let prevProjects = [];
       let tProjects = [];
-      for(let i = 0; i < Object.keys(thisProjects).length; i++){
+      for (let i = 0; i < Object.keys(thisProjects).length; i++) {
         tProjects.push(Object.keys(thisProjects)[i]);
       }
       let html = parser.parse(dat.previous);
@@ -75,13 +83,24 @@ function parseImages(dat) {
         const match = action.match(/\/projects\/(\d+)\//);
         const projectId = match ? match[1] : null;
         prevProjects.push(projectId);
-        if(!tProjects.includes(projectId)) {
-          console.log(`New Project Id: ${projectId}`);
-          if(!Object.keys(allProjects).includes(projectId)) {
-            console.log(`Actually New Project Id: ${projectId}`);
+        if (!tProjects.includes(projectId)) {
+          npi.push(`${projectId}`);
+          if (!Object.keys(allProjects).includes(projectId)) {
+            anpi.push(`${projectId}`);
           }
         }
       });
+      if (npi.length > 0) {
+        if (anpi.length > 0) {
+          console.log(
+            `Found ${npi.length} new and ${anpi.length} actually new projects`
+          );
+        } else {
+          console.log(
+            `Found ${npi.length} new projects`
+          );
+        }
+      }
     }
   }
 }
@@ -89,26 +108,35 @@ async function fetchPage(page) {
   let previous;
   if (fs.existsSync(`./cache/page${page}.html`)) {
     if (!replacePrevious) {
-      return { "data": fs.readFileSync(`./cache/page${page}.html`, "utf8") };
+      return { data: fs.readFileSync(`./cache/page${page}.html`, "utf8") };
     } else {
       previous = fs.readFileSync(`./cache/page${page}.html`, "utf8");
     }
   }
-  const response = await fetch(
-    `https://summer.hackclub.com/explore.turbo_stream?page=${page}&tab=gallery`,
-    {
-      method: "GET",
-      headers: {
-        Cookie: myCookie,
-      },
+  let response = { ok: false, status: 404 };
+  try {
+    response = await fetch(
+      `https://summer.hackclub.com/explore.turbo_stream?page=${page}&tab=gallery`,
+      {
+        method: "GET",
+        headers: {
+          Cookie: myCookie,
+        },
+      }
+    );
+  } catch (e) {
+    if (response.status == 500) {
+      endPage = page;
+      console.log("Setting last page to " + page);
+      return "";
     }
-  );
-  console.log(response.status);
+  }
   if (response.ok) {
     const data = await response.text();
-    console.log(data.length);
     fs.writeFileSync(`./cache/page${page}.html`, data, "utf8");
     return { data, previous };
+  } else {
+    console.log(response.status);
   }
   return "";
 }
