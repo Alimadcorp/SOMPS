@@ -83,6 +83,7 @@ async function main() {
   if (/*You want to fetch all users again:*/ false) {
     users = await fetchAllUsers();
     fs.writeFileSync("users.json", JSON.stringify(users), "utf8");
+    return;
   }
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
