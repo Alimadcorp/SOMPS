@@ -1,160 +1,195 @@
-"use client";
+"use client"
 
-import { useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { Search, Loader2 } from "lucide-react";
-import toast from "react-hot-toast";
-import ProjectCard from "@/components/projectCard.js";
-import { projects as ProjectList } from "@/data/projects.js";
-import levenshtein from "@/components/levenshtein";
+import { useEffect, useState } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
+import { Search, Loader2 } from "lucide-react"
+import toast from "react-hot-toast"
+import ProjectCard from "@/components/projectCard.js"
+import { projects as ProjectList } from "@/data/projects.js"
+import levenshtein from "@/components/levenshtein"
+import SortDropdown from "./dropdown.js"
 
 export default function SearchContent() {
-  const searchParams = useSearchParams();
-  const router = useRouter();
+  const searchParams = useSearchParams()
+  const router = useRouter()
 
-  const [projects, setProjects] = useState([]);
-  const [query, setQuery] = useState("");
-  const [cquery, setcQuery] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false);
-  const [highlight, setHighlight] = useState([]);
-  const [searchProgress, setSearchProgress] = useState(0);
-  const [resultAmt, setResultAmt] = useState(0);
-  const [totalProjects, setTotalProjects] = useState(0);
+  const [projects, setProjects] = useState([])
+  const [query, setQuery] = useState("")
+  const [cquery, setcQuery] = useState("")
+  const [loading, setLoading] = useState(false)
+  const [hasSearched, setHasSearched] = useState(false)
+  const [highlight, setHighlight] = useState([])
+  const [searchProgress, setSearchProgress] = useState(0)
+  const [resultAmt, setResultAmt] = useState(0)
+  const [totalProjects, setTotalProjects] = useState(0)
+  const [sortBy, setSortBy] = useState("")
 
-  const sortby = "";
-  let maxS = 0;
-  let minS = 0;
+  let maxS = 0
+  let minS = 0
 
   useEffect(() => {
-    const q = searchParams.get("q") || "";
-    setQuery(q);
+    const q = searchParams.get("q") || ""
+    const sort = searchParams.get("sort") || ""
+    setQuery(q)
+    setSortBy(sort)
     if (q) {
-      searchProjects(q);
+      searchProjects(q, sort)
     }
-  }, [searchParams]);
+  }, [searchParams])
 
-  const searchProjects = async (q) => {
-    setLoading(true);
-    setHasSearched(true);
-    setSearchProgress(0);
-    const results = await search(q);
-    setProjects(results);
-    setLoading(false);
-    setSearchProgress(0);
-  };
+  const searchProjects = async (q, sort = sortBy) => {
+    setLoading(true)
+    setHasSearched(true)
+    setSearchProgress(0)
+    const results = await search(q, sort)
+    setProjects(results)
+    setLoading(false)
+    setSearchProgress(0)
+  }
 
   function delay(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    return new Promise((resolve) => setTimeout(resolve, ms))
   }
 
-  async function search(q) {
-    setcQuery(q);
-    const scores = {};
-    const rate = 100;
-    const amount = 48;
-    setHighlight(
-      q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
-    );
-    minS = maxS = 0;
-    const keys = Object.keys(ProjectList);
-    setTotalProjects(keys.length);
+  const parseTimeToMinutes = (timeStr) => {
+    if (!timeStr) return 0
+    const hours = timeStr.match(/(\d+)h/)?.[1] || 0
+    const minutes = timeStr.match(/(\d+)m/)?.[1] || 0
+    return Number.parseInt(hours) * 60 + Number.parseInt(minutes)
+  }
+
+  const getSortScore = (project, sortType) => {
+    switch (sortType) {
+      case "devlogs":
+        return (project.devlogs?.length || 0) * 50
+      case "created_at_desc":
+        return project.created_at ? new Date(project.created_at).getTime() / 1000000 : 0
+      case "created_at_asc":
+        return project.created_at ? -new Date(project.created_at).getTime() / 1000000 : 0
+      case "updated_at":
+        return project.updated_at ? new Date(project.updated_at).getTime() / 1000000 : 0
+      case "time":
+        return parseTimeToMinutes(project.time) * 2
+      default:
+        return 0
+    }
+  }
+
+  async function search(q, sort = "") {
+    setcQuery(q)
+    const scores = {}
+    const rate = 100
+    const amount = 48
+    setHighlight(q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean))
+    minS = maxS = 0
+    const keys = Object.keys(ProjectList)
+    setTotalProjects(keys.length)
 
     for (let i = 0; i < keys.length; i++) {
-      const key = keys[i];
-      const score = getScore(ProjectList[key], q);
-      if (score >= 5) scores[key] = score;
+      const key = keys[i]
+      const score = getScore(ProjectList[key], q, sort)
+      if (score >= 5) scores[key] = score
 
       if (i % rate === 0) {
-        setSearchProgress(i + 1);
-        await delay(25);
+        setSearchProgress(i + 1)
+        await delay(25)
       }
     }
-    const avg = minS + (maxS - minS) / 2;
+    let avg = minS + (maxS - minS) / 2;
+    if(sortBy == "time") {
+      avg = 0;
+    }
+    if(sortBy == "created_at_asc"){
+      avg = -1000000000;
+    }
     let sorted = Object.entries(scores)
       .filter(([_, score]) => score > avg)
-      .sort((a, b) => b[1] - a[1]);
-    setResultAmt(sorted.length);
-    sorted = sorted.slice(0, amount).map(([key]) => ProjectList[key]);
-    console.log("Search results:", sorted);
-    return sorted;
+      .sort((a, b) => b[1] - a[1])
+    setResultAmt(sorted.length)
+    sorted = sorted.slice(0, amount).map(([key]) => ProjectList[key])
+    console.log("Search results:", sorted)
+    return sorted
   }
 
-  function getScore(project, inputQuery) {
-    if (!project || !inputQuery) return 0;
+  function getScore(project, inputQuery, sort = "") {
+    if (!project || !inputQuery) return 0
 
-    if (
-      inputQuery == project.name ||
-      inputQuery == project.id ||
-      inputQuery == project.slack_id ||
-      inputQuery == project.author
-    ) {
-      return 750;
+    let score = 0
+
+    if (sort) {
+      score += getSortScore(project, sort)
+    } else {
+      if (
+        inputQuery == project.name ||
+        inputQuery == project.id ||
+        inputQuery == project.slack_id ||
+        inputQuery == project.author
+      ) {
+        return 750
+      }
+
+      const q = inputQuery.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
+
+      const lowPriority = `${project.description || ""} ${project.slack_id || ""} ${project.demo_url || ""}`
+        .toLowerCase()
+        .replace(/[_-]/g, " ")
+        .split(" ")
+
+      const highPriority = `${project.name || ""} ${project.title || ""} ${
+        project.author || ""
+      } ${project.author_name || ""} ${project.author_real_name || ""} ${project.id || ""}`
+        .toLowerCase()
+        .replace(/[_-]/g, " ")
+        .split(" ")
+
+      q.forEach((word) => {
+        highPriority.forEach((target) => {
+          if (word === target) score += 25
+          else if (target.includes(word) && word.length > 3) score += 20
+          else if (levenshtein(word, target) < 3) score += 10
+        })
+        lowPriority.forEach((target) => {
+          if (word.length > 2) {
+            if (word === target) score += 12.5
+            else if (target.includes(word) && word.length > 3) score += 10
+          }
+        })
+      })
     }
 
-    const q = inputQuery
-      .toLowerCase()
-      .replace(/[_-]/g, " ")
-      .split(" ")
-      .filter(Boolean);
+    maxS = Math.max(maxS, score)
+    minS = Math.min(minS, score)
 
-    const lowPriority = `${project.description || ""} ${
-      project.slack_id || ""
-    } ${project.demo_url || ""}`
-      .toLowerCase()
-      .replace(/[_-]/g, " ")
-      .split(" ");
-
-    const highPriority = `${project.name || ""} ${project.title || ""} ${
-      project.author || ""
-    } ${project.author_name || ""} ${project.author_real_name || ""} ${
-      project.id || ""
-    }`
-      .toLowerCase()
-      .replace(/[_-]/g, " ")
-      .split(" ");
-
-    let score = 0;
-
-    q.forEach((word) => {
-      highPriority.forEach((target) => {
-        if (word === target) score += 25;
-        else if (target.includes(word) && word.length > 3) score += 20;
-        else if (levenshtein(word, target) < 3) score += 10;
-      });
-      lowPriority.forEach((target) => {
-        if (word.length > 2) {
-          if (word === target) score += 12.5;
-          else if (target.includes(word) && word.length > 3) score += 10;
-        }
-      });
-    });
-
-    if (sortby && typeof project[sortby] === "number") {
-      score += project[sortby] * 10;
-    }
-
-    maxS = Math.max(maxS, score);
-    minS = Math.min(minS, score);
-
-    return score;
+    return score
   }
 
   const handleSearch = () => {
     if (!query.trim()) {
-      toast.error(`Can't search for nothing ¯\\_(ツ)_/¯`);
-      return;
+      toast.error(`Can't search for nothing ¯\\_(ツ)_/¯`)
+      return
     }
 
-    router.push(`/search?q=${encodeURIComponent(query.trim())}`);
-  };
+    const params = new URLSearchParams()
+    params.set("q", query.trim())
+    if (sortBy) params.set("sort", sortBy)
+    router.push(`/search?${params.toString()}`)
+  }
+
+  const handleSortChange = (newSort) => {
+    setSortBy(newSort)
+    if (query) {
+      const params = new URLSearchParams()
+      params.set("q", query)
+      if (newSort) params.set("sort", newSort)
+      router.push(`/search?${params.toString()}`)
+    }
+  }
 
   const handleKeyDown = (e) => {
-    if (e.key === "Enter") handleSearch();
-  };
+    if (e.key === "Enter") handleSearch()
+  }
 
-  const progressPercentage =
-    totalProjects > 0 ? (searchProgress / totalProjects) * 100 : 0;
+  const progressPercentage = totalProjects > 0 ? (searchProgress / totalProjects) * 100 : 0
 
   return (
     <div className="min-h-screen bg-gray-950 bg-fixed text-gray-100">
@@ -185,12 +220,9 @@ export default function SearchContent() {
                 disabled={loading || !query.trim()}
                 className="px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-500 disabled:bg-gray-700 disabled:text-gray-400 rounded-lg transition-all duration-200 min-w-[70px]"
               >
-                {loading ? (
-                  <Loader2 className="h-4 w-4 animate-spin mx-auto" />
-                ) : (
-                  "Search"
-                )}
+                {loading ? <Loader2 className="h-4 w-4 animate-spin mx-auto" /> : "Search"}
               </button>
+              <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
             </div>
           </div>
         </div>
@@ -219,12 +251,8 @@ export default function SearchContent() {
         {!query && !hasSearched && (
           <div className="text-center py-12">
             <Search className="mx-auto h-12 w-12 text-gray-600 mb-3" />
-            <h2 className="text-lg font-semibold text-gray-200 mb-1">
-              Search Projects
-            </h2>
-            <p className="text-sm text-gray-400">
-              Enter keywords to find projects
-            </p>
+            <h2 className="text-lg font-semibold text-gray-200 mb-1">Search Projects</h2>
+            <p className="text-sm text-gray-400">Enter keywords to find projects</p>
           </div>
         )}
 
@@ -233,52 +261,40 @@ export default function SearchContent() {
             <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-gray-800 flex items-center justify-center">
               <Search className="h-6 w-6 text-gray-500" />
             </div>
-            <h2 className="text-lg font-semibold text-gray-200 mb-1">
-              No Results
-            </h2>
+            <h2 className="text-lg font-semibold text-gray-200 mb-1">No Results</h2>
             <p className="text-sm text-gray-400">
-              No projects found for{" "}
-              <span className="text-gray-200 font-medium">"{cquery}"</span>
+              No projects found for <span className="text-gray-200 font-medium">"{cquery}"</span>
             </p>
           </div>
         )}
 
-        {Array.isArray(projects) &&
-          query &&
-          !loading &&
-          projects.length > 0 && (
-            <div className="space-y-3">
-              <div className="flex items-center justify-between p-2 bg-gray-900/30 rounded-lg border border-gray-800/30">
-                <div>
-                  <p className="text-sm font-medium text-gray-200">
-                    <span className="text-blue-400 font-semibold">
-                      {resultAmt}
-                    </span>{" "}
-                    result
-                    {resultAmt !== 1 ? "s" : ""}
-                  </p>
-                  <p className="text-xs text-gray-400">
-                    for <span className="text-gray-300">"{cquery}"</span>
-                  </p>
-                </div>
-                <div className="text-xs text-gray-500 px-2 py-1 bg-gray-800/50 rounded border border-gray-700/30">
-                  {resultAmt} of {Object.keys(ProjectList).length}
-                </div>
+        {Array.isArray(projects) && query && !loading && projects.length > 0 && (
+          <div className="space-y-3">
+            <div className="flex items-center justify-between p-2 bg-gray-900/30 rounded-lg border border-gray-800/30">
+              <div>
+                <p className="text-sm font-medium text-gray-200">
+                  <span className="text-blue-400 font-semibold">{resultAmt}</span> result
+                  {resultAmt !== 1 ? "s" : ""}
+                </p>
+                <p className="text-xs text-gray-400">
+                  for <span className="text-gray-300">"{sortBy || cquery}"</span>
+                </p>
               </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
-                {projects.map((project) => (
-                  <div
-                    key={project.id}
-                    className="transition-transform duration-200 hover:scale-[1.02]"
-                  >
-                    <ProjectCard project={project} highlight={query} />
-                  </div>
-                ))}
+              <div className="text-xs text-gray-500 px-2 py-1 bg-gray-800/50 rounded border border-gray-700/30">
+                {resultAmt} of {Object.keys(ProjectList).length}
               </div>
             </div>
-          )}
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
+              {projects.map((project) => (
+                <div key={project.id} className="transition-transform duration-200 hover:scale-[1.02]">
+                  <ProjectCard project={project} highlight={query} />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </main>
     </div>
-  );
+  )
 }

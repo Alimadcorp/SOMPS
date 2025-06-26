@@ -49,11 +49,14 @@ This algorithm was designed by me three months ago.
 Did some finishes, added stats page, improved UI, and followed all the requirements for Reactive:
 [x] Make at least three pages that link to each other (/, /search and /about)
 [x] Make a nested route (/api/project/[id])
-[x] Use at least 5 components (about-content, containter, loading, projectCard, searchContent, stats)
+[x] Use at least 5 components (about-content, containter, loading, projectCard, searchContent, stats, dropdown)
 [x] One of those components should accept children (container)
 [x] One of those components should accept props (projectCard, stats)
 [x] Have a nested component (/about has nested <container>s)
 [x] Create a component that fetches and displays data from an API (/about fetches from /api/stats)
 
-And with that, i call this project finished, with just some things left to do:
-[ ] Create a sort by field
+And with that, I call this project finished, with just some things left to do:
+[x] Create a sort by field
+
+Open Source. Alimad Corporations. All rights reserved.
+Made by Muhammad Ali
