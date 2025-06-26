@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import SearchContent from "./searchContent";
+import SearchContent from "../../components/searchContent";
 import LoadingSkeleton from "@/components/loading";
 
 export async function generateMetadata({ searchParams }) {

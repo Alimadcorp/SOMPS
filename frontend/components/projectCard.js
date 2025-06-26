@@ -71,12 +71,12 @@ export default function ProjectCard({ project, highlight }) {
           }
           alt={title ? `${title} project banner` : "Project banner"}
           fill
-          className="object-cover object-center transition-transform duration-300 group-hover:scale-110 scale-105"
+          className="object-cover object-center transition-transform duration-300 group-hover:scale-103"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
       </div>
-      <div className="absolute top-4 right-4 flex gap-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      <div className="absolute top-1 right-4 flex gap-1 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
         {repo_link && (
           <button
             onClick={(e) => {
@@ -119,7 +119,7 @@ export default function ProjectCard({ project, highlight }) {
             : "No description available"}
         </p>
         <div
-          className="flex items-center gap-3 mb-4"
+          className="flex items-center gap-1 mb-4"
           onClick={(e) => e.stopPropagation()}
         >
           <a
@@ -128,7 +128,7 @@ export default function ProjectCard({ project, highlight }) {
             }
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200"
+            className="flex items-center gap-1 hover:opacity-80 transition-opacity duration-200"
           >
             {author_pfp ? (
               <img

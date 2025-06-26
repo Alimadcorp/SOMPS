@@ -36,6 +36,7 @@ export default function StatsDashboard({ stats }) {
         day: date.toLocaleDateString("en-US", {
           month: "short",
           day: "numeric",
+          hour: "numeric"
         }),
         projects: count || 0,
         fullDate: date.toLocaleDateString(),
@@ -48,6 +49,7 @@ export default function StatsDashboard({ stats }) {
       }
     }
   })
+  console.log(chartData);
 
   const chartValues = Object.values(safeStats.project_chart)
   const firstValue = chartValues[0] || 0
@@ -77,7 +79,7 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
         </Card>
-
+        <a href="https://alimadcorp.github.io/hackclubusers" target="_blank">
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-green-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
             <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-green-300 transition-colors">
@@ -93,6 +95,7 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
         </Card>
+        </a>
 
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">

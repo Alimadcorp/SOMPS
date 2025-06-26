@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import AboutContent from "./about-content";
+import AboutContent from "../../components/about-content";
 import LoadingSkeleton from "@/components/loading";
 
 export const metadata = {

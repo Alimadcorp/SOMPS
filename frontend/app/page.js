@@ -42,15 +42,17 @@ export default function Home() {
         >
           Search
         </button>
-        <p
-            className="flex items-center gap-2 text-gray-500"
+        <a
+            className="flex items-center gap-2 text-gray-500 hover:underline hover:underline-offset-4"
+            href="/about"
+            target="_self"
           >
             <SearchCode
               width={16}
               height={16}
             />
             Search powered by Alimad Surviellance
-          </p>
+          </a>
       </main>
 
       <div className="w-full max-w-2xl mt-10">

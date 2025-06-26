@@ -73,7 +73,7 @@ async function fetchAllUsers() {
     let { users, nextCursor } = await fetchPage(cursor);
     allUsers = { ...allUsers, ...users };
     cursor = nextCursor;
-    if (cursor) await delay(1500);
+    if (cursor) await delay(0);
   } while (cursor);
 
   return allUsers;
@@ -153,9 +153,9 @@ async function main() {
       `\t${user?.author_name || slackId}: ${usersJoined[slackId]} projects`
     );
     top10.push({
-      name: user?.author_name || slackId,
+      name: user?.author_real_name || slackId,
       pfp: user?.author_pfp,
-      url: `slack://user?team=${team_id}&id=${slackId}`,
+      url: `/search?q=${slackId}`,
       projects: usersJoined[slackId],
     });
   }
@@ -186,7 +186,7 @@ async function main() {
   );
   fs.writeFileSync(
     "../frontend/data/stats.js",
-    `export const stats = ${JSON.stringify(stats)}`,
+    `export const stats = ${JSON.stringify(stats, null, 2)}`,
     "utf8"
   );
 }
