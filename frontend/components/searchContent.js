@@ -119,13 +119,13 @@ export default function SearchContent() {
     q.forEach((word) => {
       highPriority.forEach((target) => {
         if (word === target) score += 25;
-        else if (target.includes(word)) score += 20;
+        else if (target.includes(word) && word.length > 3) score += 20;
         else if (levenshtein(word, target) < 3) score += 10;
       });
       lowPriority.forEach((target) => {
         if (word.length > 2) {
           if (word === target) score += 12.5;
-          else if (target.includes(word)) score += 10;
+          else if (target.includes(word) && word.length > 3) score += 10;
         }
       });
     });
@@ -157,7 +157,7 @@ export default function SearchContent() {
     totalProjects > 0 ? (searchProgress / totalProjects) * 100 : 0;
 
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-100">
+    <div className="min-h-screen bg-gray-950 bg-fixed text-gray-100">
       <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur-sm border-b border-gray-800/50 h-[10vh] flex items-center w-full">
         <div className="container mx-auto px-2 sm:px-3 w-full">
           <div className="flex items-center gap-3">

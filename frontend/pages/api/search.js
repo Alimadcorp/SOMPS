@@ -51,13 +51,13 @@ export default async function handler(req, res) {
       q.forEach((word) => {
         highPriority.forEach((target) => {
           if (word === target) score += 25;
-          else if (target.includes(word)) score += 20;
+          else if (target.includes(word) && word.length > 3) score += 20;
           else if (levenshtein(word, target) < 3) score += 10;
         });
         lowPriority.forEach((target) => {
           if (word.length > 2) {
             if (word === target) score += 12.5;
-            else if (target.includes(word)) score += 10;
+            else if (target.includes(word) && word.length > 3) score += 10;
           }
         });
       });
