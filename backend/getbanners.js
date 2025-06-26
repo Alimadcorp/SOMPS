@@ -1,9 +1,9 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 164;
-const endPage = 167;
-const wait = 5000; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
-const replacePrevious = true;
+const startPage = 1;
+const endPage = 175;
+const wait = 500; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
+const replacePrevious = false;
 const resultPath = "banners.json";
 let allProjects = {};
 let initialLength = 0;
@@ -45,6 +45,9 @@ async function start() {
 
 function parseImages(dat) {
   let thisProjects = {};
+  if(dat.data == ""){
+    return;
+  }
   let html = parser.parse(dat.data);
   let divs = html.querySelectorAll(".flex.flex-col.h-full.gap-3");
   divs.forEach((el) => {
@@ -125,10 +128,9 @@ async function fetchPage(page) {
       }
     );
   } catch (e) {
-    if (response.status == 500) {
-      endPage = page;
-      console.log("Setting last page to " + page);
-      return "";
+    if (response.status == 500 || response.status == 404) {
+      console.log("Error at " + page + ": " + response.status);
+      return { data: "", previous: null };
     }
   }
   if (response.ok) {

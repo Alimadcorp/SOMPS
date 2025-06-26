@@ -1,7 +1,6 @@
 "use client";
 
 import { Code2, Play, Clock, MapPin, BookOpen } from "lucide-react";
-import Image from "next/image";
 import { formatDistanceToNow } from "date-fns";
 export default function ProjectCard({ project, highlight }) {
   let highlights = highlight.replace(/[_\-]/g, " ").split(" ");
@@ -53,13 +52,17 @@ export default function ProjectCard({ project, highlight }) {
   const displayTimezone = author_timezone
     ? author_timezone.split("/")[1]?.replace("_", " ") || author_timezone
     : null;
-  const displayDevlogs = typeof devlogs === "number" ? devlogs : null;
+  let displayDevlogs = null;
+  //23/mr/1983
+  if (typeof devlogs == "string" && devlogs != "0") {
+    displayDevlogs = parseInt(devlogs);
+  }
   const displayTime = time || null;
 
   return (
-    <div className="group relative w-full h-[320px] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
+    <div className="group relative w-full h-[250px] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
       <div className="absolute inset-0">
-        <Image
+        <img
           src={
             imageUrl?.startsWith("/")
               ? `https://summer.hackclub.com${imageUrl}`
@@ -68,9 +71,9 @@ export default function ProjectCard({ project, highlight }) {
           }
           alt={title ? `${title} project banner` : "Project banner"}
           fill
-          className="object-cover object-center transition-transform duration-300 group-hover:scale-105"
+          className="object-cover object-center transition-transform duration-300 group-hover:scale-110 scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
       </div>
       <div className="absolute top-4 right-4 flex gap-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
@@ -105,6 +108,7 @@ export default function ProjectCard({ project, highlight }) {
         target="_blank"
         rel="noopener noreferrer"
         className="relative z-10 flex flex-col justify-end h-full p-6 text-white hover:text-white transition-colors duration-200"
+        suppressHydrationWarning
       >
         <h2 className="text-2xl font-bold leading-tight mb-2 drop-shadow-lg">
           {title ? highlightText(title, highlights) : "Untitled Project"}
@@ -127,7 +131,7 @@ export default function ProjectCard({ project, highlight }) {
             className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-200"
           >
             {author_pfp ? (
-              <Image
+              <img
                 src={author_pfp || "/placeholder.svg"}
                 alt={author_real_name || "Author"}
                 width={36}

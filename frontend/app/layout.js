@@ -15,6 +15,19 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "SOMPS",
   description: "Summer Of Making Projects Search engine",
+  openGraph: {
+    title: "SOMPS",
+    description: "Summer Of Making Projects Search engine",
+    images: [
+      `https://i.ibb.co/Fb8Krvf0/Screenshot-2025-06-26-124441.png`,
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      `https://i.ibb.co/Fb8Krvf0/Screenshot-2025-06-26-124441.png`,
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -31,11 +44,11 @@ export default function RootLayout({ children }) {
           toastOptions={{
             duration: 2000,
             style: {
-              borderRadius: '10px',
+              borderRadius: "10px",
               border: "2px solid white",
               borderColor: "#fff5",
-              background: '#000',
-              color: '#fff',
+              background: "#000",
+              color: "#fff",
             },
           }}
           containerStyle={{

@@ -1,22 +1,29 @@
-import { Suspense } from "react"
-import SearchContent from "./searchContent"
-import LoadingSkeleton from "@/components/loading.js"
+import { Suspense } from "react";
+import SearchContent from "./searchContent";
+import LoadingSkeleton from "@/components/loading";
 
-/*export async function generateMetadata({ params, searchParams }) {
-  const slug = searchParams.get("q") || null
-  const wth = searchParams.get("wth") || null
-
-  if (wth) {
-    return {
-      title: "SOMPS Search",
-      description: `WTH what does ${wth} mean???`,
-    }
-  }
+export async function generateMetadata({ searchParams }) {
+  const params = await searchParams;
+  const q = params.q || "SOMPS";
+  
   return {
     title: "SOMPS Search",
-    description: slug ? `Search results for ${slug}.` : "Type to search for SoM projects",
-  }
-}*/
+    description: `Search results for ${q}`,
+    openGraph: {
+      title: "SOMPS Search",
+      description: `Search results for ${q}`,
+      images: [
+        `https://somps.vercel.app/search/image?q=${encodeURIComponent(q)}`,
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [
+        `https://somps.vercel.app/search/image?q=${encodeURIComponent(q)}`,
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (
@@ -25,5 +32,5 @@ export default function Page() {
         <SearchContent />
       </Suspense>
     </div>
-  )
+  );
 }

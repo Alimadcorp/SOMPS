@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import { useState } from "react";
-import { Search } from "lucide-react";
+import { Info, InfoIcon, Search, SearchCode } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -42,6 +42,15 @@ export default function Home() {
         >
           Search
         </button>
+        <p
+            className="flex items-center gap-2 text-gray-500"
+          >
+            <SearchCode
+              width={16}
+              height={16}
+            />
+            Search powered by Alimad Surviellance
+          </p>
       </main>
 
       <div className="w-full max-w-2xl mt-10">
@@ -61,6 +70,17 @@ export default function Home() {
               aria-hidden
             />
             Made with ♥️ by Muhammad Ali
+          </a>
+          <a
+            href="/about"
+            rel="noopener noreferrer"
+            className="hover:underline hover:underline-offset-4 flex items-center gap-2"
+          >
+            <InfoIcon
+              width={16}
+              height={16}
+            />
+            About
           </a>
         </footer>
       </div>

@@ -19,6 +19,7 @@ export default function SearchContent() {
   const [hasSearched, setHasSearched] = useState(false);
   const [highlight, setHighlight] = useState([]);
   const [searchProgress, setSearchProgress] = useState(0);
+  const [resultAmt, setResultAmt] = useState(0);
   const [totalProjects, setTotalProjects] = useState(0);
 
   const sortby = "";
@@ -51,7 +52,7 @@ export default function SearchContent() {
     setcQuery(q);
     const scores = {};
     const rate = 100;
-    const amount = 27;
+    const amount = 48;
     setHighlight(
       q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
     );
@@ -69,14 +70,14 @@ export default function SearchContent() {
         await delay(25);
       }
     }
-
     const avg = minS + (maxS - minS) / 2;
-    const sorted = Object.entries(scores)
+    let sorted = Object.entries(scores)
       .filter(([_, score]) => score > avg)
       .sort((a, b) => b[1] - a[1])
+    setResultAmt(sorted.length);
+    sorted = sorted
       .slice(0, amount)
       .map(([key]) => ProjectList[key]);
-
     console.log("Search results:", sorted);
     return sorted;
   }
@@ -255,17 +256,17 @@ export default function SearchContent() {
                 <div>
                   <p className="text-sm font-medium text-gray-200">
                     <span className="text-blue-400 font-semibold">
-                      {projects.length}
+                      {resultAmt}
                     </span>{" "}
                     result
-                    {projects.length !== 1 ? "s" : ""}
+                    {resultAmt !== 1 ? "s" : ""}
                   </p>
                   <p className="text-xs text-gray-400">
                     for <span className="text-gray-300">"{cquery}"</span>
                   </p>
                 </div>
                 <div className="text-xs text-gray-500 px-2 py-1 bg-gray-800/50 rounded border border-gray-700/30">
-                  {projects.length} of {Object.keys(ProjectList).length}
+                  {resultAmt} of {Object.keys(ProjectList).length}
                 </div>
               </div>
 
