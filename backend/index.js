@@ -195,6 +195,7 @@ async function main() {
     total_minutes: minss,
     joined_users: Object.keys(usersJoined).length,
     top10_users: top10,
+    last_sync: new Date().toISOString()
   };
   fs.writeFileSync("projectsfinal.json", JSON.stringify(projects), "utf8");
   fs.writeFileSync(

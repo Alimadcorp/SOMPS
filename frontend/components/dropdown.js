@@ -12,8 +12,11 @@ export default function SortDropdown({ onSortChange, currentSort = "" }) {
     { value: "devlogs", label: "Most Devlogs" },
     { value: "created_at_desc", label: "Most Recent" },
     { value: "created_at_asc", label: "Oldest" },
+    { value: "length", label: "Title Length" },
+    { value: "name", label: "A-Z" },
     { value: "updated_at", label: "Recently Updated" },
     { value: "distance", label: "Timezone Distance" },
+    { value: "this_feature_is_not_implemented_yet", label: "Most Followers" },
     { value: "time", label: "Most Time Spent" }
   ]
 

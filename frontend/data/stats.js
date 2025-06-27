@@ -1,5 +1,5 @@
 export const stats = {
-  "total_projects": 3591,
+  "total_projects": 3630,
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,
     "2025-06-21T10:00:00.000Z": 2983,
@@ -12,11 +12,12 @@ export const stats = {
     "2025-06-26T17:50:41.535Z": 3542,
     "2025-06-26T18:09:33.501Z": 3542,
     "2025-06-26T18:11:23.537Z": 3542,
-    "2025-06-27T02:14:17.902Z": 3591
+    "2025-06-27T02:14:17.902Z": 3591,
+    "2025-06-27T10:05:17.327Z": 3630
   },
   "total_users": 86611,
-  "total_minutes": 1379240,
-  "joined_users": 2379,
+  "total_minutes": 1391313,
+  "joined_users": 2392,
   "top10_users": [
     {
       "name": "Marwan Algharably",
@@ -29,6 +30,12 @@ export const stats = {
       "pfp": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
       "url": "/search?q=U092CGSV3RN",
       "projects": 11
+    },
+    {
+      "name": "praaaaaaag",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
+      "url": "/search?q=U091K6UQWH4",
+      "projects": 9
     },
     {
       "name": "mzeeie",
@@ -46,12 +53,6 @@ export const stats = {
       "name": "Govind N.",
       "pfp": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_192.jpg",
       "url": "/search?q=U091RNMRAH2",
-      "projects": 8
-    },
-    {
-      "name": "praaaaaaag",
-      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
-      "url": "/search?q=U091K6UQWH4",
       "projects": 8
     },
     {
@@ -73,10 +74,11 @@ export const stats = {
       "projects": 7
     },
     {
-      "name": "Oscar May",
-      "pfp": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_192.png",
-      "url": "/search?q=U080S9AKW1L",
+      "name": "Anirudh Sahu",
+      "pfp": "https://avatars.slack-edge.com/2024-08-02/7516698621891_7b425d864c219ef1a52e_192.jpg",
+      "url": "/search?q=U07ES48RES3",
       "projects": 7
     }
-  ]
+  ],
+  "last_sync": "2025-06-27T10:05:17.329Z"
 }

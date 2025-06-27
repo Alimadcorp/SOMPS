@@ -5,15 +5,45 @@ export const runtime = "edge";
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
   const query = decodeURIComponent(searchParams.get("q")) || "Nothing";
-
+  const show = decodeURIComponent(searchParams.get("msg"));
+  if (show) {
+    return new ImageResponse(
+      (
+        <div
+          style={{
+            fontSize: 40,
+            color: "white",
+            background: "linear-gradient(135deg, #00a, #002, #000000)",
+            backgroundSize: "100% 100%",
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "40px",
+            fontWeight: "bold",
+            textShadow: "2px 2px 5px black",
+          }}
+        >
+          <p>
+            {show}
+          </p>
+        </div>
+      ),
+      {
+        width: 600,
+        height: 350,
+      }
+    );
+  }
   return new ImageResponse(
     (
       <div
         style={{
           fontSize: 40,
           color: "white",
-          background:
-            "linear-gradient(135deg, #00a, #002, #000000)",
+          background: "linear-gradient(135deg, #00a, #002, #000000)",
           backgroundSize: "100% 100%",
           width: "100%",
           height: "100%",
@@ -48,5 +78,4 @@ export async function GET(req) {
       height: 350,
     }
   );
-  
 }

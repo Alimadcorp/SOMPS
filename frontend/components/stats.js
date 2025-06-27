@@ -9,7 +9,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { TrendingUp, Users, FolderOpen, Trophy, Activity } from "lucide-react";
+import { TrendingUp, Users, FolderOpen, Trophy } from "lucide-react";
 import Image from "next/image";
 
 function Card({ children, className = "" }) {
@@ -48,6 +48,7 @@ export default function StatsDashboard({ stats }) {
     total_minutes: stats?.total_minutes || 0,
     project_chart: stats?.project_chart || {},
     top10_users: stats?.top10_users || [],
+    last_synced: new Date(stats.last_sync) || new Date(),
   };
 
   const chartData = Object.entries(safeStats.project_chart).map(
@@ -316,12 +317,10 @@ export default function StatsDashboard({ stats }) {
           </div>
         </CardContent>
       </Card>
-
-      {/* Enhanced Footer */}
       <div className="text-center text-xs text-gray-500 pt-4 border-t border-gray-800/50">
         <div className="flex items-center justify-center gap-2">
           <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          <p>Last updated: {new Date().toLocaleString()}</p>
+          <p>Last updated: {(safeStats.last_synced).toLocaleString()}</p>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
 const startPage = 1;
-const endPage = 185;
+const endPage = 200;
 const wait = 5000; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = true;
 const resultPath = "banners.json";
@@ -116,7 +116,7 @@ async function fetchPage(page) {
       previous = fs.readFileSync(`./cache/page${page}.html`, "utf8");
     }
   }
-  let response = { ok: false, status: 404 };
+  let response = { ok: false, status: 101 };
   try {
     response = await fetch(
       `https://summer.hackclub.com/explore.turbo_stream?page=${page}&tab=gallery`,

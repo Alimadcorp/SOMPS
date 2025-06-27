@@ -8,6 +8,7 @@ import ProjectCard from "@/components/projectCard.js";
 import { projects as ProjectList } from "@/data/projects.js";
 import levenshtein from "@/components/levenshtein";
 import SortDropdown from "./dropdown.js";
+import { stats as statss } from "@/data/stats.js";
 
 export default function SearchContent() {
   const searchParams = useSearchParams();
@@ -66,6 +67,10 @@ export default function SearchContent() {
     switch (sortType) {
       case "devlogs":
         return (parseInt(project.devlogs) || 0) * 50;
+      case "length":
+        return (project.title.length || 0) * 50;
+      case "name":
+        return (parseInt(project.title) || 0) * 50;
       case "created_at_desc":
         return project.created_at
           ? new Date(project.created_at).getTime() / 1000000
@@ -101,7 +106,7 @@ export default function SearchContent() {
     setcQuery(q);
     const scores = {};
     const rate = 100;
-    const amount = 48;
+    const amount = 24;
     setHighlight(
       q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
     );
@@ -253,9 +258,16 @@ export default function SearchContent() {
                   disabled={loading || !query.trim()}
                   className="px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-500 disabled:bg-gray-700 disabled:text-gray-400 rounded-lg transition-all duration-200 min-w-[70px] portrait:min-w-0"
                 >
-                  {loading ? <Loader2 className="h-4 w-4 animate-spin mx-auto" /> : "Search"}
+                  {loading ? (
+                    <Loader2 className="h-4 w-4 animate-spin mx-auto" />
+                  ) : (
+                    "Search"
+                  )}
                 </button>
-                <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
+                <SortDropdown
+                  onSortChange={handleSortChange}
+                  currentSort={sortBy}
+                />
               </div>
             </div>
           </div>
@@ -348,6 +360,14 @@ export default function SearchContent() {
             </div>
           )}
       </main>
+      <footer className="m-auto bottom-0 static w-full h-10">
+        <div className="text-center text-xs text-gray-500 pt-3 border-t border-gray-800/50">
+          <div className="flex items-center justify-center gap-1">
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <p>Last updated: {new Date(statss.last_sync).toLocaleString()}</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -38,6 +38,10 @@ export default async function handler(req, res) {
             e = 1209600000 - diff;
           }
           return e;
+        case "length":
+          return (project.title.length || 0) * 50;
+        case "name":
+          return (parseInt(project.title) || 0) * 50;
         case "distance":
           let t = 0;
           if (project.timezone_offset != null) {
