@@ -1,5 +1,5 @@
 export const stats = {
-  "total_projects": 3542,
+  "total_projects": 3591,
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,
     "2025-06-21T10:00:00.000Z": 2983,
@@ -11,68 +11,70 @@ export const stats = {
     "2025-06-26T17:39:41.746Z": 3542,
     "2025-06-26T17:50:41.535Z": 3542,
     "2025-06-26T18:09:33.501Z": 3542,
-    "2025-06-26T18:11:23.537Z": 3542
+    "2025-06-26T18:11:23.537Z": 3542,
+    "2025-06-27T02:14:17.902Z": 3591
   },
-  "total_users": 86550,
-  "joined_users": 2360,
+  "total_users": 86611,
+  "total_minutes": 1379240,
+  "joined_users": 2379,
   "top10_users": [
     {
       "name": "Marwan Algharably",
-      "pfp": "https://avatars.slack-edge.com/2025-06-19/9098514865408_4ccec03bd4a4a1feacdc_512.jpg",
+      "pfp": "https://avatars.slack-edge.com/2025-06-19/9098514865408_4ccec03bd4a4a1feacdc_192.jpg",
       "url": "/search?q=U087DL97UN4",
       "projects": 16
     },
     {
       "name": "ionut",
-      "pfp": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
+      "pfp": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
       "url": "/search?q=U092CGSV3RN",
       "projects": 11
     },
     {
       "name": "mzeeie",
-      "pfp": "https://secure.gravatar.com/avatar/97537773d260c35d153b74aa75b7b2d3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
+      "pfp": "https://secure.gravatar.com/avatar/97537773d260c35d153b74aa75b7b2d3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
       "url": "/search?q=U092F2FN82C",
       "projects": 9
     },
     {
       "name": "SAKSHAM GOEL",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_512.png",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_192.png",
       "url": "/search?q=U091NS83K98",
       "projects": 9
     },
     {
       "name": "Govind N.",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_512.jpg",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_192.jpg",
       "url": "/search?q=U091RNMRAH2",
       "projects": 8
     },
     {
       "name": "praaaaaaag",
-      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_512.jpg",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
       "url": "/search?q=U091K6UQWH4",
       "projects": 8
     },
     {
       "name": "Mish",
-      "pfp": "https://avatars.slack-edge.com/2025-06-02/8985528237266_d5f9ec0da853a1155f84_512.png",
+      "pfp": "https://avatars.slack-edge.com/2025-06-02/8985528237266_d5f9ec0da853a1155f84_192.png",
       "url": "/search?q=U073M5L9U13",
       "projects": 7
     },
     {
       "name": "editid",
-      "pfp": "https://secure.gravatar.com/avatar/11158a63770ded5b5e04561243d8f31e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+      "pfp": "https://secure.gravatar.com/avatar/11158a63770ded5b5e04561243d8f31e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-192.png",
       "url": "/search?q=U091GJGTHGB",
       "projects": 7
     },
     {
       "name": "Enes Kavçakar",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9058871889106_5ac1a15901867c2dc73d_512.jpg",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9058871889106_5ac1a15901867c2dc73d_192.jpg",
       "url": "/search?q=U091QR7MFGA",
       "projects": 7
     },
     {
       "name": "Oscar May",
-      "pfp": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_512.png",
+      "pfp": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_192.png",
       "url": "/search?q=U080S9AKW1L",
       "projects": 7
     }

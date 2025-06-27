@@ -13,7 +13,8 @@ export default function SortDropdown({ onSortChange, currentSort = "" }) {
     { value: "created_at_desc", label: "Most Recent" },
     { value: "created_at_asc", label: "Oldest" },
     { value: "updated_at", label: "Recently Updated" },
-    { value: "time", label: "Most Time Spent" },
+    { value: "distance", label: "Timezone Distance" },
+    { value: "time", label: "Most Time Spent" }
   ]
 
   useEffect(() => {
@@ -38,7 +39,7 @@ export default function SortDropdown({ onSortChange, currentSort = "" }) {
       >
         <span className="text-gray-300">{getSelectedLabel()}</span>
         <ChevronDown
-          className={`h-4 w-4 text-gray-400 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+          className={`h-4 w-4 text-gray-400 transition-transform duration-200 ${isOpen ? "rotate-180" : ""} text-right`}
         />
       </button>
 

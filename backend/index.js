@@ -45,13 +45,15 @@ async function fetchAllUsers() {
         let users = {};
         for (let i = 0; i < res.data.members.length; i++) {
           let x = res.data.members[i];
+          if(Math.random() < 0.01) console.log(x);
           users[x.id] = {
             author_name: x.name,
             author_real_name: x.real_name,
             author_timezone: x.tz,
+            timezone_offset: x.tz_offset,
             author_slack_start_date: x.profile.start_date,
             author_pronouns: x.profile.pronouns,
-            author_pfp: x.profile.image_512,
+            author_pfp: x.profile.image_192,
             is_author_deleted: x.deleted,
           };
         }
@@ -78,11 +80,17 @@ async function fetchAllUsers() {
 
   return allUsers;
 }
-
+const parseTimeToMinutes = (timeStr) => {
+  if (!timeStr) return 0;
+  const hours = timeStr.match(/(\d+)h/)?.[1] || 0;
+  const minutes = timeStr.match(/(\d+)m/)?.[1] || 0;
+  return Number.parseInt(hours) * 60 + Number.parseInt(minutes);
+};
 async function main() {
   if (/*You want to fetch all users again:*/ false) {
     users = await fetchAllUsers();
     users["U08PX9YEYNQ"].author_timezone = "Asia/Singapore";
+    users["U08LQFRBL6S"].author_timezone = "Asia/Lahore";
     let lusers = JSON.parse(fs.readFileSync("users.json", "utf-8"));
     console.log(
       `${
@@ -100,6 +108,7 @@ async function main() {
   let pl = Object.keys(projects).length;
   let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
   const k = Object.keys(projects);
+  let minss = 0;
   let unf = [],
     bnf = [];
   for (let i = 0; i < k.length; i++) {
@@ -120,6 +129,9 @@ async function main() {
       ...b,
     };
     projects[j] = x;
+    //console.log(x.id, x.time, parseTimeToMinutes(x.time), minss/60);
+    minss += parseTimeToMinutes(x.time);
+    //await delay(50);
   }
   console.log(
     `There are total ${
@@ -127,6 +139,11 @@ async function main() {
     } projects, out of which you have ${
       Object.keys(banners).length
     } banners for.`
+  );
+  console.log(
+    `A total of ${
+      Math.floor((minss / 60) * 100) / 100
+    } hours have been spent on cool projects`
   );
   console.log(
     `There are ${
@@ -175,6 +192,7 @@ async function main() {
     total_projects: Object.keys(projects).length,
     project_chart: project_chart,
     total_users: usersActive.length,
+    total_minutes: minss,
     joined_users: Object.keys(usersJoined).length,
     top10_users: top10,
   };

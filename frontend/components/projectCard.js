@@ -53,7 +53,6 @@ export default function ProjectCard({ project, highlight }) {
     ? author_timezone.split("/")[1]?.replace("_", " ") || author_timezone
     : null;
   let displayDevlogs = null;
-  //23/mr/1983
   if (typeof devlogs == "string" && devlogs != "0") {
     displayDevlogs = parseInt(devlogs);
   }
@@ -70,8 +69,7 @@ export default function ProjectCard({ project, highlight }) {
                 "https://client-of-making.quntem.co.uk/public/banner-placeholder.png"
           }
           alt={title ? `${title} project banner` : "Project banner"}
-          fill
-          className="object-cover object-center transition-transform duration-300 group-hover:scale-103"
+          className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-103"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />

@@ -25,6 +25,7 @@ export default function StatsDashboard({ stats }) {
     total_projects: stats?.total_projects || 0,
     total_users: stats?.total_users || 0,
     joined_users: stats?.joined_users || 0,
+    total_minutes: stats?.total_minutes || 0,
     project_chart: stats?.project_chart || {},
     top10_users: stats?.top10_users || [],
   }
@@ -63,7 +64,7 @@ export default function StatsDashboard({ stats }) {
         <div className="inline-flex items-center gap-3 mb-3">
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
             <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-blue-300 transition-colors">
@@ -97,18 +98,34 @@ export default function StatsDashboard({ stats }) {
         </Card>
         </a>
 
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-yellow-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-yellow-300 transition-colors">
+              SoM Participants
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500/30 transition-colors">
+              <Users className="h-4 w-4 text-yellow-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-yellow-400 mb-1">{safeStats.joined_users.toLocaleString()}</div>
+            <p className="text-xs text-gray-500">Joined Summer of Making</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-yellow-600"></div>
+        </Card>
+
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
             <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-purple-300 transition-colors">
-              SoM Participants
+              Total Hours Spent
             </CardTitle>
             <div className="p-2 rounded-lg bg-purple-500/20 group-hover:bg-purple-500/30 transition-colors">
               <Users className="h-4 w-4 text-purple-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
-            <div className="text-2xl font-bold text-purple-400 mb-1">{safeStats.joined_users.toLocaleString()}</div>
-            <p className="text-xs text-gray-500">Joined Summer of Making</p>
+            <div className="text-2xl font-bold text-purple-400 mb-1">{Math.floor((safeStats.total_minutes / 60) * 10) / 10}</div>
+            <p className="text-xs text-gray-500">Building cool projects</p>
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-purple-600"></div>
         </Card>
@@ -121,7 +138,7 @@ export default function StatsDashboard({ stats }) {
             <div className="p-1.5 rounded-lg bg-blue-500/20">
               <TrendingUp className="h-4 w-4 text-blue-400" />
             </div>
-            Project Growth Timeline
+            Projects Growth Timeline
             <span className="ml-auto text-sm font-normal text-gray-400">
               +{growth} ({growthPercentage}%)
             </span>

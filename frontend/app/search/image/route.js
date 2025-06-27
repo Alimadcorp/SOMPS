@@ -10,11 +10,11 @@ export async function GET(req) {
     (
       <div
         style={{
-          fontSize: 32,
+          fontSize: 40,
           color: "white",
           background:
-            "linear-gradient(135deg, #ff00cc, #3333ff, #00ffff, #ffcc00, #ff0066)",
-          backgroundSize: "400% 400%",
+            "linear-gradient(135deg, #00a, #002, #000000)",
+          backgroundSize: "100% 100%",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -32,7 +32,7 @@ export async function GET(req) {
         </p>
         <p
           style={{
-            fontSize: 12,
+            fontSize: 16,
             color: "cyan",
             textAlign: "center",
             marginTop: 16,
@@ -45,7 +45,7 @@ export async function GET(req) {
     ),
     {
       width: 600,
-      height: 300,
+      height: 350,
     }
   );
   

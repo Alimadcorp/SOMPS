@@ -53,13 +53,13 @@ export default function AboutContent() {
     <div className={"min-h-screen bg-background "+`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <header className="border-b border-border">
         <Container>
-          <div className="flex items-center justify-between py-4">
+          <div className="flex items-center justify-between py-2">
             <Link href="/" className="group">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent group-hover:from-primary/80 group-hover:to-primary transition-all duration-200">
                 SOMPS
               </h1>
             </Link>
-            <nav className="flex items-center gap-6">
+            <nav className="flex items-center gap-5">
               <Link
                 href="/"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -82,7 +82,7 @@ export default function AboutContent() {
 
       <main>
         <Container>
-          <div className="py-16 text-center">
+          <div className="py-5 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">About SOMPS</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Summer Of Making Projects Search - Search and discover projects
@@ -95,15 +95,11 @@ export default function AboutContent() {
             </p>
           </div>
         </Container>
-
         <Container>
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">
+          <div className="mt-4">
+            <h2 className="text-3xl font-bold mb-1 text-center">
               Stats
             </h2>
-            <p className="text-center text-muted-foreground mb-8">
-              Here's stats for fun
-            </p>
 
             {loading ? (
               <div className="text-center py-8">
