@@ -13,8 +13,11 @@ Contains a frontend react+nextjs interface that allows the searching
 
 ## Uses:
 The SOM API
+
 JSON Bin to store the project list
+
 React + NextJS
+
 My Brain
 
 ## Devlog:
