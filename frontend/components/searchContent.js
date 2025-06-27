@@ -76,7 +76,7 @@ export default function SearchContent() {
         if (project.created_at) {
           const createdTime = new Date(project.created_at).getTime();
           const diff = Math.abs(referenceDate.getTime() - createdTime);
-          e = (1209600000 - diff);
+          e = 1209600000 - diff;
         }
         return e;
       case "distance":
@@ -225,16 +225,16 @@ export default function SearchContent() {
 
   return (
     <div className="min-h-screen bg-gray-950 bg-fixed text-gray-100">
-      <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur-sm border-b border-gray-800/50 h-[10vh] flex items-center w-full">
+      <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur-sm border-b border-gray-800/50 portrait:h-auto h-[10vh] flex items-center w-full portrait:py-3">
         <div className="container mx-auto px-2 sm:px-3 w-full">
-          <div className="flex items-center gap-3">
-            <a href="/" className="group">
+          <div className="flex items-center gap-3 portrait:flex-col portrait:gap-2 portrait:items-stretch">
+            <a href="/" className="group portrait:self-center">
               <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent group-hover:from-blue-300 group-hover:to-purple-300 transition-all duration-200">
                 SOMPS
               </h1>
             </a>
 
-            <div className="flex flex-1 max-w-2xl gap-2">
+            <div className="flex flex-1 max-w-2xl gap-2 portrait:flex-col portrait:gap-2 portrait:max-w-none">
               <div className="relative flex-1">
                 <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400 h-4 w-4" />
                 <input
@@ -247,21 +247,16 @@ export default function SearchContent() {
                   disabled={loading}
                 />
               </div>
-              <button
-                onClick={handleSearch}
-                disabled={loading || !query.trim()}
-                className="px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-500 disabled:bg-gray-700 disabled:text-gray-400 rounded-lg transition-all duration-200 min-w-[70px]"
-              >
-                {loading ? (
-                  <Loader2 className="h-4 w-4 animate-spin mx-auto" />
-                ) : (
-                  "Search"
-                )}
-              </button>
-              <SortDropdown
-                onSortChange={handleSortChange}
-                currentSort={sortBy}
-              />
+              <div className="flex gap-2 portrait:flex-col portrait:gap-2">
+                <button
+                  onClick={handleSearch}
+                  disabled={loading || !query.trim()}
+                  className="px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-500 disabled:bg-gray-700 disabled:text-gray-400 rounded-lg transition-all duration-200 min-w-[70px] portrait:min-w-0"
+                >
+                  {loading ? <Loader2 className="h-4 w-4 animate-spin mx-auto" /> : "Search"}
+                </button>
+                <SortDropdown onSortChange={handleSortChange} currentSort={sortBy} />
+              </div>
             </div>
           </div>
         </div>
