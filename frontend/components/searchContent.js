@@ -141,19 +141,19 @@ export default function SearchContent() {
 
   function getScore(project, inputQuery, sort = "") {
     if (!project || !inputQuery) return 0;
-
+    
     let score = 0;
 
     if (sort) {
       score += getSortScore(project, sort);
     } else {
       if (
-        inputQuery == project.name ||
+        inputQuery.toLowerCase() == project.title.toLowerCase() ||
         inputQuery == project.id ||
         inputQuery == project.slack_id ||
-        inputQuery == project.author
+        inputQuery.toLowerCase() == project.author?.toLowerCase()
       ) {
-        return 750;
+        return 2500 * project.title.length;
       }
 
       const q = inputQuery
