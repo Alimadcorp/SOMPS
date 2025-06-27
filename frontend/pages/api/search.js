@@ -3,7 +3,10 @@ import levenshtein from "@/components/levenshtein";
 
 export default async function handler(req, res) {
   try {
-    let { q = "", sort = "" } = req.query;
+    let { q = "", sort = "", tz } = req.query;
+    if (sort == "distance" && !tz) {
+      res.status(400).json({ missing_parameter: "tz" });
+    }
     if (
       req.headers.authorization !== "Bearer BananaIsAmazing" &&
       req.query.authorization !== "BananaIsAmazing"
@@ -45,7 +48,7 @@ export default async function handler(req, res) {
         case "distance":
           let t = 0;
           if (project.timezone_offset != null) {
-            const diff = Math.abs(project.timezone_offset - slackTzOffset);
+            const diff = Math.abs(project.timezone_offset - tz);
             t = (50400 - diff) * 10;
           }
           return t;
