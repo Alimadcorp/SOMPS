@@ -16,10 +16,12 @@ export default function ProjectCard({ project, highlight }) {
     time,
     devlogs,
     author_timezone,
+    author_pronouns,
     repo_link,
     demo_link,
     imageUrl,
   } = project || {};
+  const smoller = title.length > 50;
   function highlightText(text, highlights) {
     if (!text || typeof text !== "string") return text || "";
     if (!highlights || !Array.isArray(highlights) || highlights.length === 0)
@@ -108,9 +110,15 @@ export default function ProjectCard({ project, highlight }) {
         className="relative z-10 flex flex-col justify-end h-full p-6 text-white hover:text-white transition-colors duration-200"
         suppressHydrationWarning
       >
-        <h2 className="text-2xl font-bold leading-tight mb-2 drop-shadow-lg">
-          {title ? highlightText(title, highlights) : "Untitled Project"}
-        </h2>
+        {smoller ? (
+          <h3 className="text-l font-bold leading-tight mb-2 drop-shadow-lg">
+            {title ? highlightText(title, highlights) : "Untitled Project"}
+          </h3>
+        ) : (
+          <h2 className="text-2xl font-bold leading-tight mb-2 drop-shadow-lg">
+            {title ? highlightText(title, highlights) : "Untitled Project"}
+          </h2>
+        )}
         <p className="text-sm leading-relaxed line-clamp-2 opacity-95 mb-4 drop-shadow-sm">
           {description
             ? highlightText(description, highlights)
@@ -180,7 +188,14 @@ export default function ProjectCard({ project, highlight }) {
               <span>Created {createdAgo}</span>
             </>
           )}
-
+          {author_pronouns && (
+            <>
+              {(true) && (
+                <span className="text-white/40">•</span>
+              )}
+              <span>{author_pronouns}</span>
+            </>
+          )}
           {displayTimezone && (
             <>
               {(displayDevlogs !== null || displayTime || created_at) && (

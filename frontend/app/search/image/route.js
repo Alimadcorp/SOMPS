@@ -6,8 +6,8 @@ export async function GET(req) {
   try {
     const { searchParams } = new URL(req.url);
     let query = searchParams.get("q") || "Nothing";
-    let show = searchParams.get("msg");
-    if (show) {
+    let show = searchParams.get("msg") || "Nothing";
+    if (show !== "Nothing") {
       show = decodeURIComponent(show);
       return new ImageResponse(
         (
