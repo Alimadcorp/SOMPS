@@ -22,7 +22,6 @@ export default async function handler(req, res) {
       return Number.parseInt(hours) * 60 + Number.parseInt(minutes);
     }
     const getSortScore = (project, sortType) => {
-      console.log(sortType);
       switch (sortType) {
         case "devlogs":
           return (parseInt(project.devlogs) || 0) * 50;

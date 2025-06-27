@@ -63,7 +63,6 @@ export default function SearchContent() {
   }
 
   const getSortScore = (project, sortType) => {
-    console.log(sortType);
     switch (sortType) {
       case "devlogs":
         return (parseInt(project.devlogs) || 0) * 50;
@@ -121,7 +120,6 @@ export default function SearchContent() {
       }
     }
     let avg = minS + (maxS - minS) / 2;
-    console.log("Early results:", scores);
     let sorted = Object.entries(scores)
       .filter(([_, score]) => {
         if (sort) {
@@ -133,7 +131,6 @@ export default function SearchContent() {
       .sort((a, b) => b[1] - a[1]);
     setResultAmt(sorted.length);
     sorted = sorted.slice(0, amount).map(([key]) => ProjectList[key]);
-    console.log("Search results:", sorted);
     return sorted;
   }
 
