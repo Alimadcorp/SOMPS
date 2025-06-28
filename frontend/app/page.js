@@ -73,17 +73,6 @@ export default function Home() {
             />
             Made with ♥️ by Muhammad Ali
           </a>
-          <a
-            href="/about"
-            rel="noopener noreferrer"
-            className="hover:underline hover:underline-offset-4 flex items-center gap-2"
-          >
-            <InfoIcon
-              width={16}
-              height={16}
-            />
-            About
-          </a>
         </footer>
       </div>
     </div>

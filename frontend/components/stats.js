@@ -9,7 +9,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { TrendingUp, Users, FolderOpen, Trophy } from "lucide-react";
+import { TrendingUp, Users, FolderOpen, Trophy, Clock, Users2, FolderCheck } from "lucide-react";
 import Image from "next/image";
 
 function Card({ children, className = "" }) {
@@ -43,11 +43,15 @@ function CardContent({ children, className = "" }) {
 export default function StatsDashboard({ stats }) {
   const safeStats = {
     total_projects: stats?.total_projects || 0,
+    certified: stats?.certified || 0,
+    certified_10: stats?.certified_10 || 0,
+    total_projects: stats?.total_projects || 0,
     total_users: stats?.total_users || 0,
     joined_users: stats?.joined_users || 0,
     total_minutes: stats?.total_minutes || 0,
     project_chart: stats?.project_chart || {},
     top10_users: stats?.top10_users || [],
+    top10Hours: stats?.top10Hours || [],
     last_synced: new Date(stats.last_sync) || new Date(),
   };
 
@@ -84,10 +88,7 @@ export default function StatsDashboard({ stats }) {
 
   return (
     <div className="w-full max-w-7xl mx-auto p-4 space-y-6 min-h-screen">
-      <div className="text-center mb-8">
-        <div className="inline-flex items-center gap-3 mb-3"></div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
         <a href="https://alimadcorp.github.io/hackclubusers" target="_blank">
           <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
@@ -95,7 +96,7 @@ export default function StatsDashboard({ stats }) {
                 HackClub Users
               </CardTitle>
               <div className="p-2 rounded-lg bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors">
-                <FolderOpen className="h-4 w-4 text-blue-400" />
+                <Users className="h-4 w-4 text-blue-400" />
               </div>
             </CardHeader>
             <CardContent className="px-4 pb-4">
@@ -113,7 +114,7 @@ export default function StatsDashboard({ stats }) {
               SoM Participants
             </CardTitle>
             <div className="p-2 rounded-lg bg-green-500/20 group-hover:bg-green-500/30 transition-colors">
-              <Users className="h-4 w-4 text-green-400" />
+              <Users2 className="h-4 w-4 text-green-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
@@ -131,7 +132,7 @@ export default function StatsDashboard({ stats }) {
               Total Projects
             </CardTitle>
             <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500/30 transition-colors">
-              <Users className="h-4 w-4 text-yellow-400" />
+              <FolderOpen className="h-4 w-4 text-yellow-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
@@ -142,6 +143,23 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-yellow-600"></div>
         </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-pink-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-pink-300 transition-colors">
+              Certified Projects
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-pink-500/20 group-hover:bg-pink-500/30 transition-colors">
+              <FolderCheck className="h-4 w-4 text-pink-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-pink-400 mb-1">
+              {safeStats.certified.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">{safeStats.certified_10} approved 10h+ projects</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-pink-600"></div>
+        </Card>
 
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
@@ -149,7 +167,7 @@ export default function StatsDashboard({ stats }) {
               Total Hours
             </CardTitle>
             <div className="p-2 rounded-lg bg-purple-500/20 group-hover:bg-purple-500/30 transition-colors">
-              <Users className="h-4 w-4 text-purple-400" />
+              <Clock className="h-4 w-4 text-purple-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
@@ -253,8 +271,6 @@ export default function StatsDashboard({ stats }) {
           </div>
         </CardContent>
       </Card>
-
-      {/* Enhanced Top Contributors */}
       <Card className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 backdrop-blur-sm">
         <CardHeader className="p-4 border-b border-gray-700/50">
           <CardTitle className="flex items-center gap-2 text-lg text-gray-200">
@@ -266,7 +282,7 @@ export default function StatsDashboard({ stats }) {
         </CardHeader>
         <CardContent className="p-4">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {safeStats.top10_users.map((user, index) => (
+            {safeStats.top10Hours.map((user, index) => (
               <a
                 key={user.name || index}
                 href={user.url || "#"}
@@ -291,9 +307,9 @@ export default function StatsDashboard({ stats }) {
                       {user.name || "Unknown"}
                     </h3>
                     <div className="flex items-center justify-center gap-1">
-                      <FolderOpen className="h-3 w-3 text-gray-500" />
+                      <Clock className="h-3 w-3 text-gray-500" />
                       <span className="text-xs text-gray-500">
-                        {user.projects || 0} projects
+                        {Math.floor(user.hours/60*10)/10 || 0} hours
                       </span>
                     </div>
                   </div>
@@ -302,9 +318,9 @@ export default function StatsDashboard({ stats }) {
                       className="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full transition-all duration-700 ease-out"
                       style={{
                         width: `${
-                          safeStats.top10_users[0]?.projects > 0
-                            ? ((user.projects || 0) /
-                                safeStats.top10_users[0].projects) *
+                          safeStats.top10Hours[0]?.hours > 0
+                            ? ((user.hours || 0) /
+                                safeStats.top10Hours[0].hours) *
                               100
                             : 0
                         }%`,
