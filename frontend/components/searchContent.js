@@ -364,7 +364,7 @@ export default function SearchContent() {
         <div className="text-center text-xs text-gray-500 pt-3 border-t border-gray-800/50">
           <div className="flex items-center justify-center gap-1">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <p>Last updated: {new Date(statss.last_sync).toLocaleString()}</p>
+            <a href="/about" className="hover:underline-offset-4">Last updated: {new Date(statss.last_sync).toLocaleString()}</a>
           </div>
         </div>
       </footer>
