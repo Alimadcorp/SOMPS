@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Sans:wght@400;600&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -10,6 +11,37 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+.link {
+  color: #0af;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: #00f6ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #0af;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 @media (prefers-color-scheme: dark) {
