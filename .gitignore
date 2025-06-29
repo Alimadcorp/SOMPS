@@ -130,3 +130,8 @@ dist
 .pnp.*
 /backend/cache
 backend/environment.txt
+
+.vercel
+backend/serviceAccountKey.json
+backend/updatemega.js
+backend/usersRaw.json

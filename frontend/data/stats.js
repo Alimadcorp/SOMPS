@@ -1,6 +1,6 @@
 export const stats = {
-  "total_projects": 3714,
-  "certified": "129",
+  "total_projects": 3882,
+  "certified": "143",
   "certified_10": "7",
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,
@@ -10,28 +10,47 @@ export const stats = {
     "2025-06-24T08:00:00.000Z": 3375,
     "2025-06-25T10:58:57.255Z": 3499,
     "2025-06-26T16:51:15.598Z": 3505,
-    "2025-06-26T17:39:41.746Z": 3542,
-    "2025-06-26T17:50:41.535Z": 3542,
     "2025-06-26T18:09:33.501Z": 3542,
-    "2025-06-26T18:11:23.537Z": 3542,
     "2025-06-27T02:14:17.902Z": 3591,
     "2025-06-27T10:05:17.327Z": 3630,
-    "2025-06-28T01:02:16.419Z": 3714
+    "2025-06-28T01:02:16.419Z": 3714,
+    "2025-06-29T12:29:12.320Z": 3882
   },
-  "total_users": 86753,
-  "total_minutes": 1531253,
-  "joined_users": 2425,
+  "user_chart": {
+    "2025-06-28T00-22-13.000Z": 86611,
+    "2025-06-28T01-02-16Z.320Z": 86753,
+    "2025-06-29T12:29:12.320Z": 86988
+  },
+  "participants_chart": {
+    "2025-06-29T12:29:12.320Z": 2392,
+    "2025-06-29T12:29:12.320Z": 2425,
+    "2025-06-29T12:29:12.320Z": 2475
+  },
+  "minutes_chart": {
+    "2025-06-29T12:29:12.320Z": 1391313,
+    "2025-06-29T12:29:12.320Z": 1531253,
+    "2025-06-29T12:29:12.320Z": 1694771
+  },
+  "total_users": 86988,
+  "total_minutes": 1694771,
+  "joined_users": 2475,
   "top10_users": [
     {
       "name": "Marwan Algharably",
       "pfp": "https://avatars.slack-edge.com/2025-06-19/9098514865408_4ccec03bd4a4a1feacdc_192.jpg",
       "url": "/search?q=U087DL97UN4",
-      "projects": 16
+      "projects": 17
     },
     {
       "name": "ionut",
       "pfp": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
       "url": "/search?q=U092CGSV3RN",
+      "projects": 12
+    },
+    {
+      "name": "praaaaaaag",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
+      "url": "/search?q=U091K6UQWH4",
       "projects": 11
     },
     {
@@ -41,9 +60,9 @@ export const stats = {
       "projects": 10
     },
     {
-      "name": "praaaaaaag",
-      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
-      "url": "/search?q=U091K6UQWH4",
+      "name": "Anirudh Sahu",
+      "pfp": "https://avatars.slack-edge.com/2024-08-02/7516698621891_7b425d864c219ef1a52e_192.jpg",
+      "url": "/search?q=U07ES48RES3",
       "projects": 9
     },
     {
@@ -53,15 +72,9 @@ export const stats = {
       "projects": 9
     },
     {
-      "name": "Govind N.",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_192.jpg",
-      "url": "/search?q=U091RNMRAH2",
-      "projects": 8
-    },
-    {
-      "name": "Anirudh Sahu",
-      "pfp": "https://avatars.slack-edge.com/2024-08-02/7516698621891_7b425d864c219ef1a52e_192.jpg",
-      "url": "/search?q=U07ES48RES3",
+      "name": "Hridya Agrawal",
+      "pfp": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_192.png",
+      "url": "/search?q=U0842GMRJKC",
       "projects": 8
     },
     {
@@ -77,19 +90,13 @@ export const stats = {
       "projects": 7
     },
     {
-      "name": "Enes Kavçakar",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9058871889106_5ac1a15901867c2dc73d_192.jpg",
-      "url": "/search?q=U091QR7MFGA",
+      "name": "PianoMan0",
+      "pfp": "https://avatars.slack-edge.com/2025-06-02/8985949883973_29ff7f3348cb4616116b_192.png",
+      "url": "/search?q=U0829HRSQ76",
       "projects": 7
     }
   ],
   "top10Hours": [
-    {
-      "name": "Govind N.",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_192.jpg",
-      "url": "/search?q=U091RNMRAH2",
-      "hours": 12134
-    },
     {
       "name": "Shayaan Adib",
       "pfp": "https://avatars.slack-edge.com/2025-06-19/9089725663489_db9bdd1e876c6c2d63bc_192.png",
@@ -106,7 +113,31 @@ export const stats = {
       "name": "Robert",
       "pfp": "https://secure.gravatar.com/avatar/3528d146dd4de6d0bba489687a8061ea.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-192.png",
       "url": "/search?q=U091GGAFBMH",
-      "hours": 7512
+      "hours": 9224
+    },
+    {
+      "name": "Echo Inbyte",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9044814224535_74bb10ac6083de6112bc_192.jpg",
+      "url": "/search?q=U091KBYTAG6",
+      "hours": 9094
+    },
+    {
+      "name": "Aditya",
+      "pfp": "https://secure.gravatar.com/avatar/ccbba96b4755d75bd8f34ea82f2b2a21.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-192.png",
+      "url": "/search?q=U092MR86TUY",
+      "hours": 8085
+    },
+    {
+      "name": "Fullname",
+      "pfp": "https://secure.gravatar.com/avatar/ef28afe0c3db0f96f5edc6a022f66255.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-192.png",
+      "url": "/search?q=U0887K5MLKF",
+      "hours": 7522
+    },
+    {
+      "name": "sam",
+      "pfp": "https://secure.gravatar.com/avatar/aa57abbe0dc3141c3f2f11b7da2faeb9.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
+      "url": "/search?q=U092MKEMDFX",
+      "hours": 7266
     },
     {
       "name": "Ankur Grewal",
@@ -115,35 +146,17 @@ export const stats = {
       "hours": 7185
     },
     {
-      "name": "Fullname",
-      "pfp": "https://secure.gravatar.com/avatar/ef28afe0c3db0f96f5edc6a022f66255.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-192.png",
-      "url": "/search?q=U0887K5MLKF",
-      "hours": 7155
-    },
-    {
-      "name": "Echo Inbyte",
-      "pfp": "https://avatars.slack-edge.com/2025-06-16/9044814224535_74bb10ac6083de6112bc_192.jpg",
-      "url": "/search?q=U091KBYTAG6",
-      "hours": 7092
-    },
-    {
-      "name": "Aditya",
-      "pfp": "https://secure.gravatar.com/avatar/ccbba96b4755d75bd8f34ea82f2b2a21.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-192.png",
-      "url": "/search?q=U092MR86TUY",
-      "hours": 7045
-    },
-    {
       "name": "Veronica Dawson",
       "pfp": "https://secure.gravatar.com/avatar/e91d5fec840371ce5e4bd7ecb9be0228.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-192.png",
       "url": "/search?q=U091UART6H3",
-      "hours": 6342
+      "hours": 6400
     },
     {
-      "name": "ruskcoder",
-      "pfp": "https://avatars.slack-edge.com/2024-07-06/7380715218133_4ec6079ac509fd77c77c_192.jpg",
-      "url": "/search?q=U07BN8102BT",
-      "hours": 6162
+      "name": "Solomon Shalom Lijo",
+      "pfp": "https://secure.gravatar.com/avatar/630b65026fa4d8643e8f02f4eaf0b477.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-192.png",
+      "url": "/search?q=U092HARJZKJ",
+      "hours": 6297
     }
   ],
-  "last_sync": "2025-06-28T01:02:16.422Z"
+  "last_sync": "2025-06-29T12:29:12.323Z"
 }

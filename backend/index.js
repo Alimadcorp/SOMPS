@@ -26,6 +26,7 @@ try {
 let cursorList = [];
 async function fetchAllUsers() {
   let allUsers = {};
+  let allUsersRaw = {};
 
   const fetchPage = async (cursor) => {
     let attempts = 0;
@@ -45,9 +46,10 @@ async function fetchAllUsers() {
 
         console.log(`Fetched 1000 ${cursor ? "more " : ""}users`);
         let users = {};
+        let usersRaw = {};
         for (let i = 0; i < res.data.members.length; i++) {
           let x = res.data.members[i];
-          if (Math.random() < 0.01) console.log(x);
+          if (Math.random() < 0.00001) console.log(x);
           users[x.id] = {
             author_name: x.name,
             author_real_name: x.real_name,
@@ -58,29 +60,31 @@ async function fetchAllUsers() {
             author_pfp: x.profile.image_192,
             is_author_deleted: x.deleted,
           };
+          usersRaw[x.id] = x;
         }
         const nextCursor = res.data.response_metadata?.next_cursor || "";
-        return { users, nextCursor };
+        return { users, nextCursor, usersRaw };
       } catch (e) {
         attempts++;
         if (attempts >= 3) {
           console.error("Failed after 3 retries:", e);
-          return { users: {}, nextCursor: "" };
+          return { users: {}, nextCursor: "", usersRaw: {} };
         }
       }
     }
-    return { users: {}, nextCursor: "" };
+    return { users: {}, nextCursor: "", usersRaw: {} };
   };
 
   let cursor = "";
   do {
-    let { users, nextCursor } = await fetchPage(cursor);
+    let { users, nextCursor, usersRaw } = await fetchPage(cursor);
     allUsers = { ...allUsers, ...users };
+    allUsersRaw = { ...allUsersRaw, ...usersRaw };
     cursor = nextCursor;
     if (cursor) await delay(0);
     cursorList.push(cursor);
   } while (cursor);
-
+  fs.writeFileSync("usersRaw.json", JSON.stringify(allUsersRaw), "utf-8");
   return allUsers;
 }
 const parseTimeToMinutes = (timeStr) => {
@@ -106,8 +110,8 @@ async function main() {
   }
   let r = await fetch("https://summer.hackclub.com/votes/locked", {
     headers: {
-      Cookie: cookie
-    }
+      Cookie: cookie,
+    },
   });
   let b = await r.text();
   fs.writeFileSync("aaa.html", b, "utf-8");
@@ -115,13 +119,16 @@ async function main() {
   let elem = par.querySelector(".card-with-gradient.text-lg.text-center");
   let es = elem.querySelectorAll("p");
   let c = es[1].innerHTML.replace(/ \/.+$/, "");
-  let tt = es[2].innerHTML.replace(" certified projects, any amount of coding time)", "").replace("(", "");
+  let tt = es[2].innerHTML
+    .replace(" certified projects, any amount of coding time)", "")
+    .replace("(", "");
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   let usersActive = Object.values(users).filter((e) => {
     return !e.is_author_deleted;
   });
   let usersJoined = {};
   let userHours = {};
+  let bannedUsers = ["U091RNMRAH2"];
   let pl = Object.keys(projects).length;
   let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
   const k = Object.keys(projects);
@@ -132,7 +139,9 @@ async function main() {
     let j = k[i];
     let x = projects[j];
     let u = users[x.slack_id];
-    usersJoined[x.slack_id] = (usersJoined[x.slack_id] || 0) + 1;
+    if (!bannedUsers.includes(x.slack_id)) {
+      usersJoined[x.slack_id] = (usersJoined[x.slack_id] || 0) + 1;
+    }
     if (!u) {
       unf.push(x.slack_id);
     }
@@ -146,11 +155,13 @@ async function main() {
       ...b,
     };
     projects[j] = x;
-    userHours[x.slack_id] =
-      (userHours[x.slack_id] || 0) + parseTimeToMinutes(x.time);
-    //console.log(x.id, x.time, parseTimeToMinutes(x.time), minss/60);
-    minss += parseTimeToMinutes(x.time);
-    //await delay(50);
+    if (!bannedUsers.includes(x.slack_id)) {
+      userHours[x.slack_id] =
+        (userHours[x.slack_id] || 0) + parseTimeToMinutes(x.time);
+      //console.log(x.id, x.time, parseTimeToMinutes(x.time), minss/60);
+      minss += parseTimeToMinutes(x.time);
+      //await delay(50);
+    }
   }
   console.log(
     `There are total ${
@@ -173,7 +184,7 @@ async function main() {
       Object.keys(usersJoined).length
     } created projects`
   );
-  console.log(`${c} certified with 10h+ and ${tt} total certified`)
+  console.log(`${c} certified with 10h+ and ${tt} total certified`);
   let joined = Object.keys(usersJoined);
   joined = joined
     .sort((a, b) => {
@@ -222,16 +233,25 @@ async function main() {
   console.log(unf.join(", "));
   console.log(bnf.join(", "));
   const lastStats = fs.readFileSync("../frontend/data/stats.js", "utf8");
-  let project_chart =
-    JSON.parse(lastStats.split("export const stats = ")[1]).project_chart || {};
+  let parseddd = JSON.parse(lastStats.split("export const stats = ")[1]);
+  let project_chart = parseddd.project_chart || {};
+  let user_chart = parseddd.user_chart || {};
+  let participants_chart = parseddd.participants_chart || {};
+  let minutes_chart = parseddd.minutes_chart || {};
   let t = new Date();
   t = t.toISOString();
+  user_chart[t] = usersActive.length;
   project_chart[t] = Object.keys(projects).length;
+  participants_chart[t] = Object.keys(usersJoined).length;
+  minutes_chart[t] = minss;
   let stats = {
     total_projects: Object.keys(projects).length,
     certified: tt,
     certified_10: c,
     project_chart: project_chart,
+    user_chart,
+    participants_chart,
+    minutes_chart,
     total_users: usersActive.length,
     total_minutes: minss,
     joined_users: Object.keys(usersJoined).length,
@@ -245,8 +265,19 @@ async function main() {
     `export const projects = ${JSON.stringify(projects)};`,
     "utf8"
   );
-  fs.writeFileSync(`./statcache/${new Date().toISOString().replaceAll(":", "-").replace(/\.\d{3}/, "")}.json`,`${JSON.stringify(stats, null, 2)}`,"utf8");
-  fs.writeFileSync("../frontend/data/stats.js",`export const stats = ${JSON.stringify(stats, null, 2)}`,"utf8");
+  fs.writeFileSync(
+    `./statcache/${new Date()
+      .toISOString()
+      .replaceAll(":", "-")
+      .replace(/\.\d{3}/, "")}.json`,
+    `${JSON.stringify(stats, null, 2)}`,
+    "utf8"
+  );
+  fs.writeFileSync(
+    "../frontend/data/stats.js",
+    `export const stats = ${JSON.stringify(stats, null, 2)}`,
+    "utf8"
+  );
 }
 
 async function mainStarter() {
