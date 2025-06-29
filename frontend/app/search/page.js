@@ -5,21 +5,22 @@ import LoadingSkeleton from "@/components/loading";
 export async function generateMetadata({ searchParams }) {
   const params = await searchParams;
   const q = params.q || "SOMPS";
+  const msg = params.msg;
   
   return {
     title: "SOMPS Search",
-    description: `Search results for ${q}`,
+    description: `Search results for ${q || msg}`,
     openGraph: {
       title: "SOMPS Search",
-      description: `Search results for ${q}`,
+      description: `Search results for ${q || msg}`,
       images: [
-        `https://somps.vercel.app/search/image?q=${encodeURIComponent(q)}`,
+        `https://somps.vercel.app/search/image?${q ? "q" : "msg"}=${encodeURIComponent(q || msg)}`,
       ],
     },
     twitter: {
       card: "summary_large_image",
       images: [
-        `https://somps.vercel.app/search/image?q=${encodeURIComponent(q)}`,
+        `https://somps.vercel.app/search/image?${q ? "q" : "msg"}=${encodeURIComponent(q || msg)}`,
       ],
     },
   };
