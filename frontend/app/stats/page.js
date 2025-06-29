@@ -5,10 +5,10 @@ import { stats } from "@/data/stats";
 
 export const metadata = {
   title: "Summer of Making Stats",
-  description: `Last updated: ${new Date(stats.last_sync).toTimeString()}`,
+  description: `Last updated: ${new Date(stats.last_sync).toLocaleString()}`,
   openGraph: {
     title: "Summer of Making Stats",
-    description: `Last updated: ${new Date(stats.last_sync).toTimeString()}`,
+    description: `Last updated: ${new Date(stats.last_sync).toLocaleString()}`,
     images: [
       `https://somps.alimad.xyz/stats/opengraph-image.png`,
     ],
