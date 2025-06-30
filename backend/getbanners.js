@@ -1,8 +1,8 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 200;
+const startPage = 157;
 const endPage = 210;
-const wait = 5000;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
+const wait = 4000;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = true;
 const resultPath = "banners.json";
 let allProjects = {};
