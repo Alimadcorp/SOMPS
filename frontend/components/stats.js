@@ -19,6 +19,7 @@ import {
   FolderCheck,
 } from "lucide-react";
 import Image from "next/image";
+import LiveStatus from "./live";
 
 function Card({ children, className = "" }) {
   return (
@@ -699,8 +700,9 @@ export default function StatsDashboard({ stats }) {
       </Card>
       <div className="text-center text-xs text-gray-500 pt-4 border-t border-gray-800/50">
         <div className="flex items-center justify-center gap-2">
-          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
           <p>Last updated: {safeStats.last_synced.toLocaleString()}</p>
+          <span>       </span>
+          <LiveStatus></LiveStatus>
         </div>
       </div>
     </div>

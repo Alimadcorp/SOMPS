@@ -9,6 +9,7 @@ import { projects as ProjectList } from "@/data/projects.js";
 import levenshtein from "@/components/levenshtein";
 import SortDropdown from "./dropdown.js";
 import { stats as statss } from "@/data/stats.js";
+import LiveStatus from "./live.js";
 
 export default function SearchContent() {
   const searchParams = useSearchParams();
@@ -363,8 +364,9 @@ export default function SearchContent() {
       <footer className="m-auto bottom-0 static w-full h-10">
         <div className="text-center text-xs text-gray-500 pt-3 border-t border-gray-800/50">
           <div className="flex items-center justify-center gap-1">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
             <a href="/about" className="hover:underline-offset-4">Last updated: {new Date(statss.last_sync).toLocaleString()}</a>
+            <span>       </span>
+            <LiveStatus></LiveStatus>
           </div>
         </div>
       </footer>

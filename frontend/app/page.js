@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { Info, InfoIcon, Search, SearchCode } from "lucide-react";
 import { useRouter } from "next/navigation";
+import LiveStatus from "@/components/live";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -73,6 +74,8 @@ export default function Home() {
             />
             Made with ♥️ by Muhammad Ali
           </a>
+          <p>        </p>
+          <LiveStatus></LiveStatus>
         </footer>
       </div>
     </div>
