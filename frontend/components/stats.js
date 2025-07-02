@@ -17,6 +17,7 @@ import {
   Clock,
   Users2,
   FolderCheck,
+  Vote,
 } from "lucide-react";
 import Image from "next/image";
 import LiveStatus from "./live";
@@ -54,6 +55,7 @@ export default function StatsDashboard({ stats }) {
     total_projects: stats?.total_projects || 0,
     certified: stats?.certified || 0,
     certified_10: stats?.certified_10 || 0,
+    votes_cast: stats?.votes_cast || 0,
     total_projects: stats?.total_projects || 0,
     total_users: stats?.total_users || 0,
     joined_users: stats?.joined_users || 0,
@@ -61,8 +63,10 @@ export default function StatsDashboard({ stats }) {
     project_chart: stats?.project_chart || {},
     user_chart: stats?.user_chart || {},
     participants_chart: stats?.participants_chart || {},
+    votes_chart: stats?.votes_chart || {},
     minutes_chart: stats?.minutes_chart || {},
     top10_users: stats?.top10_users || [],
+    next90_users: stats?.next90_users || [],
     top10Hours: stats?.top10Hours || [],
     last_synced: new Date(stats.last_sync) || new Date(),
   };
@@ -133,6 +137,28 @@ export default function StatsDashboard({ stats }) {
       };
     }
   });
+  const chartData_votes = Object.entries(safeStats.votes_chart).map(
+    ([timestamp, count]) => {
+      try {
+        const date = new Date(timestamp);
+        return {
+          day: date.toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            hour: "numeric",
+          }),
+          projects: count || 0,
+          fullDate: date.toLocaleDateString(),
+        };
+      } catch (error) {
+        return {
+          day: "Invalid",
+          projects: count || 0,
+          fullDate: "Invalid Date",
+        };
+      }
+    }
+  );
   const chartData_hours = Object.entries(safeStats.minutes_chart).map(
     ([timestamp, count]) => {
       try {
@@ -174,7 +200,8 @@ export default function StatsDashboard({ stats }) {
 
   const chartValues_participants = Object.values(safeStats.participants_chart);
   const firstValue_participants = chartValues_participants[0] || 0;
-  const lastValue_participants = chartValues_participants[chartValues_participants.length - 1] || 0;
+  const lastValue_participants =
+    chartValues_participants[chartValues_participants.length - 1] || 0;
   const growth_participants = lastValue_participants - firstValue_participants;
   const growthPercentage_participants =
     firstValue_participants > 0
@@ -182,17 +209,28 @@ export default function StatsDashboard({ stats }) {
       : "0.0";
 
   const chartValues_hours = Object.values(safeStats.minutes_chart);
-  const firstValue_hours = (chartValues_hours[0] || 0)/6;
-  const lastValue_hours = (chartValues_hours[chartValues_hours.length - 1] || 0)/6;
-  const growth_hours = Math.floor(lastValue_hours - firstValue_hours)/10;
+  const firstValue_hours = (chartValues_hours[0] || 0) / 6;
+  const lastValue_hours =
+    (chartValues_hours[chartValues_hours.length - 1] || 0) / 6;
+  const growth_hours = Math.floor(lastValue_hours - firstValue_hours) / 10;
   const growthPercentage_hours =
     firstValue_hours > 0
-      ? ((growth_hours / (firstValue_hours/10)) * 100).toFixed(1)
+      ? ((growth_hours / (firstValue_hours / 10)) * 100).toFixed(1)
+      : "0.0";
+
+  const chartValues_votes = Object.values(safeStats.votes_chart);
+  const firstValue_votes = (chartValues_votes[0] || 0) / 6;
+  const lastValue_votes =
+    (chartValues_votes[chartValues_votes.length - 1] || 0) / 6;
+  const growth_votes = Math.floor(lastValue_votes - firstValue_votes) / 10;
+  const growthPercentage_votes =
+    firstValue_votes > 0
+      ? ((growth_votes / (firstValue_votes / 10)) * 100).toFixed(1)
       : "0.0";
 
   return (
     <div className="w-full max-w-7xl mx-auto p-4 space-y-6 min-h-screen">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mb-8">
         <a href="https://alimadcorp.github.io/hackclubusers" target="_blank">
           <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
@@ -288,6 +326,23 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-purple-600"></div>
         </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-cyan-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-cyan-300 transition-colors">
+              Total Votes
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-cyan-500/20 group-hover:bg-cyan-500/30 transition-colors">
+              <Vote className="h-4 w-4 text-cyan-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-cyan-400 mb-1">
+              {safeStats.votes_cast.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">Cast on projects</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-cyan-600"></div>
+        </Card>
       </div>
       <Card className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 backdrop-blur-sm">
         <CardHeader className="p-4 border-b border-gray-700/50">
@@ -299,55 +354,86 @@ export default function StatsDashboard({ stats }) {
           </CardTitle>
         </CardHeader>
         <CardContent className="p-4">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {safeStats.top10Hours.map((user, index) => (
-              <a
-                key={user.name || index}
-                href={user.url || "#"}
-                className="group relative p-3 rounded-xl border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:bg-gray-800/50 hover:scale-105"
-              >
-                <div className="flex flex-col items-center text-center space-y-2">
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-xs font-bold text-black shadow-lg">
-                    {index + 1}
-                  </div>
-                  <div className="relative">
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-sm"></div>
-                    <Image
-                      src={user.pfp || "/placeholder.svg"}
-                      alt={user.name || "User"}
-                      width={40}
-                      height={40}
-                      className="rounded-full border-2 border-gray-700 group-hover:border-gray-500 transition-all duration-300 relative z-10"
-                    />
-                  </div>
-                  <div className="space-y-1 w-full">
-                    <h3 className="font-medium text-xs truncate max-w-full text-gray-200 group-hover:text-blue-400 transition-colors">
-                      {user.name || "Unknown"}
-                    </h3>
-                    <div className="flex items-center justify-center gap-1">
-                      <Clock className="h-3 w-3 text-gray-500" />
-                      <span className="text-xs text-gray-500">
-                        {Math.floor((user.hours / 60) * 10) / 10 || 0} hours
-                      </span>
+          <div className="grid grid-cols-1 gap-1">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 row-start-1">
+              {safeStats.top10Hours.map((user, index) => (
+                <a
+                  key={user.name || index}
+                  href={user.url || "#"}
+                  className="group relative p-3 rounded-xl border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:bg-gray-800/50 hover:scale-105"
+                >
+                  <div className="flex flex-col items-center text-center space-y-2">
+                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-xs font-bold text-black shadow-lg">
+                      {index + 1}
+                    </div>
+                    <div className="relative">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-sm"></div>
+                      <Image
+                        src={user.pfp || "/placeholder.svg"}
+                        alt={user.name || "User"}
+                        width={40}
+                        height={40}
+                        className="rounded-full border-2 border-gray-700 group-hover:border-gray-500 transition-all duration-300 relative z-10"
+                      />
+                    </div>
+                    <div className="space-y-1 w-full">
+                      <h3 className="font-medium text-xs truncate max-w-full text-gray-200 group-hover:text-blue-400 transition-colors">
+                        {user.name || "Unknown"}
+                      </h3>
+                      <div className="flex items-center justify-center gap-1">
+                        <Clock className="h-3 w-3 text-gray-500" />
+                        <span className="text-xs text-gray-500">
+                          {Math.floor((user.hours / 60) * 10) / 10 || 0} hours
+                        </span>
+                      </div>
+                    </div>
+                    <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                      <div
+                        className="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full transition-all duration-700 ease-out"
+                        style={{
+                          width: `${
+                            safeStats.top10Hours[0]?.hours > 0
+                              ? ((user.hours || 0) /
+                                  safeStats.top10Hours[0].hours) *
+                                100
+                              : 0
+                          }%`,
+                        }}
+                      ></div>
                     </div>
                   </div>
-                  <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
-                    <div
-                      className="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full transition-all duration-700 ease-out"
-                      style={{
-                        width: `${
-                          safeStats.top10Hours[0]?.hours > 0
-                            ? ((user.hours || 0) /
-                                safeStats.top10Hours[0].hours) *
-                              100
-                            : 0
-                        }%`,
-                      }}
-                    ></div>
-                  </div>
-                </div>
-              </a>
-            ))}
+                </a>
+              ))}
+            </div>
+            <details>
+              <summary className="mt-5 cursor-pointer">Show more</summary>
+              <div className="grid grid-cols-1 gap-3 row-start-2">
+                {safeStats.next90_users.slice(0, 90).map((user, index) => (
+                  <a
+                    key={user.name || index}
+                    href={user.url || "#"}
+                    className="flex items-center gap-3 min-w-[220px] bg-gray-900 rounded-xl border border-gray-800 px-4 py-2 hover:border-gray-600 hover:bg-gray-800/50 transition-all duration-300"
+                  >
+                    <div className="text-xs font-bold bg-yellow-500 text-black w-6 h-6 flex items-center justify-center rounded-full">
+                      {index + 11}
+                    </div>
+                    <img
+                      src={user.pfp || "/placeholder.svg"}
+                      alt={user.name || "User"}
+                      width={32}
+                      height={32}
+                      className="rounded-full border border-gray-700"
+                    />
+                    <span className="text-sm font-medium text-gray-200 truncate flex-1">
+                      {user.name || "Unknown"}
+                    </span>
+                    <span className="text-xs text-gray-400 whitespace-nowrap ml-auto">
+                      {Math.floor((user.hours / 60) * 10) / 10 || 0}h
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </details>
           </div>
         </CardContent>
       </Card>
@@ -409,7 +495,10 @@ export default function StatsDashboard({ stats }) {
                     fontSize: "12px",
                     color: "#E5E7EB",
                   }}
-                  formatter={(value) => [`${value.toLocaleString()} projects`, "Total Projects"]}
+                  formatter={(value) => [
+                    `${value.toLocaleString()} projects`,
+                    "Total Projects",
+                  ]}
                   labelFormatter={(label) => `Date: ${label}`}
                 />
                 <Line
@@ -495,7 +584,10 @@ export default function StatsDashboard({ stats }) {
                     fontSize: "12px",
                     color: "#E5E7EB",
                   }}
-                  formatter={(value) => [`${value.toLocaleString()}`, "Total Users"]}
+                  formatter={(value) => [
+                    `${value.toLocaleString()}`,
+                    "Total Users",
+                  ]}
                   labelFormatter={(label) => `Date: ${label}`}
                 />
                 <Line
@@ -618,6 +710,95 @@ export default function StatsDashboard({ stats }) {
             <div className="p-1.5 rounded-lg bg-blue-500/20">
               <TrendingUp className="h-4 w-4 text-blue-400" />
             </div>
+            Total votes over time
+            <span className="ml-auto text-sm font-normal text-gray-400">
+              +{growth_votes} ({growthPercentage_votes}%)
+            </span>
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="p-4">
+          <div className="h-[220px] w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <LineChart
+                data={chartData_votes}
+                margin={{ top: 10, right: 10, left: 10, bottom: 10 }}
+              >
+                <defs>
+                  <linearGradient
+                    id="lineGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%"
+                  >
+                    <stop offset="0%" stopColor="#3B82F6" />
+                    <stop offset="50%" stopColor="#8B5CF6" />
+                    <stop offset="100%" stopColor="#EC4899" />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  stroke="#374151"
+                  opacity={0.3}
+                />
+                <XAxis
+                  dataKey="day"
+                  tick={{ fontSize: 11, fill: "#9CA3AF" }}
+                  tickLine={{ stroke: "#4B5563" }}
+                  axisLine={{ stroke: "#4B5563" }}
+                />
+                <YAxis
+                  tick={{ fontSize: 11, fill: "#9CA3AF" }}
+                  tickLine={{ stroke: "#4B5563" }}
+                  axisLine={{ stroke: "#4B5563" }}
+                  domain={["dataMin - 5", "dataMax + 5"]}
+                />
+                <Tooltip
+                  contentStyle={{
+                    backgroundColor: "#1F2937",
+                    border: "1px solid #374151",
+                    borderRadius: "8px",
+                    boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)",
+                    fontSize: "12px",
+                    color: "#E5E7EB",
+                  }}
+                  formatter={(value) => [
+                    `${value.toLocaleString()} votes`,
+                    "Total votes",
+                  ]}
+                  labelFormatter={(label) => `Date: ${label}`}
+                />
+                <Line
+                  type="monotone"
+                  dataKey="projects"
+                  stroke="url(#lineGradient)"
+                  strokeWidth={3}
+                  dot={{
+                    fill: "#3B82F6",
+                    strokeWidth: 2,
+                    r: 4,
+                    stroke: "#1E40AF",
+                  }}
+                  activeDot={{
+                    r: 6,
+                    fill: "#1D4ED8",
+                    stroke: "#3B82F6",
+                    strokeWidth: 2,
+                    filter: "drop-shadow(0 0 8px rgba(59, 130, 246, 0.6))",
+                  }}
+                  connectNulls={true}
+                />
+              </LineChart>
+            </ResponsiveContainer>
+          </div>
+        </CardContent>
+      </Card>
+      <Card className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 backdrop-blur-sm">
+        <CardHeader className="p-4 border-b border-gray-700/50">
+          <CardTitle className="flex items-center gap-2 text-lg text-gray-200">
+            <div className="p-1.5 rounded-lg bg-blue-500/20">
+              <TrendingUp className="h-4 w-4 text-blue-400" />
+            </div>
             Hours Spent Over Time
             <span className="ml-auto text-sm font-normal text-gray-400">
               +{growth_hours} ({growthPercentage_hours}%)
@@ -670,7 +851,10 @@ export default function StatsDashboard({ stats }) {
                     fontSize: "12px",
                     color: "#E5E7EB",
                   }}
-                  formatter={(value) => [`${value.toLocaleString()}`, "Total Hours"]}
+                  formatter={(value) => [
+                    `${value.toLocaleString()}`,
+                    "Total Hours",
+                  ]}
                   labelFormatter={(label) => `Date: ${label}`}
                 />
                 <Line
@@ -701,7 +885,7 @@ export default function StatsDashboard({ stats }) {
       <div className="text-center text-xs text-gray-500 pt-4 border-t border-gray-800/50">
         <div className="flex items-center justify-center gap-2">
           <p>Last updated: {safeStats.last_synced.toLocaleString()}</p>
-          <span>       </span>
+          <span> </span>
           <LiveStatus></LiveStatus>
         </div>
       </div>

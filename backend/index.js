@@ -124,6 +124,17 @@ async function main() {
   let tt = es[2].innerHTML
     .replace(" certified projects, any amount of coding time)", "")
     .replace("(", "");
+  r = await fetch("https://summer.hackclub.com/votes/new", {
+    headers: {
+      Cookie: cookie,
+    },
+  });
+  b = await r.text();
+
+  fs.writeFileSync("aaa2.html", b, "utf-8");
+  const par2 = parser.parse(b);
+  elem = par2.querySelector(".text-lg.opacity-60");
+  let votes = parseInt(elem.innerHTML.match(/\! \d+/g)[0].replace("! ", ""));
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   let usersActive = Object.values(users).filter((e) => {
     return !e.is_author_deleted;
@@ -198,10 +209,12 @@ async function main() {
     .sort((a, b) => {
       return userHours[b] - userHours[a];
     })
-    .splice(0, 10);
+  let g = h.splice(11, 100);
+  h = h.splice(0, 10);
   console.log("Top 10 users with projects:");
   let top10 = [];
   let top10Hours = [];
+  let next10_users = [];
   const team_id = "T0266FRGM";
   for (let i = 0; i < joined.length; i++) {
     const slackId = joined[i];
@@ -229,6 +242,16 @@ async function main() {
       hours: userHours[slackId],
     });
   }
+  for (let i = 0; i < g.length; i++) {
+    const slackId = g[i];
+    const user = users[slackId];
+    next10_users.push({
+      name: user?.author_real_name || slackId,
+      pfp: user?.author_pfp,
+      url: `/search?q=${slackId}`,
+      hours: userHours[slackId],
+    });
+  }
   console.log(top10Hours);
   console.log(`${Object.keys(projects).length - pl} new projects found`);
   console.log(`Could not find ${unf.length} users and ${bnf.length} banners:`);
@@ -240,25 +263,30 @@ async function main() {
   let user_chart = parseddd.user_chart || {};
   let participants_chart = parseddd.participants_chart || {};
   let minutes_chart = parseddd.minutes_chart || {};
+  let votes_chart = parseddd.votes_chart || {};
   let t = new Date();
   t = t.toISOString();
   user_chart[t] = usersActive.length;
   project_chart[t] = Object.keys(projects).length;
   participants_chart[t] = Object.keys(usersJoined).length;
+  votes_chart[t] = votes;
   minutes_chart[t] = minss;
   let stats = {
     total_projects: Object.keys(projects).length,
     certified: tt,
     certified_10: c,
+    votes_cast: votes,
     project_chart: project_chart,
     user_chart,
     participants_chart,
+    votes_chart,
     minutes_chart,
     total_users: usersActive.length,
     total_minutes: minss,
     joined_users: Object.keys(usersJoined).length,
     top10_users: top10,
     top10Hours,
+    next90_users: next10_users,
     last_sync: new Date().toISOString(),
   };
   fs.writeFileSync("projectsfinal.json", JSON.stringify(projects), "utf8");
