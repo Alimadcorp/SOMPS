@@ -95,8 +95,56 @@ const parseTimeToMinutes = (timeStr) => {
   const minutes = timeStr.match(/(\d+)m/)?.[1] || 0;
   return Number.parseInt(hours) * 60 + Number.parseInt(minutes);
 };
+
+async function fetchAllConversations() {
+  let cursor = null;
+  const allConversations = {};
+
+  while (true) {
+    const res = await axios.get("https://slack.com/api/conversations.list", {
+      headers: {
+        Authorization: `Bearer ${env.SLACK_TOKEN}`,
+      },
+      params: {
+        limit: 1000,
+        types: "public_channel",
+        cursor,
+      },
+    });
+
+    if (!res.data.ok) throw new Error(res.data.error);
+
+    for (const c of res.data.channels) {
+      allConversations[c.id] = {
+        name: c.name,
+        created: c.created,
+        is_archived: c.is_archived,
+        updated: c.updated || null,
+        creator: c.creator,
+        topic: c.topic?.value || "",
+        purpose: encodeURIComponent(c.purpose?.value) || "",
+        members: c.num_members || 0,
+      };
+    }
+
+    cursor = res.data.response_metadata?.next_cursor;
+    if (!cursor) break;
+  }
+
+  const out = `export const conversations = ${JSON.stringify(
+    allConversations
+  )};`;
+
+  fs.writeFileSync("../frontend/data/conversations.js", out);
+  console.log("conversations.js written!");
+}
+
+
 async function main() {
-  if (/*You want to fetch all users again:*/ false) {
+  //await fetchAllConversations().catch(console.error);
+  if (/*You want to fetch all users again:*/ true) {
+    //users = fs.readFileSync("users.json", "utf-8");
+    //return;
     users = await fetchAllUsers();
     users["U08PX9YEYNQ"].author_timezone = "Asia/Singapore";
     users["U08LQFRBL6S"].author_timezone = "Asia/Lahore";
@@ -108,6 +156,7 @@ async function main() {
     );
     fs.writeFileSync("users.json", JSON.stringify(users), "utf8");
     fs.writeFileSync("cursors.json", JSON.stringify(cursorList), "utf8");
+    fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
   let r = await fetch("https://summer.hackclub.com/votes/locked", {
