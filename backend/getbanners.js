@@ -1,12 +1,12 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 210;
-const endPage = 220;
-const wait = 4000;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
+const startPage = 220;
+const endPage = 230;
+const wait = 3500;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = true;
 const resultPath = "banners.json";
 let allProjects = {};
-let initialLength = 3873-117;
+let initialLength = 0;
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
 r.forEach((e) => {

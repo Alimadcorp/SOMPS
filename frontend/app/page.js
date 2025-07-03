@@ -37,12 +37,20 @@ export default function Home() {
             className="w-full text-lg pl-12 pr-4 py-4 rounded-2xl border border-neutral-300 dark:border-neutral-700 bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
           />
         </div>
+        <div className="flex gap-3">
         <button
           onClick={handleSearch}
           className="rounded-full border border-transparent transition-colors bg-foreground text-background active:bg-[#0c0c0c] active:border-2 active:border-cyan-50 active:text-foreground hover:bg-[#dcdcdc] font-bold text-sm h-12 px-8 cursor-pointer"
         >
           Search
         </button>
+        <button
+          onClick={() => router.push("/stats")}
+          className="rounded-full border border-transparent transition-colors bg-foreground text-background active:bg-[#0c0c0c] active:border-2 active:border-cyan-50 active:text-foreground hover:bg-[#dcdcdc] font-bold text-sm h-12 px-8 cursor-pointer"
+        >
+          View Stats
+        </button>
+        </div>
         <a
             className="flex items-center gap-2 text-gray-500 hover:underline hover:underline-offset-4"
             href="/about"

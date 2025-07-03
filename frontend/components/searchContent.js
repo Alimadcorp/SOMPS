@@ -106,7 +106,7 @@ export default function SearchContent() {
   async function search(q, sort = "") {
     setcQuery(q);
     const scores = {};
-    const rate = 100;
+    const rate = 50;
     const amount = 24;
     setHighlight(
       q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
@@ -122,7 +122,7 @@ export default function SearchContent() {
 
       if (i % rate === 0) {
         setSearchProgress(i + 1);
-        await delay(25);
+        await delay(5);
       }
     }
     let avg = minS + (maxS - minS) / 2;

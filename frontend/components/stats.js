@@ -406,7 +406,7 @@ export default function StatsDashboard({ stats }) {
               ))}
             </div>
             <details>
-              <summary className="mt-5 cursor-pointer">Show more</summary>
+              <summary className="mt-5 cursor-pointer text-2xl">Show more</summary>
               <div className="grid grid-cols-1 gap-3 row-start-2">
                 {safeStats.next90_users.slice(0, 90).map((user, index) => (
                   <a

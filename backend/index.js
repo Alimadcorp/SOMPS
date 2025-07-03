@@ -209,6 +209,15 @@ async function main() {
     .sort((a, b) => {
       return userHours[b] - userHours[a];
     })
+  let ress = h;
+  let output = "Position,ID,Name,Hours";
+  for(let i = 0; i < ress.length; i++){
+    const slackId = ress[i];
+    const user = users[slackId];
+    output += `\n${(i+1).toString().padStart(4, "0")},${slackId},${user?.author_real_name},${Math.floor(userHours[slackId]/60*10)/10}`;
+  }
+  fs.writeFileSync("allSummerParticipants.csv", output, "utf-8");
+  fs.writeFileSync("../frontend/data/allThem.js", `export const participants = \`${output}\``, "utf-8");
   let g = h.splice(11, 100);
   h = h.splice(0, 10);
   console.log("Top 10 users with projects:");
