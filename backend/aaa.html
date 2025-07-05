@@ -4,7 +4,7 @@
     <title>Summer of Making</title>
     <link rel="canonical" href="https://summer.hackclub.com/">
     <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="uqjETJFwCf4qyrI7Vv55cQ3obORZ37c0wYcjPLWG3vOwwaA_9r6PuzovWF0qg9uTVnQMU4bKIii7HBR29zgN1A" />
+<meta name="csrf-token" content="bFQMqaYqscHN6soAo-ntR-xUNt2wPumtHddKV51UJfpmPWjaweQ3hN0PIGbflE-lt8hWam8rfLFnTH0d3-r23Q" />
     
 
       <style>
@@ -71,19 +71,20 @@
   </style>
 
   <script>
-    // Only define the function once
+    // Fallback for any cards not using Stimulus (legacy support)
     if (!window.applyCardGradients) {
       window.applyCardGradients = function() {
-        document.querySelectorAll('.card-with-gradient').forEach(card => {
-          // Generate random center point between 30% and 70% of the card's dimensions
+        document.querySelectorAll('.card-with-gradient:not([data-controller*="card"])').forEach(card => {
           const centerX = Math.random() * 40 + 30;
           const centerY = Math.random() * 40 + 30;
           card.style.background = `radial-gradient(circle at ${centerX}% ${centerY}%, #F6DBBA, #E6D4BE)`;
         });
       };
 
-      // Apply gradients when DOM is loaded
       document.addEventListener('DOMContentLoaded', window.applyCardGradients);
+      document.addEventListener('turbo:morph', window.applyCardGradients);
+      document.addEventListener('turbo:render', window.applyCardGradients);
+      document.addEventListener('turbo:frame-render', window.applyCardGradients);
     }
   </script>
 
@@ -92,7 +93,7 @@
     <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/favicon.png">
 
-    <link rel="stylesheet" href="/assets/tailwind-5b30e511.css" data-turbo-track="reload" />
+    <link rel="stylesheet" href="/assets/tailwind-b827b477.css" data-turbo-track="reload" />
     <link rel="stylesheet" href="/assets/application-8f732c86.css" data-turbo-track="reload" />
     <link rel="stylesheet" href="/assets/pixelart-1214970a.css" />
     <link rel="stylesheet" href="/assets/som-539da4b1.css" />
@@ -154,6 +155,7 @@
     "howler": "/assets/howler-31f74f33.js",
     "controllers/application": "/assets/controllers/application-3affb389.js",
     "controllers/attachment_controller": "/assets/controllers/attachment_controller-1194a021.js",
+    "controllers/card_controller": "/assets/controllers/card_controller-ff612200.js",
     "controllers/carousel_controller": "/assets/controllers/carousel_controller-cb8901e4.js",
     "controllers/category_selector_controller": "/assets/controllers/category_selector_controller-44f11330.js",
     "controllers/comment_modal_controller": "/assets/controllers/comment_modal_controller-3d23a8eb.js",
@@ -248,6 +250,7 @@
 <link rel="modulepreload" href="/assets/howler-31f74f33.js">
 <link rel="modulepreload" href="/assets/controllers/application-3affb389.js">
 <link rel="modulepreload" href="/assets/controllers/attachment_controller-1194a021.js">
+<link rel="modulepreload" href="/assets/controllers/card_controller-ff612200.js">
 <link rel="modulepreload" href="/assets/controllers/carousel_controller-cb8901e4.js">
 <link rel="modulepreload" href="/assets/controllers/category_selector_controller-44f11330.js">
 <link rel="modulepreload" href="/assets/controllers/comment_modal_controller-3d23a8eb.js">
@@ -560,11 +563,12 @@
 
       <div class="relative flex flex-col items-start">
         <div class="flex items-center w-full">
-          <img class="h-12 w-12 rounded-full flex-shrink-0" src="https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_192.png" />
+          <img class="h-12 w-12 rounded-full flex-shrink-0" src="https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png" />
 
           <div class="flex flex-col w-full ml-3 overflow-ellipsis overflow-hidden" data-sidebar-target="collapseHide">
             <div class="h-4">Hello,</div>
             <div class="text-xl whitespace-nowrap overflow-ellipsis">Alimad Co!</div>
+            
           </div>
         </div>
 
@@ -593,7 +597,7 @@
   bg-[#C7A077] rounded-full z-0 group-hover:opacity-100
   h-4 -right-[6px]
   opacity-0" data-kind="underline"></div>
-</button><input type="hidden" name="authenticity_token" value="M4kvtsy6mj0Gp_DN19_7tjX_uC-shHltT31CdjQAPWuuZWTeoc46iB-EbwjcB2Ws4cHmQDi_r11pDo1AdvTJyQ" autocomplete="off" /></form>
+</button><input type="hidden" name="authenticity_token" value="FBJ-ph9T2ixNqlk_-AcgHnyMQ2QtymbrEUZeAQdWlGmJ_jXOcid6mVSJxvrz374EqLIdC7nxsNs3NZE3RaJgyw" autocomplete="off" /></form>
         </div>
       </div>
     </div>
@@ -667,14 +671,14 @@
 
   
 
-<div class="card-with-gradient text-lg text-center" data-padding="lg" data-hover="false" data-shadow="md">
+<div class="card-with-gradient text-lg text-center" data-controller="card" data-padding="lg" data-hover="false" data-shadow="md">
 
 
   <div class="card-content">
     
     <p class="mb-4">Voting will begin globally after 100 certified projects with at least 10 hours of coding time have been shipped!</p>
-    <p class="text-2xl">8 / 100 approved 10+ hr projects</p>
-    <p>(268 certified projects, any amount of coding time)</p>
+    <p class="text-2xl">9 / 100 approved 10+ hr projects</p>
+    <p>(315 certified projects, any amount of coding time)</p>
 
   </div>
 

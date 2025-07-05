@@ -11,9 +11,6 @@ export default async function handler(req, res) {
     let all = id
       .split(",")
       .filter(Boolean)
-      .filter((e) => {
-        return e.length == "C1234567890".length;
-      });
     for (let i = 0; i < all.length; i++) {
       response[all[i]] = data[all[i]];
     }

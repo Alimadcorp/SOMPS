@@ -18,6 +18,8 @@ import {
   Users2,
   FolderCheck,
   Vote,
+  Hash,
+  CodeSquare,
 } from "lucide-react";
 import Image from "next/image";
 import LiveStatus from "./live";
@@ -55,6 +57,8 @@ export default function StatsDashboard({ stats }) {
     total_projects: stats?.total_projects || 0,
     certified: stats?.certified || 0,
     certified_10: stats?.certified_10 || 0,
+    devlogs: stats?.devlogs || 0,
+    channels: stats?.channels || 0,
     votes_cast: stats?.votes_cast || 0,
     total_projects: stats?.total_projects || 0,
     total_users: stats?.total_users || 0,
@@ -230,7 +234,7 @@ export default function StatsDashboard({ stats }) {
 
   return (
     <div className="w-full max-w-7xl mx-auto p-4 space-y-6 min-h-screen">
-      <div className="grid grid-cols-1 md:grid-cols-6 gap-4 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
         <a href="https://alimadcorp.github.io/hackclubusers" target="_blank">
           <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
@@ -267,7 +271,27 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
         </Card>
-
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-blue-300 transition-colors">
+              Total Channels
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors">
+              <Hash className="h-4 w-4 text-blue-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-blue-400 mb-1">
+              {(
+                safeStats.channels
+              ).toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">
+              Different topics in the community
+            </p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+        </Card>
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-yellow-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
             <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-yellow-300 transition-colors">
@@ -325,6 +349,27 @@ export default function StatsDashboard({ stats }) {
             </p>
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-purple-600"></div>
+        </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-amber-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-amber-300 transition-colors">
+              Total Devlogs
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-amber-500/20 group-hover:bg-amber-500/30 transition-colors">
+              <CodeSquare className="h-4 w-4 text-amber-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-amber-400 mb-1">
+              {(
+                safeStats.devlogs
+              ).toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">
+              Showcasing progress
+            </p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 to-amber-600"></div>
         </Card>
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-cyan-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">

@@ -134,17 +134,18 @@ async function fetchAllConversations() {
   const out = `export const conversations = ${JSON.stringify(
     allConversations
   )};`;
-
+  const channs = Object.keys(allConversations).length;
+  fs.writeFileSync("channels.txt", channs.toString(), "utf-8");
   fs.writeFileSync("../frontend/data/conversations.js", out);
   console.log("conversations.js written!");
 }
 
-
 async function main() {
-  //await fetchAllConversations().catch(console.error);
-  if (/*You want to fetch all users again:*/ true) {
+  if (/*You want to fetch all users again:*/ false) {
     //users = fs.readFileSync("users.json", "utf-8");
-    //return;
+    //return;x
+    await fetchAllConversations().catch(console.error);
+    console.log("Channels fetched");
     users = await fetchAllUsers();
     users["U08PX9YEYNQ"].author_timezone = "Asia/Singapore";
     users["U08LQFRBL6S"].author_timezone = "Asia/Lahore";
@@ -156,7 +157,7 @@ async function main() {
     );
     fs.writeFileSync("users.json", JSON.stringify(users), "utf8");
     fs.writeFileSync("cursors.json", JSON.stringify(cursorList), "utf8");
-    fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
+    //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
   let r = await fetch("https://summer.hackclub.com/votes/locked", {
@@ -191,10 +192,12 @@ async function main() {
   let usersJoined = {};
   let userHours = {};
   let bannedUsers = ["U091RNMRAH2"];
+  let conversations = parseInt(fs.readFileSync("channels.txt", "utf-8"));
   let pl = Object.keys(projects).length;
   let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
   const k = Object.keys(projects);
   let minss = 0;
+  let devlogs = 0;
   let unf = [],
     bnf = [];
   for (let i = 0; i < k.length; i++) {
@@ -211,6 +214,7 @@ async function main() {
     if (!b) {
       bnf.push(j);
     }
+    devlogs += parseInt(b?.devlogs || "0");
     x = {
       ...x,
       ...u,
@@ -254,19 +258,24 @@ async function main() {
     })
     .splice(0, 10);
   let h = Object.keys(userHours);
-  h = h
-    .sort((a, b) => {
-      return userHours[b] - userHours[a];
-    })
+  h = h.sort((a, b) => {
+    return userHours[b] - userHours[a];
+  });
   let ress = h;
   let output = "Position,ID,Name,Hours";
-  for(let i = 0; i < ress.length; i++){
+  for (let i = 0; i < ress.length; i++) {
     const slackId = ress[i];
     const user = users[slackId];
-    output += `\n${(i+1).toString().padStart(4, "0")},${slackId},${user?.author_real_name},${Math.floor(userHours[slackId]/60*10)/10}`;
+    output += `\n${(i + 1).toString().padStart(4, "0")},${slackId},${
+      user?.author_real_name
+    },${Math.floor((userHours[slackId] / 60) * 10) / 10}`;
   }
   fs.writeFileSync("allSummerParticipants.csv", output, "utf-8");
-  fs.writeFileSync("../frontend/data/allThem.js", `export const participants = \`${output}\``, "utf-8");
+  fs.writeFileSync(
+    "../frontend/data/allThem.js",
+    `export const participants = \`${output}\``,
+    "utf-8"
+  );
   let g = h.splice(11, 100);
   h = h.splice(0, 10);
   console.log("Top 10 users with projects:");
@@ -333,6 +342,8 @@ async function main() {
     total_projects: Object.keys(projects).length,
     certified: tt,
     certified_10: c,
+    devlogs,
+    channels: Object.keys(conversations).length,
     votes_cast: votes,
     project_chart: project_chart,
     user_chart,
