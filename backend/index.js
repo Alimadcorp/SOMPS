@@ -160,12 +160,8 @@ async function main() {
     //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
-  let r = await fetch("https://summer.hackclub.com/votes/locked", {
-    headers: {
-      Cookie: cookie,
-    },
-  });
-  let b = await r.text();
+  //let r = await fetch("https://summer.hackclub.com/votes/locked", {headers: {Cookie: cookie,},});
+  let b = fs.readFileSync("aaa.html", "utf-8");//await r.text();
   fs.writeFileSync("aaa.html", b, "utf-8");
   const par = parser.parse(b);
   let elem = par.querySelector(".card-with-gradient.text-lg.text-center");
@@ -174,12 +170,8 @@ async function main() {
   let tt = es[2].innerHTML
     .replace(" certified projects, any amount of coding time)", "")
     .replace("(", "");
-  r = await fetch("https://summer.hackclub.com/votes/new", {
-    headers: {
-      Cookie: cookie,
-    },
-  });
-  b = await r.text();
+  //r = await fetch("https://summer.hackclub.com/votes/new", {headers: {Cookie: cookie,},});
+  b = fs.readFileSync("aaa2.html", "utf-8")//await r.text();
 
   fs.writeFileSync("aaa2.html", b, "utf-8");
   const par2 = parser.parse(b);

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
 const startPage = 1;
-const endPage = 250;
+const endPage = 300;
 const wait = 3500;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = true;
 const resultPath = "banners.json";

@@ -136,3 +136,4 @@ backend/serviceAccountKey.json
 backend/updatemega.js
 backend/usersRaw.json
 backend/new.js
+/backend/cacheold
