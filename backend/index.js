@@ -20,7 +20,11 @@ try {
   const data = fs.readFileSync("projects.json", "utf8");
   projectss = JSON.parse(data);
   for (let i = 0; i < projectss.length; i++) {
-    projects[projectss[i].id] = { ...projectss[i] };
+    if (projectss[i]) {
+      projects[projectss[i].id] = { ...projectss[i] };
+    } else {
+      console.log(i);
+    }
   }
 } catch (err) {
   console.error(err);
