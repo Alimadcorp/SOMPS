@@ -3,7 +3,7 @@ export const stats = {
   "certified": "512",
   "certified_10": "176",
   "devlogs": 13644,
-  "channels": 0,
+  "channels": 9395,
   "votes_cast": 27283,
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,
