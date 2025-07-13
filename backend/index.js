@@ -160,8 +160,24 @@ async function main() {
     //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
-  //let r = await fetch("https://summer.hackclub.com/votes/locked", {headers: {Cookie: cookie,},});
-  let b = fs.readFileSync("aaa.html", "utf-8");//await r.text();
+  let r = await fetch("https://summer.hackclub.com/votes/locked", {
+    headers: {
+      Cookie: cookie,
+      accept: "text/html, application/xhtml+xml",
+      referer: "https://summer.hackclub.com/explore",
+      "sec-ch-ua":
+        '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "Windows",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "turbo-frame": "load-more-projects",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    },
+  });
+  let b = await r.text();
   fs.writeFileSync("aaa.html", b, "utf-8");
   const par = parser.parse(b);
   let elem = par.querySelector(".card-with-gradient.text-lg.text-center");
@@ -170,8 +186,24 @@ async function main() {
   let tt = es[2].innerHTML
     .replace(" certified projects, any amount of coding time)", "")
     .replace("(", "");
-  //r = await fetch("https://summer.hackclub.com/votes/new", {headers: {Cookie: cookie,},});
-  b = fs.readFileSync("aaa2.html", "utf-8")//await r.text();
+  r = await fetch("https://summer.hackclub.com/votes/new", {
+    headers: {
+      Cookie: cookie,
+      accept: "text/html, application/xhtml+xml",
+      referer: "https://summer.hackclub.com/explore",
+      "sec-ch-ua":
+        '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "Windows",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "turbo-frame": "load-more-projects",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    },
+  });
+  b = await r.text();
 
   fs.writeFileSync("aaa2.html", b, "utf-8");
   const par2 = parser.parse(b);

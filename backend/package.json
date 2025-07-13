@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@hackclub/banner": "^1.0.3",
     "axios": "^1.10.0",
     "firebase": "^11.9.1",
     "firebase-admin": "^13.4.0",

@@ -1,8 +1,8 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
 const startPage = 1;
-const endPage = 300;
-const wait = 3500;
+const endPage = 400;
+const wait = 1500;
 const resultPath = "projects.json";
 let allProjects = {};
 let initialLength = 0;
@@ -44,10 +44,10 @@ async function start() {
 
 function parseData(dat) {
   let thisProjects = {};
-  if(dat == {}){
+  if(dat.data == {}){
     return;
   }
-  dat.forEach((el) => {
+  dat.data.forEach((el) => {
     const projectId = el.id;
     allProjects[projectId] = thisProjects[projectId] = el;
   });
@@ -61,7 +61,19 @@ async function fetchPage(page) {
       {
         method: "GET",
         headers: {
-          //Cookie: myCookie,
+          Cookie: myCookie,
+          accept: "text/html, application/xhtml+xml",
+          referer: "https://summer.hackclub.com/explore",
+          "sec-ch-ua":
+            '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "Windows",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "turbo-frame": "load-more-projects",
+          "user-agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
         },
       }
     );

@@ -1,8 +1,8 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
-const startPage = 1;
-const endPage = 300;
-const wait = 3500;// Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
+const startPage = 300;
+const endPage = 350;
+const wait = 5000; // Wait five second instead of ten coz we dont wanna hang the api yet we impatient lil goobers
 const replacePrevious = true;
 const resultPath = "banners.json";
 let allProjects = {};
@@ -45,7 +45,7 @@ async function start() {
 
 function parseImages(dat) {
   let thisProjects = {};
-  if(dat.data == ""){
+  if (dat.data == "") {
     return;
   }
   let html = parser.parse(dat.data);
@@ -99,9 +99,7 @@ function parseImages(dat) {
             `Found ${npi.length} new and ${anpi.length} actually new projects`
           );
         } else {
-          console.log(
-            `Found ${npi.length} new projects`
-          );
+          console.log(`Found ${npi.length} new projects`);
         }
       }
     }
@@ -124,6 +122,18 @@ async function fetchPage(page) {
         method: "GET",
         headers: {
           Cookie: myCookie,
+          accept: "text/html, application/xhtml+xml",
+          referer: "https://summer.hackclub.com/explore",
+          "sec-ch-ua":
+            '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "Windows",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "turbo-frame": "load-more-projects",
+          "user-agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
         },
       }
     );
