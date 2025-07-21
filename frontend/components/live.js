@@ -9,11 +9,10 @@ export default function LiveStatus({ app = 'somps' }) {
     let mounted = true
     async function ping() {
       try {
-        const res = await fetch(`https://live.alimad.xyz/ping?app=${app}`)
-        const text = await res.text()
+        const res = await fetch(`https://jsonplaceholder.typicode.com/todos/1`)
         if (res.ok && mounted) {
           setOnline(true)
-          setCount(text)
+          setCount(2)
         } else throw "fail"
       } catch {
         if (mounted) {

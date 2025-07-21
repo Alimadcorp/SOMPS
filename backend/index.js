@@ -145,7 +145,7 @@ async function fetchAllConversations() {
 }
 
 async function main() {
-  if (/*You want to fetch all users again:*/ false) {
+  if (/*You want to fetch all users again:*/ true) {
     //users = fs.readFileSync("users.json", "utf-8");
     //return;x
     await fetchAllConversations().catch(console.error);

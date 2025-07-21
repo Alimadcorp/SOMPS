@@ -1,7 +1,7 @@
 const fs = require("fs");
 const parser = require("node-html-parser");
 const startPage = 1;
-const endPage = 400;
+const endPage = 500;
 const wait = 1500;
 const resultPath = "projects.json";
 let allProjects = {};
@@ -54,7 +54,7 @@ function parseData(dat) {
   fs.writeFileSync(resultPath, JSON.stringify(allProjects));
 }
 async function fetchPage(page) {
-  let response = { ok: false, status: 101 };
+  let response;
   try {
     response = await fetch(
       `https://summer.hackclub.com/api/v1/projects?page=${page}`,
@@ -62,33 +62,38 @@ async function fetchPage(page) {
         method: "GET",
         headers: {
           Cookie: myCookie,
-          accept: "text/html, application/xhtml+xml",
+          accept: "application/json",
           referer: "https://summer.hackclub.com/explore",
-          "sec-ch-ua":
-            '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+          "sec-ch-ua": '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
           "sec-ch-ua-mobile": "?0",
           "sec-ch-ua-platform": "Windows",
           "sec-fetch-dest": "empty",
           "sec-fetch-mode": "cors",
           "sec-fetch-site": "same-origin",
           "turbo-frame": "load-more-projects",
-          "user-agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
         },
       }
     );
-  } catch (e) {
-    if (response.status == 500 || response.status == 404) {
-      console.log("Error at " + page + ": " + response.status);
-      return { data: "", previous: null };
+
+    if (response.status === 101) {
+      console.warn(`⚠️ Got 101 Switching Protocols at page ${page}`);
+      const raw = await response.text();
+      console.log("Raw 101 response:", raw.slice(0, 500)); // log preview
+      return { data: {}, previous: null };
     }
+
+    if (response.ok) {
+      const data = await response.json();
+      return { data: data.projects || [], previous: "" };
+    } else {
+      console.error(`Error at ${page}: Status ${response.status}`);
+    }
+  } catch (e) {
+    console.error(`Fetch error at page ${page}:`, e.message);
   }
-  if (response.ok) {
-    const data = await response.json();
-    return { data: data.projects, previous: "" };
-  } else {
-    console.log(response.status);
-  }
-  return { data: {}, previous: ""};
+
+  return { data: {}, previous: "" };
 }
+
 start();

@@ -413,7 +413,6 @@
     "author_real_name": "Mian Jawad Ahmad",
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
-    "author_pronouns": "she/her/hers",
     "author_pfp": "https://avatars.slack-edge.com/2021-12-23/2873531904118_19d39348adcd48d80230_192.png",
     "is_author_deleted": false
   },
@@ -3080,6 +3079,14 @@
     "author_pfp": "https://avatars.slack-edge.com/2024-07-14/7414047383078_8e308e43af68ed94ba6c_192.jpg",
     "is_author_deleted": false
   },
+  "U077F2K0M45": {
+    "author_name": "m.shoaibmemon90",
+    "author_real_name": "Shoaib Memon",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-18/9234687814785_6f76fd0c4669fb18fb8d_192.jpg",
+    "is_author_deleted": false
+  },
   "U077RQKKHAR": {
     "author_name": "abdurrafeyamir15",
     "author_real_name": "Abdurrafey Amir",
@@ -4730,6 +4737,15 @@
     "author_pfp": "https://avatars.slack-edge.com/2025-03-13/8599970196787_b0d8a4895fb1a1095354_192.jpg",
     "is_author_deleted": false
   },
+  "U07V47B0WBZ": {
+    "author_name": "myra0810.10",
+    "author_real_name": "Myra",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pronouns": "She/Her",
+    "author_pfp": "https://avatars.slack-edge.com/2024-11-11/8011080020066_bfeea07d6b5d0709028f_192.png",
+    "is_author_deleted": false
+  },
   "U07V50G3W5B": {
     "author_name": "zeeshanalidal500",
     "author_real_name": "Zeeshan Ali",
@@ -6096,7 +6112,7 @@
   },
   "U08EZSREG6B": {
     "author_name": "nemoxhan",
-    "author_real_name": "Nemo",
+    "author_real_name": "Naeem",
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
     "author_pfp": "https://secure.gravatar.com/avatar/755498a189023d1de428194ce5d57afb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-192.png",
@@ -6604,7 +6620,7 @@
     "author_real_name": "Aamina",
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
-    "author_pfp": "https://secure.gravatar.com/avatar/f19be72f061a0395a4e02469815e5175.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-192.png",
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-13/9211313645440_6f72c41c29f1dde1f9dd_192.jpg",
     "is_author_deleted": false
   },
   "U08RT7N0XNE": {
@@ -7028,6 +7044,14 @@
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
     "author_pfp": "https://secure.gravatar.com/avatar/bef3f5f0881f6fcfce23769702dcdb8a.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-192.png",
+    "is_author_deleted": false
+  },
+  "U091A2JU9C7": {
+    "author_name": "shabihulhassan536",
+    "author_real_name": "Plate",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/98077766cb564b8af053e649d7422e65.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
     "is_author_deleted": false
   },
   "U091AGMTQUF": {
@@ -7926,14 +7950,6 @@
     "author_pfp": "https://secure.gravatar.com/avatar/f0c8317b902f2da491aeb46875b137cb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-192.png",
     "is_author_deleted": false
   },
-  "U091WUREZ37": {
-    "author_name": "msufyan.202105869",
-    "author_real_name": "Sufyan Ali",
-    "author_timezone": "Asia/Karachi",
-    "timezone_offset": 18000,
-    "author_pfp": "https://secure.gravatar.com/avatar/6ab4fa7431e7b68011a20f467d474d40.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-192.png",
-    "is_author_deleted": false
-  },
   "U091X0F7UUV": {
     "author_name": "ateequrrehman2674",
     "author_real_name": "Ateeq Ur Rehman",
@@ -8052,7 +8068,7 @@
     "author_real_name": "Hussain",
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
-    "author_pfp": "https://secure.gravatar.com/avatar/cd03580fc674882fc644c0c2b837e0fb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-192.png",
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-14/9194018363061_a7a3de46d3953ccb29f6_192.jpg",
     "is_author_deleted": false
   },
   "U0921GNK5RT": {
@@ -8262,6 +8278,14 @@
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
     "author_pfp": "https://secure.gravatar.com/avatar/b8605cc1665171e57e0a77ba430ab1fa.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-192.png",
+    "is_author_deleted": false
+  },
+  "U0929RH1EAJ": {
+    "author_name": "salmannawaz008",
+    "author_real_name": "Salman",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-20/9224317387925_bbf89c5512197357bc3c_192.jpg",
     "is_author_deleted": false
   },
   "U092A3XRFHC": {
@@ -8905,6 +8929,15 @@
     "author_pfp": "https://secure.gravatar.com/avatar/4d7b05d4e2a615355c0fad7dd37464d0.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-192.png",
     "is_author_deleted": false
   },
+  "U093KS2L1AP": {
+    "author_name": "muhammadatiflatif67",
+    "author_real_name": "Muhammad Atif Latif",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pronouns": "He",
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-20/9211388499255_aca40995445b5bf2b4a5_192.jpg",
+    "is_author_deleted": false
+  },
   "U093MQYB47P": {
     "author_name": "231309",
     "author_real_name": "Dynamo2k1",
@@ -9023,8 +9056,9 @@
     "author_real_name": "Safeer Hassan",
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
+    "author_slack_start_date": "2025-07-05",
     "author_pronouns": "he/him",
-    "author_pfp": "https://secure.gravatar.com/avatar/06424d905d0f9787da7e96879e304999.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-192.png",
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-20/9248015988176_d4a3c758f1637dab96b6_192.png",
     "is_author_deleted": false
   },
   "U0940206KCK": {
@@ -9219,6 +9253,14 @@
     "author_pfp": "https://secure.gravatar.com/avatar/9d33003141377f9211e49703e7d5bfb5.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
     "is_author_deleted": false
   },
+  "U095CEYTAHH": {
+    "author_name": "arkhamzz47",
+    "author_real_name": "Maaz",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/c899a88acb1f34920af8f2b066033bb6.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-192.png",
+    "is_author_deleted": false
+  },
   "U095CKR5N9X": {
     "author_name": "aalizulfiqar46",
     "author_real_name": "alizulfiqar",
@@ -9241,6 +9283,54 @@
     "author_timezone": "Asia/Karachi",
     "timezone_offset": 18000,
     "author_pfp": "https://avatars.slack-edge.com/2025-07-08/9167121106564_a40be528a29d29f04ca0_192.png",
+    "is_author_deleted": false
+  },
+  "U095M2SRQNQ": {
+    "author_name": "shampu",
+    "author_real_name": "Shampu Ali",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/a12b0b703c3735eec8fce032f157f1fb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
+    "is_author_deleted": false
+  },
+  "U095QBJTY68": {
+    "author_name": "marfani121007",
+    "author_real_name": "Muhammad Abdullah",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-14/9178542396263_6f6024909d7be703fbb1_192.png",
+    "is_author_deleted": false
+  },
+  "U09687TG0MT": {
+    "author_name": "rubisha5149",
+    "author_real_name": "Rubisha",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://avatars.slack-edge.com/2025-07-17/9210913470534_12f6f352ddf847bd3cfb_192.png",
+    "is_author_deleted": false
+  },
+  "U096A1CBXTJ": {
+    "author_name": "abubakr.131625",
+    "author_real_name": "Abubakr",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/06c751e4db3e0dc8be5a2985d5125638.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-192.png",
+    "is_author_deleted": false
+  },
+  "U096L7CLUCS": {
+    "author_name": "daudshahbaz4life",
+    "author_real_name": "Blue",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/9aca137c2b5698f432eeb94bb23b88c1.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-192.png",
+    "is_author_deleted": false
+  },
+  "U096NBE52JD": {
+    "author_name": "amimomi710",
+    "author_real_name": "Momina Nadeem",
+    "author_timezone": "Asia/Karachi",
+    "timezone_offset": 18000,
+    "author_pfp": "https://secure.gravatar.com/avatar/c35ce5ed40e695e54e539dd28defff2b.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-192.png",
     "is_author_deleted": false
   }
 }
