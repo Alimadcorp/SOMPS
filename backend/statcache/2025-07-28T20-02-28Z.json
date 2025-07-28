@@ -1,9 +1,9 @@
-export const stats = {
+{
   "total_projects": 7237,
   "certified": "1354",
   "certified_10": "618",
   "devlogs": 22395,
-  "channels": 9763,
+  "channels": 0,
   "votes_cast": 46697,
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,

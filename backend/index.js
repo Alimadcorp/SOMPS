@@ -5,7 +5,8 @@ const parser = require("node-html-parser");
 //return;
 let projectss = [];
 let projects = {};
-let users = {}, users2 = {};
+let users = {},
+  users2 = {};
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
 r.forEach((e) => {
@@ -207,9 +208,6 @@ async function main() {
   elem = par2.querySelector(".text-lg.opacity-60");
   let votes = parseInt(elem.innerHTML.match(/\! \d+/g)[0].replace("! ", ""));
 
-
-
-
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   users2 = JSON.parse(fs.readFileSync("user.json", "utf-8"));
   let usersActive = Object.values(users).filter((e) => {
@@ -233,12 +231,26 @@ async function main() {
   let badges = 0;
   let unf = [],
     bnf = [];
+  const uk = Object.values(users2);
+  for (let i = 0; i < uk.length; i++) {
+    if (!bannedUsers.includes(uk[i].slack_id)) {
+      userHours[uk[i].slack_id] = uk[i].coding_time_seconds / 60;
+      //console.log(x.id, x.time, parseTimeToMinutes(x.time), minss/60);
+      minss += uk[i].coding_time_seconds / 60;
+      //await delay(50);
+    }
+  }
+  console.log(userHours);
   for (let i = 0; i < k.length; i++) {
     let j = k[i];
     let x = projects[j];
-    x.time = `${Math.floor(x.total_seconds_coded/3600)}h ${Math.floor((x.total_seconds_coded%3600)/60)}m`;
+    x.time = `${Math.floor(x.total_seconds_coded / 3600)}h ${Math.floor(
+      (x.total_seconds_coded % 3600) / 60
+    )}m`;
     let u = users[x.slack_id];
-    let u2 = Object.values(users2).find((e) => { return x.slack_id == e.slack_id });
+    let u2 = Object.values(users2).find((e) => {
+      return x.slack_id == e.slack_id;
+    });
     if (!bannedUsers.includes(x.slack_id)) {
       usersJoined[x.slack_id] = (usersJoined[x.slack_id] || 0) + 1;
     }
@@ -252,19 +264,8 @@ async function main() {
       uid: u2.id,
     };
     projects[j] = x;
-    if (!bannedUsers.includes(x.slack_id)) {
-      userHours[x.slack_id] =
-        (userHours[x.slack_id] || 0) + parseTimeToMinutes(x.time);
-      //console.log(x.id, x.time, parseTimeToMinutes(x.time), minss/60);
-      minss += parseTimeToMinutes(x.time);
-      //await delay(50);
-    }
   }
-  console.log(
-    `There are total ${
-      Object.keys(projects).length
-    } projects`
-  );
+  console.log(`There are total ${Object.keys(projects).length} projects`);
   console.log(
     `A total of ${
       Math.floor((minss / 60) * 100) / 100
