@@ -1,5 +1,5 @@
 const fs = require("fs");
-const startPage = 550;
+const startPage = 693;
 const endPage = 1000;
 const wait = 1500;
 const resultPath = "user.json";
