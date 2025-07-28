@@ -5,7 +5,7 @@ const parser = require("node-html-parser");
 //return;
 let projectss = [];
 let projects = {};
-let users = {};
+let users = {}, users2 = {};
 let env = {};
 let r = fs.readFileSync("environment.txt", "utf-8").split("\n");
 r.forEach((e) => {
@@ -18,14 +18,7 @@ function delay(ms) {
 }
 try {
   const data = fs.readFileSync("projects.json", "utf8");
-  projectss = JSON.parse(data);
-  for (let i = 0; i < projectss.length; i++) {
-    if (projectss[i]) {
-      projects[projectss[i].id] = { ...projectss[i] };
-    } else {
-      console.log(i);
-    }
-  }
+  projects = JSON.parse(data);
 } catch (err) {
   console.error(err);
 }
@@ -145,7 +138,7 @@ async function fetchAllConversations() {
 }
 
 async function main() {
-  if (/*You want to fetch all users again:*/ true) {
+  if (/*You want to fetch all users again:*/ false) {
     //users = fs.readFileSync("users.json", "utf-8");
     //return;x
     await fetchAllConversations().catch(console.error);
@@ -213,40 +206,50 @@ async function main() {
   const par2 = parser.parse(b);
   elem = par2.querySelector(".text-lg.opacity-60");
   let votes = parseInt(elem.innerHTML.match(/\! \d+/g)[0].replace("! ", ""));
+
+
+
+
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
+  users2 = JSON.parse(fs.readFileSync("user.json", "utf-8"));
   let usersActive = Object.values(users).filter((e) => {
     return !e.is_author_deleted;
   });
   let usersJoined = {};
   let userHours = {};
+  let userCSS = {};
+  let userBio = {};
+  let userHoursDaily = {};
+  let userDevlogs = {};
+  let userVotes = {};
+  let userProjects = {};
+  let userShips = {};
   let bannedUsers = ["U091RNMRAH2"];
   let conversations = parseInt(fs.readFileSync("channels.txt", "utf-8"));
   let pl = Object.keys(projects).length;
-  let banners = JSON.parse(fs.readFileSync("banners.json", "utf-8"));
   const k = Object.keys(projects);
   let minss = 0;
   let devlogs = 0;
+  let badges = 0;
   let unf = [],
     bnf = [];
   for (let i = 0; i < k.length; i++) {
     let j = k[i];
     let x = projects[j];
+    x.time = `${Math.floor(x.total_seconds_coded/3600)}h ${Math.floor((x.total_seconds_coded%3600)/60)}m`;
     let u = users[x.slack_id];
+    let u2 = Object.values(users2).find((e) => { return x.slack_id == e.slack_id });
     if (!bannedUsers.includes(x.slack_id)) {
       usersJoined[x.slack_id] = (usersJoined[x.slack_id] || 0) + 1;
     }
     if (!u) {
       unf.push(x.slack_id);
     }
-    let b = banners[j];
-    if (!b) {
-      bnf.push(j);
-    }
-    devlogs += parseInt(b?.devlogs || "0");
+    devlogs += parseInt(x?.devlogs_count || "0");
     x = {
       ...x,
       ...u,
-      ...b,
+      uid: u2.id,
     };
     projects[j] = x;
     if (!bannedUsers.includes(x.slack_id)) {
@@ -260,9 +263,7 @@ async function main() {
   console.log(
     `There are total ${
       Object.keys(projects).length
-    } projects, out of which you have ${
-      Object.keys(banners).length
-    } banners for.`
+    } projects`
   );
   console.log(
     `A total of ${
@@ -393,16 +394,16 @@ async function main() {
     "utf8"
   );
   fs.writeFileSync(
+    "../frontend/data/stats.js",
+    `export const stats = ${JSON.stringify(stats, null, 2)}`,
+    "utf8"
+  );
+  fs.writeFileSync(
     `./statcache/${new Date()
       .toISOString()
       .replaceAll(":", "-")
       .replace(/\.\d{3}/, "")}.json`,
     `${JSON.stringify(stats, null, 2)}`,
-    "utf8"
-  );
-  fs.writeFileSync(
-    "../frontend/data/stats.js",
-    `export const stats = ${JSON.stringify(stats, null, 2)}`,
     "utf8"
   );
 }
