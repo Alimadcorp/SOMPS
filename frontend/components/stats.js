@@ -20,9 +20,20 @@ import {
   Vote,
   Hash,
   CodeSquare,
+  BadgeCheck,
+  Code2,
+  User,
+  Torus,
+  Text,
+  Cat,
+  Coins,
+  Hammer,
+  ShoppingBag,
+  ShoppingCart,
 } from "lucide-react";
 import Image from "next/image";
 import LiveStatus from "./live";
+import Leader from "./leader";
 
 function Card({ children, className = "" }) {
   return (
@@ -51,6 +62,11 @@ function CardTitle({ children, className = "" }) {
 function CardContent({ children, className = "" }) {
   return <div className={className}>{children}</div>;
 }
+let lbNotes = [
+  "IT'S LEADERBOARD TIME, CHAT",
+  "Lets taketh a look at the leaderboards",
+  "I tried making every leaderboard I can ;D",
+];
 
 export default function StatsDashboard({ stats }) {
   const safeStats = {
@@ -69,9 +85,11 @@ export default function StatsDashboard({ stats }) {
     participants_chart: stats?.participants_chart || {},
     votes_chart: stats?.votes_chart || {},
     minutes_chart: stats?.minutes_chart || {},
-    top10_users: stats?.top10_users || [],
-    next90_users: stats?.next90_users || [],
-    top10Hours: stats?.top10Hours || [],
+    total_bans: stats?.total_bans || 0,
+    total_burned_shells: stats?.total_burned_shells || 0,
+    total_shells: stats?.total_shells || 0,
+    total_items: stats?.total_items || 0,
+    total_purchased: stats?.total_purchased || 0,
     last_synced: new Date(stats.last_sync) || new Date(),
   };
 
@@ -271,62 +289,60 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
         </Card>
-        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-pink-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
-            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-blue-300 transition-colors">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-pink-300 transition-colors">
               Total Channels
             </CardTitle>
-            <div className="p-2 rounded-lg bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors">
-              <Hash className="h-4 w-4 text-blue-400" />
+            <div className="p-2 rounded-lg bg-pink-500/20 group-hover:bg-pink-500/30 transition-colors">
+              <Hash className="h-4 w-4 text-pink-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
-            <div className="text-2xl font-bold text-blue-400 mb-1">
-              {(
-                safeStats.channels
-              ).toLocaleString()}
+            <div className="text-2xl font-bold text-pink-400 mb-1">
+              {safeStats.channels.toLocaleString()}
             </div>
             <p className="text-xs text-gray-500">
               Different topics in the community
             </p>
           </CardContent>
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-pink-600"></div>
         </Card>
-        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-yellow-500/50 transition-all duration-300 group">
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-emerald-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
-            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-yellow-300 transition-colors">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-emerald-300 transition-colors">
               Total Projects
             </CardTitle>
-            <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500/30 transition-colors">
-              <FolderOpen className="h-4 w-4 text-yellow-400" />
+            <div className="p-2 rounded-lg bg-emerald-500/20 group-hover:bg-emerald-500/30 transition-colors">
+              <FolderOpen className="h-4 w-4 text-emerald-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
-            <div className="text-2xl font-bold text-yellow-400 mb-1">
+            <div className="text-2xl font-bold text-emerald-400 mb-1">
               {safeStats.total_projects.toLocaleString()}
             </div>
             <p className="text-xs text-gray-500">Amazing projects created</p>
           </CardContent>
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-yellow-600"></div>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-emerald-600"></div>
         </Card>
-        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-pink-500/50 transition-all duration-300 group">
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-violet-500/50 transition-all duration-300 group">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
-            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-pink-300 transition-colors">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-violet-300 transition-colors">
               Certified Projects
             </CardTitle>
-            <div className="p-2 rounded-lg bg-pink-500/20 group-hover:bg-pink-500/30 transition-colors">
-              <FolderCheck className="h-4 w-4 text-pink-400" />
+            <div className="p-2 rounded-lg bg-violet-500/20 group-hover:bg-violet-500/30 transition-colors">
+              <FolderCheck className="h-4 w-4 text-violet-400" />
             </div>
           </CardHeader>
           <CardContent className="px-4 pb-4">
-            <div className="text-2xl font-bold text-pink-400 mb-1">
+            <div className="text-2xl font-bold text-violet-400 mb-1">
               {safeStats.certified.toLocaleString()}
             </div>
             <p className="text-xs text-gray-500">
               {safeStats.certified_10} approved 10h+ projects
             </p>
           </CardContent>
-          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-pink-600"></div>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-violet-500 to-violet-600"></div>
         </Card>
 
         <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group">
@@ -361,13 +377,9 @@ export default function StatsDashboard({ stats }) {
           </CardHeader>
           <CardContent className="px-4 pb-4">
             <div className="text-2xl font-bold text-amber-400 mb-1">
-              {(
-                safeStats.devlogs
-              ).toLocaleString()}
+              {safeStats.devlogs.toLocaleString()}
             </div>
-            <p className="text-xs text-gray-500">
-              Showcasing progress
-            </p>
+            <p className="text-xs text-gray-500">Showcasing progress</p>
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 to-amber-600"></div>
         </Card>
@@ -388,100 +400,75 @@ export default function StatsDashboard({ stats }) {
           </CardContent>
           <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-cyan-600"></div>
         </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-yellow-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-yellow-300 transition-colors">
+              Total Shells Earned
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-yellow-500/20 group-hover:bg-yellow-500/30 transition-colors">
+              <Coins className="h-4 w-4 text-yellow-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-yellow-400 mb-1">
+              {safeStats.total_shells.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">Out of which {safeStats.total_burned_shells.toLocaleString()} were burned</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-yellow-600"></div>
+        </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-red-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-red-300 transition-colors">
+              Total Users Banned
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-red-500/20 group-hover:bg-red-500/30 transition-colors">
+              <Hammer className="h-4 w-4 text-red-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-red-400 mb-1">
+              {safeStats.total_bans.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">Be good kids</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-red-500 to-red-600"></div>
+        </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-teal-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-teal-300 transition-colors">
+              Total Items in Shop
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-teal-500/20 group-hover:bg-teal-500/30 transition-colors">
+              <ShoppingBag className="h-4 w-4 text-teal-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-teal-400 mb-1">
+              {safeStats.total_items.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">Suggested and added by Hackclubbers</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-teal-500 to-teal-600"></div>
+        </Card>
+        <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-fuchsia-500/50 transition-all duration-300 group">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+            <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-fuchsia-300 transition-colors">
+              Total Items Purchased
+            </CardTitle>
+            <div className="p-2 rounded-lg bg-fuchsia-500/20 group-hover:bg-fuchsia-500/30 transition-colors">
+              <ShoppingCart className="h-4 w-4 text-fuchsia-400" />
+            </div>
+          </CardHeader>
+          <CardContent className="px-4 pb-4">
+            <div className="text-2xl font-bold text-fuchsia-400 mb-1">
+              {safeStats.total_purchased.toLocaleString()}
+            </div>
+            <p className="text-xs text-gray-500">Yes, that many</p>
+          </CardContent>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-fuchsia-500 to-fuchsia-600"></div>
+        </Card>
       </div>
-      <Card className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 backdrop-blur-sm">
-        <CardHeader className="p-4 border-b border-gray-700/50">
-          <CardTitle className="flex items-center gap-2 text-lg text-gray-200">
-            <div className="p-1.5 rounded-lg bg-yellow-500/20">
-              <Trophy className="h-4 w-4 text-yellow-400" />
-            </div>
-            Top Creators
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="p-4">
-          <div className="grid grid-cols-1 gap-1">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 row-start-1">
-              {safeStats.top10Hours.map((user, index) => (
-                <a
-                  key={user.name || index}
-                  href={user.url || "#"}
-                  className="group relative p-3 rounded-xl border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:bg-gray-800/50 hover:scale-105"
-                >
-                  <div className="flex flex-col items-center text-center space-y-2">
-                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-xs font-bold text-black shadow-lg">
-                      {index + 1}
-                    </div>
-                    <div className="relative">
-                      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-sm"></div>
-                      <Image
-                        src={user.pfp || "/placeholder.svg"}
-                        alt={user.name || "User"}
-                        width={40}
-                        height={40}
-                        className="rounded-full border-2 border-gray-700 group-hover:border-gray-500 transition-all duration-300 relative z-10"
-                      />
-                    </div>
-                    <div className="space-y-1 w-full">
-                      <h3 className="font-medium text-xs truncate max-w-full text-gray-200 group-hover:text-blue-400 transition-colors">
-                        {user.name || "Unknown"}
-                      </h3>
-                      <div className="flex items-center justify-center gap-1">
-                        <Clock className="h-3 w-3 text-gray-500" />
-                        <span className="text-xs text-gray-500">
-                          {Math.floor((user.hours / 60) * 10) / 10 || 0} hours
-                        </span>
-                      </div>
-                    </div>
-                    <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
-                      <div
-                        className="bg-gradient-to-r from-blue-500 to-purple-500 h-1.5 rounded-full transition-all duration-700 ease-out"
-                        style={{
-                          width: `${
-                            safeStats.top10Hours[0]?.hours > 0
-                              ? ((user.hours || 0) /
-                                  safeStats.top10Hours[0].hours) *
-                                100
-                              : 0
-                          }%`,
-                        }}
-                      ></div>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-            <details>
-              <summary className="mt-5 cursor-pointer text-2xl">Show more</summary>
-              <div className="grid grid-cols-1 gap-3 row-start-2">
-                {safeStats.next90_users.slice(0, 90).map((user, index) => (
-                  <a
-                    key={user.name || index}
-                    href={user.url || "#"}
-                    className="flex items-center gap-3 min-w-[220px] bg-gray-900 rounded-xl border border-gray-800 px-4 py-2 hover:border-gray-600 hover:bg-gray-800/50 transition-all duration-300"
-                  >
-                    <div className="text-xs font-bold bg-yellow-500 text-black w-6 h-6 flex items-center justify-center rounded-full">
-                      {index + 11}
-                    </div>
-                    <img
-                      src={user.pfp || "/placeholder.svg"}
-                      alt={user.name || "User"}
-                      width={32}
-                      height={32}
-                      className="rounded-full border border-gray-700"
-                    />
-                    <span className="text-sm font-medium text-gray-200 truncate flex-1">
-                      {user.name || "Unknown"}
-                    </span>
-                    <span className="text-xs text-gray-400 whitespace-nowrap ml-auto">
-                      {Math.floor((user.hours / 60) * 10) / 10 || 0}h
-                    </span>
-                  </a>
-                ))}
-              </div>
-            </details>
-          </div>
-        </CardContent>
-      </Card>
       <Card className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 backdrop-blur-sm">
         <CardHeader className="p-4 border-b border-gray-700/50">
           <CardTitle className="flex items-center gap-2 text-lg text-gray-200">
@@ -927,6 +914,112 @@ export default function StatsDashboard({ stats }) {
           </div>
         </CardContent>
       </Card>
+      <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+          <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-blue-300 transition-colors">
+            {lbNotes[Math.floor(Math.random() * lbNotes.length)]}
+          </CardTitle>
+        </CardHeader>
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+      </Card>
+      <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-green-500/50 transition-all duration-300 group">
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+          <CardTitle className="text-xl font-medium text-gray-300 group-hover:text-green-300 transition-colors">
+            User Leaderboards
+          </CardTitle>
+        </CardHeader>
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
+      </Card>
+      <Leader
+        data={stats.leaderboard.user.hours}
+        title={"Most Hours Spent"}
+        scoreSuffix={"h"}
+        scoreIcon={<Clock className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Clock className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.projects}
+        title={"Most Projects"}
+        scoreSuffix={"projects"}
+        scoreIcon={<FolderOpen className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<FolderOpen className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.devlogs}
+        title={"Most Devlogs"}
+        scoreSuffix={"devlogs"}
+        scoreIcon={<CodeSquare className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<CodeSquare className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.votes}
+        title={"Most Votes Cast"}
+        scoreSuffix={"votes"}
+        scoreIcon={<Vote className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Vote className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.badges}
+        title={"Badges Collected"}
+        scoreSuffix={"badges"}
+        scoreIcon={<BadgeCheck className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<BadgeCheck className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.css}
+        title={"Length of Custom CSS"}
+        scoreSuffix={"characters"}
+        scoreIcon={<Code2 className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Code2 className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.user.bio}
+        title={"Length of Bio"}
+        scoreSuffix={"characters"}
+        scoreIcon={<Text className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Text className="h-4 w-4 text-yellow-400" />}
+      ></Leader>
+      <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-green-500/50 transition-all duration-300 group">
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+          <CardTitle className="text-xl font-medium text-gray-300 group-hover:text-green-300 transition-colors">
+            Project Leaderboards
+          </CardTitle>
+        </CardHeader>
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-green-600"></div>
+      </Card>
+      <Leader
+        data={stats.leaderboard.project.hours}
+        title={"Most Hours Spent"}
+        scoreSuffix={"h"}
+        scoreIcon={<Clock className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Clock className="h-4 w-4 text-yellow-400" />}
+        bgFill={true}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.project.devlogs}
+        title={"Most Devlogs"}
+        scoreSuffix={"devlogs"}
+        scoreIcon={<CodeSquare className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<CodeSquare className="h-4 w-4 text-yellow-400" />}
+        bgFill={true}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.project.followers}
+        title={"Most Followers"}
+        scoreSuffix={"followers"}
+        scoreIcon={<Users2 className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Users2 className="h-4 w-4 text-yellow-400" />}
+        bgFill={true}
+      ></Leader>
+      <Leader
+        data={stats.leaderboard.project.title}
+        title={"Longest Title"}
+        scoreSuffix={"characters"}
+        scoreIcon={<Text className="h-3 w-3 text-gray-500" />}
+        scoreIconTop={<Text className="h-4 w-4 text-yellow-400" />}
+        bgFill={true}
+      ></Leader>
+
       <div className="text-center text-xs text-gray-500 pt-4 border-t border-gray-800/50">
         <div className="flex items-center justify-center gap-2">
           <p>Last updated: {safeStats.last_synced.toLocaleString()}</p>

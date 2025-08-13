@@ -1,116 +1,43 @@
-<html>
-  <head>
-    <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="M5UtinQ5_uDBInVv4C9XyfhG7FsQqdIHdw-JlUS3-whaVr5zz6Z8kRuG0u0q3Rz0XyJ9cTmbW1Mb7Se4Q_LaZA" />
-      <style>
-    .card-with-gradient {
-      border-radius: 0.5rem;
-      border: 2px solid rgba(124, 74, 51, 0.1);
-      background: radial-gradient(circle at 50% 50%, #F6DBBA, #E6D4BE);
-      display: flex;
-      flex-direction: column;
-    }
+<!--
+    #########++++++++++++++++++++++++++++++++++++++++++++++++++++#### 
+########+++++++++++++++++++++++++++++++++++++++++++++++++++++++####   
+###++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++###### 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++####
++++++++++++++++++++++++++#++++++++++++++++++++++++++++++++++++++++++##
++++++++++++++++++++++++####+++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++####++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++####+++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++###++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++####++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++####++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++####+++++++++++++++##+++++++++++++++++++++++++++++
+++++++++++++++++++#######+++++++++++++#####+++++++++++++++++++++++++++
+++++++++++++++++####-..####+++++++++++########++++++++++++++++++++++++
++++++++++++++#####-.....-####+++++++++###..+#####+++++++++++++++++++++
+++++++++++#####+..........+####+++++++##+.....+#######++++++++++++++++
++++++#######-...............+####++++###+.........+###########++++++++
++++######........-++++-.......-#####+###+..............-++#####+++++++
++++++++++.....-##########........+######+......#########......++++++++
++++++++++.....############-.........+###-....+###########.....++++++++
+++++++###.....############-..................############-....++++++++
+++++++###......+##########...................###########+....###++++++
++++++####........+######-.....................+########......####+++++
++++++###+....................................................###++++++
+++++++###.........-..............+###.......................+###++++++
+++++++####.......+###.......-+##########++-......+###+.....+###+++++##
+###+++++###+.......############+-.....-############-.....-####+++#####
+####+++++####-........+++--....................-.......-#####++#####  
+ #####+++++####+-....................................+#####+++####    
+   #####+++++######+.............................-########+++####     
+     #####++####+######+-...................-+##################+     
+       ########   #############+++++++################## #######      
+          ####   ########################################    #+       
+                 ################++++++###+++############             
+                        #####-###-....-###-..-###                     
+                     #####-..-###-.....+##-...-####                   
+                    ####-......-........--......+####                 
+                  ####-..........................-####                
 
-    .card-content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .card-with-gradient[data-padding="sm"] { padding: 0.75rem; }
-    .card-with-gradient[data-padding="md"] { padding: 1rem; }
-    .card-with-gradient[data-padding="lg"] { padding: 1.5rem; }
-
-    .card-with-gradient[data-shadow="sm"] { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
-    .card-with-gradient[data-shadow="md"] { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
-    .card-with-gradient[data-shadow="lg"] { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); }
-
-    .card-with-gradient[data-hover="true"] {
-      transition: transform 0.2s;
-    }
-    .card-with-gradient[data-hover="true"]:hover {
-      transform: translateY(-0.25rem);
-    }
-
-    .card-image {
-      position: relative;
-      width: 100%;
-      height: 12rem;
-      margin-bottom: 1rem;
-    }
-
-    .card-image-content {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-top-left-radius: 0.5rem;
-      border-top-right-radius: 0.5rem;
-    }
-
-    .card-header {
-      margin-bottom: 1rem;
-    }
-
-    .card-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-    }
-
-    .card-subtitle {
-      margin-top: 0.25rem;
-      font-size: 0.875rem;
-    }
-
-    .card-footer {
-      margin-top: 1rem;
-      padding-top: 1rem;
-      border-top: 1px solid rgb(229, 231, 235);
-    }
-  </style>
-
-  <script>
-    // Fallback for any cards not using Stimulus (legacy support)
-    if (!window.applyCardGradients) {
-      window.applyCardGradients = function() {
-        document.querySelectorAll('.card-with-gradient:not([data-controller*="card"])').forEach(card => {
-          const centerX = Math.random() * 40 + 30;
-          const centerY = Math.random() * 40 + 30;
-          card.style.background = `radial-gradient(circle at ${centerX}% ${centerY}%, #F6DBBA, #E6D4BE)`;
-        });
-      };
-
-      document.addEventListener('DOMContentLoaded', window.applyCardGradients);
-      document.addEventListener('turbo:morph', window.applyCardGradients);
-      document.addEventListener('turbo:render', window.applyCardGradients);
-      document.addEventListener('turbo:frame-render', window.applyCardGradients);
-    }
-  </script>
-
-  </head>
-  <body>
-    <div class="px-4 md:px-8">
-  <div class="mb-8 md:mt-[53] mt-4 ">
-  <h1 class="font-[Dynapuff] text-5xl mb-2">Vote</h1>
-  <p class="text-lg md:text-xl opacity-60">Vote on others&#39; projects to get payouts!</p>
-</div>
-
-
-  
-
-<div class="card-with-gradient text-lg text-center" data-controller="card" data-padding="lg" data-hover="false" data-shadow="md">
-
-
-  <div class="card-content">
-    
-    <p class="mb-4">Voting will begin globally after 100 certified projects with at least 10 hours of coding time have been shipped!</p>
-    <p class="text-2xl">618 / 100 approved 10+ hr projects</p>
-    <p>(1354 certified projects, any amount of coding time)</p>
-
-  </div>
-
-</div>
-
-</div>
-
-  </body>
-</html>
+- 3kh0 :3
+-->
+<!doctypehtml><html lang="en"><title>Coolify - Server error</title><meta charset="UTF-8"><meta content="width=device-width"name="viewport"><meta content="Hack Club Coolify Error"name="description"><link href="/favicon.ico"rel="icon"><link href="https://hackclub.com"rel="canonical"><style>@font-face{font-family:"Phantom Sans";src:url(/Regular.woff) format("woff"),url(/Regular.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Phantom Sans";src:url(/Italic.woff) format("woff"),url(/Italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:"Phantom Sans";src:url(/Bold.woff) format("woff"),url(/Bold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}body{font-family:"Phantom Sans";text-align:center;min-height:100vh;margin:0;padding:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#121217;color:#fff;max-width:600px;margin:0 auto}h1{font-size:3rem;color:#ec3750;margin:0;font-weight:600;text-shadow:0 0 5px #ec3750}.co{position:relative;margin:1rem auto;width:90%;height:60px;display:flex;justify-content:space-between;align-items:center}.d{width:12px;height:12px;border-radius:50%;position:relative;z-index:2;border:4px solid transparent}.d::after{content:attr(data-label);position:absolute;top:20px;left:50%;transform:translateX(-50%);white-space:nowrap;color:#a2a2a2;font-size:.8rem}.d.g{background-color:#33d6a6;box-shadow:0 0 50px #33d6a6}.d.r{background-color:#ec3750;box-shadow:0 0 50px #ec3750}.l{position:absolute;height:2px;background-color:#252429;top:50%;left:0;right:0;transform:translateY(-50%);z-index:1}p{font-size:1.2rem;line-height:1.6;margin:.5rem 0;color:#fff}b{color:#fff;font-weight:600;font-size:1.4rem;text-shadow:0 0 10px rgba(255,255,255,.5)}footer{margin-top:.5rem;font-size:.9rem;color:#8492a6;font-family:monospace}@media (max-width:480px){body{padding:15px}h1{font-size:2rem}p{font-size:1rem}}</style><h1>Aw dang it!</h1><div class="co"><div class="l"></div><div class="d g"data-label="Client"></div><div class="d g"data-label="Proxy"></div><div class="d r"data-label="Server"></div></div><p><b>What happened?</b><br>You got sent here because the server is unable to handle your request right now. This could be due to high load, maintenance, or other issues.<p><b>What can I do?</b><br>Please try again in a few minutes. If this keeps happening, contact whoever is hosting the service and they might have a fix.<footer>Connected to <span id="s"></span> with traefik:v3.1</footer><script>const s=["coolify-app-server-a@hetzner","coolify-app-server-b@hetzner","coolify-app-server-hackatime@hetzner"];function a(e){return new URLSearchParams(window.location.search).get(e)}window.addEventListener("DOMContentLoaded",(function(){const e=a("s"),n=document.getElementById("s");if(null===e||isNaN(e))n.textContent="coolify";else{const t=parseInt(e);n.textContent=t>=0&&t<s.length?s[t]:"unknown-server"}}));</script>

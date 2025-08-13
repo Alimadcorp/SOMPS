@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "SOMPS",
-  description: "Summer Of Making Projects Search engine",
+  description: "Summer Of Making Project Search",
   openGraph: {
     title: "SOMPS",
-    description: "Summer Of Making Projects Search engine",
+    description: "Summer Of Making Project Search",
     images: [
       `https://i.ibb.co/Fb8Krvf0/Screenshot-2025-06-26-124441.png`,
     ],

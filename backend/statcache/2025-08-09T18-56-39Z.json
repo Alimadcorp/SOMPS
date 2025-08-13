@@ -1,0 +1,1468 @@
+{
+  "total_projects": 7237,
+  "certified": "10",
+  "certified_10": "1000",
+  "devlogs": 22395,
+  "channels": 0,
+  "votes_cast": 1000,
+  "project_chart": {
+    "2025-06-20T16:00:00.000Z": 2744,
+    "2025-06-21T10:00:00.000Z": 2983,
+    "2025-06-22T18:00:00.000Z": 3081,
+    "2025-06-23T12:00:00.000Z": 3261,
+    "2025-06-24T08:00:00.000Z": 3375,
+    "2025-06-25T10:58:57.255Z": 3499,
+    "2025-06-26T16:51:15.598Z": 3505,
+    "2025-06-26T18:09:33.501Z": 3542,
+    "2025-06-27T02:14:17.902Z": 3591,
+    "2025-06-27T10:05:17.327Z": 3630,
+    "2025-06-28T01:02:16.419Z": 3714,
+    "2025-06-29T12:29:12.320Z": 3882,
+    "2025-06-30T06:25:30.821Z": 3983,
+    "2025-06-30T21:52:28.825Z": 4083,
+    "2025-07-02T07:22:32.612Z": 4339,
+    "2025-07-03T06:48:56.130Z": 4497,
+    "2025-07-05T12:07:44.821Z": 4805,
+    "2025-07-06T16:51:14.208Z": 4965,
+    "2025-07-13T08:42:28.210Z": 5567,
+    "2025-07-17T07:59:18.806Z": 6000,
+    "2025-07-21T08:07:46.284Z": 6407,
+    "2025-07-28T20:10:38.184Z": 7237,
+    "2025-08-09T18:56:39.302Z": 7237
+  },
+  "user_chart": {
+    "2025-06-22T00:00:00.000Z": 85835,
+    "2025-06-23T00:00:00.000Z": 86109,
+    "2025-06-24T00:00:00.000Z": 86212,
+    "2025-06-25T00:00:00.000Z": 86332,
+    "2025-06-26T00:00:00.000Z": 86433,
+    "2025-06-27T00:00:00.000Z": 86552,
+    "2025-06-28T00:22:13.000Z": 86611,
+    "2025-06-28T01:02:16.320Z": 86753,
+    "2025-06-29T12:29:12.320Z": 86988,
+    "2025-06-30T06:25:30.821Z": 86800,
+    "2025-06-30T21:52:28.825Z": 87314,
+    "2025-07-02T07:22:32.612Z": 87945,
+    "2025-07-03T06:48:56.130Z": 88206,
+    "2025-07-05T12:07:44.821Z": 88566,
+    "2025-07-06T16:51:14.208Z": 88711,
+    "2025-07-09T08:04:26.515Z": 89003,
+    "2025-07-12T09:37:14.007Z": 89297,
+    "2025-07-13T08:42:28.210Z": 89348,
+    "2025-07-17T07:59:18.806Z": 89695,
+    "2025-07-21T08:07:46.284Z": 90091,
+    "2025-07-28T20:10:38.184Z": 94835,
+    "2025-08-09T18:56:39.302Z": 94835
+  },
+  "participants_chart": {
+    "2025-06-22T00:00:00.000Z": 2129,
+    "2025-06-23T00:00:00.000Z": 2212,
+    "2025-06-24T00:00:00.000Z": 2287,
+    "2025-06-25T00:00:00.000Z": 2312,
+    "2025-06-26T00:00:00.000Z": 2354,
+    "2025-06-27T00:00:00.000Z": 2375,
+    "2025-06-28T00:22:13.000Z": 2392,
+    "2025-06-28T01:02:16.320Z": 2425,
+    "2025-06-29T12:29:12.320Z": 2475,
+    "2025-06-30T06:25:30.821Z": 2499,
+    "2025-06-30T21:52:28.825Z": 2551,
+    "2025-07-02T07:22:32.612Z": 2681,
+    "2025-07-03T06:48:56.130Z": 2751,
+    "2025-07-05T12:07:44.821Z": 2875,
+    "2025-07-06T16:51:14.208Z": 2927,
+    "2025-07-09T08:04:26.515Z": 3000,
+    "2025-07-13T08:42:28.210Z": 3107,
+    "2025-07-17T07:59:18.806Z": 3217,
+    "2025-07-21T08:07:46.284Z": 3317,
+    "2025-07-28T20:10:38.184Z": 3747,
+    "2025-08-09T18:56:39.302Z": 3747
+  },
+  "votes_chart": {
+    "2025-07-01T01:00:29.622Z": 0,
+    "2025-07-01T04:50:22.992Z": 7862,
+    "2025-07-02T07:22:32.612Z": 10484,
+    "2025-07-03T06:48:56.130Z": 13451,
+    "2025-07-05T12:07:44.821Z": 17639,
+    "2025-07-06T16:51:14.208Z": 19794,
+    "2025-07-09T08:04:26.515Z": 23350,
+    "2025-07-12T09:37:14.007Z": 26404,
+    "2025-07-13T08:42:28.210Z": 27294,
+    "2025-07-17T07:59:18.806Z": 31950,
+    "2025-07-19T17:23:54.416Z": 34307,
+    "2025-07-21T08:07:46.284Z": 35829,
+    "2025-07-28T19:47:20.181Z": 46661,
+    "2025-07-28T20:10:38.184Z": 46711,
+    "2025-08-09T18:56:39.302Z": 1000
+  },
+  "minutes_chart": {
+    "2025-06-22T00:00:00.000Z": 1023949,
+    "2025-06-23T00:00:00.000Z": 1045950,
+    "2025-06-24T00:00:00.000Z": 1141235,
+    "2025-06-25T00:00:00.000Z": 1237748,
+    "2025-06-26T00:00:00.000Z": 1309294,
+    "2025-06-27T00:00:00.000Z": 1351950,
+    "2025-06-28T00:22:13.000Z": 1391313,
+    "2025-06-28T01:02:16.320Z": 1531253,
+    "2025-06-29T12:29:12.320Z": 1694771,
+    "2025-06-30T06:25:30.821Z": 1791909,
+    "2025-06-30T21:52:28.825Z": 1875683,
+    "2025-07-02T07:22:32.612Z": 2046126,
+    "2025-07-03T06:48:56.130Z": 2162962,
+    "2025-07-05T12:07:44.821Z": 2432734,
+    "2025-07-06T16:51:14.208Z": 2587046,
+    "2025-07-09T08:04:26.515Z": 2860915,
+    "2025-07-12T09:37:14.007Z": 2999155,
+    "2025-07-13T08:42:28.210Z": 2553734,
+    "2025-07-17T07:59:18.806Z": 2906772,
+    "2025-07-21T08:07:46.284Z": 3294840,
+    "2025-07-28T19:47:20.181Z": 4000822,
+    "2025-07-28T20:10:38.184Z": 10805455,
+    "2025-08-09T18:56:39.302Z": 10805455.36666666
+  },
+  "total_users": 94835,
+  "total_minutes": 10805455.36666666,
+  "joined_users": 3747,
+  "top10_users": [
+    {
+      "name": "praaaaaaag",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 22
+    },
+    {
+      "name": "YASH PANCHAL",
+      "pfp": "https://secure.gravatar.com/avatar/deb120dae819559971b11da00ca69585.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 18
+    },
+    {
+      "name": "Chee Yong",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 17
+    },
+    {
+      "name": "decaaaa",
+      "pfp": "https://avatars.slack-edge.com/2025-07-14/9218816568256_b81acca2ed5b8ea21cfb_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 17
+    },
+    {
+      "name": "Aryan Yadav",
+      "pfp": "https://avatars.slack-edge.com/2024-10-31/7955035895366_7ed2aa9755c53b5ec44c_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 16
+    },
+    {
+      "name": "ionut",
+      "pfp": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 14
+    },
+    {
+      "name": "PianoMan0",
+      "pfp": "https://avatars.slack-edge.com/2025-06-02/8985949883973_29ff7f3348cb4616116b_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 13
+    },
+    {
+      "name": "mzeeie",
+      "pfp": "https://secure.gravatar.com/avatar/97537773d260c35d153b74aa75b7b2d3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 13
+    },
+    {
+      "name": "Anirudh Sahu",
+      "pfp": "https://avatars.slack-edge.com/2025-06-30/9119233619603_ffa41a3766c4d5153ce8_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 13
+    },
+    {
+      "name": "mandela ferede",
+      "pfp": "https://avatars.slack-edge.com/2025-06-25/9102030227380_096fdadb413f03c1f628_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "projects": 13
+    }
+  ],
+  "top10Hours": [
+    {
+      "name": "OneCheetah",
+      "pfp": "https://secure.gravatar.com/avatar/dbb916da2b969cfe0c3080fd4ffedeef.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 93692.11666666667
+    },
+    {
+      "name": "Shivam Gupta",
+      "pfp": "https://secure.gravatar.com/avatar/5d8f5da5c7bf04f7c2739ae957183ec5.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 45239.75
+    },
+    {
+      "name": "DJ",
+      "pfp": "https://secure.gravatar.com/avatar/31ac32f79f9b057c76a1aa21e92b3204.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 28084.533333333333
+    },
+    {
+      "name": "Mohammad Yahya Khan",
+      "pfp": "https://secure.gravatar.com/avatar/f91ee7705965f2d163d5d4991a1df3e6.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 25802.833333333332
+    },
+    {
+      "name": "Trou",
+      "pfp": "https://secure.gravatar.com/avatar/abc66d18f9fc090f8fb60b64f716ad31.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 24385.516666666666
+    },
+    {
+      "name": "Aditya",
+      "pfp": "https://secure.gravatar.com/avatar/ccbba96b4755d75bd8f34ea82f2b2a21.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 24219.666666666668
+    },
+    {
+      "name": "mandela ferede",
+      "pfp": "https://avatars.slack-edge.com/2025-06-25/9102030227380_096fdadb413f03c1f628_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 23096.3
+    },
+    {
+      "name": "yuri",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057758720002_5ad86f54619493a1f30b_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 21744.183333333334
+    },
+    {
+      "name": "shaan",
+      "pfp": "https://avatars.slack-edge.com/2025-07-21/9229658474946_4b144de0c8041c7bce97_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 21310.016666666666
+    },
+    {
+      "name": "decaaaa",
+      "pfp": "https://avatars.slack-edge.com/2025-07-14/9218816568256_b81acca2ed5b8ea21cfb_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 20691.95
+    }
+  ],
+  "next90_users": [
+    {
+      "name": "U096CRSAFC7",
+      "pfp": "https://secure.gravatar.com/avatar/69d68e807f36a80771b6338ce534c45a.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 19206.416666666668
+    },
+    {
+      "name": "Nhat Huy Phung",
+      "pfp": "https://secure.gravatar.com/avatar/dcffb947fa3ad1e3513575c478a043b2.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 18692.933333333334
+    },
+    {
+      "name": "Aditya Sah",
+      "pfp": "https://avatars.slack-edge.com/2025-02-26/8533769712784_f1905acf6ec45c4e889a_192.webp",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 18108.833333333332
+    },
+    {
+      "name": "Yoseph Getachew",
+      "pfp": "https://secure.gravatar.com/avatar/596bbda665593e7de56d37cb184f5c23.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 17873.6
+    },
+    {
+      "name": "Saif Abdelrazek",
+      "pfp": "https://avatars.slack-edge.com/2025-04-04/8718809197329_286f155c27b6ce1c9cb2_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 17646.616666666665
+    },
+    {
+      "name": "Walker",
+      "pfp": "https://avatars.slack-edge.com/2025-07-17/9211719149330_d618eb462aa635b21d20_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 17460.75
+    },
+    {
+      "name": "Omar Rami Alkhalil",
+      "pfp": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 16954.583333333332
+    },
+    {
+      "name": "Derek P",
+      "pfp": "https://secure.gravatar.com/avatar/982aa2e0486fe22bbeb81a4779d0b88b.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 16674.816666666666
+    },
+    {
+      "name": "Praveen kumar",
+      "pfp": "https://avatars.slack-edge.com/2025-07-15/9197341345874_05fec09321ed03e3b488_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 16543.816666666666
+    },
+    {
+      "name": "Fullname",
+      "pfp": "https://secure.gravatar.com/avatar/ef28afe0c3db0f96f5edc6a022f66255.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 16097.166666666666
+    },
+    {
+      "name": "Akshay Kumar",
+      "pfp": "https://secure.gravatar.com/avatar/724d2459eb8022928740b1a7476d13f3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 16089.666666666666
+    },
+    {
+      "name": "Leonardo Cervantes",
+      "pfp": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 15810.7
+    },
+    {
+      "name": "Alkhemrt",
+      "pfp": "https://avatars.slack-edge.com/2025-07-05/9174917642816_cad3472d961dbb97f720_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 15601.316666666668
+    },
+    {
+      "name": "Markchai",
+      "pfp": "https://avatars.slack-edge.com/2025-06-20/9072852014291_b485b4c4b99861096677_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 15418.233333333334
+    },
+    {
+      "name": "ao1codes",
+      "pfp": "https://avatars.slack-edge.com/2025-06-21/9084125247892_829799e0571ed442a25e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 15324.5
+    },
+    {
+      "name": "Jessie",
+      "pfp": "https://secure.gravatar.com/avatar/0c624844181a1b94a8e68efe47c8d75b.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 15170.683333333332
+    },
+    {
+      "name": "kirthana",
+      "pfp": "https://secure.gravatar.com/avatar/42e654c03ea7d83f5447a499f0ab6896.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 14878.683333333332
+    },
+    {
+      "name": "Klucznik",
+      "pfp": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 14655.533333333333
+    },
+    {
+      "name": "Dіana Antoniuk",
+      "pfp": "https://avatars.slack-edge.com/2025-01-12/8279382259925_cc7e7d53e957790c46ab_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 14348.733333333334
+    },
+    {
+      "name": "Yash Gupta",
+      "pfp": "https://avatars.slack-edge.com/2025-07-28/9261450500323_d39fab2715b40b3394b8_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 14281.116666666667
+    },
+    {
+      "name": "000xs",
+      "pfp": "https://avatars.slack-edge.com/2024-08-13/7568882024772_ee734fcc71715e491215_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 14173.1
+    },
+    {
+      "name": "Shariq",
+      "pfp": "https://secure.gravatar.com/avatar/40ebb49669fa1ac42e84e247715f2d0e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13997.766666666666
+    },
+    {
+      "name": "Sandesh Kadel",
+      "pfp": "https://avatars.slack-edge.com/2025-03-13/8583754037831_72905cbe5dd35dfa3e83_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13943.533333333333
+    },
+    {
+      "name": "Void",
+      "pfp": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13575.966666666667
+    },
+    {
+      "name": "Ramza Syed",
+      "pfp": "https://secure.gravatar.com/avatar/6b110204ce7d6c3c0decad24cc3bde9c.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13439.816666666668
+    },
+    {
+      "name": "Ibrahim Wael",
+      "pfp": "https://avatars.slack-edge.com/2025-02-10/8415089273543_93b0bff26f31c4857c8e_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13283.116666666667
+    },
+    {
+      "name": "Somyajit Panda",
+      "pfp": "https://avatars.slack-edge.com/2025-06-24/9090614175829_14f6967db993ad0c392b_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 13281.1
+    },
+    {
+      "name": "Sanjeevan",
+      "pfp": "https://secure.gravatar.com/avatar/4f5c0abc167b09a8b3c7c9a797f72cd4.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12965.4
+    },
+    {
+      "name": "Paweł",
+      "pfp": "https://avatars.slack-edge.com/2025-02-02/8400058576785_cba75a0ab83f045ce8f5_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12867
+    },
+    {
+      "name": "Zach",
+      "pfp": "https://secure.gravatar.com/avatar/97f3f85d34e53bc981b2302f6dafddd6.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12742.216666666667
+    },
+    {
+      "name": "Tran Hoang Phuc",
+      "pfp": "https://secure.gravatar.com/avatar/8157ff68a89462ccd0f9495fd45a2241.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12649.283333333333
+    },
+    {
+      "name": "Eli Ozcan",
+      "pfp": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12464.266666666666
+    },
+    {
+      "name": "Maksiks",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12429.75
+    },
+    {
+      "name": "Solomon Shalom Lijo",
+      "pfp": "https://secure.gravatar.com/avatar/630b65026fa4d8643e8f02f4eaf0b477.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12323.883333333333
+    },
+    {
+      "name": "Alexandr Vinichenko",
+      "pfp": "https://secure.gravatar.com/avatar/32a351ee4be34ee70b63f6dbc3dac444.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12230.316666666668
+    },
+    {
+      "name": "praaaaaaag",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9083001890560_33d4f52eee25fcb30e5f_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 12179.95
+    },
+    {
+      "name": "Emme M",
+      "pfp": "https://avatars.slack-edge.com/2024-07-30/7505350396324_d730d98ce4c663f26267_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11741.616666666667
+    },
+    {
+      "name": "Robert",
+      "pfp": "https://secure.gravatar.com/avatar/3528d146dd4de6d0bba489687a8061ea.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11683.266666666666
+    },
+    {
+      "name": "Vevaan Verma",
+      "pfp": "https://avatars.slack-edge.com/2025-07-18/9218890075302_0e558aef960d9735b7d6_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11681.466666666667
+    },
+    {
+      "name": "kn 1337CI",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9057274012228_75ea15cd68b2640b8a7e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11554.766666666666
+    },
+    {
+      "name": "nguyễn minh quân",
+      "pfp": "https://secure.gravatar.com/avatar/c1915a3082ffe00f513800cbd7b7b7b1.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11509.066666666668
+    },
+    {
+      "name": "Kobe Jared Do",
+      "pfp": "https://avatars.slack-edge.com/2025-05-08/8871607071058_de65c4c4cbc6cb5b6ff4_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11442.816666666668
+    },
+    {
+      "name": "Tony Kan",
+      "pfp": "https://avatars.slack-edge.com/2024-06-24/7324916025570_eb53c189d5c7cbbde7cf_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11402.616666666667
+    },
+    {
+      "name": "Dhairya Agarwal",
+      "pfp": "https://avatars.slack-edge.com/2025-07-01/9155367368224_ca8c949368389e37da3e_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11364.133333333333
+    },
+    {
+      "name": "Bereket Befekadu",
+      "pfp": "https://secure.gravatar.com/avatar/76b4b56056b482b70ea5b8d5254c2d47.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11348.166666666666
+    },
+    {
+      "name": "Jay",
+      "pfp": "https://avatars.slack-edge.com/2025-07-27/9263233198532_c3999d9e4dc74e9b0314_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11238.316666666668
+    },
+    {
+      "name": "Brody Enli",
+      "pfp": "https://avatars.slack-edge.com/2024-11-19/8057321986692_6315b8319e245c50c136_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11209.75
+    },
+    {
+      "name": "Riston Dinesh Rodrigues",
+      "pfp": "https://secure.gravatar.com/avatar/3e4744ef6195883aaef2b2fe595c8bde.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11200.283333333333
+    },
+    {
+      "name": "Marwan Algharably",
+      "pfp": "https://avatars.slack-edge.com/2025-06-19/9098514865408_4ccec03bd4a4a1feacdc_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11096.333333333334
+    },
+    {
+      "name": "SAKSHAM GOEL",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11087.366666666667
+    },
+    {
+      "name": "Cyao",
+      "pfp": "https://avatars.slack-edge.com/2025-05-30/8979376813122_d4a8a1c98d00b1429cf9_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11061.7
+    },
+    {
+      "name": "Raphael Larsen",
+      "pfp": "https://avatars.slack-edge.com/2025-06-27/9131653885041_f1bee66bf3bae0e529b3_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11056.716666666667
+    },
+    {
+      "name": "Nirvaan Kohli",
+      "pfp": "https://avatars.slack-edge.com/2025-07-27/9260683160757_c6ce0334cd5adbed31f7_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 11003.683333333332
+    },
+    {
+      "name": "Chee Yong",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10892.066666666668
+    },
+    {
+      "name": "GiantNut",
+      "pfp": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10810.2
+    },
+    {
+      "name": "rvys",
+      "pfp": "https://avatars.slack-edge.com/2025-07-04/9144290552934_df146699ce88413254fb_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10785.15
+    },
+    {
+      "name": "ruskcoder",
+      "pfp": "https://avatars.slack-edge.com/2024-07-06/7380715218133_4ec6079ac509fd77c77c_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10757.416666666666
+    },
+    {
+      "name": "Lavarite",
+      "pfp": "https://avatars.slack-edge.com/2025-06-20/9093473006881_159431e9b53b6d5f07cf_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10731
+    },
+    {
+      "name": "sabio",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9081170541104_a8dc919075d514a113a2_192.gif",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10704.766666666666
+    },
+    {
+      "name": "U092RPY963E",
+      "pfp": "https://avatars.slack-edge.com/2025-07-05/9164613811649_46af7930af350861645d_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10698.633333333333
+    },
+    {
+      "name": "Stef",
+      "pfp": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10676.116666666667
+    },
+    {
+      "name": "Yuvraj singh",
+      "pfp": "https://secure.gravatar.com/avatar/c4ab8ebbdd22ee123c7253156c8197d3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10627.983333333334
+    },
+    {
+      "name": "U0924PW8LG1",
+      "pfp": "https://secure.gravatar.com/avatar/a91e6045d9b4cbc54c95dcf9a37443f6.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10611.216666666667
+    },
+    {
+      "name": "Echo Inbyte",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9044814224535_74bb10ac6083de6112bc_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10552.583333333334
+    },
+    {
+      "name": "Harshit Singh",
+      "pfp": "https://avatars.slack-edge.com/2025-05-14/8920294378928_d57cc74036e58f114829_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10527.85
+    },
+    {
+      "name": "Nahom Beletew",
+      "pfp": "https://avatars.slack-edge.com/2025-01-15/8320478032176_dec777fb88ed0d9d3b2d_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10496.883333333333
+    },
+    {
+      "name": "Shaurya",
+      "pfp": "https://secure.gravatar.com/avatar/03d10504fd8cddbcaf7cc420f899980d.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10479.533333333333
+    },
+    {
+      "name": "Arush Basliyal",
+      "pfp": "https://avatars.slack-edge.com/2025-01-13/8274664721991_c5077aa7ea5d3ebea4b9_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10471.183333333332
+    },
+    {
+      "name": "Shuflduf",
+      "pfp": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10451.983333333334
+    },
+    {
+      "name": "Khaled Muhammad Ibrahim",
+      "pfp": "https://avatars.slack-edge.com/2025-05-24/8939599682387_edcd82c4258965e1a3ba_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10422.15
+    },
+    {
+      "name": "Tymek",
+      "pfp": "https://avatars.slack-edge.com/2024-12-19/8200522971779_b98898642ebe0f6a0915_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10414.033333333333
+    },
+    {
+      "name": "mzeeie",
+      "pfp": "https://secure.gravatar.com/avatar/97537773d260c35d153b74aa75b7b2d3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10323.15
+    },
+    {
+      "name": "Mahesh dhingra",
+      "pfp": "https://avatars.slack-edge.com/2025-03-19/8639730964593_bfec1c40000597a59cc3_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10289.616666666667
+    },
+    {
+      "name": "Youssef",
+      "pfp": "https://avatars.slack-edge.com/2024-12-27/8220440547798_2afdfa228435d0115cbe_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10284.483333333334
+    },
+    {
+      "name": "Pradyumn Tandon",
+      "pfp": "https://avatars.slack-edge.com/2024-11-29/8099866840467_52b5ea868a8268def1d9_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10194.066666666668
+    },
+    {
+      "name": "Abdur Rehman",
+      "pfp": "https://avatars.slack-edge.com/2025-03-03/8542987730020_fccb7a4cb32a26a1c6cc_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10189.316666666668
+    },
+    {
+      "name": "Yushan",
+      "pfp": "https://avatars.slack-edge.com/2024-12-14/8172726056181_ef72a31250e2a488f986_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10179.333333333334
+    },
+    {
+      "name": "OrigamiKing3612",
+      "pfp": "https://secure.gravatar.com/avatar/fcea678228cec5ddcfe7deb46411693d.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10170.033333333333
+    },
+    {
+      "name": "Axvon",
+      "pfp": "https://avatars.slack-edge.com/2025-07-19/9221372542790_ebafe79a7791735b6875_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10165.583333333334
+    },
+    {
+      "name": "Damian Netter",
+      "pfp": "https://avatars.slack-edge.com/2025-05-08/8891161100512_a6766193f88a721d226c_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10151.933333333332
+    },
+    {
+      "name": "SkydioFlyer",
+      "pfp": "https://secure.gravatar.com/avatar/a47ce056876117d07f4024d9dff3e992.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10121.066666666668
+    },
+    {
+      "name": "Anish Laha",
+      "pfp": "https://secure.gravatar.com/avatar/7cb9a2a14d57dcd69a344fdd994ec532.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 10047.183333333332
+    },
+    {
+      "name": "SebastianAlexis",
+      "pfp": "https://avatars.slack-edge.com/2025-01-25/8353093660372_a00ffa1f5b0f5c6f0739_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9988.35
+    },
+    {
+      "name": "Shwetkamal Gaud",
+      "pfp": "https://secure.gravatar.com/avatar/fde3d4a005d93882b2658b8244024620.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9976.816666666668
+    },
+    {
+      "name": "Kabelo Moobi",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9067392818804_09938eda00952925cf26_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9950.2
+    },
+    {
+      "name": "Swayam Sahoo",
+      "pfp": "https://avatars.slack-edge.com/2023-06-19/5447596478917_a4c78f54b68e2a4493f3_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9947.683333333332
+    },
+    {
+      "name": "Yogya Chugh",
+      "pfp": "https://avatars.slack-edge.com/2025-06-20/9090345160833_3cde8fc12be9701293ef_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9806.933333333332
+    },
+    {
+      "name": "samar",
+      "pfp": "https://avatars.slack-edge.com/2025-04-17/8790927911440_33b67099b69501f4c179_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9798.916666666666
+    },
+    {
+      "name": "hiba",
+      "pfp": "https://avatars.slack-edge.com/2025-06-17/9061297481218_c6952c8d6f046f35c564_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9788.4
+    },
+    {
+      "name": "DoMax",
+      "pfp": "https://secure.gravatar.com/avatar/fbf5601bd9a73bc4bead0e79b3e11419.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9745.283333333333
+    },
+    {
+      "name": "rakes",
+      "pfp": "https://avatars.slack-edge.com/2025-04-17/8771820808147_da9810ae18edfe59f0ce_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9677.933333333332
+    },
+    {
+      "name": "Jeremiah Saunders",
+      "pfp": "https://avatars.slack-edge.com/2025-06-16/9079414533968_b301f0cc2130643886bf_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9647.666666666666
+    },
+    {
+      "name": "cognitivity",
+      "pfp": "https://secure.gravatar.com/avatar/2c4aa815707be1c45ba110559ebc61ee.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9517.733333333334
+    },
+    {
+      "name": "Md. Tasnim Ferdous",
+      "pfp": "https://secure.gravatar.com/avatar/b1a57fa58626c7c06060ba33c81499e3.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9499.583333333334
+    },
+    {
+      "name": "Alexander Hübner",
+      "pfp": "https://avatars.slack-edge.com/2024-06-27/7341027054274_fd080c41f98810ca622e_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9451.816666666668
+    },
+    {
+      "name": "HassaanKH",
+      "pfp": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9406.683333333332
+    },
+    {
+      "name": "Sasidhar Jasty",
+      "pfp": "https://secure.gravatar.com/avatar/54419f518e1c06584d45f2692d133aca.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9398.633333333333
+    },
+    {
+      "name": "ByteAtATime",
+      "pfp": "https://avatars.slack-edge.com/2024-09-11/7715717151955_ac09e6134ae8af258d09_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9393.383333333333
+    },
+    {
+      "name": "Sanjay Bhandari",
+      "pfp": "https://avatars.slack-edge.com/2024-11-30/8128019372752_bd4b3a2147edb7775092_192.jpg",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9381.883333333333
+    },
+    {
+      "name": "Ahsan Moin",
+      "pfp": "https://avatars.slack-edge.com/2025-04-21/8769563571975_42916ab06031f0571beb_192.png",
+      "url": "https://summer.hackclub.com/users/undefined",
+      "hours": 9359.016666666666
+    }
+  ],
+  "last_sync": "2025-08-09T18:56:39.337Z",
+  "leaderboard": {
+    "user": {
+      "hours": [
+        {
+          "name": "rowyn",
+          "score": 0.1,
+          "id": 95,
+          "pfp": "https://avatars.slack-edge.com/2025-06-04/8983251290263_88907e9966d15ad9ddbd_original.png"
+        },
+        {
+          "name": "Aarav",
+          "score": 0.1,
+          "id": 249,
+          "pfp": "https://avatars.slack-edge.com/2025-05-31/8967016813479_c35625b3298f7d4ba26d_original.png"
+        },
+        {
+          "name": "Kritarth Srivastav",
+          "score": 0.1,
+          "id": 379,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9056880800466_b74e2bc5ebd29082ff72_original.png"
+        },
+        {
+          "name": "popolimo",
+          "score": 0.1,
+          "id": 559,
+          "pfp": "https://secure.gravatar.com/avatar/aa633505fbd3d06aa7cada2394ed1d9c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png"
+        },
+        {
+          "name": "iman",
+          "score": 0.1,
+          "id": 614,
+          "pfp": "https://secure.gravatar.com/avatar/a5e2276fd86b35ace7425297f0706b3f.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png"
+        },
+        {
+          "name": "Jonathan",
+          "score": 0.1,
+          "id": 1022,
+          "pfp": "https://secure.gravatar.com/avatar/0cdd03fb60f376be16215bb1bd8ec1d4.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png"
+        },
+        {
+          "name": "Woodie",
+          "score": 0.1,
+          "id": 1116,
+          "pfp": "https://secure.gravatar.com/avatar/467abda1c2e624fda6b3f9e0b1944492.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png"
+        },
+        {
+          "name": "REZZONICO",
+          "score": 0.1,
+          "id": 1153,
+          "pfp": "https://secure.gravatar.com/avatar/3008ea27745404cf88d04a5babef49dc.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Hashim",
+          "score": 0.1,
+          "id": 1179,
+          "pfp": "https://secure.gravatar.com/avatar/fdab886d9f85d6d2c480295060d8c0b0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png"
+        },
+        {
+          "name": "aidan",
+          "score": 0.1,
+          "id": 1181,
+          "pfp": "https://secure.gravatar.com/avatar/2d6f16ddbb448b183e8f79977be731f3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png"
+        },
+        {
+          "name": "Vartiuc",
+          "score": 0.1,
+          "id": 1202,
+          "pfp": "https://secure.gravatar.com/avatar/d3eff450cda0b037d616596cb489d5cd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Laura",
+          "score": 0.1,
+          "id": 1371,
+          "pfp": "https://secure.gravatar.com/avatar/234cff47305fc52eef4eb83b642da9b5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png"
+        },
+        {
+          "name": "bunnysunny24",
+          "score": 0.1,
+          "id": 1499,
+          "pfp": "https://secure.gravatar.com/avatar/8c3476e3467db19f0041b7d6097b4072.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-512.png"
+        },
+        {
+          "name": "Lakshay",
+          "score": 0.1,
+          "id": 1506,
+          "pfp": "https://secure.gravatar.com/avatar/1b7b8bf64c47e6e60e747497d25b753a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png"
+        },
+        {
+          "name": "BoxC4T",
+          "score": 0.1,
+          "id": 1616,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9042417147671_23b33a8cfa6677c71f29_original.png"
+        },
+        {
+          "name": "David",
+          "score": 0.1,
+          "id": 1671,
+          "pfp": "https://secure.gravatar.com/avatar/c5eeabb82a8a165f5029cc80af34ebf6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png"
+        },
+        {
+          "name": "Panagiotis Kouzaris",
+          "score": 0.1,
+          "id": 1709,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9042472228263_06336d68ec5d3404a247_original.webp"
+        },
+        {
+          "name": "Tuấn Võ Lân",
+          "score": 0.1,
+          "id": 1737,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9057799403762_9f91866a282c0e53d589_original.jpg"
+        },
+        {
+          "name": "Abdullokh Tulkinov",
+          "score": 0.1,
+          "id": 1858,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9058292409684_644975e0c99f373bba96_original.jpg"
+        },
+        {
+          "name": "Daniele",
+          "score": 0.1,
+          "id": 1881,
+          "pfp": "https://secure.gravatar.com/avatar/c63ea1335dba9c56af9f9e8c4491f1f5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png"
+        },
+        {
+          "name": "Joash Biji",
+          "score": 0.1,
+          "id": 2245,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9056434962517_b81d3999614dd0c41038_original.jpg"
+        },
+        {
+          "name": "Marcello Martini",
+          "score": 0.1,
+          "id": 2333,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9080739326176_c73547d4db8993c6906a_original.png"
+        },
+        {
+          "name": "Mohamed Aziz Mosbah",
+          "score": 0.1,
+          "id": 2362,
+          "pfp": "https://secure.gravatar.com/avatar/bc1650b8683479afebc5371d5ecea782.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Elinor Reyher",
+          "score": 0.1,
+          "id": 2386,
+          "pfp": "https://secure.gravatar.com/avatar/40773427598c6bc544b3bede1061f69e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png"
+        },
+        {
+          "name": "Lorenzo",
+          "score": 0.1,
+          "id": 2440,
+          "pfp": "https://secure.gravatar.com/avatar/83b638321e498715b5a356ed27001ea5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png"
+        },
+        {
+          "name": "D S",
+          "score": 0.1,
+          "id": 2554,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9056750319093_c03475c490a62e228cf9_original.jpg"
+        },
+        {
+          "name": "Mubarak Ahmed",
+          "score": 0.1,
+          "id": 2558,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9058895433588_3ac0c82d4a88594e4880_original.png"
+        },
+        {
+          "name": "boki",
+          "score": 0.1,
+          "id": 2698,
+          "pfp": "https://avatars.slack-edge.com/2025-03-06/8568058234705_1088a31bee19f55c0612_original.jpg"
+        },
+        {
+          "name": "DynamicWhiteHat",
+          "score": 0.1,
+          "id": 2791,
+          "pfp": "https://avatars.slack-edge.com/2025-03-04/8550992417330_8cf59e51589375e49ae8_original.jpg"
+        },
+        {
+          "name": "luna",
+          "score": 0.1,
+          "id": 2869,
+          "pfp": "https://secure.gravatar.com/avatar/b83f24358227222f5ae32915a53eef06.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png"
+        },
+        {
+          "name": "Squirrelmancer",
+          "score": 0.1,
+          "id": 2885,
+          "pfp": "https://avatars.slack-edge.com/2024-08-13/7581549594113_91d77b483e2735560c48_original.png"
+        },
+        {
+          "name": "Mike O’Leary",
+          "score": 0.1,
+          "id": 2918,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9052051092662_87238d4354617dec9947_original.png"
+        },
+        {
+          "name": "Annabella Du",
+          "score": 0.1,
+          "id": 2977,
+          "pfp": "https://secure.gravatar.com/avatar/b2c68ab448c2d514712f0b7bd18d5b8a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png"
+        },
+        {
+          "name": "zechen",
+          "score": 0.1,
+          "id": 3023,
+          "pfp": "https://secure.gravatar.com/avatar/0bca0f2c6743bfefe41db3c1b27b42cd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png"
+        },
+        {
+          "name": "Jerry Yao",
+          "score": 0.1,
+          "id": 3169,
+          "pfp": "https://secure.gravatar.com/avatar/f7a122cc3f0b5e85f788df9b46417c79.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Mostafa Atef",
+          "score": 0.1,
+          "id": 3208,
+          "pfp": "https://secure.gravatar.com/avatar/76e23ce4f8f0198735cb3910261f43f6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png"
+        },
+        {
+          "name": "vaggos_dev",
+          "score": 0.1,
+          "id": 3225,
+          "pfp": "https://secure.gravatar.com/avatar/b321bfc6469287824e6f9dfce8383b71.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png"
+        },
+        {
+          "name": "mihranrazaa",
+          "score": 0.1,
+          "id": 3228,
+          "pfp": "https://avatars.slack-edge.com/2025-06-15/9050253101573_b2cf67e01d421a8b608d_original.jpg"
+        },
+        {
+          "name": "jmh0989",
+          "score": 0.1,
+          "id": 3367,
+          "pfp": "https://secure.gravatar.com/avatar/1615aebceca7a21b5e9980bfe9aca980.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png"
+        },
+        {
+          "name": "Jade",
+          "score": 0.1,
+          "id": 3688,
+          "pfp": "https://avatars.slack-edge.com/2025-06-16/9059490117218_70b26cbb89102baf8447_original.gif"
+        },
+        {
+          "name": "Majid Khan",
+          "score": 0.1,
+          "id": 3982,
+          "pfp": "https://secure.gravatar.com/avatar/c1d9113a65c4db742f4ea8864b5b21df.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png"
+        },
+        {
+          "name": "sxasky",
+          "score": 0.1,
+          "id": 4139,
+          "pfp": "https://secure.gravatar.com/avatar/e247dda2cc6c3fdc031db1d934473eda.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png"
+        },
+        {
+          "name": "K P NARAYANAN",
+          "score": 0.1,
+          "id": 4143,
+          "pfp": "https://avatars.slack-edge.com/2025-07-23/9254450217505_80bb3d90fcc64eadae87_original.jpg"
+        },
+        {
+          "name": "TuanLA",
+          "score": 0.1,
+          "id": 4160,
+          "pfp": "https://secure.gravatar.com/avatar/f8994375916e5b808512cb758bab8ae7.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png"
+        },
+        {
+          "name": "Xat",
+          "score": 0.1,
+          "id": 4283,
+          "pfp": "https://secure.gravatar.com/avatar/ffc80f7c662e056083be5a00ebe973b5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png"
+        },
+        {
+          "name": "AshKan",
+          "score": 0.1,
+          "id": 4458,
+          "pfp": "https://secure.gravatar.com/avatar/ec1bab1d6d9e0e881ce31c304a5819ca.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Saurabh Gupta",
+          "score": 0.1,
+          "id": 4530,
+          "pfp": "https://secure.gravatar.com/avatar/2fb1ea096bc784a72c54604f459bc535.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png"
+        },
+        {
+          "name": "Yash00241",
+          "score": 0.1,
+          "id": 4686,
+          "pfp": "https://avatars.slack-edge.com/2024-07-30/7492112400982_a1ede144a74a890ff6a8_original.png"
+        },
+        {
+          "name": "Sanjay Kumar Yadav",
+          "score": 0.1,
+          "id": 4709,
+          "pfp": "https://secure.gravatar.com/avatar/9030c106a6dae63c6bd1419ed7651f5d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png"
+        },
+        {
+          "name": "Berry",
+          "score": 0.1,
+          "id": 4749,
+          "pfp": "https://avatars.slack-edge.com/2025-05-24/8945989430469_d8b34efd5b995a4bf550_original.png"
+        },
+        {
+          "name": "Alexqwsa",
+          "score": 0.1,
+          "id": 4815,
+          "pfp": "https://avatars.slack-edge.com/2025-02-11/8458965018160_8862a0efe62d64eaad4c_original.png"
+        },
+        {
+          "name": "Sankalp Mudaliar",
+          "score": 0.1,
+          "id": 4834,
+          "pfp": "https://avatars.slack-edge.com/2024-09-03/7657122099223_fa42dd2b759f5be41f05_original.png"
+        },
+        {
+          "name": "Ansh Gupta",
+          "score": 0.1,
+          "id": 4883,
+          "pfp": "https://secure.gravatar.com/avatar/c84da0517470df3d12bb1b0efb16e52c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png"
+        },
+        {
+          "name": "Digu",
+          "score": 0.1,
+          "id": 4986,
+          "pfp": "https://secure.gravatar.com/avatar/a100bce1870932f7ed5c402237f130d9.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png"
+        },
+        {
+          "name": "szaeee",
+          "score": 0.1,
+          "id": 5046,
+          "pfp": "https://secure.gravatar.com/avatar/94cb8ef7d8726a6fc9ef1e538556670c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png"
+        },
+        {
+          "name": "pratham",
+          "score": 0.1,
+          "id": 5126,
+          "pfp": "https://secure.gravatar.com/avatar/96818722d13ba14464edf388ca9c841e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png"
+        },
+        {
+          "name": "Suprit Panda",
+          "score": 0.1,
+          "id": 5173,
+          "pfp": "https://secure.gravatar.com/avatar/876354a0f8bc9be5798cfd7ce5ca165d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png"
+        },
+        {
+          "name": "Anurag Jha",
+          "score": 0.1,
+          "id": 5181,
+          "pfp": "https://secure.gravatar.com/avatar/bffc8549231a1db218e993a93a7e72de.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-512.png"
+        },
+        {
+          "name": "diamondmonster09",
+          "score": 0.1,
+          "id": 5263,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9045271270567_fc00a5c995af2a2d08ed_original.png"
+        },
+        {
+          "name": "Kuldeep Goswami",
+          "score": 0.1,
+          "id": 5270,
+          "pfp": "https://secure.gravatar.com/avatar/43cbac537984af37745157376d6fd839.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png"
+        },
+        {
+          "name": "Aryan",
+          "score": 0.1,
+          "id": 5280,
+          "pfp": "https://secure.gravatar.com/avatar/c7f13d21ed229a032a75fceec3ae9757.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png"
+        },
+        {
+          "name": "Yuan Lin",
+          "score": 0.1,
+          "id": 5313,
+          "pfp": "https://secure.gravatar.com/avatar/908e2ed466c4960162a4722f65346197.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png"
+        },
+        {
+          "name": "akki2602abcd",
+          "score": 0.1,
+          "id": 5385,
+          "pfp": "https://avatars.slack-edge.com/2024-11-20/8081078306592_f6984fb2866c93dc978a_original.jpg"
+        },
+        {
+          "name": "Ali Mumtaz",
+          "score": 0.1,
+          "id": 5433,
+          "pfp": "https://secure.gravatar.com/avatar/d4f1ad466643819dc931c5348a8a1755.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-512.png"
+        },
+        {
+          "name": "Eduardo Mendes Cambandza",
+          "score": 0.1,
+          "id": 5462,
+          "pfp": "https://secure.gravatar.com/avatar/2f7a05ca432ca68f7500143ec1b04bd2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png"
+        },
+        {
+          "name": "NZIA",
+          "score": 0.1,
+          "id": 5486,
+          "pfp": "https://secure.gravatar.com/avatar/f22f03b80b2ec514733494f2895b2520.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png"
+        },
+        {
+          "name": "Nova",
+          "score": 0.1,
+          "id": 5505,
+          "pfp": "https://avatars.slack-edge.com/2025-05-12/8890534119348_43b2cfe64e59414f71ac_original.png"
+        },
+        {
+          "name": "Princy Chauhan",
+          "score": 0.1,
+          "id": 5540,
+          "pfp": "https://secure.gravatar.com/avatar/4d6dd7b82e3f46cc2d75ae8b29f4c92a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png"
+        },
+        {
+          "name": "Trần Vũ",
+          "score": 0.1,
+          "id": 5578,
+          "pfp": "https://secure.gravatar.com/avatar/07bc9e080a7a73535a35dc681ed2bdda.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png"
+        },
+        {
+          "name": "Denis",
+          "score": 0.1,
+          "id": 5624,
+          "pfp": "https://secure.gravatar.com/avatar/4319e8f0bdb724b6a2311231b760a1d5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png"
+        },
+        {
+          "name": "buse",
+          "score": 0.1,
+          "id": 5737,
+          "pfp": "https://secure.gravatar.com/avatar/0565bb0644d83b62aaddde085b8f5efb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png"
+        },
+        {
+          "name": "LT Ang",
+          "score": 0.1,
+          "id": 5801,
+          "pfp": "https://avatars.slack-edge.com/2024-11-22/8073657477507_0f8957fa26a6a087b225_original.png"
+        },
+        {
+          "name": "Ondřej Trebulák",
+          "score": 0.1,
+          "id": 5915,
+          "pfp": "https://secure.gravatar.com/avatar/de81cd2853aa964ed90205b31d79c034.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png"
+        },
+        {
+          "name": "isuliau",
+          "score": 0.1,
+          "id": 5920,
+          "pfp": "https://secure.gravatar.com/avatar/8490457bba1365374e7515f7c6b27ab3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png"
+        },
+        {
+          "name": "Tushar Kukreti",
+          "score": 0.1,
+          "id": 5927,
+          "pfp": "https://secure.gravatar.com/avatar/5cdb72fdd2f221d9e14eab270b54c34c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png"
+        },
+        {
+          "name": "ziho",
+          "score": 0.1,
+          "id": 5937,
+          "pfp": "https://secure.gravatar.com/avatar/e8681bdd8199d6d7d9e7a0a7b6b11975.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Clemens",
+          "score": 0.1,
+          "id": 6141,
+          "pfp": "https://secure.gravatar.com/avatar/429cdad04fa5f47ba2f6993b0b32ec69.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png"
+        },
+        {
+          "name": "Maria Fernanda Costa",
+          "score": 0.1,
+          "id": 6199,
+          "pfp": "https://secure.gravatar.com/avatar/63e7a5bb27ae768d0ce6a31858217b26.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png"
+        },
+        {
+          "name": "Ian",
+          "score": 0.1,
+          "id": 6371,
+          "pfp": "https://secure.gravatar.com/avatar/3a53083babd0ae54030b8c25956c7483.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png"
+        },
+        {
+          "name": "Ijeoma Nwokoro",
+          "score": 0.1,
+          "id": 6412,
+          "pfp": "https://secure.gravatar.com/avatar/31d1f8ef2c299e20d77334eeea01b5f4.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png"
+        },
+        {
+          "name": "Rrishabh Sankaran 24BAI1071",
+          "score": 0.1,
+          "id": 6590,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9047548991751_f74d84aca43e695ab342_original.png"
+        },
+        {
+          "name": "Daniel Müller",
+          "score": 0.1,
+          "id": 6663,
+          "pfp": "https://secure.gravatar.com/avatar/3612b17bb9ed6b7ed0d8fbf894720836.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png"
+        },
+        {
+          "name": "ellie",
+          "score": 0.1,
+          "id": 6681,
+          "pfp": "https://avatars.slack-edge.com/2025-07-03/9140063523491_a161ef7d6865d787701e_original.png"
+        },
+        {
+          "name": "Hector Espinoza",
+          "score": 0.1,
+          "id": 6695,
+          "pfp": "https://secure.gravatar.com/avatar/ad28589fa38aa75d40c9388c9be1dfde.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png"
+        },
+        {
+          "name": "nekomoti",
+          "score": 0.1,
+          "id": 6727,
+          "pfp": "https://secure.gravatar.com/avatar/e4e3f611be5c648088dbe6e0a88a6a97.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png"
+        },
+        {
+          "name": "Samhita",
+          "score": 0.1,
+          "id": 6742,
+          "pfp": "https://secure.gravatar.com/avatar/4b89016fe80c931ba42a56263372b032.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png"
+        },
+        {
+          "name": "Nenox",
+          "score": 0.1,
+          "id": 6882,
+          "pfp": "https://secure.gravatar.com/avatar/4d6d697477a3f17df9221e7efcd8f5ad.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png"
+        },
+        {
+          "name": "Lucy Wu",
+          "score": 0.1,
+          "id": 6936,
+          "pfp": "https://avatars.slack-edge.com/2024-06-21/7328433370001_da5f4bf3f3faf8f713a5_original.jpg"
+        },
+        {
+          "name": "zALIKA",
+          "score": 0.1,
+          "id": 7138,
+          "pfp": "https://secure.gravatar.com/avatar/50be77c4c6c7ad4155f3cec01a255733.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png"
+        },
+        {
+          "name": "Erez Borenshtein",
+          "score": 0.1,
+          "id": 7153,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9064453207218_cb193c4e649c9d0ff7a8_original.png"
+        },
+        {
+          "name": "Elias Lindström",
+          "score": 0.1,
+          "id": 7162,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9062835913445_294c7770fb31dd74caaa_original.jpg"
+        },
+        {
+          "name": "Vaibhavi Kode",
+          "score": 0.1,
+          "id": 7357,
+          "pfp": "https://avatars.slack-edge.com/2025-06-12/9027576663671_b4905a954590cc450be1_original.jpg"
+        },
+        {
+          "name": "Ivan Ratushny",
+          "score": 0.1,
+          "id": 7618,
+          "pfp": "https://avatars.slack-edge.com/2025-06-17/9088285465504_a42de0ec4564bba64eac_original.png"
+        },
+        {
+          "name": "Georges Michel",
+          "score": 0.1,
+          "id": 7622,
+          "pfp": "https://secure.gravatar.com/avatar/26a45acbafdfd09da0c2967fb799eeb0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png"
+        },
+        {
+          "name": "wenli yu",
+          "score": 0.1,
+          "id": 7654,
+          "pfp": "https://secure.gravatar.com/avatar/247d74035e6354e06b7c38df50a14573.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png"
+        },
+        {
+          "name": "Rajveer",
+          "score": 0.1,
+          "id": 7656,
+          "pfp": "https://secure.gravatar.com/avatar/d0190c3c9da96ed2e0352982b94bd4da.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png"
+        },
+        {
+          "name": "Aiden Oradan",
+          "score": 0.1,
+          "id": 7696,
+          "pfp": "https://secure.gravatar.com/avatar/0df0e06494fc77fc6b3779cf4a7bb80e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png"
+        },
+        {
+          "name": "musdax",
+          "score": 0.1,
+          "id": 7756,
+          "pfp": "https://secure.gravatar.com/avatar/336301c2eb73b0c9e3abd37add30f2be.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png"
+        },
+        {
+          "name": "Akash Singh",
+          "score": 0.1,
+          "id": 7834,
+          "pfp": "https://secure.gravatar.com/avatar/2721afaa87573d96f2bb8e1a2c6dbf42.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png"
+        },
+        {
+          "name": "Dineshkumar Suresh",
+          "score": 0.1,
+          "id": 7877,
+          "pfp": "https://secure.gravatar.com/avatar/6d38d68a3f505c6272dd929ee3e6eb37.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png"
+        }
+      ],
+      "projects": [],
+      "devlogs": [],
+      "votes": [],
+      "badges": [],
+      "css": []
+    },
+    "project": {
+      "hours": [],
+      "devlogs": [],
+      "followers": []
+    }
+  }
+}

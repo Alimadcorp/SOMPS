@@ -11,15 +11,17 @@ export default function ProjectCard({ project, highlight }) {
     description,
     author_real_name,
     author_pfp,
+    uid,
     slack_id,
     created_at,
     time,
     devlogs,
+    followers,
     author_timezone,
     author_pronouns,
     repo_link,
     demo_link,
-    imageUrl,
+    banner,
   } = project || {};
   const smoller = title.length > 50;
   function highlightText(text, highlights) {
@@ -65,9 +67,9 @@ export default function ProjectCard({ project, highlight }) {
       <div className="absolute inset-0">
         <img
           src={
-            imageUrl?.startsWith("/")
-              ? `https://summer.hackclub.com${imageUrl}`
-              : imageUrl ||
+            banner?.startsWith("/")
+              ? `https://summer.hackclub.com${banner}`
+              : banner ||
                 "https://client-of-making.quntem.co.uk/public/banner-placeholder.png"
           }
           alt={title ? `${title} project banner` : "Project banner"}
@@ -129,28 +131,33 @@ export default function ProjectCard({ project, highlight }) {
           onClick={(e) => e.stopPropagation()}
         >
           <a
-            href={
-              slack_id ? `slack://user?team=${team_id}&id=${slack_id}` : "#"
-            }
+            href={slack_id ? `slack://user?team=${team_id}&id=${slack_id}` : "#"}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 hover:opacity-80 transition-opacity duration-200"
           >
-            {author_pfp ? (
-              <img
-                src={author_pfp || "/placeholder.svg"}
-                alt={author_real_name || "Author"}
-                width={36}
-                height={36}
-                className="rounded-full border-2 border-white/40 shadow-lg"
-              />
-            ) : (
-              <div className="w-9 h-9 rounded-full bg-white/20 border-2 border-white/40 flex items-center justify-center">
-                <span className="text-xs font-medium">
-                  {author_real_name?.charAt(0)?.toUpperCase() || "?"}
-                </span>
-              </div>
-            )}
+          {author_pfp ? (
+            <img
+              src={author_pfp || "/placeholder.svg"}
+              alt={author_real_name || "Author"}
+              width={36}
+              height={36}
+              className="rounded-full border-2 border-white/40 shadow-lg"
+            />
+          ) : (
+            <div className="w-9 h-9 rounded-full bg-white/20 border-2 border-white/40 flex items-center justify-center">
+              <span className="text-xs font-medium">
+                {author_real_name?.charAt(0)?.toUpperCase() || "?"}
+              </span>
+            </div>
+          )}
+          </a>
+          <a
+            href={uid ? `https://summer.hackclub.com/users/${uid}` : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 hover:opacity-80 transition-opacity duration-200"
+          >
             <span className="text-sm font-medium drop-shadow-sm">
               {author_real_name
                 ? highlightText(author_real_name, highlights)
@@ -190,10 +197,16 @@ export default function ProjectCard({ project, highlight }) {
           )}
           {author_pronouns && (
             <>
-              {(true) && (
-                <span className="text-white/40">•</span>
-              )}
+              {true && <span className="text-white/40">•</span>}
               <span>{author_pronouns}</span>
+            </>
+          )}
+          {followers.length > 0 && (
+            <>
+              {true && <span className="text-white/40">•</span>}
+              <span>
+                {followers.length} follower{followers.length > 1 ? "s" : ""}
+              </span>
             </>
           )}
           {displayTimezone && (

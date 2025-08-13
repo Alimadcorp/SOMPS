@@ -92,6 +92,8 @@ export default function SearchContent() {
           t = (50400 - diff) * 10;
         }
         return t;
+      case "followers":
+        return project.followers.length;
       case "updated_at":
         return project.updated_at
           ? new Date(project.updated_at).getTime() / 1000000

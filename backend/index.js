@@ -158,55 +158,66 @@ async function main() {
     //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
-  let r = await fetch("https://summer.hackclub.com/votes/locked", {
-    headers: {
-      Cookie: cookie,
-      accept: "text/html, application/xhtml+xml",
-      referer: "https://summer.hackclub.com/explore",
-      "sec-ch-ua":
-        '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": "Windows",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      "turbo-frame": "load-more-projects",
-      "user-agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-    },
-  });
-  let b = await r.text();
-  fs.writeFileSync("aaa.html", b, "utf-8");
-  const par = parser.parse(b);
-  let elem = par.querySelector(".card-with-gradient.text-lg.text-center");
-  let es = elem.querySelectorAll("p");
-  let c = es[1].innerHTML.replace(/ \/.+$/, "");
-  let tt = es[2].innerHTML
-    .replace(" certified projects, any amount of coding time)", "")
-    .replace("(", "");
-  r = await fetch("https://summer.hackclub.com/votes/new", {
-    headers: {
-      Cookie: cookie,
-      accept: "text/html, application/xhtml+xml",
-      referer: "https://summer.hackclub.com/explore",
-      "sec-ch-ua":
-        '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": "Windows",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      "turbo-frame": "load-more-projects",
-      "user-agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-    },
-  });
-  b = await r.text();
+  let c = 1172;
+  let tt = 2568;
+  let votes = 77290;
+  if (false) {
+    let r = await fetch("https://summer.hackclub.com/votes/locked", {
+      headers: {
+        Cookie: cookie,
+        accept: "text/html, application/xhtml+xml",
+        referer: "https://summer.hackclub.com/explore",
+        "sec-ch-ua":
+          '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "Windows",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "turbo-frame": "load-more-projects",
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      },
+    });
+    let b = await r.text();
+    fs.writeFileSync("aaa.html", b, "utf-8");
+    const par = parser.parse(b);
+    let elem = par.querySelector(".card-with-gradient.text-lg.text-center");
+    let es = elem.querySelectorAll("p");
+    c = es[1].innerHTML.replace(/ \/.+$/, "");
+    tt = es[2].innerHTML
+      .replace(" certified projects, any amount of coding time)", "")
+      .replace("(", "");
+    r = await fetch("https://summer.hackclub.com/votes/new", {
+      headers: {
+        Cookie: cookie,
+        accept: "text/html, application/xhtml+xml",
+        referer: "https://summer.hackclub.com/explore",
+        "sec-ch-ua":
+          '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "Windows",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "turbo-frame": "load-more-projects",
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      },
+    });
+    b = await r.text();
 
-  fs.writeFileSync("aaa2.html", b, "utf-8");
-  const par2 = parser.parse(b);
-  elem = par2.querySelector(".text-lg.opacity-60");
-  let votes = parseInt(elem.innerHTML.match(/\! \d+/g)[0].replace("! ", ""));
+    //fs.writeFileSync("aaa2.html", b, "utf-8");
+    //const par2 = parser.parse(b);
+    //elem = par2.querySelector(".text-lg.opacity-60");
+    votes = parseInt(elem.innerHTML.match(/\! \d+/g)[0].replace("! ", ""));
+  }
+
+  function timeToHours(seconds) {
+    let hours = Math.floor(seconds / 3600);
+    let minutes = Math.floor(seconds / 60) % 60;
+    return `${hours}h ${minutes}m`;
+  }
 
   users = JSON.parse(fs.readFileSync("users.json", "utf-8"));
   users2 = JSON.parse(fs.readFileSync("user.json", "utf-8"));
@@ -215,13 +226,6 @@ async function main() {
   });
   let usersJoined = {};
   let userHours = {};
-  let userCSS = {};
-  let userBio = {};
-  let userHoursDaily = {};
-  let userDevlogs = {};
-  let userVotes = {};
-  let userProjects = {};
-  let userShips = {};
   let bannedUsers = ["U091RNMRAH2"];
   let conversations = parseInt(fs.readFileSync("channels.txt", "utf-8"));
   let pl = Object.keys(projects).length;
@@ -240,6 +244,7 @@ async function main() {
       //await delay(50);
     }
   }
+  minss = Math.floor(minss);
   console.log(userHours);
   for (let i = 0; i < k.length; i++) {
     let j = k[i];
@@ -322,7 +327,11 @@ async function main() {
     top10.push({
       name: user?.author_real_name || slackId,
       pfp: user?.author_pfp,
-      url: `/search?q=${slackId}`,
+      url: `https://summer.hackclub.com/users/${
+        Object.values(users2).find((e) => {
+          return e.slack_id == user.slack_id;
+        })?.id
+      }`,
       projects: usersJoined[slackId],
     });
   }
@@ -335,7 +344,11 @@ async function main() {
     top10Hours.push({
       name: user?.author_real_name || slackId,
       pfp: user?.author_pfp,
-      url: `/search?q=${slackId}`,
+      url: `https://summer.hackclub.com/users/${
+        Object.values(users2).find((e) => {
+          return e.slack_id == user.slack_id;
+        })?.id
+      }`,
       hours: userHours[slackId],
     });
   }
@@ -345,7 +358,11 @@ async function main() {
     next10_users.push({
       name: user?.author_real_name || slackId,
       pfp: user?.author_pfp,
-      url: `/search?q=${slackId}`,
+      url: `https://summer.hackclub.com/users/${
+        Object.values(users2).find((e) => {
+          return e.slack_id == user.slack_id;
+        })?.id
+      }`,
       hours: userHours[slackId],
     });
   }
@@ -368,12 +385,160 @@ async function main() {
   participants_chart[t] = Object.keys(usersJoined).length;
   votes_chart[t] = votes;
   minutes_chart[t] = minss;
+  let USERS = Object.values(users2).filter((u) => {
+    return u.projects_count > 0;
+  });
+  let lb_u_hours = [];
+  let lb_u_projects = [];
+  let lb_u_devlogs = [];
+  let lb_u_votes = [];
+  let lb_u_badges = [];
+  let lb_u_css = [];
+  let lb_u_shells = [];
+  let lb_u_bio = [];
+  for (let i = 0; i < USERS.length; i++) {
+    let u = USERS[i];
+    lb_u_hours.push({
+      name: u.display_name,
+      score: Math.floor(u.coding_time_seconds / 360) / 10,
+      id: u.id,
+      image: u.avatar,
+      url: "https://summer.hackclub.com/users/" + u.id,
+    });
+    lb_u_projects.push({
+      name: u.display_name,
+      score: u.projects_count,
+      id: u.id,
+      image: u.avatar,
+      url: "/search?q=" + u.slack_id,
+    });
+    lb_u_devlogs.push({
+      name: u.display_name,
+      score: u.devlogs_count,
+      id: u.id,
+      image: u.avatar,
+      url: "https://summer.hackclub.com/users/" + u.id,
+    });
+    lb_u_votes.push({
+      name: u.display_name,
+      score: u.votes_count,
+      id: u.id,
+      image: u.avatar,
+      url: "https://summer.hackclub.com/users/" + u.id,
+    });
+    lb_u_badges.push({
+      name: u.display_name,
+      score: u.badges.length,
+      id: u.id,
+      image: u.avatar,
+      url: "https://summer.hackclub.com/users/" + u.id,
+    });
+    let css = u.custom_css?.length;
+    if (css > 0) {
+      lb_u_css.push({
+        name: u.display_name,
+        score: u.custom_css?.length,
+        id: u.id,
+        image: u.avatar,
+        url: "https://summer.hackclub.com/users/" + u.id,
+      });
+    }
+    let bbb = u.bio?.length;
+    if (bbb > 0) {
+      lb_u_bio.push({
+        name: u.display_name,
+        score: u.bio?.length,
+        id: u.id,
+        image: u.avatar,
+        url: "https://summer.hackclub.com/users/" + u.id,
+      });
+    }
+    let b = parseInt(u.balance);
+    if (!isNaN(b)) {
+      lb_u_shells.push({
+        name: u.display_name,
+        score: b,
+        id: u.id,
+        image: u.avatar,
+        url: "https://summer.hackclub.com/users/" + u.id,
+      });
+    }
+  }
+
+  let lb_p_hours = [];
+  let lb_p_devlogs = [];
+  let lb_p_followers = [];
+  let lb_p_title = [];
+  const pkeys = Object.keys(projects);
+  for (let i = 0; i < pkeys.length; i++) {
+    let key = pkeys[i];
+    let p = projects[key];
+    lb_p_hours.push({
+      name: p.title,
+      score: Math.floor(p.total_seconds_coded / 360) / 10,
+      id: p.id,
+      image: p.banner,
+      author_name: p.author_name,
+      url: "https://summer.hackclub.com/projects/" + p.id,
+    });
+    lb_p_devlogs.push({
+      name: p.title,
+      score: p.devlogs_count,
+      id: p.id,
+      image: p.banner,
+      author_name: p.author_name,
+      url: "https://summer.hackclub.com/projects/" + p.id,
+    });
+    lb_p_followers.push({
+      name: p.title,
+      score: p.followers.length,
+      id: p.id,
+      image: p.banner,
+      author_name: p.author_name,
+      url: "https://summer.hackclub.com/projects/" + p.id,
+    });
+    lb_p_title.push({
+      name: p.title,
+      score: p.title.length,
+      id: p.id,
+      image: p.banner,
+      author_name: p.author_name,
+      url: "https://summer.hackclub.com/projects/" + p.id,
+    });
+  }
+  let lb = {
+    user: {
+      hours: filt(lb_u_hours),
+      projects: filt(lb_u_projects),
+      devlogs: filt(lb_u_devlogs),
+      votes: filt(lb_u_votes),
+      badges: filt(lb_u_badges),
+      css: filt(lb_u_css),
+      bio: filt(lb_u_bio),
+    },
+    project: {
+      hours: filt(lb_p_hours),
+      devlogs: filt(lb_p_devlogs),
+      followers: filt(lb_p_followers),
+      title: filt(lb_p_title),
+    },
+  };
+  let total_bans = 170;
+  let total_burned_shells = 83880;
+  let total_shells = 271242;
+  let total_items = 81;
+  let total_purchased = 8605;
   let stats = {
     total_projects: Object.keys(projects).length,
     certified: tt,
     certified_10: c,
     devlogs,
-    channels: Object.keys(conversations).length,
+    total_bans,
+    total_burned_shells,
+    total_shells,
+    total_items,
+    total_purchased,
+    channels: parseInt(fs.readFileSync("channels.txt", "utf-8")),
     votes_cast: votes,
     project_chart: project_chart,
     user_chart,
@@ -381,11 +546,9 @@ async function main() {
     votes_chart,
     minutes_chart,
     total_users: usersActive.length,
-    total_minutes: minss,
+    total_minutes: Math.floor(minss),
     joined_users: Object.keys(usersJoined).length,
-    top10_users: top10,
-    top10Hours,
-    next90_users: next10_users,
+    leaderboard: lb,
     last_sync: new Date().toISOString(),
   };
   fs.writeFileSync("projectsfinal.json", JSON.stringify(projects), "utf8");
@@ -407,6 +570,17 @@ async function main() {
     `${JSON.stringify(stats, null, 2)}`,
     "utf8"
   );
+}
+
+function filt(d) {
+  return d
+    .filter((e) => {
+      return e.score > 0;
+    })
+    .sort((a, b) => {
+      return b.score - a.score;
+    })
+    .slice(0, 100);
 }
 
 async function mainStarter() {
