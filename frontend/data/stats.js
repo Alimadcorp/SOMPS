@@ -1,14 +1,14 @@
 export const stats = {
-  "total_projects": 8487,
+  "total_projects": 9418,
   "certified": 2568,
   "certified_10": 1172,
-  "devlogs": 27758,
+  "devlogs": 31700,
   "total_bans": 170,
   "total_burned_shells": 83880,
   "total_shells": 271242,
   "total_items": 81,
   "total_purchased": 8605,
-  "channels": 10036,
+  "channels": 10227,
   "votes_cast": 77290,
   "project_chart": {
     "2025-06-20T16:00:00.000Z": 2744,
@@ -34,7 +34,8 @@ export const stats = {
     "2025-07-21T08:07:46.284Z": 6407,
     "2025-07-28T20:10:38.184Z": 7237,
     "2025-08-13T07:55:14.889Z": 8487,
-    "2025-08-13T09:48:26.447Z": 8487
+    "2025-08-13T09:48:26.447Z": 8487,
+    "2025-08-24T06:35:59.696Z": 9418
   },
   "user_chart": {
     "2025-06-22T00:00:00.000Z": 85835,
@@ -58,7 +59,8 @@ export const stats = {
     "2025-07-17T07:59:18.806Z": 89695,
     "2025-07-21T08:07:46.284Z": 90091,
     "2025-07-28T20:10:38.184Z": 94835,
-    "2025-08-13T09:48:26.447Z": 96809
+    "2025-08-13T09:48:26.447Z": 96809,
+    "2025-08-24T06:35:59.696Z": 98615
   },
   "participants_chart": {
     "2025-06-22T00:00:00.000Z": 2129,
@@ -81,7 +83,8 @@ export const stats = {
     "2025-07-17T07:59:18.806Z": 3217,
     "2025-07-21T08:07:46.284Z": 3317,
     "2025-07-28T20:10:38.184Z": 3747,
-    "2025-08-13T09:48:26.447Z": 4158
+    "2025-08-13T09:48:26.447Z": 4158,
+    "2025-08-24T06:35:59.696Z": 4375
   },
   "votes_chart": {
     "2025-07-01T01:00:29.622Z": 0,
@@ -98,7 +101,8 @@ export const stats = {
     "2025-07-21T08:07:46.284Z": 35829,
     "2025-07-28T19:47:20.181Z": 46661,
     "2025-07-28T20:10:38.184Z": 46711,
-    "2025-08-13T09:48:26.447Z": 77290
+    "2025-08-13T09:48:26.447Z": 77290,
+    "2025-08-24T06:35:59.696Z": 77290
   },
   "minutes_chart": {
     "2025-06-22T00:00:00.000Z": 1023949,
@@ -123,384 +127,469 @@ export const stats = {
     "2025-07-21T08:07:46.284Z": 3294840,
     "2025-07-28T19:47:20.181Z": 4000822,
     "2025-07-28T20:10:38.184Z": 10805455,
-    "2025-08-13T09:48:26.447Z": 15010918
+    "2025-08-13T09:48:26.447Z": 15010918,
+    "2025-08-24T06:35:59.696Z": 16235473
   },
-  "total_users": 96809,
-  "total_minutes": 15010918,
-  "joined_users": 4158,
+  "total_users": 98615,
+  "total_minutes": 16235473,
+  "joined_users": 4375,
   "leaderboard": {
     "user": {
       "hours": [
         {
-          "name": "SUPA Siblings",
-          "score": 475.8,
-          "id": 12338,
-          "image": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12338"
-        },
-        {
           "name": "Aditya",
-          "score": 420.8,
+          "score": 438.7,
           "id": 8160,
           "image": "https://secure.gravatar.com/avatar/ccbba96b4755d75bd8f34ea82f2b2a21.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
           "url": "https://summer.hackclub.com/users/8160"
         },
         {
-          "name": "Quang",
-          "score": 401.4,
+          "name": "Bel",
+          "score": 402.8,
           "id": 6045,
           "image": "https://secure.gravatar.com/avatar/dcffb947fa3ad1e3513575c478a043b2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
           "url": "https://summer.hackclub.com/users/6045"
         },
         {
-          "name": "Yoseph Getachew",
-          "score": 341.7,
-          "id": 4781,
-          "image": "https://secure.gravatar.com/avatar/596bbda665593e7de56d37cb184f5c23.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
-          "url": "https://summer.hackclub.com/users/4781"
-        },
-        {
-          "name": "Walker",
-          "score": 338,
-          "id": 6599,
-          "image": "https://avatars.slack-edge.com/2025-07-17/9211719149330_d618eb462aa635b21d20_original.png",
-          "url": "https://summer.hackclub.com/users/6599"
-        },
-        {
-          "name": "Yash Gupta",
-          "score": 336.9,
-          "id": 6738,
-          "image": "https://avatars.slack-edge.com/2025-07-28/9261450500323_d39fab2715b40b3394b8_original.jpg",
-          "url": "https://summer.hackclub.com/users/6738"
-        },
-        {
-          "name": "_Shift_xd_",
-          "score": 323.4,
-          "id": 12374,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9181239085873_e3538ebecd87a88a4c5b_original.jpg",
-          "url": "https://summer.hackclub.com/users/12374"
-        },
-        {
-          "name": "000xs",
-          "score": 322.6,
-          "id": 6121,
-          "image": "https://avatars.slack-edge.com/2024-08-13/7568882024772_ee734fcc71715e491215_original.png",
-          "url": "https://summer.hackclub.com/users/6121"
-        },
-        {
-          "name": "Klucznik",
-          "score": 321.1,
-          "id": 5738,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_original.jpg",
-          "url": "https://summer.hackclub.com/users/5738"
-        },
-        {
-          "name": "Saif Abdelrazek",
-          "score": 313.5,
-          "id": 1849,
-          "image": "https://avatars.slack-edge.com/2025-04-04/8718809197329_286f155c27b6ce1c9cb2_original.jpg",
-          "url": "https://summer.hackclub.com/users/1849"
-        },
-        {
           "name": "Maksiks",
-          "score": 307.8,
+          "score": 398.9,
           "id": 1027,
           "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
           "url": "https://summer.hackclub.com/users/1027"
         },
         {
-          "name": "leocerv",
-          "score": 299.1,
-          "id": 9945,
-          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
-          "url": "https://summer.hackclub.com/users/9945"
-        },
-        {
           "name": "华彧赡",
-          "score": 293.7,
+          "score": 367.9,
           "id": 3032,
           "image": "https://avatars.slack-edge.com/2024-12-14/8172726056181_ef72a31250e2a488f986_original.png",
           "url": "https://summer.hackclub.com/users/3032"
         },
         {
+          "name": "Klucznik",
+          "score": 366.9,
+          "id": 5738,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_original.jpg",
+          "url": "https://summer.hackclub.com/users/5738"
+        },
+        {
           "name": "Youssef",
-          "score": 289.7,
+          "score": 326.8,
           "id": 12101,
-          "image": "https://avatars.slack-edge.com/2025-08-08/9325169355062_7632ab2102ca761b25b2_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-23/9412485157777_bcf2eb08351fdd22c697_original.png",
           "url": "https://summer.hackclub.com/users/12101"
         },
         {
-          "name": "Harshit",
-          "score": 287.6,
-          "id": 8030,
-          "image": "https://avatars.slack-edge.com/2025-05-14/8920294378928_d57cc74036e58f114829_original.jpg",
-          "url": "https://summer.hackclub.com/users/8030"
-        },
-        {
-          "name": "Shariq",
-          "score": 287.5,
-          "id": 2231,
-          "image": "https://secure.gravatar.com/avatar/40ebb49669fa1ac42e84e247715f2d0e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
-          "url": "https://summer.hackclub.com/users/2231"
+          "name": "Saif Abdelrazek",
+          "score": 326.2,
+          "id": 1849,
+          "image": "https://avatars.slack-edge.com/2025-04-04/8718809197329_286f155c27b6ce1c9cb2_original.jpg",
+          "url": "https://summer.hackclub.com/users/1849"
         },
         {
           "name": "son",
-          "score": 278.4,
+          "score": 322.8,
           "id": 91,
           "image": "https://secure.gravatar.com/avatar/ad5dc3517e41b077553850c69e2453c0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
           "url": "https://summer.hackclub.com/users/91"
         },
         {
-          "name": "rvys",
-          "score": 276.3,
-          "id": 157,
-          "image": "https://avatars.slack-edge.com/2025-07-04/9144290552934_df146699ce88413254fb_original.jpg",
-          "url": "https://summer.hackclub.com/users/157"
-        },
-        {
-          "name": "25th_Bam",
-          "score": 275.5,
-          "id": 10284,
-          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
-          "url": "https://summer.hackclub.com/users/10284"
-        },
-        {
-          "name": "PawiX25",
-          "score": 275.2,
-          "id": 363,
-          "image": "https://avatars.slack-edge.com/2025-02-02/8400058576785_cba75a0ab83f045ce8f5_original.png",
-          "url": "https://summer.hackclub.com/users/363"
-        },
-        {
-          "name": "Ibrahim wael",
-          "score": 270.7,
-          "id": 6581,
-          "image": "https://avatars.slack-edge.com/2025-02-10/8415089273543_93b0bff26f31c4857c8e_original.jpg",
-          "url": "https://summer.hackclub.com/users/6581"
-        },
-        {
-          "name": "cognitivity",
-          "score": 266.4,
-          "id": 10192,
-          "image": "https://secure.gravatar.com/avatar/2c4aa815707be1c45ba110559ebc61ee.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
-          "url": "https://summer.hackclub.com/users/10192"
+          "name": "Bereket Befekadu",
+          "score": 319.4,
+          "id": 10923,
+          "image": "https://secure.gravatar.com/avatar/76b4b56056b482b70ea5b8d5254c2d47.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/10923"
         },
         {
           "name": "Ikhbal",
-          "score": 265.5,
+          "score": 316,
           "id": 4837,
           "image": "https://secure.gravatar.com/avatar/a91e6045d9b4cbc54c95dcf9a37443f6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
           "url": "https://summer.hackclub.com/users/4837"
         },
         {
-          "name": "Chee Yong",
-          "score": 260,
-          "id": 5989,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_original.png",
-          "url": "https://summer.hackclub.com/users/5989"
+          "name": "PawiX25",
+          "score": 307.8,
+          "id": 363,
+          "image": "https://avatars.slack-edge.com/2025-02-02/8400058576785_cba75a0ab83f045ce8f5_original.png",
+          "url": "https://summer.hackclub.com/users/363"
         },
         {
-          "name": "Tony Kan",
-          "score": 255.1,
-          "id": 3494,
-          "image": "https://avatars.slack-edge.com/2024-06-24/7324916025570_eb53c189d5c7cbbde7cf_original.png",
-          "url": "https://summer.hackclub.com/users/3494"
+          "name": "leocerv",
+          "score": 304.8,
+          "id": 9945,
+          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
+          "url": "https://summer.hackclub.com/users/9945"
         },
         {
-          "name": "Gangsta Ozcan",
-          "score": 251.9,
-          "id": 11144,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
-          "url": "https://summer.hackclub.com/users/11144"
+          "name": "Devin",
+          "score": 301.8,
+          "id": 10590,
+          "image": "https://avatars.slack-edge.com/2025-08-18/9384167266353_2f525194f5e4afd946ce_original.jpg",
+          "url": "https://summer.hackclub.com/users/10590"
         },
         {
-          "name": "Vevaan Verma",
-          "score": 249.9,
-          "id": 3812,
-          "image": "https://avatars.slack-edge.com/2025-07-18/9218890075302_0e558aef960d9735b7d6_original.jpg",
-          "url": "https://summer.hackclub.com/users/3812"
+          "name": "25th_Bam",
+          "score": 295,
+          "id": 10284,
+          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
+          "url": "https://summer.hackclub.com/users/10284"
         },
         {
-          "name": "Ramza Syed",
-          "score": 244.9,
-          "id": 11042,
-          "image": "https://secure.gravatar.com/avatar/6b110204ce7d6c3c0decad24cc3bde9c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/11042"
+          "name": "Ibrahim wael",
+          "score": 294.5,
+          "id": 6581,
+          "image": "https://avatars.slack-edge.com/2025-02-10/8415089273543_93b0bff26f31c4857c8e_original.jpg",
+          "url": "https://summer.hackclub.com/users/6581"
         },
         {
-          "name": "Raphael Larsen",
-          "score": 242.2,
-          "id": 12329,
-          "image": "https://avatars.slack-edge.com/2025-06-27/9131653885041_f1bee66bf3bae0e529b3_original.jpg",
-          "url": "https://summer.hackclub.com/users/12329"
-        },
-        {
-          "name": "Shuflduf",
-          "score": 239.8,
-          "id": 18,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
-          "url": "https://summer.hackclub.com/users/18"
-        },
-        {
-          "name": "shuva",
-          "score": 236.8,
-          "id": 13705,
-          "image": "https://secure.gravatar.com/avatar/7d8254a6d274b4162a6a766cc2fa8a21.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/13705"
-        },
-        {
-          "name": "OrigamiKing3612",
-          "score": 236.1,
-          "id": 3547,
-          "image": "https://secure.gravatar.com/avatar/fcea678228cec5ddcfe7deb46411693d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "https://summer.hackclub.com/users/3547"
-        },
-        {
-          "name": "Khaled",
-          "score": 235.5,
-          "id": 215,
-          "image": "https://avatars.slack-edge.com/2025-05-24/8939599682387_edcd82c4258965e1a3ba_original.jpg",
-          "url": "https://summer.hackclub.com/users/215"
-        },
-        {
-          "name": "Yuvraj singh",
-          "score": 233.5,
-          "id": 12585,
-          "image": "https://secure.gravatar.com/avatar/c4ab8ebbdd22ee123c7253156c8197d3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
-          "url": "https://summer.hackclub.com/users/12585"
-        },
-        {
-          "name": "Shwetkamal Gaud",
-          "score": 230.7,
-          "id": 8176,
-          "image": "https://secure.gravatar.com/avatar/fde3d4a005d93882b2658b8244024620.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/8176"
-        },
-        {
-          "name": "SAKSHAM GOEL",
-          "score": 227.8,
-          "id": 391,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_original.png",
-          "url": "https://summer.hackclub.com/users/391"
-        },
-        {
-          "name": "Brody Enli",
-          "score": 227.1,
-          "id": 2599,
-          "image": "https://avatars.slack-edge.com/2024-11-19/8057321986692_6315b8319e245c50c136_original.png",
-          "url": "https://summer.hackclub.com/users/2599"
-        },
-        {
-          "name": "Maximus",
-          "score": 223.4,
-          "id": 4680,
-          "image": "https://secure.gravatar.com/avatar/3e4744ef6195883aaef2b2fe595c8bde.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
-          "url": "https://summer.hackclub.com/users/4680"
-        },
-        {
-          "name": "gopal",
-          "score": 222.7,
-          "id": 20831,
-          "image": "https://secure.gravatar.com/avatar/c0b049741c50a3ffa625e9f454c62c64.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/20831"
-        },
-        {
-          "name": "Cyao",
-          "score": 219.3,
-          "id": 151,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8979376813122_d4a8a1c98d00b1429cf9_original.png",
-          "url": "https://summer.hackclub.com/users/151"
+          "name": "Tak-min",
+          "score": 292.1,
+          "id": 6190,
+          "image": "https://avatars.slack-edge.com/2025-08-12/9342903651204_b9357143754c2d9f17c3_original.jpg",
+          "url": "https://summer.hackclub.com/users/6190"
         },
         {
           "name": "marci1175",
-          "score": 217.7,
+          "score": 288.5,
           "id": 9035,
           "image": "https://avatars.slack-edge.com/2024-08-02/7516736723941_3452a482b14964d4fe05_original.jpg",
           "url": "https://summer.hackclub.com/users/9035"
         },
         {
-          "name": "Abdur Rehman",
-          "score": 217.1,
-          "id": 1028,
-          "image": "https://avatars.slack-edge.com/2025-03-03/8542987730020_fccb7a4cb32a26a1c6cc_original.png",
-          "url": "https://summer.hackclub.com/users/1028"
+          "name": "Raphael Larsen",
+          "score": 286.9,
+          "id": 12329,
+          "image": "https://avatars.slack-edge.com/2025-06-27/9131653885041_f1bee66bf3bae0e529b3_original.jpg",
+          "url": "https://summer.hackclub.com/users/12329"
         },
         {
-          "name": "Alexandr Vinichenko",
-          "score": 216.7,
-          "id": 14645,
-          "image": "https://secure.gravatar.com/avatar/32a351ee4be34ee70b63f6dbc3dac444.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
-          "url": "https://summer.hackclub.com/users/14645"
+          "name": "cognitivity",
+          "score": 281.3,
+          "id": 10192,
+          "image": "https://secure.gravatar.com/avatar/2c4aa815707be1c45ba110559ebc61ee.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
+          "url": "https://summer.hackclub.com/users/10192"
+        },
+        {
+          "name": "Shuflduf",
+          "score": 280,
+          "id": 18,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
+          "url": "https://summer.hackclub.com/users/18"
+        },
+        {
+          "name": "HassaanKH",
+          "score": 276.9,
+          "id": 5872,
+          "image": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
+          "url": "https://summer.hackclub.com/users/5872"
+        },
+        {
+          "name": "OrigamiKing3612",
+          "score": 268.6,
+          "id": 3547,
+          "image": "https://secure.gravatar.com/avatar/fcea678228cec5ddcfe7deb46411693d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "https://summer.hackclub.com/users/3547"
+        },
+        {
+          "name": "Tony Kan",
+          "score": 267.5,
+          "id": 3494,
+          "image": "https://avatars.slack-edge.com/2024-06-24/7324916025570_eb53c189d5c7cbbde7cf_original.png",
+          "url": "https://summer.hackclub.com/users/3494"
         },
         {
           "name": "Yogya Chugh",
-          "score": 215,
+          "score": 266.4,
           "id": 9699,
           "image": "https://avatars.slack-edge.com/2025-06-20/9090345160833_3cde8fc12be9701293ef_original.png",
           "url": "https://summer.hackclub.com/users/9699"
         },
         {
+          "name": "Brody",
+          "score": 256.5,
+          "id": 2599,
+          "image": "https://avatars.slack-edge.com/2024-11-19/8057321986692_6315b8319e245c50c136_original.png",
+          "url": "https://summer.hackclub.com/users/2599"
+        },
+        {
+          "name": "Shwetkamal Gaud",
+          "score": 256.2,
+          "id": 8176,
+          "image": "https://secure.gravatar.com/avatar/fde3d4a005d93882b2658b8244024620.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
+          "url": "https://summer.hackclub.com/users/8176"
+        },
+        {
+          "name": "shuva",
+          "score": 255.9,
+          "id": 13705,
+          "image": "https://secure.gravatar.com/avatar/7d8254a6d274b4162a6a766cc2fa8a21.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
+          "url": "https://summer.hackclub.com/users/13705"
+        },
+        {
           "name": "Modmaker101",
-          "score": 213.8,
+          "score": 255.6,
           "id": 9748,
-          "image": "https://avatars.slack-edge.com/2025-07-26/9259832221090_e30db52cbd827b6706b7_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-16/9376852138241_0c1f4aab18b6384a8072_original.png",
           "url": "https://summer.hackclub.com/users/9748"
         },
         {
-          "name": "nosrep",
-          "score": 208,
-          "id": 9955,
-          "image": "https://secure.gravatar.com/avatar/65708c2afbb0237dd70beb30de54de07.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/9955"
+          "name": "Eli Ozcan",
+          "score": 253.6,
+          "id": 11144,
+          "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
+          "url": "https://summer.hackclub.com/users/11144"
         },
         {
-          "name": "GiantNut",
-          "score": 206.6,
-          "id": 2088,
-          "image": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/2088"
-        },
-        {
-          "name": "yousef",
-          "score": 205.6,
-          "id": 14139,
-          "image": "https://avatars.slack-edge.com/2025-07-04/9147083929090_d161e070a09f71c9a5f2_original.jpg",
-          "url": "https://summer.hackclub.com/users/14139"
+          "name": "Ramza Syed",
+          "score": 249.9,
+          "id": 11042,
+          "image": "https://secure.gravatar.com/avatar/6b110204ce7d6c3c0decad24cc3bde9c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "https://summer.hackclub.com/users/11042"
         },
         {
           "name": "grace",
-          "score": 204.3,
+          "score": 248.8,
           "id": 859,
           "image": "https://secure.gravatar.com/avatar/4ce5715f891fa73594ff8376cf21ece5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
           "url": "https://summer.hackclub.com/users/859"
         },
         {
-          "name": "Tymek",
-          "score": 201.4,
-          "id": 4892,
-          "image": "https://avatars.slack-edge.com/2024-12-19/8200522971779_b98898642ebe0f6a0915_original.jpg",
-          "url": "https://summer.hackclub.com/users/4892"
+          "name": "Malay Patel",
+          "score": 246.4,
+          "id": 5162,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
+          "url": "https://summer.hackclub.com/users/5162"
+        },
+        {
+          "name": "Cyao",
+          "score": 246,
+          "id": 151,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9363788463973_f276d477dbfb3203bf45_original.jpg",
+          "url": "https://summer.hackclub.com/users/151"
+        },
+        {
+          "name": "Yuvraj singh",
+          "score": 245.9,
+          "id": 12585,
+          "image": "https://secure.gravatar.com/avatar/c4ab8ebbdd22ee123c7253156c8197d3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
+          "url": "https://summer.hackclub.com/users/12585"
+        },
+        {
+          "name": "PoolloverNathan",
+          "score": 243.5,
+          "id": 21232,
+          "image": "https://secure.gravatar.com/avatar/5f2c185de7528af52ba062d83fae740e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
+          "url": "https://summer.hackclub.com/users/21232"
+        },
+        {
+          "name": "FireEntity",
+          "score": 240.3,
+          "id": 16,
+          "image": "https://avatars.slack-edge.com/2025-08-08/9327248933522_50cddd6a7ce5254cafaa_original.png",
+          "url": "https://summer.hackclub.com/users/16"
+        },
+        {
+          "name": "Anika Anne",
+          "score": 235.3,
+          "id": 2374,
+          "image": "https://avatars.slack-edge.com/2025-07-13/9187211695542_20dfee9369b33ce9e63c_original.jpg",
+          "url": "https://summer.hackclub.com/users/2374"
+        },
+        {
+          "name": "Alexandr Vinichenko",
+          "score": 233.4,
+          "id": 14645,
+          "image": "https://secure.gravatar.com/avatar/32a351ee4be34ee70b63f6dbc3dac444.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
+          "url": "https://summer.hackclub.com/users/14645"
+        },
+        {
+          "name": "yousef",
+          "score": 233.1,
+          "id": 14139,
+          "image": "https://avatars.slack-edge.com/2025-07-04/9147083929090_d161e070a09f71c9a5f2_original.jpg",
+          "url": "https://summer.hackclub.com/users/14139"
+        },
+        {
+          "name": "Abdur Rehman",
+          "score": 232.8,
+          "id": 1028,
+          "image": "https://avatars.slack-edge.com/2025-03-03/8542987730020_fccb7a4cb32a26a1c6cc_original.png",
+          "url": "https://summer.hackclub.com/users/1028"
+        },
+        {
+          "name": "TomDev",
+          "score": 229.1,
+          "id": 21239,
+          "image": "https://secure.gravatar.com/avatar/37f9596bcebd304ba4ed29e93d09fd78.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
+          "url": "https://summer.hackclub.com/users/21239"
+        },
+        {
+          "name": "Maximus",
+          "score": 227.9,
+          "id": 4680,
+          "image": "https://secure.gravatar.com/avatar/3e4744ef6195883aaef2b2fe595c8bde.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
+          "url": "https://summer.hackclub.com/users/4680"
+        },
+        {
+          "name": "nosrep",
+          "score": 225.4,
+          "id": 9955,
+          "image": "https://secure.gravatar.com/avatar/65708c2afbb0237dd70beb30de54de07.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
+          "url": "https://summer.hackclub.com/users/9955"
         },
         {
           "name": "sapmix",
-          "score": 200.5,
+          "score": 221.6,
           "id": 9533,
           "image": "https://avatars.slack-edge.com/2024-06-27/7341027054274_fd080c41f98810ca622e_original.png",
           "url": "https://summer.hackclub.com/users/9533"
         },
         {
-          "name": "ByteAtATime",
-          "score": 197.5,
-          "id": 494,
-          "image": "https://avatars.slack-edge.com/2024-09-11/7715717151955_ac09e6134ae8af258d09_original.png",
-          "url": "https://summer.hackclub.com/users/494"
+          "name": "Utkarsh Kumar",
+          "score": 221,
+          "id": 8255,
+          "image": "https://secure.gravatar.com/avatar/0a3334853b6cc3295c2e5c158a42fbaa.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
+          "url": "https://summer.hackclub.com/users/8255"
+        },
+        {
+          "name": "SAKSHAM GOEL",
+          "score": 220.8,
+          "id": 391,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_original.png",
+          "url": "https://summer.hackclub.com/users/391"
+        },
+        {
+          "name": "Tymek",
+          "score": 220.4,
+          "id": 4892,
+          "image": "https://avatars.slack-edge.com/2024-12-19/8200522971779_b98898642ebe0f6a0915_original.jpg",
+          "url": "https://summer.hackclub.com/users/4892"
+        },
+        {
+          "name": "Stef",
+          "score": 218.1,
+          "id": 136,
+          "image": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
+          "url": "https://summer.hackclub.com/users/136"
+        },
+        {
+          "name": "Oscar May",
+          "score": 215,
+          "id": 2352,
+          "image": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_original.png",
+          "url": "https://summer.hackclub.com/users/2352"
+        },
+        {
+          "name": "Dvir Biton",
+          "score": 214.8,
+          "id": 14573,
+          "image": "https://avatars.slack-edge.com/2025-07-03/9168444270768_5175ecfdc7756852c07b_original.jpg",
+          "url": "https://summer.hackclub.com/users/14573"
+        },
+        {
+          "name": "Damien K",
+          "score": 213.9,
+          "id": 3438,
+          "image": "https://avatars.slack-edge.com/2025-08-03/9295106914389_7daba3e74ddbaf58bb1c_original.png",
+          "url": "https://summer.hackclub.com/users/3438"
+        },
+        {
+          "name": "Neon",
+          "score": 210.8,
+          "id": 5,
+          "image": "https://avatars.slack-edge.com/2025-04-22/8794702705587_f591444818024d64d04d_original.png",
+          "url": "https://summer.hackclub.com/users/5"
+        },
+        {
+          "name": "GiantNut",
+          "score": 206.7,
+          "id": 2088,
+          "image": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/2088"
+        },
+        {
+          "name": "Nhura",
+          "score": 206.2,
+          "id": 9914,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9067529513383_ba95abc20cecdecc4439_original.png",
+          "url": "https://summer.hackclub.com/users/9914"
+        },
+        {
+          "name": "Hridya",
+          "score": 205.2,
+          "id": 145,
+          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
+          "url": "https://summer.hackclub.com/users/145"
+        },
+        {
+          "name": "ToxicStarfall",
+          "score": 204.7,
+          "id": 10023,
+          "image": "https://secure.gravatar.com/avatar/e4fbaebf6b87f1de6c67744c9058c1c6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
+          "url": "https://summer.hackclub.com/users/10023"
         },
         {
           "name": "MHanak",
-          "score": 197.2,
+          "score": 202.8,
           "id": 2404,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9078473385811_6c859feffefde70630e7_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383428316966_06f57e0e84d6cead8473_original.jpg",
           "url": "https://summer.hackclub.com/users/2404"
+        },
+        {
+          "name": "Adi",
+          "score": 202.2,
+          "id": 8577,
+          "image": "https://secure.gravatar.com/avatar/296a8d5be86dfe6dd761b70d08782bc1.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
+          "url": "https://summer.hackclub.com/users/8577"
+        },
+        {
+          "name": "Bailey Miles",
+          "score": 200.7,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "https://summer.hackclub.com/users/9517"
+        },
+        {
+          "name": "Palm",
+          "score": 200.4,
+          "id": 13667,
+          "image": "https://avatars.slack-edge.com/2025-04-08/8733180990641_e898f0761c0cc444a4ca_original.jpg",
+          "url": "https://summer.hackclub.com/users/13667"
+        },
+        {
+          "name": "Elly",
+          "score": 200.3,
+          "id": 21642,
+          "image": "https://avatars.slack-edge.com/2024-06-17/7291017132082_9cbb14096bbb6a10f24e_original.png",
+          "url": "https://summer.hackclub.com/users/21642"
+        },
+        {
+          "name": "mzums",
+          "score": 199.7,
+          "id": 2384,
+          "image": "https://avatars.slack-edge.com/2024-12-28/8228416389843_cca5198cc8fa5df4e709_original.png",
+          "url": "https://summer.hackclub.com/users/2384"
+        },
+        {
+          "name": "Tomas L",
+          "score": 199.5,
+          "id": 8972,
+          "image": "https://secure.gravatar.com/avatar/bd1a259c52a99bdcadaf8f54e0d14f6f.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "https://summer.hackclub.com/users/8972"
+        },
+        {
+          "name": "Koeqaife",
+          "score": 196.8,
+          "id": 12538,
+          "image": "https://avatars.slack-edge.com/2025-08-24/9413160214545_8ad6a2f3e0f72abb6d35_original.png",
+          "url": "https://summer.hackclub.com/users/12538"
+        },
+        {
+          "name": "GamerC0der",
+          "score": 195,
+          "id": 38,
+          "image": "https://secure.gravatar.com/avatar/e7cb961564a0febc15d295ea9c8c85a9.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
+          "url": "https://summer.hackclub.com/users/38"
         },
         {
           "name": "Robert",
@@ -510,127 +599,99 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/1314"
         },
         {
-          "name": "FireEntity",
-          "score": 194.4,
-          "id": 16,
-          "image": "https://avatars.slack-edge.com/2025-08-08/9327248933522_50cddd6a7ce5254cafaa_original.png",
-          "url": "https://summer.hackclub.com/users/16"
+          "name": "rvys",
+          "score": 194.3,
+          "id": 157,
+          "image": "https://avatars.slack-edge.com/2025-07-04/9144290552934_df146699ce88413254fb_original.jpg",
+          "url": "https://summer.hackclub.com/users/157"
         },
         {
-          "name": "Vivaan",
-          "score": 193.9,
-          "id": 413,
-          "image": "https://avatars.slack-edge.com/2025-07-07/9159115470724_a8e72bfc7d08b743e73f_original.png",
-          "url": "https://summer.hackclub.com/users/413"
-        },
-        {
-          "name": "Spark",
-          "score": 193.8,
-          "id": 14213,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9323399085571_5f55230c099cacc31acb_original.png",
-          "url": "https://summer.hackclub.com/users/14213"
-        },
-        {
-          "name": "DoMax",
-          "score": 193.5,
-          "id": 10554,
-          "image": "https://secure.gravatar.com/avatar/fbf5601bd9a73bc4bead0e79b3e11419.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
-          "url": "https://summer.hackclub.com/users/10554"
-        },
-        {
-          "name": "Tasnim",
-          "score": 191.6,
-          "id": 12753,
-          "image": "https://secure.gravatar.com/avatar/b1a57fa58626c7c06060ba33c81499e3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "https://summer.hackclub.com/users/12753"
-        },
-        {
-          "name": "Dvir Biton",
-          "score": 191.1,
-          "id": 14573,
-          "image": "https://avatars.slack-edge.com/2025-07-03/9168444270768_5175ecfdc7756852c07b_original.jpg",
-          "url": "https://summer.hackclub.com/users/14573"
-        },
-        {
-          "name": "Stef",
-          "score": 190.3,
-          "id": 136,
-          "image": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
-          "url": "https://summer.hackclub.com/users/136"
-        },
-        {
-          "name": "owais",
-          "score": 190.2,
-          "id": 2738,
-          "image": "https://avatars.slack-edge.com/2024-11-26/8105951036624_a48c97d5960a6c5f0452_original.jpg",
-          "url": "https://summer.hackclub.com/users/2738"
-        },
-        {
-          "name": "Maxine",
-          "score": 190.2,
-          "id": 11551,
-          "image": "https://secure.gravatar.com/avatar/619b0274ffcfd63054a9a59d4954241d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
-          "url": "https://summer.hackclub.com/users/11551"
-        },
-        {
-          "name": "Oscar May",
-          "score": 189.5,
-          "id": 2352,
-          "image": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_original.png",
-          "url": "https://summer.hackclub.com/users/2352"
-        },
-        {
-          "name": "Manan hacker",
-          "score": 189.4,
-          "id": 9921,
-          "image": "https://avatars.slack-edge.com/2025-07-05/9174162529568_51ba21fa58ef5b9b7296_original.jpg",
-          "url": "https://summer.hackclub.com/users/9921"
-        },
-        {
-          "name": "Kushal",
-          "score": 189.1,
-          "id": 11419,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9084876534053_3db0e10b344137ab5b3c_original.png",
-          "url": "https://summer.hackclub.com/users/11419"
-        },
-        {
-          "name": "Jay",
-          "score": 188.7,
-          "id": 3324,
-          "image": "https://avatars.slack-edge.com/2025-07-27/9263233198532_c3999d9e4dc74e9b0314_original.png",
-          "url": "https://summer.hackclub.com/users/3324"
-        },
-        {
-          "name": "Lavarite",
-          "score": 188,
-          "id": 10438,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9093473006881_159431e9b53b6d5f07cf_original.png",
-          "url": "https://summer.hackclub.com/users/10438"
-        },
-        {
-          "name": "SkydioFlyer",
-          "score": 187.3,
-          "id": 651,
-          "image": "https://secure.gravatar.com/avatar/a47ce056876117d07f4024d9dff3e992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/651"
-        },
-        {
-          "name": "Sabio",
-          "score": 186.6,
+          "name": "ur blood looks tasty '.P (sabio)",
+          "score": 194.3,
           "id": 2191,
           "image": "https://avatars.slack-edge.com/2025-06-16/9081170541104_a8dc919075d514a113a2_original.gif",
           "url": "https://summer.hackclub.com/users/2191"
         },
         {
-          "name": "PoolloverNathan",
-          "score": 186.4,
-          "id": 21232,
-          "image": "https://secure.gravatar.com/avatar/5f2c185de7528af52ba062d83fae740e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
-          "url": "https://summer.hackclub.com/users/21232"
+          "name": "Andy Mascarenhas",
+          "score": 194.2,
+          "id": 9488,
+          "image": "https://avatars.slack-edge.com/2025-06-05/9033393657968_084e91a766de6f4f4c30_original.png",
+          "url": "https://summer.hackclub.com/users/9488"
+        },
+        {
+          "name": "ahmoin",
+          "score": 193.2,
+          "id": 11156,
+          "image": "https://avatars.slack-edge.com/2025-04-21/8769563571975_42916ab06031f0571beb_original.png",
+          "url": "https://summer.hackclub.com/users/11156"
+        },
+        {
+          "name": "A Random Squid",
+          "score": 192.9,
+          "id": 5106,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9058713115941_a21ea4e216dcfca336f3_original.jpg",
+          "url": "https://summer.hackclub.com/users/5106"
+        },
+        {
+          "name": "Johan",
+          "score": 191.2,
+          "id": 2295,
+          "image": "https://avatars.slack-edge.com/2025-06-24/9093180303634_5e857921deaf3a77bc89_original.jpg",
+          "url": "https://summer.hackclub.com/users/2295"
+        },
+        {
+          "name": "Ultralak",
+          "score": 190.9,
+          "id": 4434,
+          "image": "https://secure.gravatar.com/avatar/12d1bea7c6c36a25c6e9deaa3ab53814.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "https://summer.hackclub.com/users/4434"
+        },
+        {
+          "name": "kora",
+          "score": 190.9,
+          "id": 8065,
+          "image": "https://secure.gravatar.com/avatar/9721c2cc191c3000d96e8fb5daf75d24.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
+          "url": "https://summer.hackclub.com/users/8065"
+        },
+        {
+          "name": "Pakdad Mousavi",
+          "score": 190.5,
+          "id": 10435,
+          "image": "https://avatars.slack-edge.com/2025-07-13/9186998429398_93f04c7047700dd5df25_original.jpg",
+          "url": "https://summer.hackclub.com/users/10435"
+        },
+        {
+          "name": "Skyfly",
+          "score": 189.2,
+          "id": 7394,
+          "image": "https://secure.gravatar.com/avatar/e38c185de920c34ad557de76bc6c0b5d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
+          "url": "https://summer.hackclub.com/users/7394"
+        },
+        {
+          "name": "ByteAtATime",
+          "score": 188,
+          "id": 494,
+          "image": "https://avatars.slack-edge.com/2024-09-11/7715717151955_ac09e6134ae8af258d09_original.png",
+          "url": "https://summer.hackclub.com/users/494"
+        },
+        {
+          "name": "Fox",
+          "score": 188,
+          "id": 14438,
+          "image": "https://avatars.slack-edge.com/2024-11-05/7984438397269_91af01c3cfae16d3aee1_original.png",
+          "url": "https://summer.hackclub.com/users/14438"
+        },
+        {
+          "name": "Manan hacker",
+          "score": 187.7,
+          "id": 9921,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9391593402340_cea256b0956a00deb69c_original.jpg",
+          "url": "https://summer.hackclub.com/users/9921"
         },
         {
           "name": "Pranav",
-          "score": 185.1,
+          "score": 186.8,
           "id": 1602,
           "image": "https://secure.gravatar.com/avatar/82a0d5c1cf276f0b0a55470bb4ee1f10.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
           "url": "https://summer.hackclub.com/users/1602"
@@ -643,209 +704,146 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/9804"
         },
         {
-          "name": "Nhura",
-          "score": 184.5,
-          "id": 9914,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9067529513383_ba95abc20cecdecc4439_original.png",
-          "url": "https://summer.hackclub.com/users/9914"
-        },
-        {
-          "name": "Stevens",
-          "score": 182.8,
-          "id": 795,
-          "image": "https://avatars.slack-edge.com/2025-03-17/8622593771025_074e1121c7c99e818a3a_original.png",
-          "url": "https://summer.hackclub.com/users/795"
-        },
-        {
-          "name": "HassaanKH",
-          "score": 182.8,
-          "id": 5872,
-          "image": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
-          "url": "https://summer.hackclub.com/users/5872"
-        },
-        {
-          "name": "mzums",
-          "score": 182.2,
-          "id": 2384,
-          "image": "https://avatars.slack-edge.com/2024-12-28/8228416389843_cca5198cc8fa5df4e709_original.png",
-          "url": "https://summer.hackclub.com/users/2384"
-        },
-        {
-          "name": "Utkarsh Kumar",
-          "score": 182.1,
-          "id": 8255,
-          "image": "https://secure.gravatar.com/avatar/0a3334853b6cc3295c2e5c158a42fbaa.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
-          "url": "https://summer.hackclub.com/users/8255"
-        },
-        {
-          "name": "Gamecooler19",
-          "score": 177.9,
-          "id": 628,
-          "image": "https://avatars.slack-edge.com/2024-11-29/8099866840467_52b5ea868a8268def1d9_original.jpg",
-          "url": "https://summer.hackclub.com/users/628"
-        },
-        {
-          "name": "Tomas L",
-          "score": 177.9,
-          "id": 8972,
-          "image": "https://secure.gravatar.com/avatar/bd1a259c52a99bdcadaf8f54e0d14f6f.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/8972"
-        },
-        {
-          "name": "JeremySeq",
-          "score": 177.4,
-          "id": 3620,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9089387852609_7ef740373111d6455057_original.png",
-          "url": "https://summer.hackclub.com/users/3620"
-        },
-        {
-          "name": "Andy Mascarenhas",
-          "score": 175.3,
-          "id": 9488,
-          "image": "https://avatars.slack-edge.com/2025-06-05/9033393657968_084e91a766de6f4f4c30_original.png",
-          "url": "https://summer.hackclub.com/users/9488"
-        },
-        {
-          "name": "Ultralak",
-          "score": 174.6,
-          "id": 4434,
-          "image": "https://secure.gravatar.com/avatar/12d1bea7c6c36a25c6e9deaa3ab53814.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/4434"
-        },
-        {
-          "name": "Shaurya",
-          "score": 174.6,
-          "id": 14543,
-          "image": "https://secure.gravatar.com/avatar/03d10504fd8cddbcaf7cc420f899980d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/14543"
-        },
-        {
-          "name": "Aditya Singh",
-          "score": 173,
-          "id": 7658,
-          "image": "https://avatars.slack-edge.com/2024-08-09/7559367819764_4075bdee7a90d2764a48_original.png",
-          "url": "https://summer.hackclub.com/users/7658"
-        },
-        {
-          "name": "Damien K",
-          "score": 172.9,
-          "id": 3438,
-          "image": "https://avatars.slack-edge.com/2025-08-03/9295106914389_7daba3e74ddbaf58bb1c_original.png",
-          "url": "https://summer.hackclub.com/users/3438"
-        },
-        {
-          "name": "Swayam Sahoo",
-          "score": 172.5,
-          "id": 3336,
-          "image": "https://avatars.slack-edge.com/2023-06-19/5447596478917_a4c78f54b68e2a4493f3_original.png",
-          "url": "https://summer.hackclub.com/users/3336"
-        },
-        {
-          "name": "Anika Anne",
-          "score": 172.4,
-          "id": 2374,
-          "image": "https://avatars.slack-edge.com/2025-07-13/9187211695542_20dfee9369b33ce9e63c_original.jpg",
-          "url": "https://summer.hackclub.com/users/2374"
-        },
-        {
-          "name": "Neon",
-          "score": 172.1,
-          "id": 5,
-          "image": "https://avatars.slack-edge.com/2025-04-22/8794702705587_f591444818024d64d04d_original.png",
-          "url": "https://summer.hackclub.com/users/5"
-        },
-        {
-          "name": "ayaangrover",
-          "score": 172.1,
-          "id": 62,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9323763810499_8488306ef410c5f44620_original.jpg",
-          "url": "https://summer.hackclub.com/users/62"
-        },
-        {
-          "name": "Adi",
-          "score": 172,
-          "id": 8577,
-          "image": "https://secure.gravatar.com/avatar/296a8d5be86dfe6dd761b70d08782bc1.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
-          "url": "https://summer.hackclub.com/users/8577"
-        },
-        {
-          "name": "Pakdad Mousavi",
-          "score": 172,
-          "id": 10435,
-          "image": "https://avatars.slack-edge.com/2025-07-13/9186998429398_93f04c7047700dd5df25_original.jpg",
-          "url": "https://summer.hackclub.com/users/10435"
-        },
-        {
-          "name": "Josh",
-          "score": 169.8,
-          "id": 4484,
-          "image": "https://secure.gravatar.com/avatar/5e0bdb6fbc15faec03abe638d2023c93.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "https://summer.hackclub.com/users/4484"
-        },
-        {
-          "name": "A Random Squid",
-          "score": 169.1,
-          "id": 5106,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9058713115941_a21ea4e216dcfca336f3_original.jpg",
-          "url": "https://summer.hackclub.com/users/5106"
-        },
-        {
-          "name": "dnttr",
-          "score": 169.1,
-          "id": 18254,
-          "image": "https://avatars.slack-edge.com/2025-05-08/8891161100512_a6766193f88a721d226c_original.jpg",
-          "url": "https://summer.hackclub.com/users/18254"
-        },
-        {
-          "name": "Alagwudavid",
-          "score": 167.3,
-          "id": 10102,
-          "image": "https://secure.gravatar.com/avatar/b6933159256fe8809dcb1d668f7730c6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "https://summer.hackclub.com/users/10102"
-        },
-        {
-          "name": "Palm",
-          "score": 167.1,
-          "id": 13667,
-          "image": "https://avatars.slack-edge.com/2025-04-08/8733180990641_e898f0761c0cc444a4ca_original.jpg",
-          "url": "https://summer.hackclub.com/users/13667"
-        },
-        {
           "name": "INSURANCE WALE",
-          "score": 166.8,
+          "score": 183.6,
           "id": 1545,
           "image": "https://avatars.slack-edge.com/2025-06-16/9050716941219_82ebebd418b50fd869f4_original.png",
           "url": "https://summer.hackclub.com/users/1545"
         },
         {
-          "name": "AlAoTach",
-          "score": 166.6,
-          "id": 4839,
-          "image": "https://avatars.slack-edge.com/2025-05-12/8904644615264_92fcdb697bb2c7200b78_original.jpg",
-          "url": "https://summer.hackclub.com/users/4839"
+          "name": "mel",
+          "score": 182.9,
+          "id": 5653,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9103632368064_7fd0ca137e337ffa8da8_original.png",
+          "url": "https://summer.hackclub.com/users/5653"
+        },
+        {
+          "name": "Jose M.",
+          "score": 182.7,
+          "id": 13292,
+          "image": "https://avatars.slack-edge.com/2025-08-13/9375246907632_3595d3d3a4a81d685b79_original.png",
+          "url": "https://summer.hackclub.com/users/13292"
+        },
+        {
+          "name": "JeremySeq",
+          "score": 181.5,
+          "id": 3620,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9089387852609_7ef740373111d6455057_original.png",
+          "url": "https://summer.hackclub.com/users/3620"
+        },
+        {
+          "name": "vicky bhelave",
+          "score": 181.4,
+          "id": 19872,
+          "image": "https://secure.gravatar.com/avatar/4ee9f0b36f96aef1a972a0027011af44.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
+          "url": "https://summer.hackclub.com/users/19872"
+        },
+        {
+          "name": "Josh",
+          "score": 180.4,
+          "id": 4484,
+          "image": "https://secure.gravatar.com/avatar/5e0bdb6fbc15faec03abe638d2023c93.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "https://summer.hackclub.com/users/4484"
+        },
+        {
+          "name": "Stevens",
+          "score": 179.7,
+          "id": 795,
+          "image": "https://avatars.slack-edge.com/2025-03-17/8622593771025_074e1121c7c99e818a3a_original.png",
+          "url": "https://summer.hackclub.com/users/795"
+        },
+        {
+          "name": "SkydioFlyer",
+          "score": 178.9,
+          "id": 651,
+          "image": "https://secure.gravatar.com/avatar/a47ce056876117d07f4024d9dff3e992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/651"
         },
         {
           "name": "Milk_Cool",
-          "score": 166.3,
+          "score": 178.4,
           "id": 375,
           "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
           "url": "https://summer.hackclub.com/users/375"
+        },
+        {
+          "name": "Rudransh Pratap Singh",
+          "score": 178.1,
+          "id": 2042,
+          "image": "https://avatars.slack-edge.com/2024-07-06/7397014812081_3d776b022760bb26deee_original.jpg",
+          "url": "https://summer.hackclub.com/users/2042"
+        },
+        {
+          "name": "Pikacnu",
+          "score": 178.1,
+          "id": 2805,
+          "image": "https://secure.gravatar.com/avatar/53371cfe43d5487613690739319e0ecb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
+          "url": "https://summer.hackclub.com/users/2805"
+        },
+        {
+          "name": "Kira Iovenko",
+          "score": 177.7,
+          "id": 723,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9063258597938_fa5b4f5155539cbb01a3_original.png",
+          "url": "https://summer.hackclub.com/users/723"
+        },
+        {
+          "name": "Vivaan",
+          "score": 177.5,
+          "id": 413,
+          "image": "https://secure.gravatar.com/avatar/12dcd2400a32248f1e3d9401a784cfb9.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png",
+          "url": "https://summer.hackclub.com/users/413"
+        },
+        {
+          "name": "Swayam Sahoo",
+          "score": 177.5,
+          "id": 3336,
+          "image": "https://avatars.slack-edge.com/2023-06-19/5447596478917_a4c78f54b68e2a4493f3_original.png",
+          "url": "https://summer.hackclub.com/users/3336"
+        },
+        {
+          "name": "segun",
+          "score": 177.4,
+          "id": 3994,
+          "image": "https://avatars.slack-edge.com/2025-05-02/8838868564610_0777e650c5f87072c5aa_original.png",
+          "url": "https://summer.hackclub.com/users/3994"
+        },
+        {
+          "name": "Konstantin",
+          "score": 176.4,
+          "id": 8725,
+          "image": "https://secure.gravatar.com/avatar/8a5db4d84c42063c8f545bc649cb8285.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-512.png",
+          "url": "https://summer.hackclub.com/users/8725"
+        },
+        {
+          "name": "ShyMike",
+          "score": 176.3,
+          "id": 36,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9070183550307_9caf4a2c55140db57b17_original.png",
+          "url": "https://summer.hackclub.com/users/36"
+        },
+        {
+          "name": "jollyroger182",
+          "score": 176.2,
+          "id": 80,
+          "image": "https://avatars.slack-edge.com/2025-07-04/9161213699009_ed47b20679cb77cb3721_original.png",
+          "url": "https://summer.hackclub.com/users/80"
+        },
+        {
+          "name": "Realzzy",
+          "score": 176.1,
+          "id": 4306,
+          "image": "https://avatars.slack-edge.com/2024-12-11/8159388810244_5d8c06a1fcc1c2105cd3_original.png",
+          "url": "https://summer.hackclub.com/users/4306"
         }
       ],
       "projects": [
         {
-          "name": "Chee Yong",
-          "score": 26,
-          "id": 5989,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_original.png",
-          "url": "/search?q=U091M1JF0PQ"
-        },
-        {
-          "name": "YASH PANCHAL",
-          "score": 19,
-          "id": 1297,
-          "image": "https://secure.gravatar.com/avatar/deb120dae819559971b11da00ca69585.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "/search?q=U092BUCLBMW"
+          "name": "Shinkensen101",
+          "score": 17,
+          "id": 3797,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_original.jpg",
+          "url": "/search?q=U091RNMRAH2"
         },
         {
           "name": "arn",
@@ -865,22 +863,15 @@ export const stats = {
           "name": "Anirudh",
           "score": 15,
           "id": 191,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9119233619603_ffa41a3766c4d5153ce8_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391147594451_f071064fadea03d26edf_original.jpg",
           "url": "/search?q=U07ES48RES3"
         },
         {
-          "name": "Quang",
+          "name": "Bel",
           "score": 15,
           "id": 6045,
           "image": "https://secure.gravatar.com/avatar/dcffb947fa3ad1e3513575c478a043b2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
           "url": "/search?q=U091M50C7QE"
-        },
-        {
-          "name": "SUPA Siblings",
-          "score": 15,
-          "id": 12338,
-          "image": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_original.jpg",
-          "url": "/search?q=U093108PGLC"
         },
         {
           "name": "Hridya",
@@ -890,6 +881,20 @@ export const stats = {
           "url": "/search?q=U0842GMRJKC"
         },
         {
+          "name": "Milk_Cool",
+          "score": 14,
+          "id": 375,
+          "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
+          "url": "/search?q=U089903JZDH"
+        },
+        {
+          "name": "PianoMan0",
+          "score": 14,
+          "id": 1907,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9377372311527_377433563929642af508_original.png",
+          "url": "/search?q=U0829HRSQ76"
+        },
+        {
           "name": "ionut",
           "score": 14,
           "id": 2162,
@@ -897,25 +902,18 @@ export const stats = {
           "url": "/search?q=U092CGSV3RN"
         },
         {
-          "name": "Shinkensen101",
+          "name": "Applee",
           "score": 14,
-          "id": 3797,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_original.jpg",
-          "url": "/search?q=U091RNMRAH2"
+          "id": 3573,
+          "image": "https://secure.gravatar.com/avatar/91f40fe85fff030c3753404822556ff6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
+          "url": "/search?q=U091RF86L84"
         },
         {
-          "name": "Abū al-Barāʾ",
+          "name": "obob",
           "score": 14,
-          "id": 5396,
-          "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
-          "url": "/search?q=U092F53H3G8"
-        },
-        {
-          "name": "PianoMan0",
-          "score": 13,
-          "id": 1907,
-          "image": "https://avatars.slack-edge.com/2025-06-02/8985949883973_29ff7f3348cb4616116b_original.png",
-          "url": "/search?q=U0829HRSQ76"
+          "id": 8486,
+          "image": "https://avatars.slack-edge.com/2025-07-05/9151745107314_5f8cfa4ed6cc7f9bc222_original.png",
+          "url": "/search?q=U092DB4LGMP"
         },
         {
           "name": "Carlson",
@@ -925,25 +923,25 @@ export const stats = {
           "url": "/search?q=U090LAT6QKB"
         },
         {
-          "name": "obob",
+          "name": "aera",
           "score": 13,
-          "id": 8486,
-          "image": "https://avatars.slack-edge.com/2025-07-05/9151745107314_5f8cfa4ed6cc7f9bc222_original.png",
-          "url": "/search?q=U092DB4LGMP"
+          "id": 8654,
+          "image": "https://avatars.slack-edge.com/2025-07-29/9287437814273_5215408af71a49b307f2_original.png",
+          "url": "/search?q=U08RE7RUD9C"
         },
         {
-          "name": "Milk_Cool",
+          "name": "Mish",
           "score": 12,
-          "id": 375,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
-          "url": "/search?q=U089903JZDH"
+          "id": 153,
+          "image": "https://avatars.slack-edge.com/2025-06-02/8985528237266_d5f9ec0da853a1155f84_original.png",
+          "url": "/search?q=U073M5L9U13"
         },
         {
-          "name": "SAKSHAM GOEL",
+          "name": "yousef_7abib",
           "score": 12,
-          "id": 391,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_original.png",
-          "url": "/search?q=U091NS83K98"
+          "id": 239,
+          "image": "https://secure.gravatar.com/avatar/5c670b3086e45c27dd6c0822085e5366.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png",
+          "url": "/search?q=U0828FALAEQ"
         },
         {
           "name": "GiantNut",
@@ -960,13 +958,6 @@ export const stats = {
           "url": "/search?q=U08Q75EBX53"
         },
         {
-          "name": "_Shift_xd_",
-          "score": 12,
-          "id": 12374,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9181239085873_e3538ebecd87a88a4c5b_original.jpg",
-          "url": "/search?q=U08E76FG57E"
-        },
-        {
           "name": "Neon",
           "score": 11,
           "id": 5,
@@ -974,11 +965,18 @@ export const stats = {
           "url": "/search?q=U07L45W79E1"
         },
         {
-          "name": "Mish",
+          "name": "SAKSHAM GOEL",
           "score": 11,
-          "id": 153,
-          "image": "https://avatars.slack-edge.com/2025-06-02/8985528237266_d5f9ec0da853a1155f84_original.png",
-          "url": "/search?q=U073M5L9U13"
+          "id": 391,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_original.png",
+          "url": "/search?q=U091NS83K98"
+        },
+        {
+          "name": "Arun George Saji",
+          "score": 11,
+          "id": 447,
+          "image": "https://avatars.slack-edge.com/2024-09-25/7778511112357_06884ed591358f9f62f3_original.png",
+          "url": "/search?q=U07NWEG5PQV"
         },
         {
           "name": "atharv",
@@ -988,6 +986,41 @@ export const stats = {
           "url": "/search?q=U092BHHKJM6"
         },
         {
+          "name": "Malay Patel",
+          "score": 11,
+          "id": 5162,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
+          "url": "/search?q=U092ESNV264"
+        },
+        {
+          "name": "Bailey Miles",
+          "score": 11,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "/search?q=U0926KMCVDJ"
+        },
+        {
+          "name": "Ceyhun Nagiev",
+          "score": 11,
+          "id": 9519,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9073151586085_b9b7a35c3b594007640c_original.png",
+          "url": "/search?q=U091RFG3JNT"
+        },
+        {
+          "name": "leocerv",
+          "score": 11,
+          "id": 9945,
+          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
+          "url": "/search?q=U09229UEV2P"
+        },
+        {
+          "name": "sAI",
+          "score": 11,
+          "id": 11323,
+          "image": "https://avatars.slack-edge.com/2025-07-17/9212725969858_33a74c33caafe2b16d81_original.jpg",
+          "url": "/search?q=U08NCJ3RWLQ"
+        },
+        {
           "name": "Coni",
           "score": 11,
           "id": 12264,
@@ -995,18 +1028,18 @@ export const stats = {
           "url": "/search?q=U0832BVM57C"
         },
         {
+          "name": "Ivan",
+          "score": 11,
+          "id": 12514,
+          "image": "https://avatars.slack-edge.com/2025-02-02/8384479482133_73e52df1bdf0cb8ddb8f_original.jpg",
+          "url": "/search?q=U086VTQTB29"
+        },
+        {
           "name": "Turbash Negi",
           "score": 11,
           "id": 14162,
           "image": "https://secure.gravatar.com/avatar/06edffb7e39d48dc326342476603c3bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
           "url": "/search?q=U093SQHND6X"
-        },
-        {
-          "name": "Adhyys",
-          "score": 10,
-          "id": 214,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9220922723411_77b5657506d5c607a606_original.jpg",
-          "url": "/search?q=U082UPTRQU8"
         },
         {
           "name": "PawiX25",
@@ -1019,15 +1052,15 @@ export const stats = {
           "name": "Vivaan",
           "score": 10,
           "id": 413,
-          "image": "https://avatars.slack-edge.com/2025-07-07/9159115470724_a8e72bfc7d08b743e73f_original.png",
+          "image": "https://secure.gravatar.com/avatar/12dcd2400a32248f1e3d9401a784cfb9.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png",
           "url": "/search?q=U08SR8Z6U64"
         },
         {
-          "name": "Arun George Saji",
+          "name": "Frinshy",
           "score": 10,
-          "id": 447,
-          "image": "https://avatars.slack-edge.com/2024-09-25/7778511112357_06884ed591358f9f62f3_original.png",
-          "url": "/search?q=U07NWEG5PQV"
+          "id": 715,
+          "image": "https://avatars.slack-edge.com/2025-05-02/8864336422928_18c71af9acd6e1d92f6b_original.png",
+          "url": "/search?q=U08QCU75KEZ"
         },
         {
           "name": "editid",
@@ -1037,11 +1070,46 @@ export const stats = {
           "url": "/search?q=U091GJGTHGB"
         },
         {
-          "name": "Applee",
+          "name": "ur blood looks tasty '.P (sabio)",
           "score": 10,
-          "id": 3573,
-          "image": "https://secure.gravatar.com/avatar/91f40fe85fff030c3753404822556ff6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
-          "url": "/search?q=U091RF86L84"
+          "id": 2191,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9081170541104_a8dc919075d514a113a2_original.gif",
+          "url": "/search?q=U088Z65TDRN"
+        },
+        {
+          "name": "Ryan Mai",
+          "score": 10,
+          "id": 2293,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9070789602337_3250a31c08afb0f4dcfb_original.png",
+          "url": "/search?q=U091NDAL6AZ"
+        },
+        {
+          "name": "Oscar May",
+          "score": 10,
+          "id": 2352,
+          "image": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_original.png",
+          "url": "/search?q=U080S9AKW1L"
+        },
+        {
+          "name": "Solar",
+          "score": 10,
+          "id": 2518,
+          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
+          "url": "/search?q=U092CSW4FGQ"
+        },
+        {
+          "name": "aster42",
+          "score": 10,
+          "id": 2730,
+          "image": "https://secure.gravatar.com/avatar/113f81399ae45534ce1b1957ce12a5df.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "/search?q=U07HSJL9U1F"
+        },
+        {
+          "name": "Kcoder",
+          "score": 10,
+          "id": 3237,
+          "image": "https://avatars.slack-edge.com/2025-05-31/8974869899350_ba8658a2aa2a20c36dac_original.png",
+          "url": "/search?q=U08M0R1HE03"
         },
         {
           "name": "YeohTH",
@@ -1051,46 +1119,32 @@ export const stats = {
           "url": "/search?q=U091S39LTKN"
         },
         {
-          "name": "Maulik Daga",
+          "name": "Ali mad co.",
           "score": 10,
-          "id": 8112,
-          "image": "https://secure.gravatar.com/avatar/60136db4cedb818a729d22bd58be0208.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "/search?q=U091J37LCG7"
+          "id": 6319,
+          "image": "https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png",
+          "url": "/search?q=U08LQFRBL6S"
         },
         {
-          "name": "aera",
+          "name": "Js Na",
           "score": 10,
-          "id": 8654,
-          "image": "https://avatars.slack-edge.com/2025-07-29/9287437814273_5215408af71a49b307f2_original.png",
-          "url": "/search?q=U08RE7RUD9C"
+          "id": 9130,
+          "image": "https://avatars.slack-edge.com/2025-08-12/9327289268807_78bb1f63b2589b219333_original.png",
+          "url": "/search?q=U07FC7DP23U"
         },
         {
-          "name": "Tasnim",
-          "score": 10,
-          "id": 12753,
-          "image": "https://secure.gravatar.com/avatar/b1a57fa58626c7c06060ba33c81499e3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "/search?q=U09392FP3C6"
-        },
-        {
-          "name": "Flok",
+          "name": "Obay",
           "score": 9,
-          "id": 279,
-          "image": "https://avatars.slack-edge.com/2025-07-05/9148440554950_0d9cb8aad79a7d4ae744_original.png",
-          "url": "/search?q=U07M2GG03DW"
+          "id": 244,
+          "image": "https://avatars.slack-edge.com/2025-07-11/9197346921489_3d30b6b0c45509930354_original.png",
+          "url": "/search?q=U07LKN2HXT3"
         },
         {
-          "name": "Frinshy",
+          "name": "hellonearth311",
           "score": 9,
-          "id": 715,
-          "image": "https://avatars.slack-edge.com/2025-05-02/8864336422928_18c71af9acd6e1d92f6b_original.png",
-          "url": "/search?q=U08QCU75KEZ"
-        },
-        {
-          "name": "Stevens",
-          "score": 9,
-          "id": 795,
-          "image": "https://avatars.slack-edge.com/2025-03-17/8622593771025_074e1121c7c99e818a3a_original.png",
-          "url": "/search?q=U08260D58NN"
+          "id": 482,
+          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
+          "url": "/search?q=U091G6M9AB0"
         },
         {
           "name": "Maksiks",
@@ -1107,46 +1161,32 @@ export const stats = {
           "url": "/search?q=U092BV4SDG8"
         },
         {
-          "name": "Sabio",
+          "name": "Pranav",
           "score": 9,
-          "id": 2191,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9081170541104_a8dc919075d514a113a2_original.gif",
-          "url": "/search?q=U088Z65TDRN"
+          "id": 1602,
+          "image": "https://secure.gravatar.com/avatar/82a0d5c1cf276f0b0a55470bb4ee1f10.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
+          "url": "/search?q=U091E2QLEN4"
         },
         {
-          "name": "Ryan Mai",
+          "name": "Ingo",
           "score": 9,
-          "id": 2293,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9070789602337_3250a31c08afb0f4dcfb_original.png",
-          "url": "/search?q=U091NDAL6AZ"
+          "id": 3288,
+          "image": "https://avatars.slack-edge.com/2025-06-21/9083671066050_a6803bbb825d474abff9_original.jpg",
+          "url": "/search?q=U0923H02Y3B"
         },
         {
-          "name": "Oscar May",
+          "name": "Kingsuper195",
           "score": 9,
-          "id": 2352,
-          "image": "https://avatars.slack-edge.com/2024-11-14/8055812627344_2552bce81d6f233e53ef_original.png",
-          "url": "/search?q=U080S9AKW1L"
+          "id": 3687,
+          "image": "https://avatars.slack-edge.com/2024-12-03/8108978898278_d563db5536bad5145b5e_original.png",
+          "url": "/search?q=U082JTX9K0R"
         },
         {
-          "name": "Solar",
+          "name": "pybash",
           "score": 9,
-          "id": 2518,
-          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
-          "url": "/search?q=U092CSW4FGQ"
-        },
-        {
-          "name": "aster42",
-          "score": 9,
-          "id": 2730,
-          "image": "https://secure.gravatar.com/avatar/113f81399ae45534ce1b1957ce12a5df.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "/search?q=U07HSJL9U1F"
-        },
-        {
-          "name": "Malay Patel",
-          "score": 9,
-          "id": 5162,
-          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
-          "url": "/search?q=U092ESNV264"
+          "id": 4942,
+          "image": "https://avatars.slack-edge.com/2025-04-27/8815404649810_7ecad0f3eecbe935059d_original.png",
+          "url": "/search?q=U03GZE8R8TZ"
         },
         {
           "name": "Aldhaneka",
@@ -1156,18 +1196,18 @@ export const stats = {
           "url": "/search?q=U092KTDKGQ0"
         },
         {
+          "name": "om bhagat",
+          "score": 9,
+          "id": 7848,
+          "image": "https://avatars.slack-edge.com/2025-05-09/8887355562273_03d29658cf852503762f_original.png",
+          "url": "/search?q=U08RSUKP4CA"
+        },
+        {
           "name": "Jmeow longnamelongnamelongnamelongnamelongnamelongnamelongnamelongnamelongname",
           "score": 9,
           "id": 9123,
           "image": "https://secure.gravatar.com/avatar/c3fc112cb63a6410ba06572c52abf836.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
           "url": "/search?q=U091XKGS8SF"
-        },
-        {
-          "name": "Js Na",
-          "score": 9,
-          "id": 9130,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9327289268807_78bb1f63b2589b219333_original.png",
-          "url": "/search?q=U07FC7DP23U"
         },
         {
           "name": "Lucas",
@@ -1177,25 +1217,11 @@ export const stats = {
           "url": "/search?q=U0927KU5L04"
         },
         {
-          "name": "leocerv",
-          "score": 9,
-          "id": 9945,
-          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
-          "url": "/search?q=U09229UEV2P"
-        },
-        {
           "name": "25th_Bam",
           "score": 9,
           "id": 10284,
           "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
           "url": "/search?q=U08835GJUDU"
-        },
-        {
-          "name": "Devin",
-          "score": 9,
-          "id": 10590,
-          "image": "https://secure.gravatar.com/avatar/83d985d9cb25594db56e3a7f97bfb879.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
-          "url": "/search?q=U09274QBNFM"
         },
         {
           "name": "Ras_rap",
@@ -1205,11 +1231,11 @@ export const stats = {
           "url": "/search?q=U080ZG49VJ5"
         },
         {
-          "name": "sAI",
+          "name": "Richard",
           "score": 9,
-          "id": 11323,
-          "image": "https://avatars.slack-edge.com/2025-07-17/9212725969858_33a74c33caafe2b16d81_original.jpg",
-          "url": "/search?q=U08NCJ3RWLQ"
+          "id": 11128,
+          "image": "https://avatars.slack-edge.com/2025-08-18/9398656403600_9dff3cd79eed035161d1_original.png",
+          "url": "/search?q=U08HH8E5DQB"
         },
         {
           "name": "Daniel C",
@@ -1219,11 +1245,32 @@ export const stats = {
           "url": "/search?q=U0924H91QMD"
         },
         {
+          "name": "samliu",
+          "score": 9,
+          "id": 11935,
+          "image": "https://avatars.slack-edge.com/2025-06-12/9049916131473_ac460dedbf98600532f0_original.png",
+          "url": "/search?q=U03UBRVG2MS"
+        },
+        {
           "name": "infinotiver",
           "score": 9,
           "id": 11969,
           "image": "https://secure.gravatar.com/avatar/d73fa5115bf01f49ab9ee6320502d56b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
           "url": "/search?q=U093DK2JL0Y"
+        },
+        {
+          "name": "arjun agarwal",
+          "score": 9,
+          "id": 14641,
+          "image": "https://avatars.slack-edge.com/2025-02-11/8434025152562_342120c5b2d1a4c9810f_original.png",
+          "url": "/search?q=U08AX228LJJ"
+        },
+        {
+          "name": "CC",
+          "score": 9,
+          "id": 17123,
+          "image": "https://avatars.slack-edge.com/2025-08-09/9354852686976_d113876869f82ca9ca80_original.png",
+          "url": "/search?q=U096RMRG03G"
         },
         {
           "name": "Akarshak Srivastav",
@@ -1233,6 +1280,13 @@ export const stats = {
           "url": "/search?q=U097S6PUH8D"
         },
         {
+          "name": "jadhav",
+          "score": 9,
+          "id": 19827,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9381329381667_f1d1840eabf91fe57284_original.jpg",
+          "url": "/search?q=U097V3GU8H4"
+        },
+        {
           "name": "dhyan",
           "score": 8,
           "id": 12,
@@ -1240,11 +1294,25 @@ export const stats = {
           "url": "/search?q=U0824G9PTFE"
         },
         {
+          "name": "Shuflduf",
+          "score": 8,
+          "id": 18,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
+          "url": "/search?q=U07950S3GMC"
+        },
+        {
           "name": "krn",
           "score": 8,
           "id": 45,
-          "image": "https://avatars.slack-edge.com/2025-08-13/9357727329553_a5861b853357313b5964_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-23/9399433874770_f9f04468462e0f8eb23f_original.jpg",
           "url": "/search?q=U062UG485EE"
+        },
+        {
+          "name": "pizzalover125",
+          "score": 8,
+          "id": 51,
+          "image": "https://avatars.slack-edge.com/2025-07-22/9237442536965_3a825f0314c4207667a3_original.png",
+          "url": "/search?q=U07FD57JN67"
         },
         {
           "name": "Zoe",
@@ -1254,25 +1322,18 @@ export const stats = {
           "url": "/search?q=U08T4JQJRJA"
         },
         {
-          "name": "yousef_7abib",
+          "name": "Pandas",
           "score": 8,
-          "id": 239,
-          "image": "https://secure.gravatar.com/avatar/5c670b3086e45c27dd6c0822085e5366.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png",
-          "url": "/search?q=U0828FALAEQ"
+          "id": 201,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9062009932291_d8a3e1738b14ab7e5788_original.jpg",
+          "url": "/search?q=U08GZ4R62E8"
         },
         {
-          "name": "Obay",
+          "name": "Barxilly",
           "score": 8,
-          "id": 244,
-          "image": "https://avatars.slack-edge.com/2025-07-11/9197346921489_3d30b6b0c45509930354_original.png",
-          "url": "/search?q=U07LKN2HXT3"
-        },
-        {
-          "name": "hellonearth311",
-          "score": 8,
-          "id": 482,
-          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
-          "url": "/search?q=U091G6M9AB0"
+          "id": 326,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9391551413542_a00763d92690cef9061a_original.jpg",
+          "url": "/search?q=U078L1ETM6E"
         },
         {
           "name": "Tanmay",
@@ -1282,11 +1343,11 @@ export const stats = {
           "url": "/search?q=U08SCF13ETS"
         },
         {
-          "name": "Pranav",
+          "name": "Stevens",
           "score": 8,
-          "id": 1602,
-          "image": "https://secure.gravatar.com/avatar/82a0d5c1cf276f0b0a55470bb4ee1f10.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
-          "url": "/search?q=U091E2QLEN4"
+          "id": 795,
+          "image": "https://avatars.slack-edge.com/2025-03-17/8622593771025_074e1121c7c99e818a3a_original.png",
+          "url": "/search?q=U08260D58NN"
         },
         {
           "name": "Ivole32",
@@ -1296,11 +1357,11 @@ export const stats = {
           "url": "/search?q=U091Q3TGSS0"
         },
         {
-          "name": "owais",
+          "name": "Ori",
           "score": 8,
-          "id": 2738,
-          "image": "https://avatars.slack-edge.com/2024-11-26/8105951036624_a48c97d5960a6c5f0452_original.jpg",
-          "url": "/search?q=U081C47SYP9"
+          "id": 3031,
+          "image": "https://avatars.slack-edge.com/2024-12-14/8196315255504_cbbbd647260ae00641ba_original.jpg",
+          "url": "/search?q=U08273M9L3E"
         },
         {
           "name": "Jason",
@@ -1310,39 +1371,11 @@ export const stats = {
           "url": "/search?q=U07G05YM98X"
         },
         {
-          "name": "Dev",
+          "name": "King Howler",
           "score": 8,
-          "id": 4460,
-          "image": "https://avatars.slack-edge.com/2025-03-14/8602381404850_c6ff9af93687a45823d4_original.png",
-          "url": "/search?q=U07AG1R4KAQ"
-        },
-        {
-          "name": "pybash",
-          "score": 8,
-          "id": 4942,
-          "image": "https://avatars.slack-edge.com/2025-04-27/8815404649810_7ecad0f3eecbe935059d_original.png",
-          "url": "/search?q=U03GZE8R8TZ"
-        },
-        {
-          "name": "Ali mad co.",
-          "score": 8,
-          "id": 6319,
-          "image": "https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png",
-          "url": "/search?q=U08LQFRBL6S"
-        },
-        {
-          "name": "joshpinto6",
-          "score": 8,
-          "id": 6428,
-          "image": "https://secure.gravatar.com/avatar/d2c5c6f06ac6deea78a9400b6fd5abde.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "/search?q=U07VA44DNBA"
-        },
-        {
-          "name": "Yash Gupta",
-          "score": 8,
-          "id": 6738,
-          "image": "https://avatars.slack-edge.com/2025-07-28/9261450500323_d39fab2715b40b3394b8_original.jpg",
-          "url": "/search?q=U08LX0Q5KPH"
+          "id": 6360,
+          "image": "https://avatars.slack-edge.com/2024-11-04/7981940388932_3a8ba0412e0892abc066_original.png",
+          "url": "/search?q=U07UGRYER5G"
         },
         {
           "name": "liujip0",
@@ -1352,21 +1385,21 @@ export const stats = {
           "url": "/search?q=U07AFUXF8FR"
         },
         {
-          "name": "om bhagat",
+          "name": "Nullskulls",
           "score": 8,
-          "id": 7848,
-          "image": "https://avatars.slack-edge.com/2025-05-09/8887355562273_03d29658cf852503762f_original.png",
-          "url": "/search?q=U08RSUKP4CA"
+          "id": 10823,
+          "image": "https://avatars.slack-edge.com/2025-06-26/9104057076259_c30b172d1142670cbd7f_original.png",
+          "url": "/search?q=U092F9A8VMY"
         },
         {
-          "name": "Richard",
+          "name": "Virat Sisodiya",
           "score": 8,
-          "id": 11128,
-          "image": "https://avatars.slack-edge.com/2025-07-19/9224681051236_00ec018e1f1a8bea4d48_original.png",
-          "url": "/search?q=U08HH8E5DQB"
+          "id": 11127,
+          "image": "https://secure.gravatar.com/avatar/9fa74a88a6553787cbc5f7a3f76a606a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png",
+          "url": "/search?q=U0934KZAG5N"
         },
         {
-          "name": "Gangsta Ozcan",
+          "name": "Eli Ozcan",
           "score": 8,
           "id": 11144,
           "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
@@ -1387,18 +1420,18 @@ export const stats = {
           "url": "/search?q=U091FJT70P4"
         },
         {
-          "name": "samliu",
-          "score": 8,
-          "id": 11935,
-          "image": "https://avatars.slack-edge.com/2025-06-12/9049916131473_ac460dedbf98600532f0_original.png",
-          "url": "/search?q=U03UBRVG2MS"
-        },
-        {
           "name": "WheeledCord",
           "score": 8,
           "id": 12656,
-          "image": "https://avatars.slack-edge.com/2025-05-24/8948861104594_6a36f968025ab8348104_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383029493606_79361451d62f9ff1eaec_original.jpg",
           "url": "/search?q=U07V1JH3HU0"
+        },
+        {
+          "name": "Jose M.",
+          "score": 8,
+          "id": 13292,
+          "image": "https://avatars.slack-edge.com/2025-08-13/9375246907632_3595d3d3a4a81d685b79_original.png",
+          "url": "/search?q=U093R2JLDNG"
         },
         {
           "name": "shuva",
@@ -1408,11 +1441,32 @@ export const stats = {
           "url": "/search?q=U084RU0TKUM"
         },
         {
+          "name": "Alexa",
+          "score": 8,
+          "id": 15546,
+          "image": "https://secure.gravatar.com/avatar/8d174373af8935bca9c46cc444b3f859.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
+          "url": "/search?q=U095FU6B3CN"
+        },
+        {
+          "name": "harry rogers",
+          "score": 8,
+          "id": 17035,
+          "image": "https://avatars.slack-edge.com/2025-08-22/9395783667826_0e63bf1ce07b9eee2684_original.png",
+          "url": "/search?q=U096UJ1L3L2"
+        },
+        {
           "name": "SB",
           "score": 8,
           "id": 18080,
           "image": "https://secure.gravatar.com/avatar/b1f502a480f68ccac004bd8dc6276cc5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
           "url": "/search?q=U096VQBAHNJ"
+        },
+        {
+          "name": "ryukgod26",
+          "score": 8,
+          "id": 19208,
+          "image": "https://secure.gravatar.com/avatar/2ef73d5bc7aeb4c57edbc2e82b43be4f.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "/search?q=U097F2LQ8CV"
         },
         {
           "name": "Toshit",
@@ -1422,11 +1476,11 @@ export const stats = {
           "url": "/search?q=U07UY5CR7U5"
         },
         {
-          "name": "pizzalover125",
+          "name": "BetterClient",
           "score": 7,
-          "id": 51,
-          "image": "https://avatars.slack-edge.com/2025-07-22/9237442536965_3a825f0314c4207667a3_original.png",
-          "url": "/search?q=U07FD57JN67"
+          "id": 113,
+          "image": "https://avatars.slack-edge.com/2025-02-27/8541973059712_37e1c34da3d506f891c4_original.png",
+          "url": "/search?q=U083F2N7ZAM"
         },
         {
           "name": "Abhay",
@@ -1443,11 +1497,11 @@ export const stats = {
           "url": "/search?q=U06391ZNZNW"
         },
         {
-          "name": "Pandas",
+          "name": "Stef",
           "score": 7,
-          "id": 201,
-          "image": "https://avatars.slack-edge.com/2025-06-18/9062009932291_d8a3e1738b14ab7e5788_original.jpg",
-          "url": "/search?q=U08GZ4R62E8"
+          "id": 136,
+          "image": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
+          "url": "/search?q=U0823APHVK7"
         },
         {
           "name": "Seif Ahmed",
@@ -1464,11 +1518,11 @@ export const stats = {
           "url": "/search?q=U08DF5PB5M3"
         },
         {
-          "name": "Barxilly",
+          "name": "littleinventor7",
           "score": 7,
-          "id": 326,
-          "image": "https://avatars.slack-edge.com/2024-10-06/7833484576917_5e9288b0b08f6ba02f53_original.jpg",
-          "url": "/search?q=U078L1ETM6E"
+          "id": 272,
+          "image": "https://secure.gravatar.com/avatar/4ceebc9ec566c45e92902a371bd1045a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
+          "url": "/search?q=U08436JHFQ8"
         },
         {
           "name": "Alexander Rebello",
@@ -1483,120 +1537,106 @@ export const stats = {
           "id": 487,
           "image": "https://avatars.slack-edge.com/2025-08-12/9346086395366_50b7fffe1fe328105843_original.jpg",
           "url": "/search?q=U084D1T5ZV0"
-        },
-        {
-          "name": "grace",
-          "score": 7,
-          "id": 859,
-          "image": "https://secure.gravatar.com/avatar/4ce5715f891fa73594ff8376cf21ece5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
-          "url": "/search?q=U0840LYSD1D"
-        },
-        {
-          "name": "Scutoid",
-          "score": 7,
-          "id": 1053,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9219962004243_ac70c929d691d12a0113_original.jpg",
-          "url": "/search?q=U0825SVHFJL"
-        },
-        {
-          "name": "Mustafa Ali",
-          "score": 7,
-          "id": 1571,
-          "image": "https://avatars.slack-edge.com/2025-08-06/9311394112725_8828bf29de95af0b3b39_original.png",
-          "url": "/search?q=U07D01SEFFV"
-        },
-        {
-          "name": "yehor",
-          "score": 7,
-          "id": 2157,
-          "image": "https://secure.gravatar.com/avatar/1b354e60fa6a4e63fdb6f9a15fa36ece.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
-          "url": "/search?q=U0918P76HL7"
-        },
-        {
-          "name": "tobycm",
-          "score": 7,
-          "id": 2410,
-          "image": "https://secure.gravatar.com/avatar/8c3b2029456fe4bd1cdf34366af58b62.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png",
-          "url": "/search?q=U07D59XCG4U"
-        },
-        {
-          "name": "Chris",
-          "score": 7,
-          "id": 2416,
-          "image": "https://secure.gravatar.com/avatar/97f79097e080a828c9ac04638da14b84.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
-          "url": "/search?q=U078H1EK882"
-        },
-        {
-          "name": "Orion",
-          "score": 7,
-          "id": 2583,
-          "image": "https://secure.gravatar.com/avatar/cb0720688a3a914392e64eb2f41318bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
-          "url": "/search?q=U091NMYE7A9"
         }
       ],
       "devlogs": [
         {
-          "name": "Chee Yong",
-          "score": 179,
-          "id": 5989,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_original.png",
-          "url": "https://summer.hackclub.com/users/5989"
-        },
-        {
           "name": "25th_Bam",
-          "score": 140,
+          "score": 153,
           "id": 10284,
           "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
           "url": "https://summer.hackclub.com/users/10284"
         },
         {
-          "name": "Gangsta Ozcan",
-          "score": 110,
+          "name": "Shuflduf",
+          "score": 119,
+          "id": 18,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
+          "url": "https://summer.hackclub.com/users/18"
+        },
+        {
+          "name": "Solar",
+          "score": 112,
+          "id": 2518,
+          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
+          "url": "https://summer.hackclub.com/users/2518"
+        },
+        {
+          "name": "Sapphire",
+          "score": 107,
+          "id": 15777,
+          "image": "https://secure.gravatar.com/avatar/54d73f1b726b83294e9ee599749a146a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
+          "url": "https://summer.hackclub.com/users/15777"
+        },
+        {
+          "name": "Aldhaneka",
+          "score": 106,
+          "id": 7542,
+          "image": "https://secure.gravatar.com/avatar/132c4a666d90c68010ae2d9d1c464f71.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
+          "url": "https://summer.hackclub.com/users/7542"
+        },
+        {
+          "name": "Eli Ozcan",
+          "score": 106,
           "id": 11144,
           "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
           "url": "https://summer.hackclub.com/users/11144"
         },
         {
+          "name": "Maksiks",
+          "score": 103,
+          "id": 1027,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
+          "url": "https://summer.hackclub.com/users/1027"
+        },
+        {
           "name": "nosrep",
-          "score": 101,
+          "score": 103,
           "id": 9955,
           "image": "https://secure.gravatar.com/avatar/65708c2afbb0237dd70beb30de54de07.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
           "url": "https://summer.hackclub.com/users/9955"
         },
         {
-          "name": "Milk_Cool",
+          "name": "TheLinuxGuy",
+          "score": 103,
+          "id": 11355,
+          "image": "https://avatars.slack-edge.com/2025-07-20/9237761667601_6334002dfd08a64fb692_original.png",
+          "url": "https://summer.hackclub.com/users/11355"
+        },
+        {
+          "name": "King Howler",
+          "score": 102,
+          "id": 6360,
+          "image": "https://avatars.slack-edge.com/2024-11-04/7981940388932_3a8ba0412e0892abc066_original.png",
+          "url": "https://summer.hackclub.com/users/6360"
+        },
+        {
+          "name": "Bailey Miles",
+          "score": 101,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "https://summer.hackclub.com/users/9517"
+        },
+        {
+          "name": "Hridya",
           "score": 99,
+          "id": 145,
+          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
+          "url": "https://summer.hackclub.com/users/145"
+        },
+        {
+          "name": "Milk_Cool",
+          "score": 96,
           "id": 375,
           "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
           "url": "https://summer.hackclub.com/users/375"
         },
         {
           "name": "Ivole32",
-          "score": 98,
+          "score": 96,
           "id": 1652,
           "image": "https://secure.gravatar.com/avatar/11d7b3c191b07f983f7a0eeea1d358fd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
           "url": "https://summer.hackclub.com/users/1652"
-        },
-        {
-          "name": "Aldhaneka",
-          "score": 97,
-          "id": 7542,
-          "image": "https://secure.gravatar.com/avatar/132c4a666d90c68010ae2d9d1c464f71.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/7542"
-        },
-        {
-          "name": "Solar",
-          "score": 96,
-          "id": 2518,
-          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
-          "url": "https://summer.hackclub.com/users/2518"
-        },
-        {
-          "name": "Shuflduf",
-          "score": 94,
-          "id": 18,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
-          "url": "https://summer.hackclub.com/users/18"
         },
         {
           "name": "hellonearth311",
@@ -1606,36 +1646,50 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/482"
         },
         {
+          "name": "Dory",
+          "score": 92,
+          "id": 8562,
+          "image": "https://secure.gravatar.com/avatar/c0cc440664fcf42104641877f80da1da.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "https://summer.hackclub.com/users/8562"
+        },
+        {
+          "name": "Ivan",
+          "score": 92,
+          "id": 12514,
+          "image": "https://avatars.slack-edge.com/2025-02-02/8384479482133_73e52df1bdf0cb8ddb8f_original.jpg",
+          "url": "https://summer.hackclub.com/users/12514"
+        },
+        {
           "name": "editid",
-          "score": 93,
+          "score": 91,
           "id": 1426,
           "image": "https://secure.gravatar.com/avatar/11158a63770ded5b5e04561243d8f31e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
           "url": "https://summer.hackclub.com/users/1426"
         },
         {
-          "name": "SUPA Siblings",
-          "score": 91,
-          "id": 12338,
-          "image": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12338"
+          "name": "Mustafa",
+          "score": 88,
+          "id": 12784,
+          "image": "https://avatars.slack-edge.com/2025-08-02/9290443606451_8046ffd38b7d4de37075_original.jpg",
+          "url": "https://summer.hackclub.com/users/12784"
         },
         {
-          "name": "Maksiks",
-          "score": 89,
-          "id": 1027,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
-          "url": "https://summer.hackclub.com/users/1027"
+          "name": "Ryan Mai",
+          "score": 85,
+          "id": 2293,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9070789602337_3250a31c08afb0f4dcfb_original.png",
+          "url": "https://summer.hackclub.com/users/2293"
         },
         {
-          "name": "TheLinuxGuy",
-          "score": 89,
-          "id": 11355,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9237761667601_6334002dfd08a64fb692_original.png",
-          "url": "https://summer.hackclub.com/users/11355"
+          "name": "Kcoder",
+          "score": 85,
+          "id": 3237,
+          "image": "https://avatars.slack-edge.com/2025-05-31/8974869899350_ba8658a2aa2a20c36dac_original.png",
+          "url": "https://summer.hackclub.com/users/3237"
         },
         {
           "name": "Mohit Tiwari",
-          "score": 83,
+          "score": 82,
           "id": 60,
           "image": "https://avatars.slack-edge.com/2025-08-06/9310049264949_540893f78d6d4508cf98_original.jpg",
           "url": "https://summer.hackclub.com/users/60"
@@ -1649,59 +1703,66 @@ export const stats = {
         },
         {
           "name": "Anirudh",
-          "score": 80,
+          "score": 81,
           "id": 191,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9119233619603_ffa41a3766c4d5153ce8_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391147594451_f071064fadea03d26edf_original.jpg",
           "url": "https://summer.hackclub.com/users/191"
         },
         {
-          "name": "Gabrijel",
+          "name": "Koeqaife",
           "score": 80,
+          "id": 12538,
+          "image": "https://avatars.slack-edge.com/2025-08-24/9413160214545_8ad6a2f3e0f72abb6d35_original.png",
+          "url": "https://summer.hackclub.com/users/12538"
+        },
+        {
+          "name": "FireEntity",
+          "score": 78,
+          "id": 16,
+          "image": "https://avatars.slack-edge.com/2025-08-08/9327248933522_50cddd6a7ce5254cafaa_original.png",
+          "url": "https://summer.hackclub.com/users/16"
+        },
+        {
+          "name": "Gabrijel",
+          "score": 77,
           "id": 6871,
           "image": "https://secure.gravatar.com/avatar/4a1280d62866d6fde07979dc349c707b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
           "url": "https://summer.hackclub.com/users/6871"
         },
         {
-          "name": "King Howler",
-          "score": 78,
-          "id": 6360,
-          "image": "https://avatars.slack-edge.com/2024-11-04/7981940388932_3a8ba0412e0892abc066_original.png",
-          "url": "https://summer.hackclub.com/users/6360"
-        },
-        {
-          "name": "Hridya",
-          "score": 76,
-          "id": 145,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
-          "url": "https://summer.hackclub.com/users/145"
-        },
-        {
-          "name": "gopal",
-          "score": 76,
-          "id": 20831,
-          "image": "https://secure.gravatar.com/avatar/c0b049741c50a3ffa625e9f454c62c64.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/20831"
-        },
-        {
           "name": "Rohan the Codebreaker (my code)",
-          "score": 73,
+          "score": 76,
           "id": 1453,
           "image": "https://avatars.slack-edge.com/2025-08-01/9292969825060_399cbfe573636c9a70a6_original.png",
           "url": "https://summer.hackclub.com/users/1453"
         },
         {
-          "name": "_Shift_xd_",
-          "score": 73,
-          "id": 12374,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9181239085873_e3538ebecd87a88a4c5b_original.jpg",
-          "url": "https://summer.hackclub.com/users/12374"
+          "name": "HassaanKH",
+          "score": 76,
+          "id": 5872,
+          "image": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
+          "url": "https://summer.hackclub.com/users/5872"
         },
         {
-          "name": "Michael Tang",
-          "score": 71,
-          "id": 6322,
-          "image": "https://secure.gravatar.com/avatar/f1061eb68bd6673d01e9047f618ca168.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/6322"
+          "name": "HQ2000",
+          "score": 74,
+          "id": 5146,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9089953185073_154d75c2ee83f9f18430_original.jpg",
+          "url": "https://summer.hackclub.com/users/5146"
+        },
+        {
+          "name": "hƖƖꓭꓨ",
+          "score": 74,
+          "id": 10206,
+          "image": "https://avatars.slack-edge.com/2025-08-19/9369699722723_7d33c266bc539a7a0fbd_original.jpg",
+          "url": "https://summer.hackclub.com/users/10206"
+        },
+        {
+          "name": "arsenal fan",
+          "score": 73,
+          "id": 19172,
+          "image": "https://avatars.slack-edge.com/2025-07-24/9266592826849_fb8410a23e5bb9973691_original.png",
+          "url": "https://summer.hackclub.com/users/19172"
         },
         {
           "name": "Gabriel Pop",
@@ -1718,81 +1779,144 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/7939"
         },
         {
-          "name": "Dory",
-          "score": 71,
-          "id": 8562,
-          "image": "https://secure.gravatar.com/avatar/c0cc440664fcf42104641877f80da1da.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/8562"
-        },
-        {
-          "name": "Sapphire",
-          "score": 70,
-          "id": 15777,
-          "image": "https://secure.gravatar.com/avatar/54d73f1b726b83294e9ee599749a146a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "https://summer.hackclub.com/users/15777"
-        },
-        {
-          "name": "Quang",
-          "score": 68,
-          "id": 6045,
-          "image": "https://secure.gravatar.com/avatar/dcffb947fa3ad1e3513575c478a043b2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
-          "url": "https://summer.hackclub.com/users/6045"
-        },
-        {
-          "name": "Ryan Mai",
-          "score": 67,
-          "id": 2293,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9070789602337_3250a31c08afb0f4dcfb_original.png",
-          "url": "https://summer.hackclub.com/users/2293"
-        },
-        {
-          "name": "Abū al-Barāʾ",
-          "score": 67,
-          "id": 5396,
-          "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
-          "url": "https://summer.hackclub.com/users/5396"
-        },
-        {
-          "name": "csd4ni3l",
-          "score": 67,
-          "id": 5501,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9169641978262_ad279cf75f3ff4dff390_original.png",
-          "url": "https://summer.hackclub.com/users/5501"
-        },
-        {
-          "name": "FireEntity",
-          "score": 66,
-          "id": 16,
-          "image": "https://avatars.slack-edge.com/2025-08-08/9327248933522_50cddd6a7ce5254cafaa_original.png",
-          "url": "https://summer.hackclub.com/users/16"
-        },
-        {
-          "name": "GiantNut",
-          "score": 65,
-          "id": 2088,
-          "image": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/2088"
-        },
-        {
-          "name": "Alex",
-          "score": 64,
-          "id": 14057,
-          "image": "https://avatars.slack-edge.com/2025-07-02/9156558093104_e0eb94c0aeefc953a316_original.png",
-          "url": "https://summer.hackclub.com/users/14057"
-        },
-        {
           "name": "Alric Marvel",
-          "score": 63,
+          "score": 70,
           "id": 6294,
           "image": "https://avatars.slack-edge.com/2025-08-09/9328395317042_99a458d8cd5f4d16bb58_original.png",
           "url": "https://summer.hackclub.com/users/6294"
         },
         {
+          "name": "Kingsuper195",
+          "score": 69,
+          "id": 3687,
+          "image": "https://avatars.slack-edge.com/2024-12-03/8108978898278_d563db5536bad5145b5e_original.png",
+          "url": "https://summer.hackclub.com/users/3687"
+        },
+        {
+          "name": "Michael Tang",
+          "score": 69,
+          "id": 6322,
+          "image": "https://secure.gravatar.com/avatar/f1061eb68bd6673d01e9047f618ca168.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
+          "url": "https://summer.hackclub.com/users/6322"
+        },
+        {
           "name": "Benkralex",
-          "score": 63,
+          "score": 68,
           "id": 11843,
           "image": "https://secure.gravatar.com/avatar/3575b96752c2ee05e0360f8039b26ee2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
           "url": "https://summer.hackclub.com/users/11843"
+        },
+        {
+          "name": "QinCai",
+          "score": 67,
+          "id": 4514,
+          "image": "https://avatars.slack-edge.com/2025-06-04/8989310008099_85a5c11b799e67f2f768_original.png",
+          "url": "https://summer.hackclub.com/users/4514"
+        },
+        {
+          "name": "Malay Patel",
+          "score": 67,
+          "id": 5162,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
+          "url": "https://summer.hackclub.com/users/5162"
+        },
+        {
+          "name": "Utkarsh Kumar",
+          "score": 67,
+          "id": 8255,
+          "image": "https://secure.gravatar.com/avatar/0a3334853b6cc3295c2e5c158a42fbaa.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
+          "url": "https://summer.hackclub.com/users/8255"
+        },
+        {
+          "name": "vidit2345",
+          "score": 66,
+          "id": 2591,
+          "image": "https://secure.gravatar.com/avatar/a1ef90a376da75e042228c4b538540cb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
+          "url": "https://summer.hackclub.com/users/2591"
+        },
+        {
+          "name": "csd4ni3l",
+          "score": 66,
+          "id": 5501,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9169641978262_ad279cf75f3ff4dff390_original.png",
+          "url": "https://summer.hackclub.com/users/5501"
+        },
+        {
+          "name": "Luckmuc",
+          "score": 65,
+          "id": 2848,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9072065116068_8531df507fe0be9ce006_original.jpg",
+          "url": "https://summer.hackclub.com/users/2848"
+        },
+        {
+          "name": "Kairui Cheng",
+          "score": 65,
+          "id": 3585,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9071799142561_c056e386ca59748e6e78_original.jpg",
+          "url": "https://summer.hackclub.com/users/3585"
+        },
+        {
+          "name": "Bel",
+          "score": 65,
+          "id": 6045,
+          "image": "https://secure.gravatar.com/avatar/dcffb947fa3ad1e3513575c478a043b2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
+          "url": "https://summer.hackclub.com/users/6045"
+        },
+        {
+          "name": "Nullskulls",
+          "score": 65,
+          "id": 10823,
+          "image": "https://avatars.slack-edge.com/2025-06-26/9104057076259_c30b172d1142670cbd7f_original.png",
+          "url": "https://summer.hackclub.com/users/10823"
+        },
+        {
+          "name": "harry rogers",
+          "score": 65,
+          "id": 17035,
+          "image": "https://avatars.slack-edge.com/2025-08-22/9395783667826_0e63bf1ce07b9eee2684_original.png",
+          "url": "https://summer.hackclub.com/users/17035"
+        },
+        {
+          "name": "Cyao",
+          "score": 64,
+          "id": 151,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9363788463973_f276d477dbfb3203bf45_original.jpg",
+          "url": "https://summer.hackclub.com/users/151"
+        },
+        {
+          "name": "Chris",
+          "score": 64,
+          "id": 2416,
+          "image": "https://secure.gravatar.com/avatar/97f79097e080a828c9ac04638da14b84.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
+          "url": "https://summer.hackclub.com/users/2416"
+        },
+        {
+          "name": "pizzalover125",
+          "score": 63,
+          "id": 51,
+          "image": "https://avatars.slack-edge.com/2025-07-22/9237442536965_3a825f0314c4207667a3_original.png",
+          "url": "https://summer.hackclub.com/users/51"
+        },
+        {
+          "name": "BetterClient",
+          "score": 63,
+          "id": 113,
+          "image": "https://avatars.slack-edge.com/2025-02-27/8541973059712_37e1c34da3d506f891c4_original.png",
+          "url": "https://summer.hackclub.com/users/113"
+        },
+        {
+          "name": "Puneet Gopinath",
+          "score": 63,
+          "id": 11924,
+          "image": "https://avatars.slack-edge.com/2025-07-03/9129089232567_ffd5b7ba6b4a85de3de1_original.jpg",
+          "url": "https://summer.hackclub.com/users/11924"
+        },
+        {
+          "name": "WheeledCord",
+          "score": 63,
+          "id": 12656,
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383029493606_79361451d62f9ff1eaec_original.jpg",
+          "url": "https://summer.hackclub.com/users/12656"
         },
         {
           "name": "Drew Ratner",
@@ -1802,18 +1926,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/1349"
         },
         {
-          "name": "Kairui Cheng",
+          "name": "Yogya Chugh",
           "score": 62,
-          "id": 3585,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9071799142561_c056e386ca59748e6e78_original.jpg",
-          "url": "https://summer.hackclub.com/users/3585"
-        },
-        {
-          "name": "HQ2000",
-          "score": 62,
-          "id": 5146,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9089953185073_154d75c2ee83f9f18430_original.jpg",
-          "url": "https://summer.hackclub.com/users/5146"
+          "id": 9699,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9090345160833_3cde8fc12be9701293ef_original.png",
+          "url": "https://summer.hackclub.com/users/9699"
         },
         {
           "name": "Arjun",
@@ -1823,53 +1940,32 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/10683"
         },
         {
+          "name": "segun",
+          "score": 61,
+          "id": 3994,
+          "image": "https://avatars.slack-edge.com/2025-05-02/8838868564610_0777e650c5f87072c5aa_original.png",
+          "url": "https://summer.hackclub.com/users/3994"
+        },
+        {
           "name": "Mr.Chicken",
-          "score": 62,
+          "score": 61,
           "id": 11932,
           "image": "https://avatars.slack-edge.com/2025-06-23/9093740614804_7f890848fb740625b5a0_original.jpg",
           "url": "https://summer.hackclub.com/users/11932"
         },
         {
-          "name": "harry rogers",
-          "score": 62,
-          "id": 17035,
-          "image": "https://avatars.slack-edge.com/2025-07-24/9251242078034_a20dca19d1dc7a4694c8_original.jpg",
-          "url": "https://summer.hackclub.com/users/17035"
-        },
-        {
-          "name": "Cyao",
+          "name": "Turbash Negi",
           "score": 61,
-          "id": 151,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8979376813122_d4a8a1c98d00b1429cf9_original.png",
-          "url": "https://summer.hackclub.com/users/151"
+          "id": 14162,
+          "image": "https://secure.gravatar.com/avatar/06edffb7e39d48dc326342476603c3bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
+          "url": "https://summer.hackclub.com/users/14162"
         },
         {
-          "name": "Puneet Gopinath",
-          "score": 61,
-          "id": 11924,
-          "image": "https://avatars.slack-edge.com/2025-07-03/9129089232567_ffd5b7ba6b4a85de3de1_original.jpg",
-          "url": "https://summer.hackclub.com/users/11924"
-        },
-        {
-          "name": "QinCai",
+          "name": "leocerv",
           "score": 60,
-          "id": 4514,
-          "image": "https://avatars.slack-edge.com/2025-06-04/8989310008099_85a5c11b799e67f2f768_original.png",
-          "url": "https://summer.hackclub.com/users/4514"
-        },
-        {
-          "name": "HassaanKH",
-          "score": 60,
-          "id": 5872,
-          "image": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
-          "url": "https://summer.hackclub.com/users/5872"
-        },
-        {
-          "name": "Nullskulls",
-          "score": 60,
-          "id": 10823,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9104057076259_c30b172d1142670cbd7f_original.png",
-          "url": "https://summer.hackclub.com/users/10823"
+          "id": 9945,
+          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
+          "url": "https://summer.hackclub.com/users/9945"
         },
         {
           "name": "Zayn",
@@ -1879,32 +1975,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/2794"
         },
         {
-          "name": "Koeqaife",
-          "score": 59,
-          "id": 12538,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9108680617634_6cf9c86774de2e2fe20c_original.png",
-          "url": "https://summer.hackclub.com/users/12538"
+          "name": "Stef",
+          "score": 58,
+          "id": 136,
+          "image": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
+          "url": "https://summer.hackclub.com/users/136"
         },
         {
-          "name": "pizzalover125",
-          "score": 57,
-          "id": 51,
-          "image": "https://avatars.slack-edge.com/2025-07-22/9237442536965_3a825f0314c4207667a3_original.png",
-          "url": "https://summer.hackclub.com/users/51"
+          "name": "Akaalroop",
+          "score": 58,
+          "id": 1821,
+          "image": "https://avatars.slack-edge.com/2025-02-15/8455813093573_8cd126d936d56e17349c_original.png",
+          "url": "https://summer.hackclub.com/users/1821"
         },
         {
-          "name": "Chris",
-          "score": 57,
-          "id": 2416,
-          "image": "https://secure.gravatar.com/avatar/97f79097e080a828c9ac04638da14b84.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
-          "url": "https://summer.hackclub.com/users/2416"
-        },
-        {
-          "name": "Jay",
-          "score": 57,
-          "id": 3324,
-          "image": "https://avatars.slack-edge.com/2025-07-27/9263233198532_c3999d9e4dc74e9b0314_original.png",
-          "url": "https://summer.hackclub.com/users/3324"
+          "name": "mattseq",
+          "score": 58,
+          "id": 3328,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9099542398496_686de8eb53df145a992c_original.png",
+          "url": "https://summer.hackclub.com/users/3328"
         },
         {
           "name": "Shivam Maurya",
@@ -1921,39 +2010,67 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/4026"
         },
         {
-          "name": "GB114",
+          "name": "Neer Sheth",
           "score": 56,
-          "id": 10206,
-          "image": "https://avatars.slack-edge.com/2025-04-28/8838614468544_daa1d0ef316bf9ba9576_original.jpg",
-          "url": "https://summer.hackclub.com/users/10206"
+          "id": 7690,
+          "image": "https://avatars.slack-edge.com/2025-02-20/8480810570486_9ded7cd9a057c20f24b3_original.png",
+          "url": "https://summer.hackclub.com/users/7690"
         },
         {
-          "name": "Spark",
+          "name": "obob",
           "score": 56,
-          "id": 14213,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9323399085571_5f55230c099cacc31acb_original.png",
-          "url": "https://summer.hackclub.com/users/14213"
+          "id": 8486,
+          "image": "https://avatars.slack-edge.com/2025-07-05/9151745107314_5f8cfa4ed6cc7f9bc222_original.png",
+          "url": "https://summer.hackclub.com/users/8486"
         },
         {
-          "name": "Ivan",
+          "name": "Abdur Rehman",
           "score": 55,
-          "id": 12514,
-          "image": "https://avatars.slack-edge.com/2025-02-02/8384479482133_73e52df1bdf0cb8ddb8f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12514"
+          "id": 1028,
+          "image": "https://avatars.slack-edge.com/2025-03-03/8542987730020_fccb7a4cb32a26a1c6cc_original.png",
+          "url": "https://summer.hackclub.com/users/1028"
         },
         {
-          "name": "mattseq",
-          "score": 54,
-          "id": 3328,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9099542398496_686de8eb53df145a992c_original.png",
-          "url": "https://summer.hackclub.com/users/3328"
+          "name": "Klucznik",
+          "score": 55,
+          "id": 5738,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_original.jpg",
+          "url": "https://summer.hackclub.com/users/5738"
         },
         {
-          "name": "Vevaan Verma",
+          "name": "Nicholas Sharp",
           "score": 54,
-          "id": 3812,
-          "image": "https://avatars.slack-edge.com/2025-07-18/9218890075302_0e558aef960d9735b7d6_original.jpg",
-          "url": "https://summer.hackclub.com/users/3812"
+          "id": 3437,
+          "image": "https://secure.gravatar.com/avatar/c5c66be27008274401f26776c331e9d2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
+          "url": "https://summer.hackclub.com/users/3437"
+        },
+        {
+          "name": "Carlson",
+          "score": 54,
+          "id": 5686,
+          "image": "https://avatars.slack-edge.com/2025-08-05/9290833494967_331485f984e5ad729308_original.jpg",
+          "url": "https://summer.hackclub.com/users/5686"
+        },
+        {
+          "name": "Bereket Befekadu",
+          "score": 54,
+          "id": 10923,
+          "image": "https://secure.gravatar.com/avatar/76b4b56056b482b70ea5b8d5254c2d47.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/10923"
+        },
+        {
+          "name": "Ingo",
+          "score": 53,
+          "id": 3288,
+          "image": "https://avatars.slack-edge.com/2025-06-21/9083671066050_a6803bbb825d474abff9_original.jpg",
+          "url": "https://summer.hackclub.com/users/3288"
+        },
+        {
+          "name": "Jay",
+          "score": 53,
+          "id": 3324,
+          "image": "https://avatars.slack-edge.com/2025-07-27/9263233198532_c3999d9e4dc74e9b0314_original.png",
+          "url": "https://summer.hackclub.com/users/3324"
         },
         {
           "name": "pretzel",
@@ -1963,440 +2080,265 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/3457"
         },
         {
-          "name": "Malay Patel",
-          "score": 53,
-          "id": 5162,
-          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
-          "url": "https://summer.hackclub.com/users/5162"
-        },
-        {
-          "name": "Coni",
-          "score": 53,
-          "id": 12264,
-          "image": "https://avatars.slack-edge.com/2025-07-04/9171750610176_0c2e03dbefaf45f92586_original.jpg",
-          "url": "https://summer.hackclub.com/users/12264"
-        },
-        {
-          "name": "Luckmuc",
+          "name": "Toshit",
           "score": 52,
-          "id": 2848,
-          "image": "https://avatars.slack-edge.com/2025-06-18/9072065116068_8531df507fe0be9ce006_original.jpg",
-          "url": "https://summer.hackclub.com/users/2848"
+          "id": 14,
+          "image": "https://secure.gravatar.com/avatar/ee6805f80d095e4499126d181e633958.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "https://summer.hackclub.com/users/14"
         },
         {
-          "name": "Utkarsh Kumar",
+          "name": "son",
           "score": 52,
-          "id": 8255,
-          "image": "https://secure.gravatar.com/avatar/0a3334853b6cc3295c2e5c158a42fbaa.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
-          "url": "https://summer.hackclub.com/users/8255"
-        },
-        {
-          "name": "infinotiver",
-          "score": 52,
-          "id": 11969,
-          "image": "https://secure.gravatar.com/avatar/d73fa5115bf01f49ab9ee6320502d56b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/11969"
-        },
-        {
-          "name": "Turbash Negi",
-          "score": 52,
-          "id": 14162,
-          "image": "https://secure.gravatar.com/avatar/06edffb7e39d48dc326342476603c3bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
-          "url": "https://summer.hackclub.com/users/14162"
-        },
-        {
-          "name": "gooner(arsenal fan)",
-          "score": 52,
-          "id": 19172,
-          "image": "https://avatars.slack-edge.com/2025-07-24/9266592826849_fb8410a23e5bb9973691_original.png",
-          "url": "https://summer.hackclub.com/users/19172"
-        },
-        {
-          "name": "Abdur Rehman",
-          "score": 51,
-          "id": 1028,
-          "image": "https://avatars.slack-edge.com/2025-03-03/8542987730020_fccb7a4cb32a26a1c6cc_original.png",
-          "url": "https://summer.hackclub.com/users/1028"
-        },
-        {
-          "name": "Kevin",
-          "score": 51,
-          "id": 1517,
-          "image": "https://avatars.slack-edge.com/2025-03-31/8679338222454_c976fae70eff2707ea0d_original.jpg",
-          "url": "https://summer.hackclub.com/users/1517"
-        },
-        {
-          "name": "Kingsuper195",
-          "score": 50,
-          "id": 3687,
-          "image": "https://avatars.slack-edge.com/2024-12-03/8108978898278_d563db5536bad5145b5e_original.png",
-          "url": "https://summer.hackclub.com/users/3687"
-        },
-        {
-          "name": "obob",
-          "score": 50,
-          "id": 8486,
-          "image": "https://avatars.slack-edge.com/2025-07-05/9151745107314_5f8cfa4ed6cc7f9bc222_original.png",
-          "url": "https://summer.hackclub.com/users/8486"
+          "id": 91,
+          "image": "https://secure.gravatar.com/avatar/ad5dc3517e41b077553850c69e2453c0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
+          "url": "https://summer.hackclub.com/users/91"
         },
         {
           "name": "alaninnovates",
-          "score": 49,
+          "score": 52,
           "id": 1353,
           "image": "https://avatars.slack-edge.com/2024-06-29/7355967098836_ec494be617574d02498c_original.jpg",
           "url": "https://summer.hackclub.com/users/1353"
         },
         {
-          "name": "Akaalroop",
-          "score": 49,
-          "id": 1821,
-          "image": "https://avatars.slack-edge.com/2025-02-15/8455813093573_8cd126d936d56e17349c_original.png",
-          "url": "https://summer.hackclub.com/users/1821"
-        },
-        {
-          "name": "Klucznik",
-          "score": 49,
-          "id": 5738,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_original.jpg",
-          "url": "https://summer.hackclub.com/users/5738"
-        },
-        {
-          "name": "Ishan Karpe",
-          "score": 49,
-          "id": 6746,
-          "image": "https://secure.gravatar.com/avatar/936b3b2581ec9f17cd266d8ac387e355.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png",
-          "url": "https://summer.hackclub.com/users/6746"
-        },
-        {
-          "name": "Neer Sheth",
-          "score": 49,
-          "id": 7690,
-          "image": "https://avatars.slack-edge.com/2025-02-20/8480810570486_9ded7cd9a057c20f24b3_original.png",
-          "url": "https://summer.hackclub.com/users/7690"
+          "name": "Shinkensen101",
+          "score": 52,
+          "id": 3797,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_original.jpg",
+          "url": "https://summer.hackclub.com/users/3797"
         },
         {
           "name": "Andy Mascarenhas",
-          "score": 49,
+          "score": 52,
           "id": 9488,
           "image": "https://avatars.slack-edge.com/2025-06-05/9033393657968_084e91a766de6f4f4c30_original.png",
           "url": "https://summer.hackclub.com/users/9488"
         },
         {
-          "name": "ionut",
-          "score": 48,
-          "id": 2162,
-          "image": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
-          "url": "https://summer.hackclub.com/users/2162"
+          "name": "Alex",
+          "score": 52,
+          "id": 14057,
+          "image": "https://avatars.slack-edge.com/2025-07-02/9156558093104_e0eb94c0aeefc953a316_original.png",
+          "url": "https://summer.hackclub.com/users/14057"
         },
         {
-          "name": "Mikolaj",
-          "score": 48,
-          "id": 2418,
-          "image": "https://avatars.slack-edge.com/2025-07-17/9198543971879_7cc264610ab372a2ae30_original.png",
-          "url": "https://summer.hackclub.com/users/2418"
+          "name": "GiantNut",
+          "score": 51,
+          "id": 2088,
+          "image": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/2088"
+        },
+        {
+          "name": "infinotiver",
+          "score": 51,
+          "id": 11969,
+          "image": "https://secure.gravatar.com/avatar/d73fa5115bf01f49ab9ee6320502d56b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
+          "url": "https://summer.hackclub.com/users/11969"
+        },
+        {
+          "name": "Chesspotato",
+          "score": 50,
+          "id": 58,
+          "image": "https://avatars.slack-edge.com/2025-07-29/9260165990951_e95b8e9e0c3cc2926936_original.png",
+          "url": "https://summer.hackclub.com/users/58"
+        },
+        {
+          "name": "Brian",
+          "score": 50,
+          "id": 892,
+          "image": "https://secure.gravatar.com/avatar/31003864dfc23dea4addfcd265ed169d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
+          "url": "https://summer.hackclub.com/users/892"
+        },
+        {
+          "name": "NOT_A_ROBOT",
+          "score": 50,
+          "id": 1649,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9070519575761_258342fcfbe54ed1f4c7_original.png",
+          "url": "https://summer.hackclub.com/users/1649"
+        },
+        {
+          "name": "Nico",
+          "score": 50,
+          "id": 2397,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9063114132820_48ad584efa9a13aa8c47_original.jpg",
+          "url": "https://summer.hackclub.com/users/2397"
+        },
+        {
+          "name": "DuckyBoi_XD",
+          "score": 50,
+          "id": 11089,
+          "image": "https://avatars.slack-edge.com/2025-05-22/8927940217270_1c584bedad6f5113d4dc_original.png",
+          "url": "https://summer.hackclub.com/users/11089"
         },
         {
           "name": "Pikacnu",
-          "score": 48,
+          "score": 49,
           "id": 2805,
           "image": "https://secure.gravatar.com/avatar/53371cfe43d5487613690739319e0ecb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
           "url": "https://summer.hackclub.com/users/2805"
         },
         {
           "name": "Dylan Fraser",
-          "score": 48,
+          "score": 49,
           "id": 3681,
           "image": "https://avatars.slack-edge.com/2025-06-16/9059673515492_fad93430c6fccf0240ab_original.png",
           "url": "https://summer.hackclub.com/users/3681"
         },
         {
-          "name": "son",
-          "score": 47,
-          "id": 91,
-          "image": "https://secure.gravatar.com/avatar/ad5dc3517e41b077553850c69e2453c0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
-          "url": "https://summer.hackclub.com/users/91"
-        },
-        {
-          "name": "Zoe",
-          "score": 47,
-          "id": 143,
-          "image": "https://avatars.slack-edge.com/2025-07-31/9285883784194_b851e6ab9b7bb9a4e7e3_original.png",
-          "url": "https://summer.hackclub.com/users/143"
-        },
-        {
-          "name": "YASH PANCHAL",
-          "score": 47,
-          "id": 1297,
-          "image": "https://secure.gravatar.com/avatar/deb120dae819559971b11da00ca69585.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/1297"
-        },
-        {
-          "name": "Bailey Miles",
-          "score": 47,
-          "id": 9517,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9343150439525_e806cb9317ebe4c7bdfe_original.png",
-          "url": "https://summer.hackclub.com/users/9517"
-        },
-        {
-          "name": "Toshit",
-          "score": 46,
-          "id": 14,
-          "image": "https://secure.gravatar.com/avatar/ee6805f80d095e4499126d181e633958.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "https://summer.hackclub.com/users/14"
-        },
-        {
-          "name": "Saif Abdelrazek",
-          "score": 46,
-          "id": 1849,
-          "image": "https://avatars.slack-edge.com/2025-04-04/8718809197329_286f155c27b6ce1c9cb2_original.jpg",
-          "url": "https://summer.hackclub.com/users/1849"
-        },
-        {
-          "name": "vidit2345",
-          "score": 46,
-          "id": 2591,
-          "image": "https://secure.gravatar.com/avatar/a1ef90a376da75e042228c4b538540cb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
-          "url": "https://summer.hackclub.com/users/2591"
-        },
-        {
-          "name": "Nils",
-          "score": 46,
-          "id": 3358,
-          "image": "https://avatars.slack-edge.com/2025-08-03/9297906894340_43f0bcb28a6eeac7ece0_original.png",
-          "url": "https://summer.hackclub.com/users/3358"
-        },
-        {
-          "name": "Nicholas Sharp",
-          "score": 46,
-          "id": 3437,
-          "image": "https://secure.gravatar.com/avatar/c5c66be27008274401f26776c331e9d2.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/3437"
-        },
-        {
-          "name": "Slugarius",
-          "score": 45,
-          "id": 1935,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9062705280069_a919f2ca455e6091e4c3_original.png",
-          "url": "https://summer.hackclub.com/users/1935"
-        },
-        {
-          "name": "Kcoder",
-          "score": 45,
-          "id": 3237,
-          "image": "https://avatars.slack-edge.com/2025-05-31/8974869899350_ba8658a2aa2a20c36dac_original.png",
-          "url": "https://summer.hackclub.com/users/3237"
-        },
-        {
-          "name": "Lavarite",
-          "score": 45,
-          "id": 10438,
-          "image": "https://avatars.slack-edge.com/2025-06-20/9093473006881_159431e9b53b6d5f07cf_original.png",
-          "url": "https://summer.hackclub.com/users/10438"
-        },
-        {
-          "name": "Dev",
-          "score": 44,
-          "id": 4460,
-          "image": "https://avatars.slack-edge.com/2025-03-14/8602381404850_c6ff9af93687a45823d4_original.png",
-          "url": "https://summer.hackclub.com/users/4460"
-        },
-        {
-          "name": "Carlson",
-          "score": 44,
-          "id": 5686,
-          "image": "https://avatars.slack-edge.com/2025-08-05/9290833494967_331485f984e5ad729308_original.jpg",
-          "url": "https://summer.hackclub.com/users/5686"
-        },
-        {
           "name": "__grdev",
-          "score": 44,
+          "score": 49,
           "id": 6891,
           "image": "https://secure.gravatar.com/avatar/4d109519859f7f85e7459cb5fe4aac90.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png",
           "url": "https://summer.hackclub.com/users/6891"
         },
         {
-          "name": "Sadikshya Bashyal",
-          "score": 44,
-          "id": 7623,
-          "image": "https://secure.gravatar.com/avatar/d4d1d290931b6d375904d0ee3d836e9a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/7623"
+          "name": "Kira Iovenko",
+          "score": 48,
+          "id": 723,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9063258597938_fa5b4f5155539cbb01a3_original.png",
+          "url": "https://summer.hackclub.com/users/723"
         },
         {
-          "name": "leocerv",
-          "score": 44,
-          "id": 9945,
-          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
-          "url": "https://summer.hackclub.com/users/9945"
+          "name": "Arca Ege Cengiz",
+          "score": 48,
+          "id": 2456,
+          "image": "https://avatars.slack-edge.com/2025-08-09/9333922275732_c6055c7916cae6ff8a80_original.png",
+          "url": "https://summer.hackclub.com/users/2456"
         },
         {
-          "name": "cognitivity",
-          "score": 44,
-          "id": 10192,
-          "image": "https://secure.gravatar.com/avatar/2c4aa815707be1c45ba110559ebc61ee.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
-          "url": "https://summer.hackclub.com/users/10192"
+          "name": "Nils",
+          "score": 48,
+          "id": 3358,
+          "image": "https://avatars.slack-edge.com/2025-08-03/9297906894340_43f0bcb28a6eeac7ece0_original.png",
+          "url": "https://summer.hackclub.com/users/3358"
+        },
+        {
+          "name": "Minh Nguyen",
+          "score": 48,
+          "id": 3870,
+          "image": "https://avatars.slack-edge.com/2025-08-23/9398210194002_100cb21895ada256f578_original.png",
+          "url": "https://summer.hackclub.com/users/3870"
+        },
+        {
+          "name": "RickIsGone",
+          "score": 48,
+          "id": 6220,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9058731769734_cc5d771dbbfe7d21ab5b_original.jpg",
+          "url": "https://summer.hackclub.com/users/6220"
+        },
+        {
+          "name": "Ishan Karpe",
+          "score": 48,
+          "id": 6746,
+          "image": "https://secure.gravatar.com/avatar/936b3b2581ec9f17cd266d8ac387e355.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-512.png",
+          "url": "https://summer.hackclub.com/users/6746"
+        },
+        {
+          "name": "Mikolaj",
+          "score": 47,
+          "id": 2418,
+          "image": "https://avatars.slack-edge.com/2025-07-17/9198543971879_7cc264610ab372a2ae30_original.png",
+          "url": "https://summer.hackclub.com/users/2418"
         }
       ],
       "votes": [
         {
           "name": "Rudaiba",
-          "score": 537,
+          "score": 481,
           "id": 20438,
           "image": "https://avatars.slack-edge.com/2025-05-20/8927368832548_3390f62249ef7b6641c3_original.jpg",
           "url": "https://summer.hackclub.com/users/20438"
         },
         {
-          "name": "Chee Yong",
-          "score": 462,
-          "id": 5989,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9055069693878_0e44152d0596b1290d2e_original.png",
-          "url": "https://summer.hackclub.com/users/5989"
+          "name": "Bailey Miles",
+          "score": 345,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "https://summer.hackclub.com/users/9517"
         },
         {
-          "name": "GiantNut",
-          "score": 459,
-          "id": 2088,
-          "image": "https://secure.gravatar.com/avatar/7f2c5e15df0d01d1be012d3ed643b750.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/2088"
-        },
-        {
-          "name": "Vevaan Verma",
-          "score": 413,
-          "id": 3812,
-          "image": "https://avatars.slack-edge.com/2025-07-18/9218890075302_0e558aef960d9735b7d6_original.jpg",
-          "url": "https://summer.hackclub.com/users/3812"
-        },
-        {
-          "name": "Aldhaneka",
-          "score": 397,
-          "id": 7542,
-          "image": "https://secure.gravatar.com/avatar/132c4a666d90c68010ae2d9d1c464f71.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/7542"
-        },
-        {
-          "name": "000xs",
-          "score": 320,
-          "id": 6121,
-          "image": "https://avatars.slack-edge.com/2024-08-13/7568882024772_ee734fcc71715e491215_original.png",
-          "url": "https://summer.hackclub.com/users/6121"
-        },
-        {
-          "name": "Jakov C",
-          "score": 291,
-          "id": 16267,
-          "image": "https://avatars.slack-edge.com/2025-08-02/9310619131169_78447555cc09bd9787ce_original.png",
-          "url": "https://summer.hackclub.com/users/16267"
-        },
-        {
-          "name": "WheeledCord",
-          "score": 273,
-          "id": 12656,
-          "image": "https://avatars.slack-edge.com/2025-05-24/8948861104594_6a36f968025ab8348104_original.jpg",
-          "url": "https://summer.hackclub.com/users/12656"
-        },
-        {
-          "name": "Shreyas D Devadiga",
-          "score": 270,
-          "id": 14188,
-          "image": "https://secure.gravatar.com/avatar/f1c6f60e18458fcab1add919beaca0bb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
-          "url": "https://summer.hackclub.com/users/14188"
-        },
-        {
-          "name": "Turbash Negi",
-          "score": 260,
-          "id": 14162,
-          "image": "https://secure.gravatar.com/avatar/06edffb7e39d48dc326342476603c3bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
-          "url": "https://summer.hackclub.com/users/14162"
+          "name": "Eli Ozcan",
+          "score": 345,
+          "id": 11144,
+          "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
+          "url": "https://summer.hackclub.com/users/11144"
         },
         {
           "name": "vikashG",
-          "score": 255,
+          "score": 323,
           "id": 17145,
           "image": "https://avatars.slack-edge.com/2025-07-22/9255348668720_27836bac7d5d846f5284_original.jpg",
           "url": "https://summer.hackclub.com/users/17145"
         },
         {
-          "name": "Kevin",
-          "score": 240,
-          "id": 1517,
-          "image": "https://avatars.slack-edge.com/2025-03-31/8679338222454_c976fae70eff2707ea0d_original.jpg",
-          "url": "https://summer.hackclub.com/users/1517"
+          "name": "Bereket Befekadu",
+          "score": 297,
+          "id": 10923,
+          "image": "https://secure.gravatar.com/avatar/76b4b56056b482b70ea5b8d5254c2d47.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/10923"
         },
         {
-          "name": "Lucas",
-          "score": 240,
-          "id": 9686,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9075688854356_4aa81888b701b2a0b536_original.png",
-          "url": "https://summer.hackclub.com/users/9686"
+          "name": "Turbash Negi",
+          "score": 268,
+          "id": 14162,
+          "image": "https://secure.gravatar.com/avatar/06edffb7e39d48dc326342476603c3bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
+          "url": "https://summer.hackclub.com/users/14162"
         },
         {
-          "name": "ionut",
-          "score": 236,
-          "id": 2162,
-          "image": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
-          "url": "https://summer.hackclub.com/users/2162"
-        },
-        {
-          "name": "Spark",
-          "score": 233,
-          "id": 14213,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9323399085571_5f55230c099cacc31acb_original.png",
-          "url": "https://summer.hackclub.com/users/14213"
+          "name": "25th_Bam",
+          "score": 259,
+          "id": 10284,
+          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
+          "url": "https://summer.hackclub.com/users/10284"
         },
         {
           "name": "SAKSHAM GOEL",
-          "score": 228,
+          "score": 240,
           "id": 391,
           "image": "https://avatars.slack-edge.com/2025-06-16/9049936028595_5d70b459518dc7a8ba6e_original.png",
           "url": "https://summer.hackclub.com/users/391"
         },
         {
-          "name": "Leander Riefel",
-          "score": 228,
-          "id": 396,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9079408824144_0e45796e81ec784b9702_original.png",
-          "url": "https://summer.hackclub.com/users/396"
+          "name": "csd4ni3l",
+          "score": 240,
+          "id": 5501,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9169641978262_ad279cf75f3ff4dff390_original.png",
+          "url": "https://summer.hackclub.com/users/5501"
         },
         {
-          "name": "Ana",
+          "name": "Kevin Ehab",
+          "score": 240,
+          "id": 14705,
+          "image": "https://secure.gravatar.com/avatar/86dbe28561d4868ff4482854737fd6dc.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+          "url": "https://summer.hackclub.com/users/14705"
+        },
+        {
+          "name": "Satyam Raj",
           "score": 222,
-          "id": 3153,
-          "image": "https://avatars.slack-edge.com/2025-07-12/9174214188423_de5779ab13a0802c7e8d_original.png",
-          "url": "https://summer.hackclub.com/users/3153"
+          "id": 18597,
+          "image": "https://avatars.slack-edge.com/2025-07-23/9228881719223_0de87cc4d758983706df_original.jpg",
+          "url": "https://summer.hackclub.com/users/18597"
         },
         {
-          "name": "PawiX25",
-          "score": 219,
-          "id": 363,
-          "image": "https://avatars.slack-edge.com/2025-02-02/8400058576785_cba75a0ab83f045ce8f5_original.png",
-          "url": "https://summer.hackclub.com/users/363"
+          "name": "zeankun.dev",
+          "score": 220,
+          "id": 4258,
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391373724818_fb1c422e987493ff9b7f_original.jpg",
+          "url": "https://summer.hackclub.com/users/4258"
         },
         {
-          "name": "Dory",
-          "score": 207,
-          "id": 8562,
-          "image": "https://secure.gravatar.com/avatar/c0cc440664fcf42104641877f80da1da.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
-          "url": "https://summer.hackclub.com/users/8562"
+          "name": "ionut",
+          "score": 217,
+          "id": 2162,
+          "image": "https://secure.gravatar.com/avatar/ab10529df0b1558be868baa87a14b399.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-512.png",
+          "url": "https://summer.hackclub.com/users/2162"
         },
         {
-          "name": "Boarder",
-          "score": 207,
-          "id": 20853,
-          "image": "https://avatars.slack-edge.com/2025-04-17/8772452814708_9ccb6a79ad027a53c832_original.gif",
-          "url": "https://summer.hackclub.com/users/20853"
-        },
-        {
-          "name": "yehor",
+          "name": "Anirudh",
           "score": 204,
-          "id": 2157,
-          "image": "https://secure.gravatar.com/avatar/1b354e60fa6a4e63fdb6f9a15fa36ece.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
-          "url": "https://summer.hackclub.com/users/2157"
-        },
-        {
-          "name": "Maulik Daga",
-          "score": 201,
-          "id": 8112,
-          "image": "https://secure.gravatar.com/avatar/60136db4cedb818a729d22bd58be0208.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/8112"
+          "id": 191,
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391147594451_f071064fadea03d26edf_original.jpg",
+          "url": "https://summer.hackclub.com/users/191"
         },
         {
           "name": "Solar",
@@ -2406,249 +2348,298 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/2518"
         },
         {
-          "name": "gooner(arsenal fan)",
-          "score": 190,
-          "id": 19172,
-          "image": "https://avatars.slack-edge.com/2025-07-24/9266592826849_fb8410a23e5bb9973691_original.png",
-          "url": "https://summer.hackclub.com/users/19172"
-        },
-        {
-          "name": "kpm",
-          "score": 181,
-          "id": 426,
-          "image": "https://avatars.slack-edge.com/2025-08-05/9319312819905_a70de09d4e9bac2657ea_original.jpg",
-          "url": "https://summer.hackclub.com/users/426"
-        },
-        {
-          "name": "25th_Bam",
-          "score": 180,
-          "id": 10284,
-          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
-          "url": "https://summer.hackclub.com/users/10284"
-        },
-        {
-          "name": "David",
-          "score": 180,
-          "id": 15206,
-          "image": "https://secure.gravatar.com/avatar/c0af6173305173a02d7615733f9cf93e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
-          "url": "https://summer.hackclub.com/users/15206"
-        },
-        {
-          "name": "YASH PANCHAL",
-          "score": 179,
-          "id": 1297,
-          "image": "https://secure.gravatar.com/avatar/deb120dae819559971b11da00ca69585.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/1297"
-        },
-        {
-          "name": "Dev",
-          "score": 176,
-          "id": 4460,
-          "image": "https://avatars.slack-edge.com/2025-03-14/8602381404850_c6ff9af93687a45823d4_original.png",
-          "url": "https://summer.hackclub.com/users/4460"
-        },
-        {
-          "name": "Rangga Gunarto",
-          "score": 171,
-          "id": 16952,
-          "image": "https://avatars.slack-edge.com/2025-07-21/9229267793078_0f5c7181d788706160cd_original.jpg",
-          "url": "https://summer.hackclub.com/users/16952"
-        },
-        {
-          "name": "SUPA Siblings",
-          "score": 169,
-          "id": 12338,
-          "image": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12338"
-        },
-        {
-          "name": "Milk_Cool",
-          "score": 163,
-          "id": 375,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
-          "url": "https://summer.hackclub.com/users/375"
-        },
-        {
-          "name": "Carlson",
-          "score": 163,
-          "id": 5686,
-          "image": "https://avatars.slack-edge.com/2025-08-05/9290833494967_331485f984e5ad729308_original.jpg",
-          "url": "https://summer.hackclub.com/users/5686"
-        },
-        {
-          "name": "SB",
-          "score": 161,
-          "id": 18080,
-          "image": "https://secure.gravatar.com/avatar/b1f502a480f68ccac004bd8dc6276cc5.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/18080"
-        },
-        {
-          "name": "Shinkensen101",
-          "score": 160,
-          "id": 3797,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_original.jpg",
-          "url": "https://summer.hackclub.com/users/3797"
-        },
-        {
-          "name": "zeankun.dev",
-          "score": 160,
-          "id": 4258,
-          "image": "https://avatars.slack-edge.com/2025-07-21/9251964112832_7c921aa83a9069b0bf72_original.jpg",
-          "url": "https://summer.hackclub.com/users/4258"
-        },
-        {
-          "name": "pybash",
-          "score": 160,
-          "id": 4942,
-          "image": "https://avatars.slack-edge.com/2025-04-27/8815404649810_7ecad0f3eecbe935059d_original.png",
-          "url": "https://summer.hackclub.com/users/4942"
-        },
-        {
-          "name": "Stevens",
-          "score": 153,
-          "id": 795,
-          "image": "https://avatars.slack-edge.com/2025-03-17/8622593771025_074e1121c7c99e818a3a_original.png",
-          "url": "https://summer.hackclub.com/users/795"
-        },
-        {
-          "name": "parth",
-          "score": 152,
-          "id": 2206,
-          "image": "https://secure.gravatar.com/avatar/60a96a202d31620e9154ed2c0357cac0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-512.png",
-          "url": "https://summer.hackclub.com/users/2206"
-        },
-        {
-          "name": "Bailey Miles",
-          "score": 148,
-          "id": 9517,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9343150439525_e806cb9317ebe4c7bdfe_original.png",
-          "url": "https://summer.hackclub.com/users/9517"
-        },
-        {
-          "name": "Nullskulls",
-          "score": 148,
-          "id": 10823,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9104057076259_c30b172d1142670cbd7f_original.png",
-          "url": "https://summer.hackclub.com/users/10823"
-        },
-        {
-          "name": "Gangsta Ozcan",
-          "score": 147,
-          "id": 11144,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
-          "url": "https://summer.hackclub.com/users/11144"
-        },
-        {
-          "name": "BnaJns",
-          "score": 146,
-          "id": 171,
-          "image": "https://avatars.slack-edge.com/2025-06-14/9050644296034_b2457a48e6f86fc73b32_original.jpg",
-          "url": "https://summer.hackclub.com/users/171"
-        },
-        {
-          "name": "shuva",
-          "score": 145,
-          "id": 13705,
-          "image": "https://secure.gravatar.com/avatar/7d8254a6d274b4162a6a766cc2fa8a21.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/13705"
-        },
-        {
-          "name": "Suyash Takle",
-          "score": 141,
-          "id": 6714,
-          "image": "https://avatars.slack-edge.com/2025-06-17/9056546636467_2a194952bca974da9cd8_original.png",
-          "url": "https://summer.hackclub.com/users/6714"
-        },
-        {
-          "name": "Sumit Kumar",
-          "score": 141,
-          "id": 7904,
-          "image": "https://secure.gravatar.com/avatar/5fba955bbf241526d890278aa02b877c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/7904"
-        },
-        {
-          "name": "Rei",
-          "score": 141,
-          "id": 19913,
-          "image": "https://avatars.slack-edge.com/2025-07-31/9279160008901_4b951ee956015f1908f8_original.jpg",
-          "url": "https://summer.hackclub.com/users/19913"
-        },
-        {
           "name": "hellonearth311",
-          "score": 140,
+          "score": 197,
           "id": 482,
           "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
           "url": "https://summer.hackclub.com/users/482"
         },
         {
-          "name": "Ezra Aslan",
-          "score": 140,
-          "id": 3285,
-          "image": "https://secure.gravatar.com/avatar/49fb55eae9f6513f67d90d07daf23768.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
-          "url": "https://summer.hackclub.com/users/3285"
+          "name": "Aldhaneka",
+          "score": 195,
+          "id": 7542,
+          "image": "https://secure.gravatar.com/avatar/132c4a666d90c68010ae2d9d1c464f71.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
+          "url": "https://summer.hackclub.com/users/7542"
         },
         {
-          "name": "om bhagat",
-          "score": 140,
-          "id": 7848,
-          "image": "https://avatars.slack-edge.com/2025-05-09/8887355562273_03d29658cf852503762f_original.png",
-          "url": "https://summer.hackclub.com/users/7848"
-        },
-        {
-          "name": "CoolCream",
-          "score": 140,
-          "id": 17123,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9354852686976_d113876869f82ca9ca80_original.png",
-          "url": "https://summer.hackclub.com/users/17123"
-        },
-        {
-          "name": "Applee",
-          "score": 136,
-          "id": 3573,
-          "image": "https://secure.gravatar.com/avatar/91f40fe85fff030c3753404822556ff6.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png",
-          "url": "https://summer.hackclub.com/users/3573"
+          "name": "kpm",
+          "score": 185,
+          "id": 426,
+          "image": "https://avatars.slack-edge.com/2025-08-05/9319312819905_a70de09d4e9bac2657ea_original.jpg",
+          "url": "https://summer.hackclub.com/users/426"
         },
         {
           "name": "TheLinuxGuy",
-          "score": 135,
+          "score": 182,
           "id": 11355,
           "image": "https://avatars.slack-edge.com/2025-07-20/9237761667601_6334002dfd08a64fb692_original.png",
           "url": "https://summer.hackclub.com/users/11355"
         },
         {
-          "name": "segun",
-          "score": 134,
-          "id": 3994,
-          "image": "https://avatars.slack-edge.com/2025-05-02/8838868564610_0777e650c5f87072c5aa_original.png",
-          "url": "https://summer.hackclub.com/users/3994"
+          "name": "Mohamed Assem",
+          "score": 180,
+          "id": 613,
+          "image": "https://avatars.slack-edge.com/2025-02-15/8462219100916_578c63d44e9cd1aab7b9_original.png",
+          "url": "https://summer.hackclub.com/users/613"
         },
         {
-          "name": "YeohTH",
-          "score": 134,
-          "id": 4194,
-          "image": "https://avatars.slack-edge.com/2025-07-08/9163090501234_7422af6648240c20d0c1_original.png",
-          "url": "https://summer.hackclub.com/users/4194"
+          "name": "Alric Marvel",
+          "score": 180,
+          "id": 6294,
+          "image": "https://avatars.slack-edge.com/2025-08-09/9328395317042_99a458d8cd5f4d16bb58_original.png",
+          "url": "https://summer.hackclub.com/users/6294"
         },
         {
-          "name": "Abū al-Barāʾ",
-          "score": 134,
+          "name": "om bhagat",
+          "score": 180,
+          "id": 7848,
+          "image": "https://avatars.slack-edge.com/2025-05-09/8887355562273_03d29658cf852503762f_original.png",
+          "url": "https://summer.hackclub.com/users/7848"
+        },
+        {
+          "name": "Ivan",
+          "score": 180,
+          "id": 12514,
+          "image": "https://avatars.slack-edge.com/2025-02-02/8384479482133_73e52df1bdf0cb8ddb8f_original.jpg",
+          "url": "https://summer.hackclub.com/users/12514"
+        },
+        {
+          "name": "Brian",
+          "score": 170,
+          "id": 892,
+          "image": "https://secure.gravatar.com/avatar/31003864dfc23dea4addfcd265ed169d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
+          "url": "https://summer.hackclub.com/users/892"
+        },
+        {
+          "name": "Kush",
+          "score": 161,
+          "id": 4559,
+          "image": "https://avatars.slack-edge.com/2025-08-15/9358343377938_3ea92bb0c6f46bc6f1ff_original.jpg",
+          "url": "https://summer.hackclub.com/users/4559"
+        },
+        {
+          "name": "Kcoder",
+          "score": 160,
+          "id": 3237,
+          "image": "https://avatars.slack-edge.com/2025-05-31/8974869899350_ba8658a2aa2a20c36dac_original.png",
+          "url": "https://summer.hackclub.com/users/3237"
+        },
+        {
+          "name": "Muskan Singh",
+          "score": 160,
+          "id": 20270,
+          "image": "https://secure.gravatar.com/avatar/957207a9439c44f7f6345e3cd11f909a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-512.png",
+          "url": "https://summer.hackclub.com/users/20270"
+        },
+        {
+          "name": "leo",
+          "score": 159,
+          "id": 6554,
+          "image": "https://avatars.slack-edge.com/2025-07-17/9215292629621_71acfab67a5e7971a43d_original.png",
+          "url": "https://summer.hackclub.com/users/6554"
+        },
+        {
+          "name": "OrigamiKing3612",
+          "score": 154,
+          "id": 3547,
+          "image": "https://secure.gravatar.com/avatar/fcea678228cec5ddcfe7deb46411693d.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "https://summer.hackclub.com/users/3547"
+        },
+        {
+          "name": "Rohan Seshasai Vasa",
+          "score": 153,
+          "id": 13663,
+          "image": "https://avatars.slack-edge.com/2025-07-08/9162052834450_14aa557e9ac19949047c_original.png",
+          "url": "https://summer.hackclub.com/users/13663"
+        },
+        {
+          "name": "Moaz Mohamed",
+          "score": 148,
           "id": 5396,
           "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
           "url": "https://summer.hackclub.com/users/5396"
         },
         {
-          "name": "csd4ni3l",
-          "score": 132,
-          "id": 5501,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9169641978262_ad279cf75f3ff4dff390_original.png",
-          "url": "https://summer.hackclub.com/users/5501"
+          "name": "Shadowlight",
+          "score": 147,
+          "id": 7074,
+          "image": "https://avatars.slack-edge.com/2025-07-23/9238905969619_281bda0b3023da081af4_original.jpg",
+          "url": "https://summer.hackclub.com/users/7074"
         },
         {
-          "name": "karan 4359i",
-          "score": 131,
-          "id": 11970,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9220755489859_fff792acca7febe56a8c_original.jpg",
-          "url": "https://summer.hackclub.com/users/11970"
+          "name": "krn",
+          "score": 146,
+          "id": 45,
+          "image": "https://avatars.slack-edge.com/2025-08-23/9399433874770_f9f04468462e0f8eb23f_original.jpg",
+          "url": "https://summer.hackclub.com/users/45"
+        },
+        {
+          "name": "Malay Patel",
+          "score": 146,
+          "id": 5162,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9061394521494_170d7a281e6510fc5a68_original.png",
+          "url": "https://summer.hackclub.com/users/5162"
+        },
+        {
+          "name": "Pikacnu",
+          "score": 144,
+          "id": 2805,
+          "image": "https://secure.gravatar.com/avatar/53371cfe43d5487613690739319e0ecb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
+          "url": "https://summer.hackclub.com/users/2805"
+        },
+        {
+          "name": "Yogya Chugh",
+          "score": 144,
+          "id": 9699,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9090345160833_3cde8fc12be9701293ef_original.png",
+          "url": "https://summer.hackclub.com/users/9699"
+        },
+        {
+          "name": "Hridya",
+          "score": 141,
+          "id": 145,
+          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
+          "url": "https://summer.hackclub.com/users/145"
+        },
+        {
+          "name": "arsenal fan",
+          "score": 141,
+          "id": 19172,
+          "image": "https://avatars.slack-edge.com/2025-07-24/9266592826849_fb8410a23e5bb9973691_original.png",
+          "url": "https://summer.hackclub.com/users/19172"
+        },
+        {
+          "name": "kashsuks",
+          "score": 140,
+          "id": 487,
+          "image": "https://avatars.slack-edge.com/2025-08-12/9346086395366_50b7fffe1fe328105843_original.jpg",
+          "url": "https://summer.hackclub.com/users/487"
+        },
+        {
+          "name": "Ivole32",
+          "score": 140,
+          "id": 1652,
+          "image": "https://secure.gravatar.com/avatar/11d7b3c191b07f983f7a0eeea1d358fd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
+          "url": "https://summer.hackclub.com/users/1652"
+        },
+        {
+          "name": "yehor",
+          "score": 140,
+          "id": 2157,
+          "image": "https://secure.gravatar.com/avatar/1b354e60fa6a4e63fdb6f9a15fa36ece.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-512.png",
+          "url": "https://summer.hackclub.com/users/2157"
+        },
+        {
+          "name": "Ori",
+          "score": 140,
+          "id": 3031,
+          "image": "https://avatars.slack-edge.com/2024-12-14/8196315255504_cbbbd647260ae00641ba_original.jpg",
+          "url": "https://summer.hackclub.com/users/3031"
+        },
+        {
+          "name": "Kingsuper195",
+          "score": 140,
+          "id": 3687,
+          "image": "https://avatars.slack-edge.com/2024-12-03/8108978898278_d563db5536bad5145b5e_original.png",
+          "url": "https://summer.hackclub.com/users/3687"
+        },
+        {
+          "name": "Shinkensen101",
+          "score": 140,
+          "id": 3797,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9057658647973_238fe15e2cb9ca979982_original.jpg",
+          "url": "https://summer.hackclub.com/users/3797"
+        },
+        {
+          "name": "Minh Nguyen",
+          "score": 140,
+          "id": 3870,
+          "image": "https://avatars.slack-edge.com/2025-08-23/9398210194002_100cb21895ada256f578_original.png",
+          "url": "https://summer.hackclub.com/users/3870"
+        },
+        {
+          "name": "HassaanKH",
+          "score": 140,
+          "id": 5872,
+          "image": "https://secure.gravatar.com/avatar/688aa179ec7c74dff94181c70d7d4f6e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-512.png",
+          "url": "https://summer.hackclub.com/users/5872"
+        },
+        {
+          "name": "__grdev",
+          "score": 140,
+          "id": 6891,
+          "image": "https://secure.gravatar.com/avatar/4d109519859f7f85e7459cb5fe4aac90.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png",
+          "url": "https://summer.hackclub.com/users/6891"
+        },
+        {
+          "name": "Kyle B",
+          "score": 140,
+          "id": 7939,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9067382688838_a1f591307242b9a333ab_original.png",
+          "url": "https://summer.hackclub.com/users/7939"
+        },
+        {
+          "name": "Manan hacker",
+          "score": 140,
+          "id": 9921,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9391593402340_cea256b0956a00deb69c_original.jpg",
+          "url": "https://summer.hackclub.com/users/9921"
+        },
+        {
+          "name": "leocerv",
+          "score": 140,
+          "id": 9945,
+          "image": "https://avatars.slack-edge.com/2025-07-01/9120321302567_fdd90c97543e7c9f1161_original.jpg",
+          "url": "https://summer.hackclub.com/users/9945"
+        },
+        {
+          "name": "hƖƖꓭꓨ",
+          "score": 140,
+          "id": 10206,
+          "image": "https://avatars.slack-edge.com/2025-08-19/9369699722723_7d33c266bc539a7a0fbd_original.jpg",
+          "url": "https://summer.hackclub.com/users/10206"
+        },
+        {
+          "name": "Virat Sisodiya",
+          "score": 140,
+          "id": 11127,
+          "image": "https://secure.gravatar.com/avatar/9fa74a88a6553787cbc5f7a3f76a606a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-512.png",
+          "url": "https://summer.hackclub.com/users/11127"
+        },
+        {
+          "name": "Hursh",
+          "score": 140,
+          "id": 11363,
+          "image": "https://avatars.slack-edge.com/2025-06-22/9071165227639_be5af37b857bcb31ac97_original.png",
+          "url": "https://summer.hackclub.com/users/11363"
+        },
+        {
+          "name": "aera",
+          "score": 138,
+          "id": 8654,
+          "image": "https://avatars.slack-edge.com/2025-07-29/9287437814273_5215408af71a49b307f2_original.png",
+          "url": "https://summer.hackclub.com/users/8654"
+        },
+        {
+          "name": "BnaJns",
+          "score": 133,
+          "id": 171,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9391443762784_db61e829efd901dda0aa_original.jpg",
+          "url": "https://summer.hackclub.com/users/171"
+        },
+        {
+          "name": "YeohTH",
+          "score": 133,
+          "id": 4194,
+          "image": "https://avatars.slack-edge.com/2025-07-08/9163090501234_7422af6648240c20d0c1_original.png",
+          "url": "https://summer.hackclub.com/users/4194"
+        },
+        {
+          "name": "Alex",
+          "score": 132,
+          "id": 14057,
+          "image": "https://avatars.slack-edge.com/2025-07-02/9156558093104_e0eb94c0aeefc953a316_original.png",
+          "url": "https://summer.hackclub.com/users/14057"
         },
         {
           "name": "Kira Iovenko",
@@ -2658,284 +2649,298 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/723"
         },
         {
+          "name": "Luckmuc",
+          "score": 128,
+          "id": 2848,
+          "image": "https://avatars.slack-edge.com/2025-06-18/9072065116068_8531df507fe0be9ce006_original.jpg",
+          "url": "https://summer.hackclub.com/users/2848"
+        },
+        {
           "name": "editid",
-          "score": 126,
+          "score": 127,
           "id": 1426,
           "image": "https://secure.gravatar.com/avatar/11158a63770ded5b5e04561243d8f31e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
           "url": "https://summer.hackclub.com/users/1426"
         },
         {
-          "name": "Anaskiiled",
+          "name": "iPythonista",
+          "score": 127,
+          "id": 5332,
+          "image": "https://secure.gravatar.com/avatar/1c917eea3979992ea8272ab2b25f6132.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png",
+          "url": "https://summer.hackclub.com/users/5332"
+        },
+        {
+          "name": "King Howler",
           "score": 126,
-          "id": 9223,
-          "image": "https://avatars.slack-edge.com/2025-02-15/8482207592672_2db5af31b11ce3e10f4a_original.jpg",
-          "url": "https://summer.hackclub.com/users/9223"
+          "id": 6360,
+          "image": "https://avatars.slack-edge.com/2024-11-04/7981940388932_3a8ba0412e0892abc066_original.png",
+          "url": "https://summer.hackclub.com/users/6360"
         },
         {
-          "name": "HK Harsh",
-          "score": 125,
-          "id": 4078,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9052780004963_45def3e397cc1e4611e2_original.png",
-          "url": "https://summer.hackclub.com/users/4078"
+          "name": "CC",
+          "score": 126,
+          "id": 17123,
+          "image": "https://avatars.slack-edge.com/2025-08-09/9354852686976_d113876869f82ca9ca80_original.png",
+          "url": "https://summer.hackclub.com/users/17123"
         },
         {
-          "name": "leo",
-          "score": 124,
-          "id": 6554,
-          "image": "https://avatars.slack-edge.com/2025-07-17/9215292629621_71acfab67a5e7971a43d_original.png",
-          "url": "https://summer.hackclub.com/users/6554"
-        },
-        {
-          "name": "unc lav",
-          "score": 124,
-          "id": 10804,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9143754572992_6530d34aa5b2b798924f_original.jpg",
-          "url": "https://summer.hackclub.com/users/10804"
-        },
-        {
-          "name": "Alex",
-          "score": 124,
-          "id": 14057,
-          "image": "https://avatars.slack-edge.com/2025-07-02/9156558093104_e0eb94c0aeefc953a316_original.png",
-          "url": "https://summer.hackclub.com/users/14057"
-        },
-        {
-          "name": "Mohamed Eltokhy",
-          "score": 123,
-          "id": 254,
-          "image": "https://secure.gravatar.com/avatar/ff7ed404aa4b9a91c5b12a9e4de34a86.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/254"
-        },
-        {
-          "name": "aera",
-          "score": 123,
-          "id": 8654,
-          "image": "https://avatars.slack-edge.com/2025-07-29/9287437814273_5215408af71a49b307f2_original.png",
-          "url": "https://summer.hackclub.com/users/8654"
-        },
-        {
-          "name": "krn",
+          "name": "Dory",
           "score": 122,
-          "id": 45,
-          "image": "https://avatars.slack-edge.com/2025-08-13/9357727329553_a5861b853357313b5964_original.jpg",
-          "url": "https://summer.hackclub.com/users/45"
+          "id": 8562,
+          "image": "https://secure.gravatar.com/avatar/c0cc440664fcf42104641877f80da1da.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-512.png",
+          "url": "https://summer.hackclub.com/users/8562"
+        },
+        {
+          "name": "Jose M.",
+          "score": 122,
+          "id": 13292,
+          "image": "https://avatars.slack-edge.com/2025-08-13/9375246907632_3595d3d3a4a81d685b79_original.png",
+          "url": "https://summer.hackclub.com/users/13292"
         },
         {
           "name": "Maksiks",
-          "score": 122,
+          "score": 121,
           "id": 1027,
           "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
           "url": "https://summer.hackclub.com/users/1027"
         },
         {
-          "name": "Kyle B",
-          "score": 122,
-          "id": 7939,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9067382688838_a1f591307242b9a333ab_original.png",
-          "url": "https://summer.hackclub.com/users/7939"
-        },
-        {
-          "name": "Satyam Raj",
+          "name": "Azyrite",
           "score": 121,
-          "id": 18597,
-          "image": "https://avatars.slack-edge.com/2025-07-23/9228881719223_0de87cc4d758983706df_original.jpg",
-          "url": "https://summer.hackclub.com/users/18597"
+          "id": 6204,
+          "image": "https://avatars.slack-edge.com/2025-07-06/9142393419703_c9c307dfbae53fc9ec7f_original.jpg",
+          "url": "https://summer.hackclub.com/users/6204"
         },
         {
-          "name": "Hridya",
-          "score": 120,
-          "id": 145,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
-          "url": "https://summer.hackclub.com/users/145"
+          "name": "Lucas",
+          "score": 121,
+          "id": 9686,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9075688854356_4aa81888b701b2a0b536_original.png",
+          "url": "https://summer.hackclub.com/users/9686"
         },
         {
-          "name": "Yahia Haggag",
+          "name": "Shuflduf",
           "score": 120,
-          "id": 209,
-          "image": "https://avatars.slack-edge.com/2025-08-05/9293464963431_c0215c22263bf7318f2a_original.png",
-          "url": "https://summer.hackclub.com/users/209"
+          "id": 18,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
+          "url": "https://summer.hackclub.com/users/18"
         },
         {
-          "name": "glutesha",
+          "name": "Stef",
           "score": 120,
-          "id": 292,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9057146973028_abb221fbe3eb88580752_original.png",
-          "url": "https://summer.hackclub.com/users/292"
+          "id": 136,
+          "image": "https://secure.gravatar.com/avatar/dd17903aa658cb68b13288ba1b967078.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-512.png",
+          "url": "https://summer.hackclub.com/users/136"
         },
         {
-          "name": "Alexander Rebello",
+          "name": "Cyao",
           "score": 120,
-          "id": 382,
-          "image": "https://secure.gravatar.com/avatar/70626723fd606f3579dd4415ed292156.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/382"
+          "id": 151,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9363788463973_f276d477dbfb3203bf45_original.jpg",
+          "url": "https://summer.hackclub.com/users/151"
         },
         {
-          "name": "Dear_satan",
+          "name": "Mohamed Nady",
           "score": 120,
-          "id": 1429,
-          "image": "https://avatars.slack-edge.com/2025-06-07/9013914587717_bbfcaa1d34de0cd29d52_original.png",
-          "url": "https://summer.hackclub.com/users/1429"
+          "id": 1902,
+          "image": "https://secure.gravatar.com/avatar/aff6a2683e5d9d8aff1586cd7773efb0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png",
+          "url": "https://summer.hackclub.com/users/1902"
         },
         {
-          "name": "Orion",
+          "name": "SuperNinjaCat5",
           "score": 120,
-          "id": 2583,
-          "image": "https://secure.gravatar.com/avatar/cb0720688a3a914392e64eb2f41318bd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
-          "url": "https://summer.hackclub.com/users/2583"
+          "id": 2350,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9043230563351_feacbc53ba1423248c56_original.png",
+          "url": "https://summer.hackclub.com/users/2350"
         },
         {
-          "name": "aster42",
+          "name": "ZeusyBoy",
           "score": 120,
-          "id": 2730,
-          "image": "https://secure.gravatar.com/avatar/113f81399ae45534ce1b1957ce12a5df.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "https://summer.hackclub.com/users/2730"
+          "id": 3094,
+          "image": "https://avatars.slack-edge.com/2025-04-05/8732670723008_067ebc1e20b415a8786f_original.png",
+          "url": "https://summer.hackclub.com/users/3094"
         },
         {
-          "name": "Gerald",
+          "name": "Nils",
           "score": 120,
-          "id": 3490,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9189221314784_090cfa120467d316e6cf_original.jpg",
-          "url": "https://summer.hackclub.com/users/3490"
+          "id": 3358,
+          "image": "https://avatars.slack-edge.com/2025-08-03/9297906894340_43f0bcb28a6eeac7ece0_original.png",
+          "url": "https://summer.hackclub.com/users/3358"
         },
         {
-          "name": "Kingsuper195",
+          "name": "ollie",
           "score": 120,
-          "id": 3687,
-          "image": "https://avatars.slack-edge.com/2024-12-03/8108978898278_d563db5536bad5145b5e_original.png",
-          "url": "https://summer.hackclub.com/users/3687"
+          "id": 4927,
+          "image": "https://secure.gravatar.com/avatar/be0a9dba2d5f6aa2dcda30a9a61d0af3.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
+          "url": "https://summer.hackclub.com/users/4927"
         },
         {
-          "name": "Minh Nguyen",
+          "name": "Puneet Gopinath",
           "score": 120,
-          "id": 3870,
-          "image": "https://avatars.slack-edge.com/2025-08-06/9297242161927_9bc6a72b161852df655a_original.png",
-          "url": "https://summer.hackclub.com/users/3870"
+          "id": 11924,
+          "image": "https://avatars.slack-edge.com/2025-07-03/9129089232567_ffd5b7ba6b4a85de3de1_original.jpg",
+          "url": "https://summer.hackclub.com/users/11924"
         },
         {
-          "name": "Shriyan Yamali",
-          "score": 120,
-          "id": 4270,
-          "image": "https://secure.gravatar.com/avatar/da9a8a919adbbdf0cfe53b05160740cc.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-512.png",
-          "url": "https://summer.hackclub.com/users/4270"
-        },
-        {
-          "name": "Gabrijel",
-          "score": 120,
-          "id": 6871,
-          "image": "https://secure.gravatar.com/avatar/4a1280d62866d6fde07979dc349c707b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
-          "url": "https://summer.hackclub.com/users/6871"
-        },
-        {
-          "name": "peippo",
-          "score": 120,
-          "id": 7752,
-          "image": "https://secure.gravatar.com/avatar/150e35d366e1dde18927465a66670708.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
-          "url": "https://summer.hackclub.com/users/7752"
-        },
-        {
-          "name": "Ceyhun Nagiev",
-          "score": 120,
-          "id": 9519,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9073151586085_b9b7a35c3b594007640c_original.png",
-          "url": "https://summer.hackclub.com/users/9519"
+          "name": "Milk_Cool",
+          "score": 119,
+          "id": 375,
+          "image": "https://avatars.slack-edge.com/2025-06-26/9122888346929_9a0ba7d488c66660be5b_original.jpg",
+          "url": "https://summer.hackclub.com/users/375"
         },
         {
           "name": "Marwan Algharably",
-          "score": 120,
+          "score": 118,
           "id": 9804,
           "image": "https://avatars.slack-edge.com/2025-06-19/9098514865408_4ccec03bd4a4a1feacdc_original.jpg",
           "url": "https://summer.hackclub.com/users/9804"
         },
         {
-          "name": "Mov",
-          "score": 120,
-          "id": 10942,
-          "image": "https://avatars.slack-edge.com/2025-06-21/9078115283110_133afc602e1a845219ad_original.jpg",
-          "url": "https://summer.hackclub.com/users/10942"
-        },
-        {
-          "name": "sAI",
-          "score": 120,
-          "id": 11323,
-          "image": "https://avatars.slack-edge.com/2025-07-17/9212725969858_33a74c33caafe2b16d81_original.jpg",
-          "url": "https://summer.hackclub.com/users/11323"
-        },
-        {
-          "name": "_Shift_xd_",
-          "score": 120,
-          "id": 12374,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9181239085873_e3538ebecd87a88a4c5b_original.jpg",
-          "url": "https://summer.hackclub.com/users/12374"
-        },
-        {
-          "name": "Ivan",
-          "score": 120,
-          "id": 12514,
-          "image": "https://avatars.slack-edge.com/2025-02-02/8384479482133_73e52df1bdf0cb8ddb8f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12514"
-        },
-        {
-          "name": "Marci",
-          "score": 120,
-          "id": 12564,
-          "image": "https://avatars.slack-edge.com/2025-06-27/9108833533555_0d028dc9915185e6c3e9_original.png",
-          "url": "https://summer.hackclub.com/users/12564"
-        },
-        {
-          "name": "V Manikanta",
-          "score": 120,
-          "id": 20096,
-          "image": "https://avatars.slack-edge.com/2022-12-07/4481246806626_d5d4527a802a487d47df_original.png",
-          "url": "https://summer.hackclub.com/users/20096"
-        },
-        {
           "name": "Tobias",
-          "score": 118,
+          "score": 117,
           "id": 810,
           "image": "https://avatars.slack-edge.com/2025-06-16/9041842889607_eb232030c616fb4ecb95_original.png",
           "url": "https://summer.hackclub.com/users/810"
         },
         {
+          "name": "Kevin",
+          "score": 117,
+          "id": 3536,
+          "image": "https://secure.gravatar.com/avatar/5cbfb7178298d1ad40d08f2679e5df0b.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
+          "url": "https://summer.hackclub.com/users/3536"
+        },
+        {
           "name": "Sivayogeith",
-          "score": 118,
+          "score": 117,
           "id": 19937,
           "image": "https://avatars.slack-edge.com/2025-08-04/9319396558448_7a7029dd73a30c7a49bc_original.jpg",
           "url": "https://summer.hackclub.com/users/19937"
         },
         {
-          "name": "EnglishGarfield",
-          "score": 116,
-          "id": 16642,
-          "image": "https://avatars.slack-edge.com/2025-07-23/9235264063795_46e6d0741f3ffbd8080b_original.png",
-          "url": "https://summer.hackclub.com/users/16642"
+          "name": "Kairui Cheng",
+          "score": 114,
+          "id": 3585,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9071799142561_c056e386ca59748e6e78_original.jpg",
+          "url": "https://summer.hackclub.com/users/3585"
         },
         {
-          "name": "Zoe",
-          "score": 115,
-          "id": 143,
-          "image": "https://avatars.slack-edge.com/2025-07-31/9285883784194_b851e6ab9b7bb9a4e7e3_original.png",
-          "url": "https://summer.hackclub.com/users/143"
+          "name": "QinCai",
+          "score": 113,
+          "id": 4514,
+          "image": "https://avatars.slack-edge.com/2025-06-04/8989310008099_85a5c11b799e67f2f768_original.png",
+          "url": "https://summer.hackclub.com/users/4514"
         },
         {
-          "name": "Anirudh",
-          "score": 115,
-          "id": 191,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9119233619603_ffa41a3766c4d5153ce8_original.jpg",
-          "url": "https://summer.hackclub.com/users/191"
+          "name": "PianoMan0",
+          "score": 112,
+          "id": 1907,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9377372311527_377433563929642af508_original.png",
+          "url": "https://summer.hackclub.com/users/1907"
         },
         {
-          "name": "Josh",
-          "score": 115,
-          "id": 4943,
-          "image": "https://avatars.slack-edge.com/2025-08-10/9318038908135_49dee52ddab48095c4e2_original.jpg",
-          "url": "https://summer.hackclub.com/users/4943"
+          "name": "mattseq",
+          "score": 112,
+          "id": 3328,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9099542398496_686de8eb53df145a992c_original.png",
+          "url": "https://summer.hackclub.com/users/3328"
         },
         {
-          "name": "GB114",
-          "score": 115,
-          "id": 10206,
-          "image": "https://avatars.slack-edge.com/2025-04-28/8838614468544_daa1d0ef316bf9ba9576_original.jpg",
-          "url": "https://summer.hackclub.com/users/10206"
+          "name": "Aaditya S",
+          "score": 110,
+          "id": 12473,
+          "image": "https://avatars.slack-edge.com/2024-12-11/8147752224151_053cd61b56b0a8816606_original.png",
+          "url": "https://summer.hackclub.com/users/12473"
+        },
+        {
+          "name": "sAI",
+          "score": 109,
+          "id": 11323,
+          "image": "https://avatars.slack-edge.com/2025-07-17/9212725969858_33a74c33caafe2b16d81_original.jpg",
+          "url": "https://summer.hackclub.com/users/11323"
+        },
+        {
+          "name": "Rangga Gunarto",
+          "score": 108,
+          "id": 16952,
+          "image": "https://avatars.slack-edge.com/2025-07-21/9229267793078_0f5c7181d788706160cd_original.jpg",
+          "url": "https://summer.hackclub.com/users/16952"
+        },
+        {
+          "name": "canelfran",
+          "score": 107,
+          "id": 1089,
+          "image": "https://secure.gravatar.com/avatar/56ffeeb1097e68cd877b5b71dec50995.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
+          "url": "https://summer.hackclub.com/users/1089"
+        },
+        {
+          "name": "Adi",
+          "score": 106,
+          "id": 10781,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173932691412_2dd418d9565878da2eb1_original.jpg",
+          "url": "https://summer.hackclub.com/users/10781"
+        },
+        {
+          "name": "vicky bhelave",
+          "score": 106,
+          "id": 19872,
+          "image": "https://secure.gravatar.com/avatar/4ee9f0b36f96aef1a972a0027011af44.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-512.png",
+          "url": "https://summer.hackclub.com/users/19872"
+        },
+        {
+          "name": "Seif Ahmed",
+          "score": 105,
+          "id": 210,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9055485114626_9850168d80d416764777_original.png",
+          "url": "https://summer.hackclub.com/users/210"
+        },
+        {
+          "name": "Pixel",
+          "score": 104,
+          "id": 8196,
+          "image": "https://avatars.slack-edge.com/2025-07-07/9155959789701_536c44252b3faf102258_original.png",
+          "url": "https://summer.hackclub.com/users/8196"
+        },
+        {
+          "name": "aster42",
+          "score": 103,
+          "id": 2730,
+          "image": "https://secure.gravatar.com/avatar/113f81399ae45534ce1b1957ce12a5df.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
+          "url": "https://summer.hackclub.com/users/2730"
+        },
+        {
+          "name": "TheShovel",
+          "score": 103,
+          "id": 21443,
+          "image": "https://avatars.slack-edge.com/2025-08-12/9343535827426_d4d34002dbdd8f6fb7a6_original.png",
+          "url": "https://summer.hackclub.com/users/21443"
+        },
+        {
+          "name": "Carlson",
+          "score": 102,
+          "id": 5686,
+          "image": "https://avatars.slack-edge.com/2025-08-05/9290833494967_331485f984e5ad729308_original.jpg",
+          "url": "https://summer.hackclub.com/users/5686"
+        },
+        {
+          "name": "Klucznik",
+          "score": 102,
+          "id": 5738,
+          "image": "https://avatars.slack-edge.com/2025-06-20/9073778688243_ad3b3a8bdc844e484bfb_original.jpg",
+          "url": "https://summer.hackclub.com/users/5738"
+        },
+        {
+          "name": "Tharakesh Rajesh",
+          "score": 102,
+          "id": 9132,
+          "image": "https://secure.gravatar.com/avatar/62833df7db147d3f0183aaabc2bce76e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-512.png",
+          "url": "https://summer.hackclub.com/users/9132"
+        },
+        {
+          "name": "ghost",
+          "score": 102,
+          "id": 18997,
+          "image": "https://secure.gravatar.com/avatar/3607cc5df82e06e76be1ef06515cc1b4.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
+          "url": "https://summer.hackclub.com/users/18997"
         }
       ],
       "badges": [
@@ -2955,17 +2960,31 @@ export const stats = {
         },
         {
           "name": "Toshit",
-          "score": 7,
+          "score": 8,
           "id": 14,
           "image": "https://secure.gravatar.com/avatar/ee6805f80d095e4499126d181e633958.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
           "url": "https://summer.hackclub.com/users/14"
         },
         {
-          "name": "Abū al-Barāʾ",
+          "name": "Rohan the Codebreaker (my code)",
+          "score": 6,
+          "id": 1453,
+          "image": "https://avatars.slack-edge.com/2025-08-01/9292969825060_399cbfe573636c9a70a6_original.png",
+          "url": "https://summer.hackclub.com/users/1453"
+        },
+        {
+          "name": "Moaz Mohamed",
           "score": 6,
           "id": 5396,
           "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
           "url": "https://summer.hackclub.com/users/5396"
+        },
+        {
+          "name": "Austin's SDK",
+          "score": 6,
+          "id": 18445,
+          "image": "https://avatars.slack-edge.com/2025-08-01/9293275820626_41c22fefdb719e620ca3_original.jpg",
+          "url": "https://summer.hackclub.com/users/18445"
         },
         {
           "name": "cskartikey",
@@ -2975,6 +2994,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/4"
         },
         {
+          "name": "Cyao",
+          "score": 5,
+          "id": 151,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9363788463973_f276d477dbfb3203bf45_original.jpg",
+          "url": "https://summer.hackclub.com/users/151"
+        },
+        {
           "name": "mahad",
           "score": 5,
           "id": 204,
@@ -2982,11 +3008,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/204"
         },
         {
-          "name": "Rohan the Codebreaker (my code)",
+          "name": "Maksiks",
           "score": 5,
-          "id": 1453,
-          "image": "https://avatars.slack-edge.com/2025-08-01/9292969825060_399cbfe573636c9a70a6_original.png",
-          "url": "https://summer.hackclub.com/users/1453"
+          "id": 1027,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
+          "url": "https://summer.hackclub.com/users/1027"
         },
         {
           "name": "Solar",
@@ -2996,18 +3022,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/2518"
         },
         {
+          "name": "Drew",
+          "score": 5,
+          "id": 4097,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9391783328576_a45f01bd8ccbf4a9f067_original.png",
+          "url": "https://summer.hackclub.com/users/4097"
+        },
+        {
+          "name": "Keyboard1000n17",
+          "score": 5,
+          "id": 9930,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9099193859040_baec610ae81aa3acc9f9_original.jpg",
+          "url": "https://summer.hackclub.com/users/9930"
+        },
+        {
           "name": "WheeledCord",
           "score": 5,
           "id": 12656,
-          "image": "https://avatars.slack-edge.com/2025-05-24/8948861104594_6a36f968025ab8348104_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383029493606_79361451d62f9ff1eaec_original.jpg",
           "url": "https://summer.hackclub.com/users/12656"
-        },
-        {
-          "name": "Rowan",
-          "score": 4,
-          "id": 2,
-          "image": "https://avatars.slack-edge.com/2025-06-28/9118307123397_de6d5f92ca0ab5b43939_original.png",
-          "url": "https://summer.hackclub.com/users/2"
         },
         {
           "name": "Ghost of L87",
@@ -3015,20 +3048,6 @@ export const stats = {
           "id": 90,
           "image": "https://avatars.slack-edge.com/2025-08-05/9307222999011_8c5f61881b7336dfe3af_original.png",
           "url": "https://summer.hackclub.com/users/90"
-        },
-        {
-          "name": "Cyao",
-          "score": 4,
-          "id": 151,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8979376813122_d4a8a1c98d00b1429cf9_original.png",
-          "url": "https://summer.hackclub.com/users/151"
-        },
-        {
-          "name": "Maksiks",
-          "score": 4,
-          "id": 1027,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
-          "url": "https://summer.hackclub.com/users/1027"
         },
         {
           "name": "Akaalroop",
@@ -3048,15 +3067,8 @@ export const stats = {
           "name": "MHanak",
           "score": 4,
           "id": 2404,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9078473385811_6c859feffefde70630e7_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383428316966_06f57e0e84d6cead8473_original.jpg",
           "url": "https://summer.hackclub.com/users/2404"
-        },
-        {
-          "name": "Drew",
-          "score": 4,
-          "id": 4097,
-          "image": "https://avatars.slack-edge.com/2025-07-21/9221946831155_fcf7348c14ee2e43d147_original.png",
-          "url": "https://summer.hackclub.com/users/4097"
         },
         {
           "name": "Carlson",
@@ -3066,11 +3078,32 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/5686"
         },
         {
-          "name": "Austin's SDK",
+          "name": "Ali mad co.",
           "score": 4,
-          "id": 18445,
-          "image": "https://avatars.slack-edge.com/2025-08-01/9293275820626_41c22fefdb719e620ca3_original.jpg",
-          "url": "https://summer.hackclub.com/users/18445"
+          "id": 6319,
+          "image": "https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png",
+          "url": "https://summer.hackclub.com/users/6319"
+        },
+        {
+          "name": "Bailey Miles",
+          "score": 4,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "https://summer.hackclub.com/users/9517"
+        },
+        {
+          "name": "25th_Bam",
+          "score": 4,
+          "id": 10284,
+          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
+          "url": "https://summer.hackclub.com/users/10284"
+        },
+        {
+          "name": "Eucatastrophe",
+          "score": 4,
+          "id": 14203,
+          "image": "https://avatars.slack-edge.com/2025-08-13/9338344344199_6ff1104a4cc33a12d28b_original.jpg",
+          "url": "https://summer.hackclub.com/users/14203"
         },
         {
           "name": "Malted",
@@ -3094,6 +3127,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/39"
         },
         {
+          "name": "Rushmore",
+          "score": 3,
+          "id": 43,
+          "image": "https://avatars.slack-edge.com/2025-07-29/9287834304225_0f68f4b778cde11aa8fd_original.png",
+          "url": "https://summer.hackclub.com/users/43"
+        },
+        {
+          "name": "Mohit Tiwari",
+          "score": 3,
+          "id": 60,
+          "image": "https://avatars.slack-edge.com/2025-08-06/9310049264949_540893f78d6d4508cf98_original.jpg",
+          "url": "https://summer.hackclub.com/users/60"
+        },
+        {
           "name": "Ethan",
           "score": 3,
           "id": 78,
@@ -3108,6 +3155,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/130"
         },
         {
+          "name": "Hridya",
+          "score": 3,
+          "id": 145,
+          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
+          "url": "https://summer.hackclub.com/users/145"
+        },
+        {
           "name": "amber",
           "score": 3,
           "id": 164,
@@ -3118,8 +3172,29 @@ export const stats = {
           "name": "BnaJns",
           "score": 3,
           "id": 171,
-          "image": "https://avatars.slack-edge.com/2025-06-14/9050644296034_b2457a48e6f86fc73b32_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-17/9391443762784_db61e829efd901dda0aa_original.jpg",
           "url": "https://summer.hackclub.com/users/171"
+        },
+        {
+          "name": "hellonearth311",
+          "score": 3,
+          "id": 482,
+          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
+          "url": "https://summer.hackclub.com/users/482"
+        },
+        {
+          "name": "kashsuks",
+          "score": 3,
+          "id": 487,
+          "image": "https://avatars.slack-edge.com/2025-08-12/9346086395366_50b7fffe1fe328105843_original.jpg",
+          "url": "https://summer.hackclub.com/users/487"
+        },
+        {
+          "name": "kevin",
+          "score": 3,
+          "id": 828,
+          "image": "https://secure.gravatar.com/avatar/e368ed481ee9be60997c698350080fdf.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
+          "url": "https://summer.hackclub.com/users/828"
         },
         {
           "name": "GiantNut",
@@ -3139,8 +3214,15 @@ export const stats = {
           "name": "radioblahaj",
           "score": 3,
           "id": 2262,
-          "image": "https://avatars.slack-edge.com/2025-08-10/9358497093904_4dcc44126e71c8ab855f_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-21/9385216135285_4c1bc0875a83815ca829_original.jpg",
           "url": "https://summer.hackclub.com/users/2262"
+        },
+        {
+          "name": "Pikacnu",
+          "score": 3,
+          "id": 2805,
+          "image": "https://secure.gravatar.com/avatar/53371cfe43d5487613690739319e0ecb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-512.png",
+          "url": "https://summer.hackclub.com/users/2805"
         },
         {
           "name": "Ezra Aslan",
@@ -3153,8 +3235,15 @@ export const stats = {
           "name": "Bob",
           "score": 3,
           "id": 3301,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9120578413745_c939f77dd0ba48097f19_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9421559267488_0ddec56a00aa3d995709_original.png",
           "url": "https://summer.hackclub.com/users/3301"
+        },
+        {
+          "name": "mattseq",
+          "score": 3,
+          "id": 3328,
+          "image": "https://avatars.slack-edge.com/2025-06-19/9099542398496_686de8eb53df145a992c_original.png",
+          "url": "https://summer.hackclub.com/users/3328"
         },
         {
           "name": "YeohTH",
@@ -3164,18 +3253,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/4194"
         },
         {
-          "name": "Ali mad co.",
-          "score": 3,
-          "id": 6319,
-          "image": "https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png",
-          "url": "https://summer.hackclub.com/users/6319"
-        },
-        {
           "name": "sillyangel",
           "score": 3,
           "id": 6766,
           "image": "https://avatars.slack-edge.com/2025-07-26/9256617890870_f5e826053582c4f36b1d_original.jpg",
           "url": "https://summer.hackclub.com/users/6766"
+        },
+        {
+          "name": "Shadowlight",
+          "score": 3,
+          "id": 7074,
+          "image": "https://avatars.slack-edge.com/2025-07-23/9238905969619_281bda0b3023da081af4_original.jpg",
+          "url": "https://summer.hackclub.com/users/7074"
+        },
+        {
+          "name": "Gizzy",
+          "score": 3,
+          "id": 7077,
+          "image": "https://avatars.slack-edge.com/2025-08-11/9362272807904_15f911d07075fc42d46a_original.png",
+          "url": "https://summer.hackclub.com/users/7077"
         },
         {
           "name": "Kyle B",
@@ -3192,25 +3288,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/9123"
         },
         {
-          "name": "Bailey Miles",
+          "name": "hƖƖꓭꓨ",
           "score": 3,
-          "id": 9517,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9343150439525_e806cb9317ebe4c7bdfe_original.png",
-          "url": "https://summer.hackclub.com/users/9517"
+          "id": 10206,
+          "image": "https://avatars.slack-edge.com/2025-08-19/9369699722723_7d33c266bc539a7a0fbd_original.jpg",
+          "url": "https://summer.hackclub.com/users/10206"
         },
         {
-          "name": "Keyboard1000n17",
+          "name": "Devin",
           "score": 3,
-          "id": 9930,
-          "image": "https://avatars.slack-edge.com/2025-06-19/9099193859040_baec610ae81aa3acc9f9_original.jpg",
-          "url": "https://summer.hackclub.com/users/9930"
-        },
-        {
-          "name": "25th_Bam",
-          "score": 3,
-          "id": 10284,
-          "image": "https://secure.gravatar.com/avatar/6ca5b4493aeedfadc0f31d9246075992.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-512.png",
-          "url": "https://summer.hackclub.com/users/10284"
+          "id": 10590,
+          "image": "https://avatars.slack-edge.com/2025-08-18/9384167266353_2f525194f5e4afd946ce_original.jpg",
+          "url": "https://summer.hackclub.com/users/10590"
         },
         {
           "name": "Mov",
@@ -3227,25 +3316,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/11115"
         },
         {
-          "name": "Gangsta Ozcan",
+          "name": "Eli Ozcan",
           "score": 3,
           "id": 11144,
           "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
           "url": "https://summer.hackclub.com/users/11144"
         },
         {
-          "name": "SUPA Siblings",
+          "name": "Youssef",
           "score": 3,
-          "id": 12338,
-          "image": "https://avatars.slack-edge.com/2025-06-25/9100540906789_a505c1c181941b34d76f_original.jpg",
-          "url": "https://summer.hackclub.com/users/12338"
+          "id": 12101,
+          "image": "https://avatars.slack-edge.com/2025-08-23/9412485157777_bcf2eb08351fdd22c697_original.png",
+          "url": "https://summer.hackclub.com/users/12101"
         },
         {
-          "name": "_Shift_xd_",
+          "name": "Nickje2000",
           "score": 3,
-          "id": 12374,
-          "image": "https://avatars.slack-edge.com/2025-07-09/9181239085873_e3538ebecd87a88a4c5b_original.jpg",
-          "url": "https://summer.hackclub.com/users/12374"
+          "id": 13529,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9366870666854_daeedd3e5d59ca186675_original.jpg",
+          "url": "https://summer.hackclub.com/users/13529"
         },
         {
           "name": "Rohan Seshasai Vasa",
@@ -3255,11 +3344,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/13663"
         },
         {
-          "name": "Spark",
+          "name": "bober",
           "score": 3,
-          "id": 14213,
-          "image": "https://avatars.slack-edge.com/2025-08-09/9323399085571_5f55230c099cacc31acb_original.png",
-          "url": "https://summer.hackclub.com/users/14213"
+          "id": 13790,
+          "image": "https://avatars.slack-edge.com/2025-07-21/9226386508754_93f09931bd192a42e435_original.png",
+          "url": "https://summer.hackclub.com/users/13790"
         },
         {
           "name": "Pookstir",
@@ -3279,7 +3368,7 @@ export const stats = {
           "name": "harry rogers",
           "score": 3,
           "id": 17035,
-          "image": "https://avatars.slack-edge.com/2025-07-24/9251242078034_a20dca19d1dc7a4694c8_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9395783667826_0e63bf1ce07b9eee2684_original.png",
           "url": "https://summer.hackclub.com/users/17035"
         },
         {
@@ -3288,6 +3377,13 @@ export const stats = {
           "id": 17145,
           "image": "https://avatars.slack-edge.com/2025-07-22/9255348668720_27836bac7d5d846f5284_original.jpg",
           "url": "https://summer.hackclub.com/users/17145"
+        },
+        {
+          "name": "Rei",
+          "score": 3,
+          "id": 19913,
+          "image": "https://avatars.slack-edge.com/2025-07-31/9279160008901_4b951ee956015f1908f8_original.jpg",
+          "url": "https://summer.hackclub.com/users/19913"
         },
         {
           "name": "msw",
@@ -3304,25 +3400,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/7"
         },
         {
-          "name": "Rushmore",
+          "name": "Shuflduf",
           "score": 2,
-          "id": 43,
-          "image": "https://avatars.slack-edge.com/2025-07-29/9287834304225_0f68f4b778cde11aa8fd_original.png",
-          "url": "https://summer.hackclub.com/users/43"
+          "id": 18,
+          "image": "https://avatars.slack-edge.com/2025-07-09/9173450394517_441291fec42648462a1c_original.png",
+          "url": "https://summer.hackclub.com/users/18"
         },
         {
           "name": "krn",
           "score": 2,
           "id": 45,
-          "image": "https://avatars.slack-edge.com/2025-08-13/9357727329553_a5861b853357313b5964_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-23/9399433874770_f9f04468462e0f8eb23f_original.jpg",
           "url": "https://summer.hackclub.com/users/45"
         },
         {
-          "name": "Mohit Tiwari",
+          "name": "Chesspotato",
           "score": 2,
-          "id": 60,
-          "image": "https://avatars.slack-edge.com/2025-08-06/9310049264949_540893f78d6d4508cf98_original.jpg",
-          "url": "https://summer.hackclub.com/users/60"
+          "id": 58,
+          "image": "https://avatars.slack-edge.com/2025-07-29/9260165990951_e95b8e9e0c3cc2926936_original.png",
+          "url": "https://summer.hackclub.com/users/58"
         },
         {
           "name": "Json C",
@@ -3367,13 +3463,6 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/143"
         },
         {
-          "name": "Hridya",
-          "score": 2,
-          "id": 145,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8980889971236_31b5321752e3a6051234_original.png",
-          "url": "https://summer.hackclub.com/users/145"
-        },
-        {
           "name": "Bartosz",
           "score": 2,
           "id": 150,
@@ -3384,7 +3473,7 @@ export const stats = {
           "name": "Anirudh",
           "score": 2,
           "id": 191,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9119233619603_ffa41a3766c4d5153ce8_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391147594451_f071064fadea03d26edf_original.jpg",
           "url": "https://summer.hackclub.com/users/191"
         },
         {
@@ -3395,11 +3484,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/209"
         },
         {
-          "name": "Adhyys",
+          "name": "Seif Ahmed",
           "score": 2,
-          "id": 214,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9220922723411_77b5657506d5c607a606_original.jpg",
-          "url": "https://summer.hackclub.com/users/214"
+          "id": 210,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9055485114626_9850168d80d416764777_original.png",
+          "url": "https://summer.hackclub.com/users/210"
         },
         {
           "name": "Mohamed Eltokhy",
@@ -3414,6 +3503,20 @@ export const stats = {
           "id": 292,
           "image": "https://avatars.slack-edge.com/2025-06-16/9057146973028_abb221fbe3eb88580752_original.png",
           "url": "https://summer.hackclub.com/users/292"
+        },
+        {
+          "name": "Bai",
+          "score": 2,
+          "id": 311,
+          "image": "https://avatars.slack-edge.com/2025-02-01/8379501834902_de410e222550cea5a3fd_original.jpg",
+          "url": "https://summer.hackclub.com/users/311"
+        },
+        {
+          "name": "Barxilly",
+          "score": 2,
+          "id": 326,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9391551413542_a00763d92690cef9061a_original.jpg",
+          "url": "https://summer.hackclub.com/users/326"
         },
         {
           "name": "PawiX25",
@@ -3458,18 +3561,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/426"
         },
         {
-          "name": "hellonearth311",
+          "name": "Scooter Y",
           "score": 2,
-          "id": 482,
-          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
-          "url": "https://summer.hackclub.com/users/482"
-        },
-        {
-          "name": "kashsuks",
-          "score": 2,
-          "id": 487,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9346086395366_50b7fffe1fe328105843_original.jpg",
-          "url": "https://summer.hackclub.com/users/487"
+          "id": 481,
+          "image": "https://avatars.slack-edge.com/2024-09-05/7699775824753_b19823deb141ed9d7deb_original.png",
+          "url": "https://summer.hackclub.com/users/481"
         },
         {
           "name": "Leo",
@@ -3486,11 +3582,39 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/539"
         },
         {
+          "name": "Mohamed Assem",
+          "score": 2,
+          "id": 613,
+          "image": "https://avatars.slack-edge.com/2025-02-15/8462219100916_578c63d44e9cd1aab7b9_original.png",
+          "url": "https://summer.hackclub.com/users/613"
+        },
+        {
+          "name": "brklndude",
+          "score": 2,
+          "id": 653,
+          "image": "https://avatars.slack-edge.com/2025-08-20/9397088547297_22241ee9b8e17527b511_original.png",
+          "url": "https://summer.hackclub.com/users/653"
+        },
+        {
+          "name": "Aditya Mendiratta",
+          "score": 2,
+          "id": 661,
+          "image": "https://avatars.slack-edge.com/2025-06-17/9049630256983_7b2dd070448d4cb9ad44_original.png",
+          "url": "https://summer.hackclub.com/users/661"
+        },
+        {
           "name": "Kira Iovenko",
           "score": 2,
           "id": 723,
           "image": "https://avatars.slack-edge.com/2025-06-17/9063258597938_fa5b4f5155539cbb01a3_original.png",
           "url": "https://summer.hackclub.com/users/723"
+        },
+        {
+          "name": "Tanmay",
+          "score": 2,
+          "id": 730,
+          "image": "https://secure.gravatar.com/avatar/9005032023beee7e1e41fc3d995aabd9.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-512.png",
+          "url": "https://summer.hackclub.com/users/730"
         },
         {
           "name": "Guerra",
@@ -3519,133 +3643,14 @@ export const stats = {
           "id": 810,
           "image": "https://avatars.slack-edge.com/2025-06-16/9041842889607_eb232030c616fb4ecb95_original.png",
           "url": "https://summer.hackclub.com/users/810"
-        },
-        {
-          "name": "kevin",
-          "score": 2,
-          "id": 828,
-          "image": "https://secure.gravatar.com/avatar/e368ed481ee9be60997c698350080fdf.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/828"
-        },
-        {
-          "name": "Scutoid",
-          "score": 2,
-          "id": 1053,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9219962004243_ac70c929d691d12a0113_original.jpg",
-          "url": "https://summer.hackclub.com/users/1053"
-        },
-        {
-          "name": "canelfran",
-          "score": 2,
-          "id": 1089,
-          "image": "https://secure.gravatar.com/avatar/56ffeeb1097e68cd877b5b71dec50995.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-512.png",
-          "url": "https://summer.hackclub.com/users/1089"
-        },
-        {
-          "name": "emptiedfull",
-          "score": 2,
-          "id": 1284,
-          "image": "https://avatars.slack-edge.com/2025-08-11/9338564075908_9a0ed4efc4831fb9ed3f_original.png",
-          "url": "https://summer.hackclub.com/users/1284"
-        },
-        {
-          "name": "YASH PANCHAL",
-          "score": 2,
-          "id": 1297,
-          "image": "https://secure.gravatar.com/avatar/deb120dae819559971b11da00ca69585.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-512.png",
-          "url": "https://summer.hackclub.com/users/1297"
-        },
-        {
-          "name": "Yunkai Li",
-          "score": 2,
-          "id": 1310,
-          "image": "https://secure.gravatar.com/avatar/ddfbb8deaab800074132943825dc6cce.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "https://summer.hackclub.com/users/1310"
-        },
-        {
-          "name": "Oliver",
-          "score": 2,
-          "id": 1334,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9340828159430_c93b46a199b826d61878_original.png",
-          "url": "https://summer.hackclub.com/users/1334"
-        },
-        {
-          "name": "Josiah Aideloje",
-          "score": 2,
-          "id": 1350,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9042250499415_e7038ec16668b16e7328_original.jpg",
-          "url": "https://summer.hackclub.com/users/1350"
-        },
-        {
-          "name": "editid",
-          "score": 2,
-          "id": 1426,
-          "image": "https://secure.gravatar.com/avatar/11158a63770ded5b5e04561243d8f31e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-512.png",
-          "url": "https://summer.hackclub.com/users/1426"
-        },
-        {
-          "name": "Dear_satan",
-          "score": 2,
-          "id": 1429,
-          "image": "https://avatars.slack-edge.com/2025-06-07/9013914587717_bbfcaa1d34de0cd29d52_original.png",
-          "url": "https://summer.hackclub.com/users/1429"
-        },
-        {
-          "name": "Kevin",
-          "score": 2,
-          "id": 1517,
-          "image": "https://avatars.slack-edge.com/2025-03-31/8679338222454_c976fae70eff2707ea0d_original.jpg",
-          "url": "https://summer.hackclub.com/users/1517"
-        },
-        {
-          "name": "Pranav",
-          "score": 2,
-          "id": 1602,
-          "image": "https://secure.gravatar.com/avatar/82a0d5c1cf276f0b0a55470bb4ee1f10.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-512.png",
-          "url": "https://summer.hackclub.com/users/1602"
-        },
-        {
-          "name": "Ivole32",
-          "score": 2,
-          "id": 1652,
-          "image": "https://secure.gravatar.com/avatar/11d7b3c191b07f983f7a0eeea1d358fd.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-512.png",
-          "url": "https://summer.hackclub.com/users/1652"
-        },
-        {
-          "name": "Olive",
-          "score": 2,
-          "id": 1734,
-          "image": "https://avatars.slack-edge.com/2025-08-06/9312996993076_df27b01de67686cf5602_original.png",
-          "url": "https://summer.hackclub.com/users/1734"
-        },
-        {
-          "name": "Eric",
-          "score": 2,
-          "id": 1749,
-          "image": "https://avatars.slack-edge.com/2025-06-18/9078269695505_768902f592f010670b9f_original.png",
-          "url": "https://summer.hackclub.com/users/1749"
-        },
-        {
-          "name": "Saif Abdelrazek",
-          "score": 2,
-          "id": 1849,
-          "image": "https://avatars.slack-edge.com/2025-04-04/8718809197329_286f155c27b6ce1c9cb2_original.jpg",
-          "url": "https://summer.hackclub.com/users/1849"
-        },
-        {
-          "name": "PianoMan0",
-          "score": 2,
-          "id": 1907,
-          "image": "https://avatars.slack-edge.com/2025-06-02/8985949883973_29ff7f3348cb4616116b_original.png",
-          "url": "https://summer.hackclub.com/users/1907"
         }
       ],
       "css": [
         {
           "name": "Eucatastrophe",
-          "score": 9701,
+          "score": 9805,
           "id": 14203,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9129400130356_577dc256a2f3794dfd4e_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-13/9338344344199_6ff1104a4cc33a12d28b_original.jpg",
           "url": "https://summer.hackclub.com/users/14203"
         },
         {
@@ -3677,11 +3682,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/10889"
         },
         {
-          "name": "Abū al-Barāʾ",
-          "score": 5084,
+          "name": "Moaz Mohamed",
+          "score": 5086,
           "id": 5396,
           "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
           "url": "https://summer.hackclub.com/users/5396"
+        },
+        {
+          "name": "harry rogers",
+          "score": 4971,
+          "id": 17035,
+          "image": "https://avatars.slack-edge.com/2025-08-22/9395783667826_0e63bf1ce07b9eee2684_original.png",
+          "url": "https://summer.hackclub.com/users/17035"
         },
         {
           "name": "Korange",
@@ -3691,15 +3703,15 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/9283"
         },
         {
-          "name": "Gangsta Ozcan",
+          "name": "Eli Ozcan",
           "score": 4658,
           "id": 11144,
           "image": "https://avatars.slack-edge.com/2025-06-22/9085312734788_56643e9701ec15c464e7_original.jpg",
           "url": "https://summer.hackclub.com/users/11144"
         },
         {
-          "name": "Ghost of Gay of Ghost of Zombie",
-          "score": 4110,
+          "name": "Gizzy",
+          "score": 4128,
           "id": 7077,
           "image": "https://avatars.slack-edge.com/2025-08-11/9362272807904_15f911d07075fc42d46a_original.png",
           "url": "https://summer.hackclub.com/users/7077"
@@ -3715,7 +3727,7 @@ export const stats = {
           "name": "BnaJns",
           "score": 2955,
           "id": 171,
-          "image": "https://avatars.slack-edge.com/2025-06-14/9050644296034_b2457a48e6f86fc73b32_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-17/9391443762784_db61e829efd901dda0aa_original.jpg",
           "url": "https://summer.hackclub.com/users/171"
         },
         {
@@ -3726,11 +3738,32 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/5686"
         },
         {
+          "name": "hellonearth311",
+          "score": 2627,
+          "id": 482,
+          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
+          "url": "https://summer.hackclub.com/users/482"
+        },
+        {
           "name": "MHanak",
           "score": 2376,
           "id": 2404,
-          "image": "https://avatars.slack-edge.com/2025-06-22/9078473385811_6c859feffefde70630e7_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383428316966_06f57e0e84d6cead8473_original.jpg",
           "url": "https://summer.hackclub.com/users/2404"
+        },
+        {
+          "name": "Austin's SDK",
+          "score": 2231,
+          "id": 18445,
+          "image": "https://avatars.slack-edge.com/2025-08-01/9293275820626_41c22fefdb719e620ca3_original.jpg",
+          "url": "https://summer.hackclub.com/users/18445"
+        },
+        {
+          "name": "Maksiks",
+          "score": 2050,
+          "id": 1027,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
+          "url": "https://summer.hackclub.com/users/1027"
         },
         {
           "name": "Toshit",
@@ -3740,11 +3773,25 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/14"
         },
         {
-          "name": "Maksiks",
-          "score": 1645,
-          "id": 1027,
-          "image": "https://avatars.slack-edge.com/2025-06-16/9055594548693_ad4c73a2441ee334b612_original.png",
-          "url": "https://summer.hackclub.com/users/1027"
+          "name": "Bailey Miles",
+          "score": 1746,
+          "id": 9517,
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
+          "url": "https://summer.hackclub.com/users/9517"
+        },
+        {
+          "name": "Ali mad co.",
+          "score": 1490,
+          "id": 6319,
+          "image": "https://avatars.slack-edge.com/2025-04-06/8704591180678_7f0b00b305c7d5503a4b_original.png",
+          "url": "https://summer.hackclub.com/users/6319"
+        },
+        {
+          "name": "Solar",
+          "score": 1424,
+          "id": 2518,
+          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
+          "url": "https://summer.hackclub.com/users/2518"
         },
         {
           "name": "emptiedfull",
@@ -3789,13 +3836,6 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/1453"
         },
         {
-          "name": "Jmeow longnamelongnamelongnamelongnamelongnamelongnamelongnamelongnamelongname",
-          "score": 756,
-          "id": 9123,
-          "image": "https://secure.gravatar.com/avatar/c3fc112cb63a6410ba06572c52abf836.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
-          "url": "https://summer.hackclub.com/users/9123"
-        },
-        {
           "name": "Nachu Thenappan",
           "score": 648,
           "id": 6350,
@@ -3817,24 +3857,24 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/1821"
         },
         {
+          "name": "Jmeow longnamelongnamelongnamelongnamelongnamelongnamelongnamelongnamelongname",
+          "score": 458,
+          "id": 9123,
+          "image": "https://secure.gravatar.com/avatar/c3fc112cb63a6410ba06572c52abf836.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
+          "url": "https://summer.hackclub.com/users/9123"
+        },
+        {
           "name": "cattn",
-          "score": 380,
+          "score": 400,
           "id": 7358,
           "image": "https://avatars.slack-edge.com/2025-07-12/9174236819255_26aa15376e30fdc854a7_original.png",
           "url": "https://summer.hackclub.com/users/7358"
         },
         {
-          "name": "Austin's SDK",
-          "score": 307,
-          "id": 18445,
-          "image": "https://avatars.slack-edge.com/2025-08-01/9293275820626_41c22fefdb719e620ca3_original.jpg",
-          "url": "https://summer.hackclub.com/users/18445"
-        },
-        {
           "name": "WheeledCord",
           "score": 211,
           "id": 12656,
-          "image": "https://avatars.slack-edge.com/2025-05-24/8948861104594_6a36f968025ab8348104_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-20/9383029493606_79361451d62f9ff1eaec_original.jpg",
           "url": "https://summer.hackclub.com/users/12656"
         },
         {
@@ -3843,13 +3883,6 @@ export const stats = {
           "id": 204,
           "image": "https://avatars.slack-edge.com/2025-07-10/9187371303329_21531058ffef94ec7296_original.jpg",
           "url": "https://summer.hackclub.com/users/204"
-        },
-        {
-          "name": "Solar",
-          "score": 136,
-          "id": 2518,
-          "image": "https://avatars.slack-edge.com/2025-06-21/9068272987223_35b65ddc5af042b8bbfa_original.png",
-          "url": "https://summer.hackclub.com/users/2518"
         },
         {
           "name": "amber",
@@ -3869,7 +3902,7 @@ export const stats = {
           "name": "Cyao",
           "score": 42,
           "id": 151,
-          "image": "https://avatars.slack-edge.com/2025-05-30/8979376813122_d4a8a1c98d00b1429cf9_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-17/9363788463973_f276d477dbfb3203bf45_original.jpg",
           "url": "https://summer.hackclub.com/users/151"
         },
         {
@@ -3882,15 +3915,15 @@ export const stats = {
       ],
       "bio": [
         {
-          "name": "Sabio",
+          "name": "ur blood looks tasty '.P (sabio)",
           "score": 1000,
           "id": 2191,
           "image": "https://avatars.slack-edge.com/2025-06-16/9081170541104_a8dc919075d514a113a2_original.gif",
           "url": "https://summer.hackclub.com/users/2191"
         },
         {
-          "name": "Ghost of Gay of Ghost of Zombie",
-          "score": 959,
+          "name": "Gizzy",
+          "score": 996,
           "id": 7077,
           "image": "https://avatars.slack-edge.com/2025-08-11/9362272807904_15f911d07075fc42d46a_original.png",
           "url": "https://summer.hackclub.com/users/7077"
@@ -3906,7 +3939,7 @@ export const stats = {
           "name": "Eucatastrophe",
           "score": 590,
           "id": 14203,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9129400130356_577dc256a2f3794dfd4e_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-13/9338344344199_6ff1104a4cc33a12d28b_original.jpg",
           "url": "https://summer.hackclub.com/users/14203"
         },
         {
@@ -3931,10 +3964,10 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/19743"
         },
         {
-          "name": "emori",
+          "name": "kaemori",
           "score": 466,
           "id": 20503,
-          "image": "https://avatars.slack-edge.com/2025-08-08/9324898939618_f6bbf03f42a35e416ac1_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-15/9384404945200_1fc89fb59da9212a63b2_original.jpg",
           "url": "https://summer.hackclub.com/users/20503"
         },
         {
@@ -3945,6 +3978,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/6499"
         },
         {
+          "name": "Shyaam Nanthan",
+          "score": 446,
+          "id": 22158,
+          "image": "https://secure.gravatar.com/avatar/c0077727ff51ef12423601a8d0255c4e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-512.png",
+          "url": "https://summer.hackclub.com/users/22158"
+        },
+        {
           "name": "Egloris",
           "score": 426,
           "id": 16281,
@@ -3952,18 +3992,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/16281"
         },
         {
-          "name": "R458",
-          "score": 331,
-          "id": 4199,
-          "image": "https://avatars.slack-edge.com/2025-07-20/9221768189478_5b7d6e569eb90cca4b4f_original.jpg",
-          "url": "https://summer.hackclub.com/users/4199"
+          "name": "seeleal13",
+          "score": 319,
+          "id": 21612,
+          "image": "https://avatars.slack-edge.com/2025-08-21/9386845435782_92f2ea3f35ea52c2957b_original.jpg",
+          "url": "https://summer.hackclub.com/users/21612"
         },
         {
-          "name": "Jakov C",
-          "score": 325,
-          "id": 16267,
-          "image": "https://avatars.slack-edge.com/2025-08-02/9310619131169_78447555cc09bd9787ce_original.png",
-          "url": "https://summer.hackclub.com/users/16267"
+          "name": "Samar Ali",
+          "score": 310,
+          "id": 22260,
+          "image": "https://avatars.slack-edge.com/2025-08-20/9368292508631_66f00af09641bbce7d91_original.jpg",
+          "url": "https://summer.hackclub.com/users/22260"
         },
         {
           "name": "Jeffrey",
@@ -3994,10 +4034,17 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/3663"
         },
         {
-          "name": "joshpinto6",
+          "name": "Cisco",
+          "score": 283,
+          "id": 21738,
+          "image": "https://avatars.slack-edge.com/2024-01-18/6480760932279_edd13b1a639a50c679c8_original.jpg",
+          "url": "https://summer.hackclub.com/users/21738"
+        },
+        {
+          "name": "matmanna",
           "score": 275,
           "id": 6428,
-          "image": "https://secure.gravatar.com/avatar/d2c5c6f06ac6deea78a9400b6fd5abde.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
+          "image": "https://avatars.slack-edge.com/2025-08-14/9366061096673_f8d06f21f0028bacd914_original.png",
           "url": "https://summer.hackclub.com/users/6428"
         },
         {
@@ -4036,6 +4083,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/15625"
         },
         {
+          "name": "Winss",
+          "score": 239,
+          "id": 10886,
+          "image": "https://avatars.slack-edge.com/2025-06-26/9102450184614_83b51e35fd4583dd0d3f_original.png",
+          "url": "https://summer.hackclub.com/users/10886"
+        },
+        {
           "name": "Yogya Chugh",
           "score": 234,
           "id": 9699,
@@ -4050,10 +4104,17 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/18531"
         },
         {
+          "name": "Gungu",
+          "score": 228,
+          "id": 21244,
+          "image": "https://avatars.slack-edge.com/2025-08-14/9358100006134_787b8ad6e0e06b1b2f7e_original.jpg",
+          "url": "https://summer.hackclub.com/users/21244"
+        },
+        {
           "name": "Bailey Miles",
           "score": 219,
           "id": 9517,
-          "image": "https://avatars.slack-edge.com/2025-08-12/9343150439525_e806cb9317ebe4c7bdfe_original.png",
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365347441858_5e82a94ac7558b628722_original.jpg",
           "url": "https://summer.hackclub.com/users/9517"
         },
         {
@@ -4067,15 +4128,22 @@ export const stats = {
           "name": "Philipp",
           "score": 214,
           "id": 5037,
-          "image": "https://secure.gravatar.com/avatar/7410f3094bc725ae6d17654079990d7a.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-512.png",
+          "image": "https://avatars.slack-edge.com/2025-08-15/9360747253494_4c988b724a7c39f0b237_original.png",
           "url": "https://summer.hackclub.com/users/5037"
         },
         {
           "name": "jim",
           "score": 213,
           "id": 13336,
-          "image": "https://avatars.slack-edge.com/2025-06-30/9121257625030_0f40fcde93a84edd1dbc_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-17/9365180376962_55e9a04f621b6e6ab282_original.png",
           "url": "https://summer.hackclub.com/users/13336"
+        },
+        {
+          "name": "Koei",
+          "score": 205,
+          "id": 10559,
+          "image": "https://avatars.slack-edge.com/2025-07-07/9159164433058_b3a4a6fda7073afb0a8e_original.png",
+          "url": "https://summer.hackclub.com/users/10559"
         },
         {
           "name": "Jmeow longnamelongnamelongnamelongnamelongnamelongnamelongnamelongnamelongname",
@@ -4120,18 +4188,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/6771"
         },
         {
-          "name": "Abū al-Barāʾ",
-          "score": 174,
-          "id": 5396,
-          "image": "https://secure.gravatar.com/avatar/3d6d915120d2189eb1369ccd0e484347.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
-          "url": "https://summer.hackclub.com/users/5396"
-        },
-        {
           "name": "P.Vyshali",
           "score": 172,
           "id": 8575,
           "image": "https://avatars.slack-edge.com/2025-07-08/9186678170080_8ea44b0973c4e86d978c_original.jpg",
           "url": "https://summer.hackclub.com/users/8575"
+        },
+        {
+          "name": "Josiah Aideloje",
+          "score": 165,
+          "id": 1350,
+          "image": "https://avatars.slack-edge.com/2025-06-16/9042250499415_e7038ec16668b16e7328_original.jpg",
+          "url": "https://summer.hackclub.com/users/1350"
         },
         {
           "name": "Tiazzz",
@@ -4190,6 +4258,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/18576"
         },
         {
+          "name": "Stefanos",
+          "score": 159,
+          "id": 7525,
+          "image": "https://secure.gravatar.com/avatar/c492a0a18c641118fd1d984ffc9ead5c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-512.png",
+          "url": "https://summer.hackclub.com/users/7525"
+        },
+        {
           "name": "luna",
           "score": 157,
           "id": 11295,
@@ -4232,6 +4307,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/10480"
         },
         {
+          "name": "lexm",
+          "score": 147,
+          "id": 4259,
+          "image": "https://avatars.slack-edge.com/2025-06-13/9046166404005_bb65f84ac64e0422a04f_original.png",
+          "url": "https://summer.hackclub.com/users/4259"
+        },
+        {
           "name": "Henri",
           "score": 147,
           "id": 5837,
@@ -4249,7 +4331,7 @@ export const stats = {
           "name": "zeankun.dev",
           "score": 145,
           "id": 4258,
-          "image": "https://avatars.slack-edge.com/2025-07-21/9251964112832_7c921aa83a9069b0bf72_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9391373724818_fb1c422e987493ff9b7f_original.jpg",
           "url": "https://summer.hackclub.com/users/4258"
         },
         {
@@ -4298,15 +4380,8 @@ export const stats = {
           "name": "Bob",
           "score": 131,
           "id": 3301,
-          "image": "https://avatars.slack-edge.com/2025-06-26/9120578413745_c939f77dd0ba48097f19_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9421559267488_0ddec56a00aa3d995709_original.png",
           "url": "https://summer.hackclub.com/users/3301"
-        },
-        {
-          "name": "EnglishGarfield",
-          "score": 130,
-          "id": 16642,
-          "image": "https://avatars.slack-edge.com/2025-07-23/9235264063795_46e6d0741f3ffbd8080b_original.png",
-          "url": "https://summer.hackclub.com/users/16642"
         },
         {
           "name": "Chesspotato",
@@ -4314,6 +4389,13 @@ export const stats = {
           "id": 58,
           "image": "https://avatars.slack-edge.com/2025-07-29/9260165990951_e95b8e9e0c3cc2926936_original.png",
           "url": "https://summer.hackclub.com/users/58"
+        },
+        {
+          "name": "Rudaiba",
+          "score": 122,
+          "id": 20438,
+          "image": "https://avatars.slack-edge.com/2025-05-20/8927368832548_3390f62249ef7b6641c3_original.jpg",
+          "url": "https://summer.hackclub.com/users/20438"
         },
         {
           "name": "Samiul Muztaba",
@@ -4365,6 +4447,13 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/10942"
         },
         {
+          "name": "Laky2k8",
+          "score": 106,
+          "id": 2311,
+          "image": "https://avatars.slack-edge.com/2025-01-18/8314789098178_270254fbf15f0a40b1c1_original.png",
+          "url": "https://summer.hackclub.com/users/2311"
+        },
+        {
           "name": "Mish",
           "score": 103,
           "id": 153,
@@ -4382,7 +4471,7 @@ export const stats = {
           "name": "harry rogers",
           "score": 101,
           "id": 17035,
-          "image": "https://avatars.slack-edge.com/2025-07-24/9251242078034_a20dca19d1dc7a4694c8_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-22/9395783667826_0e63bf1ce07b9eee2684_original.png",
           "url": "https://summer.hackclub.com/users/17035"
         },
         {
@@ -4393,11 +4482,11 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/19724"
         },
         {
-          "name": "Kevin",
-          "score": 96,
-          "id": 1517,
-          "image": "https://avatars.slack-edge.com/2025-03-31/8679338222454_c976fae70eff2707ea0d_original.jpg",
-          "url": "https://summer.hackclub.com/users/1517"
+          "name": "Roadbobek",
+          "score": 98,
+          "id": 12098,
+          "image": "https://avatars.slack-edge.com/2025-08-20/9408654080576_f2f1917fd33b042661c9_original.png",
+          "url": "https://summer.hackclub.com/users/12098"
         },
         {
           "name": "Lucas11",
@@ -4405,6 +4494,13 @@ export const stats = {
           "id": 812,
           "image": "https://avatars.slack-edge.com/2025-07-19/9247111306896_71f7d0f1970520d0202f_original.png",
           "url": "https://summer.hackclub.com/users/812"
+        },
+        {
+          "name": "Eason",
+          "score": 91,
+          "id": 3474,
+          "image": "https://avatars.slack-edge.com/2025-08-13/9344845543507_6ca5adf9545cb36797c0_original.png",
+          "url": "https://summer.hackclub.com/users/3474"
         },
         {
           "name": "Kreons",
@@ -4470,10 +4566,10 @@ export const stats = {
           "url": "https://summer.hackclub.com/users/18806"
         },
         {
-          "name": "Clair Wang",
+          "name": "clair",
           "score": 83,
           "id": 16181,
-          "image": "https://avatars.slack-edge.com/2025-07-21/9216155353975_9d2c80ddadd801a3129e_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-19/9381099444326_51755fee5490c9fd4fca_original.jpg",
           "url": "https://summer.hackclub.com/users/16181"
         },
         {
@@ -4482,13 +4578,6 @@ export const stats = {
           "id": 4194,
           "image": "https://avatars.slack-edge.com/2025-07-08/9163090501234_7422af6648240c20d0c1_original.png",
           "url": "https://summer.hackclub.com/users/4194"
-        },
-        {
-          "name": "hellonearth311",
-          "score": 79,
-          "id": 482,
-          "image": "https://avatars.slack-edge.com/2025-08-02/9296299147716_899f508e54ad9f3d01c5_original.jpg",
-          "url": "https://summer.hackclub.com/users/482"
         },
         {
           "name": "Alric Marvel",
@@ -4515,7 +4604,7 @@ export const stats = {
           "name": "Lukas",
           "score": 77,
           "id": 8829,
-          "image": "https://avatars.slack-edge.com/2025-08-04/9321275282976_4143e7017d4d2d882cd3_original.jpg",
+          "image": "https://avatars.slack-edge.com/2025-08-18/9396901873856_fc7227c4ef406b518800_original.jpg",
           "url": "https://summer.hackclub.com/users/8829"
         },
         {
@@ -4524,74 +4613,26 @@ export const stats = {
           "id": 9955,
           "image": "https://secure.gravatar.com/avatar/65708c2afbb0237dd70beb30de54de07.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-512.png",
           "url": "https://summer.hackclub.com/users/9955"
-        },
-        {
-          "name": "Alicia Estrada",
-          "score": 75,
-          "id": 2912,
-          "image": "https://secure.gravatar.com/avatar/4701b34a7ece362b3761b36ff5226853.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-512.png",
-          "url": "https://summer.hackclub.com/users/2912"
-        },
-        {
-          "name": "Poyo",
-          "score": 73,
-          "id": 773,
-          "image": "https://avatars.slack-edge.com/2025-07-04/9142862570355_ce314c6e06e9444abeb8_original.png",
-          "url": "https://summer.hackclub.com/users/773"
-        },
-        {
-          "name": "BnaJns",
-          "score": 71,
-          "id": 171,
-          "image": "https://avatars.slack-edge.com/2025-06-14/9050644296034_b2457a48e6f86fc73b32_original.jpg",
-          "url": "https://summer.hackclub.com/users/171"
-        },
-        {
-          "name": "Austin's SDK",
-          "score": 70,
-          "id": 18445,
-          "image": "https://avatars.slack-edge.com/2025-08-01/9293275820626_41c22fefdb719e620ca3_original.jpg",
-          "url": "https://summer.hackclub.com/users/18445"
-        },
-        {
-          "name": "Smil",
-          "score": 69,
-          "id": 15793,
-          "image": "https://secure.gravatar.com/avatar/8816e05ceff9f69bf6e6d64a3aec6db0.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-512.png",
-          "url": "https://summer.hackclub.com/users/15793"
-        },
-        {
-          "name": "Hammerton",
-          "score": 67,
-          "id": 8679,
-          "image": "https://avatars.slack-edge.com/2025-03-17/8617651160179_86785059ad249c67d0e3_original.png",
-          "url": "https://summer.hackclub.com/users/8679"
-        },
-        {
-          "name": "Kcoder",
-          "score": 65,
-          "id": 3237,
-          "image": "https://avatars.slack-edge.com/2025-05-31/8974869899350_ba8658a2aa2a20c36dac_original.png",
-          "url": "https://summer.hackclub.com/users/3237"
-        },
-        {
-          "name": "elleoma",
-          "score": 65,
-          "id": 19462,
-          "image": "https://secure.gravatar.com/avatar/e52d14d19a21796e4505d4861334f0fb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-512.png",
-          "url": "https://summer.hackclub.com/users/19462"
         }
       ]
     },
     "project": {
       "hours": [
         {
-          "name": "syvredits (portfolio-ish web)",
-          "score": 266.4,
-          "id": 1916,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODUsInB1ciI6ImJsb2JfaWQifX0=--779b5d5f5b845dc7ab78d32f7ee06dcfb467d1e3/image.jpg",
-          "author_name": "yashrajalt42",
-          "url": "https://summer.hackclub.com/projects/1916"
+          "name": "Walley",
+          "score": 304.6,
+          "id": 46,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5OTgsInB1ciI6ImJsb2JfaWQifX0=--614479ffacf0145fa2d241554b40bdce083a9adf/Untitled%20design.png",
+          "author_name": "sonntt.az",
+          "url": "https://summer.hackclub.com/projects/46"
+        },
+        {
+          "name": "ReeTui",
+          "score": 276.4,
+          "id": 3491,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyNjAsInB1ciI6ImJsb2JfaWQifX0=--2b528e4dfac93229e34bff8d7c825ec4cf79c529/eeTUI.jpg",
+          "author_name": "youssef.pro.coding",
+          "url": "https://summer.hackclub.com/projects/3491"
         },
         {
           "name": "Chaos Abyss",
@@ -4602,24 +4643,8 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2581"
         },
         {
-          "name": "Walley",
-          "score": 251.7,
-          "id": 46,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5OTgsInB1ciI6ImJsb2JfaWQifX0=--614479ffacf0145fa2d241554b40bdce083a9adf/Untitled%20design.png",
-          "author_name": "sonntt.az",
-          "url": "https://summer.hackclub.com/projects/46"
-        },
-        {
-          "name": "ReeTui",
-          "score": 242.9,
-          "id": 3491,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyNjAsInB1ciI6ImJsb2JfaWQifX0=--2b528e4dfac93229e34bff8d7c825ec4cf79c529/eeTUI.jpg",
-          "author_name": "youssef.pro.coding",
-          "url": "https://summer.hackclub.com/projects/3491"
-        },
-        {
           "name": "SCREAM++ | Protein Structure & Drug Design",
-          "score": 217.2,
+          "score": 226.4,
           "id": 4304,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQwMTIsInB1ciI6ImJsb2JfaWQifX0=--98472f8db7b942e701d0c15a35a864f61e1383ec/0_jcqIWCNbpddpU28_.png",
           "author_name": "tkanx",
@@ -4634,16 +4659,8 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/582"
         },
         {
-          "name": "Dionysus",
-          "score": 203.9,
-          "id": 2204,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDIwMjgsInB1ciI6ImJsb2JfaWQifX0=--fa5d6aa388d94af47376140c2a6e4aa03c6c2a82/image9.png",
-          "author_name": "sakshamgoel1107",
-          "url": "https://summer.hackclub.com/projects/2204"
-        },
-        {
           "name": "Chronal - Metronome for Android",
-          "score": 192.8,
+          "score": 203.5,
           "id": 2218,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQyMjMsInB1ciI6ImJsb2JfaWQifX0=--a2997472d5b63f953835ca3a5e4be4b262b4ccd7/chronal.png",
           "author_name": "mj80dev",
@@ -4651,11 +4668,27 @@ export const stats = {
         },
         {
           "name": "MyraOS",
-          "score": 181.3,
+          "score": 202.2,
           "id": 5191,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4NjQsInB1ciI6ImJsb2JfaWQifX0=--8ccbefe71fe8f4c1aebecff8b9decfc8d82912f8/MyraOS_logo.png",
           "author_name": "dvirm.biton",
           "url": "https://summer.hackclub.com/projects/5191"
+        },
+        {
+          "name": "Dionysus",
+          "score": 199.8,
+          "id": 2204,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDIwMjgsInB1ciI6ImJsb2JfaWQifX0=--fa5d6aa388d94af47376140c2a6e4aa03c6c2a82/image9.png",
+          "author_name": "sakshamgoel1107",
+          "url": "https://summer.hackclub.com/projects/2204"
+        },
+        {
+          "name": "syvredits (portfolio-ish web)",
+          "score": 184.8,
+          "id": 1916,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODUsInB1ciI6ImJsb2JfaWQifX0=--779b5d5f5b845dc7ab78d32f7ee06dcfb467d1e3/image.jpg",
+          "author_name": "yashrajalt42",
+          "url": "https://summer.hackclub.com/projects/1916"
         },
         {
           "name": "ThouSands Site",
@@ -4690,20 +4723,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/3841"
         },
         {
-          "name": "Habit Tracker App",
-          "score": 172.5,
-          "id": 98,
-          "image": null,
-          "author_name": "skydioflyer",
-          "url": "https://summer.hackclub.com/projects/98"
+          "name": "(Project-2) Mind Garden.",
+          "score": 169,
+          "id": 8234,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE2NTQsInB1ciI6ImJsb2JfaWQifX0=--eded0e3d28fa2a6fb467b02035e173157a3fc7c7/ChatGPT%20Image%20Jul%2025,%202025,%2008_11_29%20PM.png",
+          "author_name": "lareenhammad2",
+          "url": "https://summer.hackclub.com/projects/8234"
         },
         {
-          "name": "EchoTuner",
-          "score": 169.5,
-          "id": 2989,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYwMTUsInB1ciI6ImJsb2JfaWQifX0=--851e1454bdd4325e1ec62c4b1e7207d74ac1c0fd/EchoTunerBanner.jpg",
-          "author_name": "domas.lescinskas",
-          "url": "https://summer.hackclub.com/projects/2989"
+          "name": "Whatssock-desktop",
+          "score": 166.8,
+          "id": 5186,
+          "image": null,
+          "author_name": "v.marcell4000",
+          "url": "https://summer.hackclub.com/projects/5186"
         },
         {
           "name": "Afterlight",
@@ -4722,12 +4755,44 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1617"
         },
         {
+          "name": "Habit Tracker App",
+          "score": 161.6,
+          "id": 98,
+          "image": null,
+          "author_name": "skydioflyer",
+          "url": "https://summer.hackclub.com/projects/98"
+        },
+        {
           "name": "Huayushan.fun",
           "score": 161.2,
           "id": 4604,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDgzNzksInB1ciI6ImJsb2JfaWQifX0=--90464b54d3f417e6fb45b43a0de7b11ed18e4e9d/Huayushan.fun.jpg",
           "author_name": "thetruegamer404",
           "url": "https://summer.hackclub.com/projects/4604"
+        },
+        {
+          "name": "Voxel Tools Bevy",
+          "score": 158.9,
+          "id": 7162,
+          "image": null,
+          "author_name": "raphael.j.larsen",
+          "url": "https://summer.hackclub.com/projects/7162"
+        },
+        {
+          "name": "Wilderlands ",
+          "score": 158,
+          "id": 4482,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
+          "author_name": "laura092",
+          "url": "https://summer.hackclub.com/projects/4482"
+        },
+        {
+          "name": "Expandable Programmable Graphing Calculator 10",
+          "score": 156.6,
+          "id": 6046,
+          "image": null,
+          "author_name": "hammad.ramez001",
+          "url": "https://summer.hackclub.com/projects/6046"
         },
         {
           "name": "Physics Simulation Competition",
@@ -4746,36 +4811,28 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/7378"
         },
         {
+          "name": "HyprYou",
+          "score": 152.2,
+          "id": 3912,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE4NTUsInB1ciI6ImJsb2JfaWQifX0=--7b2d64c3e3c12d03c0c69d9579dcf7810b054a3a/Material%20You.png",
+          "author_name": "petrenkodank",
+          "url": "https://summer.hackclub.com/projects/3912"
+        },
+        {
           "name": "Learning Algorithms",
-          "score": 152.1,
+          "score": 152,
           "id": 2359,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODMsInB1ciI6ImJsb2JfaWQifX0=--4de8a203208f9664ce9d1ee4bccd3468a3897f1d/banner.png",
           "author_name": "pakdad.mousavi",
           "url": "https://summer.hackclub.com/projects/2359"
         },
         {
-          "name": "Wilderlands ",
-          "score": 150.8,
-          "id": 4482,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
-          "author_name": "laura092",
-          "url": "https://summer.hackclub.com/projects/4482"
-        },
-        {
           "name": "WEBBER",
-          "score": 150.2,
+          "score": 150,
           "id": 6871,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMxNjcsInB1ciI6ImJsb2JfaWQifX0=--e97f38e5144ec20a802801e056f96361b417fdbb/main_logo_webber.png",
           "author_name": "yogya.developer",
           "url": "https://summer.hackclub.com/projects/6871"
-        },
-        {
-          "name": "HyprYou",
-          "score": 149.1,
-          "id": 3912,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE0MTAsInB1ciI6ImJsb2JfaWQifX0=--5ba42c7dc3369ac3377de8e9079f8fb37caf210c/Material%20You.png",
-          "author_name": "petrenkodank",
-          "url": "https://summer.hackclub.com/projects/3912"
         },
         {
           "name": "MCManager",
@@ -4786,76 +4843,164 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1704"
         },
         {
-          "name": "(Project-2) Mind Garden.",
-          "score": 146.9,
-          "id": 8234,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE2NTQsInB1ciI6ImJsb2JfaWQifX0=--eded0e3d28fa2a6fb467b02035e173157a3fc7c7/ChatGPT%20Image%20Jul%2025,%202025,%2008_11_29%20PM.png",
-          "author_name": "lareenhammad2",
-          "url": "https://summer.hackclub.com/projects/8234"
+          "name": "EchoTuner",
+          "score": 147.9,
+          "id": 2989,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYwMTUsInB1ciI6ImJsb2JfaWQifX0=--851e1454bdd4325e1ec62c4b1e7207d74ac1c0fd/EchoTunerBanner.jpg",
+          "author_name": "domas.lescinskas",
+          "url": "https://summer.hackclub.com/projects/2989"
         },
         {
-          "name": "Auro - AI Productivity Friend",
-          "score": 137.7,
-          "id": 1646,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NDIsInB1ciI6ImJsb2JfaWQifX0=--8098fa230cc080ede8dea560b9a83d154d6779e0/WhatsApp%20Image%202025-07-10%20at%2019.24.26_eedd8346.jpg",
-          "author_name": "arabymohammedyoussef1",
-          "url": "https://summer.hackclub.com/projects/1646"
+          "name": "Documentation website",
+          "score": 146.6,
+          "id": 6838,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQyODAsInB1ciI6ImJsb2JfaWQifX0=--3d22c4b24cf956342789b0cbf29953cc58851bf5/Capture%20d%E2%80%99%C3%A9cran%202025-07-17%20020314.png",
+          "author_name": "eliottroussille",
+          "url": "https://summer.hackclub.com/projects/6838"
         },
         {
-          "name": "trout",
-          "score": 134.1,
-          "id": 2753,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU3ODksInB1ciI6ImJsb2JfaWQifX0=--ca31b8aa76d87404f8444bca26e4f1edab676470/gangster_cropped_2.png",
-          "author_name": "lleerraaff",
-          "url": "https://summer.hackclub.com/projects/2753"
+          "name": "👑 Queenie von Floof: A Royal Virtual Pet",
+          "score": 146.1,
+          "id": 355,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--45dfb31b37841eb1de5a679e36de40ad9e57b86f/banner.png",
+          "author_name": "kira.iovenko",
+          "url": "https://summer.hackclub.com/projects/355"
         },
         {
-          "name": "Expandable Programmable Graphing Calculator 10",
-          "score": 132.4,
-          "id": 6046,
-          "image": null,
-          "author_name": "hammad.ramez001",
-          "url": "https://summer.hackclub.com/projects/6046"
-        },
-        {
-          "name": "corundum",
-          "score": 132.2,
-          "id": 2114,
-          "image": null,
-          "author_name": "krzysztofantonowski",
-          "url": "https://summer.hackclub.com/projects/2114"
-        },
-        {
-          "name": "KontentFlow - AI Content OS",
-          "score": 127.7,
-          "id": 720,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODY3LCJwdXIiOiJibG9iX2lkIn19--3d1939276942f3e3670411a20ecb17fb21964461/HassaanAI%20(2).png",
-          "author_name": "hassaankh8",
-          "url": "https://summer.hackclub.com/projects/720"
+          "name": "👑 Queenie von Floof: A Royal Virtual Pet 2.0",
+          "score": 145.8,
+          "id": 2223,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc2NzIsInB1ciI6ImJsb2JfaWQifX0=--b7b37e50dbd8576006e0059d661a04d63586b0b3/newBanner.png",
+          "author_name": "kira.iovenko",
+          "url": "https://summer.hackclub.com/projects/2223"
         },
         {
           "name": "JettCRM",
-          "score": 126.1,
+          "score": 143.4,
           "id": 1480,
           "image": null,
           "author_name": "advkumar579",
           "url": "https://summer.hackclub.com/projects/1480"
         },
         {
+          "name": "trout",
+          "score": 142.4,
+          "id": 2753,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU3ODksInB1ciI6ImJsb2JfaWQifX0=--ca31b8aa76d87404f8444bca26e4f1edab676470/gangster_cropped_2.png",
+          "author_name": "lleerraaff",
+          "url": "https://summer.hackclub.com/projects/2753"
+        },
+        {
+          "name": "SnapSplat",
+          "score": 141.4,
+          "id": 8628,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzk2NDIsInB1ciI6ImJsb2JfaWQifX0=--a766fbd78727505a29a36c640ffa1ca462c136e3/CleanShot%202025-08-03%20at%2012.24.34@2x.png",
+          "author_name": "iunstable0",
+          "url": "https://summer.hackclub.com/projects/8628"
+        },
+        {
+          "name": "Voidborne",
+          "score": 138.2,
+          "id": 6644,
+          "image": null,
+          "author_name": "fireentity",
+          "url": "https://summer.hackclub.com/projects/6644"
+        },
+        {
+          "name": "Revenge (Discord Mobile Client Modification)",
+          "score": 137.7,
+          "id": 6412,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE1MDMsInB1ciI6ImJsb2JfaWQifX0=--613da89d1fd2605571924f4233b27f7aa9fa9d61/revenge.banner.png",
+          "author_name": "hackclub798",
+          "url": "https://summer.hackclub.com/projects/6412"
+        },
+        {
+          "name": "Minecraft++",
+          "score": 135.5,
+          "id": 4772,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTcyNDEsInB1ciI6ImJsb2JfaWQifX0=--c8e0b64b5522b149b3ef3c105a8c6ab25c235d58/leafs.png",
+          "author_name": "towermanxxl",
+          "url": "https://summer.hackclub.com/projects/4772"
+        },
+        {
           "name": "Website for School After class ",
-          "score": 123.4,
+          "score": 132.8,
           "id": 255,
           "image": null,
           "author_name": "jacques.s",
           "url": "https://summer.hackclub.com/projects/255"
         },
         {
-          "name": "Satisfactory Factory Helper Tool",
-          "score": 123,
-          "id": 154,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0OTEsInB1ciI6ImJsb2JfaWQifX0=--bab5d7c55c576830fb3aa7f779d1420732f65c16/dash.png",
-          "author_name": "studies.peerage-3",
-          "url": "https://summer.hackclub.com/projects/154"
+          "name": "The House App",
+          "score": 131.4,
+          "id": 6332,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjEyNzMsInB1ciI6ImJsb2JfaWQifX0=--ed833c55875a69a6f6adfa4b7d0b855f1c689dc9/Light.PNG",
+          "author_name": "origamiking3612",
+          "url": "https://summer.hackclub.com/projects/6332"
+        },
+        {
+          "name": "Insominia",
+          "score": 130.4,
+          "id": 4825,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI0MzksInB1ciI6ImJsb2JfaWQifX0=--fd66ec54f5e838fbbb9ae32b00bfdd2d1880c3d6/Screenshot%202025-08-06%20at%204.34.05%E2%80%AFPM.png",
+          "author_name": "yuvilds",
+          "url": "https://summer.hackclub.com/projects/4825"
+        },
+        {
+          "name": "Prompt Wisp",
+          "score": 129.9,
+          "id": 2325,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjQ0OCwicHVyIjoiYmxvYl9pZCJ9fQ==--20fc4c0b5e7699ca9d28ce8ec64ecb3730f06f44/Component%201.png",
+          "author_name": "leocerva29",
+          "url": "https://summer.hackclub.com/projects/2325"
+        },
+        {
+          "name": "Icepi Zero - The portable FPGA development board",
+          "score": 128.9,
+          "id": 29,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
+          "author_name": "cyao",
+          "url": "https://summer.hackclub.com/projects/29"
+        },
+        {
+          "name": "KontentFlow - AI Content OS",
+          "score": 127.3,
+          "id": 720,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODY3LCJwdXIiOiJibG9iX2lkIn19--3d1939276942f3e3670411a20ecb17fb21964461/HassaanAI%20(2).png",
+          "author_name": "hassaankh8",
+          "url": "https://summer.hackclub.com/projects/720"
+        },
+        {
+          "name": "Conference rooms",
+          "score": 125.5,
+          "id": 1770,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTkxNjQsInB1ciI6ImJsb2JfaWQifX0=--f8c2cffcf3d970f752400138c486dd5be2d2e405/Sofitel-Grand-Sopot-Oslo-conference-room--1170x780.jpg",
+          "author_name": "spamkonto696",
+          "url": "https://summer.hackclub.com/projects/1770"
+        },
+        {
+          "name": "corundum",
+          "score": 122.7,
+          "id": 2114,
+          "image": null,
+          "author_name": "krzysztofantonowski",
+          "url": "https://summer.hackclub.com/projects/2114"
+        },
+        {
+          "name": "Rebirth - 2107",
+          "score": 121.8,
+          "id": 3990,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMzNTAsInB1ciI6ImJsb2JfaWQifX0=--a22844afa94fee3d5103fbadf3cbe4fa18978b3a/Snapshot_2025-07-28_01-06-59.png",
+          "author_name": "aarongervais",
+          "url": "https://summer.hackclub.com/projects/3990"
+        },
+        {
+          "name": "e-commerce -websitte",
+          "score": 120.1,
+          "id": 11469,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTIzNDcsInB1ciI6ImJsb2JfaWQifX0=--b5aa083524794ef1daef6beecba677a31f1eb8b2/Screenshot%202025-08-16%20161606.png",
+          "author_name": "vickybhelave25",
+          "url": "https://summer.hackclub.com/projects/11469"
         },
         {
           "name": "Astrofield",
@@ -4882,12 +5027,44 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8701"
         },
         {
-          "name": "Rebirth - 2107",
-          "score": 118.2,
-          "id": 3990,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMzNTAsInB1ciI6ImJsb2JfaWQifX0=--a22844afa94fee3d5103fbadf3cbe4fa18978b3a/Snapshot_2025-07-28_01-06-59.png",
-          "author_name": "aarongervais",
-          "url": "https://summer.hackclub.com/projects/3990"
+          "name": "chinook",
+          "score": 119.3,
+          "id": 4688,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIyMzUsInB1ciI6ImJsb2JfaWQifX0=--7f8ebcfef0e6f3b04bf73765f0399751ab559ca4/Frame%202%20(1).png",
+          "author_name": "cheese.hemster",
+          "url": "https://summer.hackclub.com/projects/4688"
+        },
+        {
+          "name": "Satisfactory Factory Helper Tool",
+          "score": 117.1,
+          "id": 154,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzg0OTEsInB1ciI6ImJsb2JfaWQifX0=--bab5d7c55c576830fb3aa7f779d1420732f65c16/dash.png",
+          "author_name": "studies.peerage-3",
+          "url": "https://summer.hackclub.com/projects/154"
+        },
+        {
+          "name": "bedrockR: Minecraft Bedrock GUI Addon Maker",
+          "score": 116.9,
+          "id": 703,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3MDQsInB1ciI6ImJsb2JfaWQifX0=--4f7e8516f9f5b3493a10ff4829ebe65308196378/BrandingWBG.png",
+          "author_name": "mathdudex09",
+          "url": "https://summer.hackclub.com/projects/703"
+        },
+        {
+          "name": "tungsten",
+          "score": 116.3,
+          "id": 1041,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
+          "author_name": "riccardotedeschi247",
+          "url": "https://summer.hackclub.com/projects/1041"
+        },
+        {
+          "name": "Zero-dependency Algebra Calculator",
+          "score": 115.9,
+          "id": 1160,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--39250fb2ab90ed47572ba122ca368c6094f40df9/2025-06-26-144131_hyprshot.png",
+          "author_name": "reynardbrendan",
+          "url": "https://summer.hackclub.com/projects/1160"
         },
         {
           "name": "TaskflowAI",
@@ -4906,6 +5083,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8732"
         },
         {
+          "name": "MihanSolo Chess Engine",
+          "score": 115.1,
+          "id": 2317,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b59cc1b5cfc12744f2c3b048adf7b419e5dc9c0c/Ultrasabers-Green-Lightsabers-1024x527.png",
+          "author_name": "dragon314159",
+          "url": "https://summer.hackclub.com/projects/2317"
+        },
+        {
           "name": "rosmaster",
           "score": 114,
           "id": 1434,
@@ -4922,6 +5107,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/7747"
         },
         {
+          "name": "rInventory",
+          "score": 113.1,
+          "id": 5035,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgyODMsInB1ciI6ImJsb2JfaWQifX0=--5f34b1ec62501af3b5db7efac23621bf54fc2eb5/rInventory%20(Banner).png",
+          "author_name": "ethanlagera",
+          "url": "https://summer.hackclub.com/projects/5035"
+        },
+        {
           "name": "website for our phantom hack club",
           "score": 112.8,
           "id": 8232,
@@ -4930,20 +5123,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8232"
         },
         {
-          "name": "Icepi Zero - The portable FPGA development board",
-          "score": 112.6,
-          "id": 29,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
-          "author_name": "cyao",
-          "url": "https://summer.hackclub.com/projects/29"
-        },
-        {
-          "name": "Revenge (Discord Mobile Client Modification)",
-          "score": 111.9,
-          "id": 6412,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE1MDMsInB1ciI6ImJsb2JfaWQifX0=--613da89d1fd2605571924f4233b27f7aa9fa9d61/revenge.banner.png",
-          "author_name": "hackclub798",
-          "url": "https://summer.hackclub.com/projects/6412"
+          "name": "for the galaxy",
+          "score": 112,
+          "id": 2678,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODIwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--017be87f341af2c2b589de0f07a8f001c6f5b5d3/Screenshot%202025-06-24%20at%206.31.39%20PM.png",
+          "author_name": "emersonoykim",
+          "url": "https://summer.hackclub.com/projects/2678"
         },
         {
           "name": "BookMyNest 🪹",
@@ -4954,12 +5139,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2389"
         },
         {
-          "name": "SnapSplat",
-          "score": 111.8,
-          "id": 8628,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzk2NDIsInB1ciI6ImJsb2JfaWQifX0=--a766fbd78727505a29a36c640ffa1ca462c136e3/CleanShot%202025-08-03%20at%2012.24.34@2x.png",
-          "author_name": "iunstable0",
-          "url": "https://summer.hackclub.com/projects/8628"
+          "name": "Guess The Jam",
+          "score": 111.6,
+          "id": 8878,
+          "image": null,
+          "author_name": "anikaanne2010pal",
+          "url": "https://summer.hackclub.com/projects/8878"
         },
         {
           "name": "stock simulator",
@@ -4970,36 +5155,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1522"
         },
         {
-          "name": "Voxel Tools Bevy",
-          "score": 111,
-          "id": 7162,
-          "image": null,
-          "author_name": "raphael.j.larsen",
-          "url": "https://summer.hackclub.com/projects/7162"
-        },
-        {
-          "name": "Minecraft++",
-          "score": 110.6,
-          "id": 4772,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI4NTIsInB1ciI6ImJsb2JfaWQifX0=--fb55c786cc6aa144b2c4282715e3007755fba82c/finalMinecraftForShip.png",
-          "author_name": "towermanxxl",
-          "url": "https://summer.hackclub.com/projects/4772"
-        },
-        {
-          "name": "Documentation website",
-          "score": 109.4,
-          "id": 6838,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQyODAsInB1ciI6ImJsb2JfaWQifX0=--3d22c4b24cf956342789b0cbf29953cc58851bf5/Capture%20d%E2%80%99%C3%A9cran%202025-07-17%20020314.png",
-          "author_name": "eliottroussille",
-          "url": "https://summer.hackclub.com/projects/6838"
-        },
-        {
           "name": "Race Reading",
-          "score": 109.1,
+          "score": 108.5,
           "id": 4911,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjcyOTgsInB1ciI6ImJsb2JfaWQifX0=--469e9653839f04a6134af3808d448b0a2c100191/Screenshot%202025-07-20%20224944.png",
           "author_name": "jztcraft00_hackclub",
           "url": "https://summer.hackclub.com/projects/4911"
+        },
+        {
+          "name": "Agin CI",
+          "score": 108.3,
+          "id": 4470,
+          "image": null,
+          "author_name": "vonautymek",
+          "url": "https://summer.hackclub.com/projects/4470"
         },
         {
           "name": "ende - 3D Procedural Generator",
@@ -5010,6 +5179,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2130"
         },
         {
+          "name": "Trello Activity Notifications in Discord",
+          "score": 107.8,
+          "id": 5341,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyMzEsInB1ciI6ImJsb2JfaWQifX0=--26ba9cc98b2fde9304b79916d90669c396ba5629/discord-notifications-app-hero-image-thin(1).png",
+          "author_name": "kirilstrezikozin",
+          "url": "https://summer.hackclub.com/projects/5341"
+        },
+        {
           "name": "Chess with a DLNN",
           "score": 107.8,
           "id": 7411,
@@ -5018,12 +5195,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/7411"
         },
         {
-          "name": "rInventory",
-          "score": 106.9,
-          "id": 5035,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgyODMsInB1ciI6ImJsb2JfaWQifX0=--5f34b1ec62501af3b5db7efac23621bf54fc2eb5/rInventory%20(Banner).png",
-          "author_name": "ethanlagera",
-          "url": "https://summer.hackclub.com/projects/5035"
+          "name": "ACEDIA",
+          "score": 107.1,
+          "id": 2369,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI1MywicHVyIjoiYmxvYl9pZCJ9fQ==--605d951dfe93a357a5b06c1f3a1b0d770d3b48d9/banner.png",
+          "author_name": "hackclub567",
+          "url": "https://summer.hackclub.com/projects/2369"
         },
         {
           "name": "Custom Dog Playing Fetch with ML",
@@ -5034,28 +5211,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2374"
         },
         {
-          "name": "👑 Queenie von Floof: A Royal Virtual Pet 2.0",
-          "score": 106.1,
-          "id": 2223,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc2NzIsInB1ciI6ImJsb2JfaWQifX0=--b7b37e50dbd8576006e0059d661a04d63586b0b3/newBanner.png",
-          "author_name": "kira.iovenko",
-          "url": "https://summer.hackclub.com/projects/2223"
-        },
-        {
-          "name": "The House App",
-          "score": 105.9,
-          "id": 6332,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjEyNzMsInB1ciI6ImJsb2JfaWQifX0=--ed833c55875a69a6f6adfa4b7d0b855f1c689dc9/Light.PNG",
-          "author_name": "origamiking3612",
-          "url": "https://summer.hackclub.com/projects/6332"
-        },
-        {
-          "name": "bedrockR: Minecraft Bedrock GUI Addon Maker",
-          "score": 104,
-          "id": 703,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3MDQsInB1ciI6ImJsb2JfaWQifX0=--4f7e8516f9f5b3493a10ff4829ebe65308196378/BrandingWBG.png",
-          "author_name": "mathdudex09",
-          "url": "https://summer.hackclub.com/projects/703"
+          "name": "Keplerian Orbit Simulator",
+          "score": 106,
+          "id": 632,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI3MjEsInB1ciI6ImJsb2JfaWQifX0=--3fbd75b06d472357cd507ec662be517b8e2997f1/banner.png",
+          "author_name": "not_a_normal_robot",
+          "url": "https://summer.hackclub.com/projects/632"
         },
         {
           "name": "HydroHabit",
@@ -5090,20 +5251,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8958"
         },
         {
-          "name": "FPS Game",
-          "score": 102,
-          "id": 4825,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI0MzksInB1ciI6ImJsb2JfaWQifX0=--fd66ec54f5e838fbbb9ae32b00bfdd2d1880c3d6/Screenshot%202025-08-06%20at%204.34.05%E2%80%AFPM.png",
-          "author_name": "yuvilds",
-          "url": "https://summer.hackclub.com/projects/4825"
-        },
-        {
-          "name": "TripWeaver",
-          "score": 101.8,
-          "id": 8390,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI2NjMsInB1ciI6ImJsb2JfaWQifX0=--0fff65fcf46c7f4f536ea8b167a5d5d9c517a34b/1749911874626-1.png",
-          "author_name": "vladislav.hushcha",
-          "url": "https://summer.hackclub.com/projects/8390"
+          "name": "FreeIdeas",
+          "score": 102.2,
+          "id": 3418,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ1NTQsInB1ciI6ImJsb2JfaWQifX0=--dcc7ebb57aa4437a5a725d350c6bfa854ec6794a/freeideasHomeScreen.png",
+          "author_name": "gianlucarainis",
+          "url": "https://summer.hackclub.com/projects/3418"
         },
         {
           "name": "Pokemon Organic Chemistry",
@@ -5112,14 +5265,6 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ2NTgsInB1ciI6ImJsb2JfaWQifX0=--3dd6ee260cf1350215660c48daf6627e1f8ada43/Untitlesd.png",
           "author_name": "bookdodo5",
           "url": "https://summer.hackclub.com/projects/649"
-        },
-        {
-          "name": "StatePulse",
-          "score": 101.6,
-          "id": 375,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMyMDYsInB1ciI6ImJsb2JfaWQifX0=--2fb0d72aaa86f91273028176e149842fb8a04025/Screenshot%202025-08-07%20at%2011.21.49%E2%80%AFAM.png",
-          "author_name": "timberlake2025",
-          "url": "https://summer.hackclub.com/projects/375"
         },
         {
           "name": "WorkoutCasino",
@@ -5154,12 +5299,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/459"
         },
         {
-          "name": "Zero-dependency Algebra Calculator",
-          "score": 100.1,
-          "id": 1160,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--39250fb2ab90ed47572ba122ca368c6094f40df9/2025-06-26-144131_hyprshot.png",
-          "author_name": "reynardbrendan",
-          "url": "https://summer.hackclub.com/projects/1160"
+          "name": "TripWeaver",
+          "score": 100.4,
+          "id": 8390,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI2NjMsInB1ciI6ImJsb2JfaWQifX0=--0fff65fcf46c7f4f536ea8b167a5d5d9c517a34b/1749911874626-1.png",
+          "author_name": "vladislav.hushcha",
+          "url": "https://summer.hackclub.com/projects/8390"
         },
         {
           "name": "MusicMap",
@@ -5170,22 +5315,6 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/5"
         },
         {
-          "name": "hivemind",
-          "score": 99.6,
-          "id": 8291,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE3NDgsInB1ciI6ImJsb2JfaWQifX0=--dc5b8c618b1c8eff9c605043caf52a6216013abd/%E5%9C%96%E7%89%871.png",
-          "author_name": "jack0916295614",
-          "url": "https://summer.hackclub.com/projects/8291"
-        },
-        {
-          "name": "Trello Activity Notifications in Discord",
-          "score": 99.3,
-          "id": 5341,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyMzEsInB1ciI6ImJsb2JfaWQifX0=--26ba9cc98b2fde9304b79916d90669c396ba5629/discord-notifications-app-hero-image-thin(1).png",
-          "author_name": "kirilstrezikozin",
-          "url": "https://summer.hackclub.com/projects/5341"
-        },
-        {
           "name": "ShortSwipe",
           "score": 99.2,
           "id": 9435,
@@ -5194,20 +5323,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/9435"
         },
         {
-          "name": "for the galaxy",
-          "score": 99.1,
-          "id": 2678,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODIwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--017be87f341af2c2b589de0f07a8f001c6f5b5d3/Screenshot%202025-06-24%20at%206.31.39%20PM.png",
-          "author_name": "emersonoykim",
-          "url": "https://summer.hackclub.com/projects/2678"
+          "name": "Uroboros",
+          "score": 99.2,
+          "id": 10364,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDIxNTYsInB1ciI6ImJsb2JfaWQifX0=--804cee8b13a81d620b61e24dce0f9982f43d58ef/Uroboros_20250807_003024_0000.png",
+          "author_name": "minkim9766",
+          "url": "https://summer.hackclub.com/projects/10364"
         },
         {
-          "name": "Monotony",
-          "score": 98.9,
-          "id": 4667,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4MjIsInB1ciI6ImJsb2JfaWQifX0=--21fff0093d3600556189383e92e1cf46d4b4051e/Screenshot%202025-08-06%20114426.png",
-          "author_name": "sharma21",
-          "url": "https://summer.hackclub.com/projects/4667"
+          "name": "React Planner (revived)",
+          "score": 99,
+          "id": 7668,
+          "image": null,
+          "author_name": "konstantin.haygis",
+          "url": "https://summer.hackclub.com/projects/7668"
         },
         {
           "name": "SchoolRegister",
@@ -5218,6 +5347,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8692"
         },
         {
+          "name": "Monotony",
+          "score": 97.7,
+          "id": 4667,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4MjIsInB1ciI6ImJsb2JfaWQifX0=--21fff0093d3600556189383e92e1cf46d4b4051e/Screenshot%202025-08-06%20114426.png",
+          "author_name": "sharma21",
+          "url": "https://summer.hackclub.com/projects/4667"
+        },
+        {
           "name": "WantIt",
           "score": 97.7,
           "id": 8639,
@@ -5226,20 +5363,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8639"
         },
         {
-          "name": "Whatssock-desktop",
-          "score": 97.1,
-          "id": 5186,
-          "image": null,
-          "author_name": "v.marcell4000",
-          "url": "https://summer.hackclub.com/projects/5186"
-        },
-        {
-          "name": "AlwaysTiming",
-          "score": 96.6,
-          "id": 3307,
-          "image": null,
-          "author_name": "aaron.zhu0w",
-          "url": "https://summer.hackclub.com/projects/3307"
+          "name": "Pet City!",
+          "score": 97.5,
+          "id": 7414,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5MzAsInB1ciI6ImJsb2JfaWQifX0=--9d5a9620d1a143ee11a7b1aae45380c3f13b368b/Banner.png",
+          "author_name": "egloris",
+          "url": "https://summer.hackclub.com/projects/7414"
         },
         {
           "name": "Target Shooter",
@@ -5250,150 +5379,62 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/5403"
         },
         {
-          "name": "HoloNight",
+          "name": "Rail Regard",
           "score": 95.7,
-          "id": 4002,
-          "image": null,
-          "author_name": "mwang4680",
-          "url": "https://summer.hackclub.com/projects/4002"
-        },
-        {
-          "name": "chinook",
-          "score": 95.7,
-          "id": 4688,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzIyMzUsInB1ciI6ImJsb2JfaWQifX0=--7f8ebcfef0e6f3b04bf73765f0399751ab559ca4/Frame%202%20(1).png",
-          "author_name": "cheese.hemster",
-          "url": "https://summer.hackclub.com/projects/4688"
-        },
-        {
-          "name": "Voidborne",
-          "score": 95.4,
-          "id": 6644,
-          "image": null,
-          "author_name": "aaravak",
-          "url": "https://summer.hackclub.com/projects/6644"
-        },
-        {
-          "name": "Conference rooms",
-          "score": 95,
-          "id": 1770,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTkxNjQsInB1ciI6ImJsb2JfaWQifX0=--f8c2cffcf3d970f752400138c486dd5be2d2e405/Sofitel-Grand-Sopot-Oslo-conference-room--1170x780.jpg",
-          "author_name": "spamkonto696",
-          "url": "https://summer.hackclub.com/projects/1770"
-        },
-        {
-          "name": "Mathforces",
-          "score": 94.3,
-          "id": 8945,
-          "image": null,
-          "author_name": "amrbassem219",
-          "url": "https://summer.hackclub.com/projects/8945"
-        },
-        {
-          "name": "Pepsi Limbo",
-          "score": 93.5,
-          "id": 3605,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzk5NDAsInB1ciI6ImJsb2JfaWQifX0=--443c54a72f856e2877cbb1f087409182ce5414fc/thumbnail.png",
-          "author_name": "shuflduf",
-          "url": "https://summer.hackclub.com/projects/3605"
-        },
-        {
-          "name": "Electron React Soundboard",
-          "score": 93.1,
-          "id": 1582,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU5ODQsInB1ciI6ImJsb2JfaWQifX0=--27203c713e3629459fd885fd8e8a736d0879ba36/image_2025-07-04_133848706.png",
-          "author_name": "simi.git",
-          "url": "https://summer.hackclub.com/projects/1582"
-        },
-        {
-          "name": "Agin CI",
-          "score": 93.1,
-          "id": 4470,
-          "image": null,
-          "author_name": "vonautymek",
-          "url": "https://summer.hackclub.com/projects/4470"
+          "id": 5842,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjUxMzAsInB1ciI6ImJsb2JfaWQifX0=--b2c163bfcac96cf444f2680efb47cf94f37382a1/RailRegard.png",
+          "author_name": "headblockhead",
+          "url": "https://summer.hackclub.com/projects/5842"
         },
         {
           "name": "bosa",
-          "score": 92.4,
+          "score": 95.5,
           "id": 2713,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDkxMzMsInB1ciI6ImJsb2JfaWQifX0=--b10cb4b0c09291fbc63cafcd552487e968929797/Capture.JPG",
           "author_name": "jurajhadviger",
           "url": "https://summer.hackclub.com/projects/2713"
         },
         {
-          "name": "All Day All Life",
-          "score": 92.2,
-          "id": 8714,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDc4MjIsInB1ciI6ImJsb2JfaWQifX0=--5710526b789d4a56a27e1e62846cfaa083db7546/pixilart-1754929225600.png",
-          "author_name": "baibhavkumarjha1",
-          "url": "https://summer.hackclub.com/projects/8714"
+          "name": "Auro - AI Productivity Friend",
+          "score": 95.4,
+          "id": 1646,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NDIsInB1ciI6ImJsb2JfaWQifX0=--8098fa230cc080ede8dea560b9a83d154d6779e0/WhatsApp%20Image%202025-07-10%20at%2019.24.26_eedd8346.jpg",
+          "author_name": "arabymohammedyoussef1",
+          "url": "https://summer.hackclub.com/projects/1646"
         },
         {
-          "name": "Voidwatch",
-          "score": 92,
-          "id": 1381,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--31f5a9fc14c8f98a50c93f03388276b175bf4c2a/banner.png",
-          "author_name": "mtroalson",
-          "url": "https://summer.hackclub.com/projects/1381"
+          "name": "Aurora",
+          "score": 95.4,
+          "id": 5536,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA0MjAsInB1ciI6ImJsb2JfaWQifX0=--e96c5832ecce00e17108dce439280cbafd026e83/aurora.png",
+          "author_name": "sophiaasophieee",
+          "url": "https://summer.hackclub.com/projects/5536"
         },
         {
-          "name": "FreeIdeas",
-          "score": 91.6,
-          "id": 3418,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ1NTQsInB1ciI6ImJsb2JfaWQifX0=--dcc7ebb57aa4437a5a725d350c6bfa854ec6794a/freeideasHomeScreen.png",
-          "author_name": "gianlucarainis",
-          "url": "https://summer.hackclub.com/projects/3418"
-        },
-        {
-          "name": "tungsten",
-          "score": 91.5,
-          "id": 1041,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
-          "author_name": "riccardotedeschi247",
-          "url": "https://summer.hackclub.com/projects/1041"
-        },
-        {
-          "name": "MihanSolo Chess Engine",
-          "score": 91.4,
-          "id": 2317,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b59cc1b5cfc12744f2c3b048adf7b419e5dc9c0c/Ultrasabers-Green-Lightsabers-1024x527.png",
-          "author_name": "dragon314159",
-          "url": "https://summer.hackclub.com/projects/2317"
-        },
-        {
-          "name": "Algorithmic Challenges",
-          "score": 91.4,
-          "id": 8651,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzcxNzUsInB1ciI6ImJsb2JfaWQifX0=--fc379d8a4889c350f2809278925828a3fb0f144c/Screenshot%202025-08-01%20145153.png",
-          "author_name": "rfssommer",
-          "url": "https://summer.hackclub.com/projects/8651"
-        },
-        {
-          "name": "HYRA-0",
-          "score": 91,
-          "id": 2138,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAyODcsInB1ciI6ImJsb2JfaWQifX0=--c124864896209f224d05186d384f571649ab37d4/Weixin%20Screenshot_20250724123550.png",
-          "author_name": "caisufan",
-          "url": "https://summer.hackclub.com/projects/2138"
-        },
-        {
-          "name": "ExpenseTracker",
-          "score": 89.8,
-          "id": 8657,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzgzNTQsInB1ciI6ImJsb2JfaWQifX0=--018481d35f65ede7c0a69365e92d8c04e6e6c9f5/ChatGPT%20Image%20Aug%202,%202025,%2004_53_14%20PM.png",
-          "author_name": "rishitsurana4",
-          "url": "https://summer.hackclub.com/projects/8657"
+          "name": "HoloNight",
+          "score": 95.3,
+          "id": 4002,
+          "image": null,
+          "author_name": "mwang4680",
+          "url": "https://summer.hackclub.com/projects/4002"
         }
       ],
       "devlogs": [
         {
           "name": "trout",
-          "score": 75,
+          "score": 77,
           "id": 2753,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU3ODksInB1ciI6ImJsb2JfaWQifX0=--ca31b8aa76d87404f8444bca26e4f1edab676470/gangster_cropped_2.png",
           "author_name": "lleerraaff",
           "url": "https://summer.hackclub.com/projects/2753"
+        },
+        {
+          "name": "VoidOS",
+          "score": 73,
+          "id": 8002,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTcyNDksInB1ciI6ImJsb2JfaWQifX0=--98d3023b9dad1177479063e3fd8a87063bb6fdaa/Screenshot%202025-08-24%20023639.png",
+          "author_name": "bandgarbalaji20",
+          "url": "https://summer.hackclub.com/projects/8002"
         },
         {
           "name": "MemeOS – A Web-Based “Operating System” Filled with Easter Eggs",
@@ -5405,11 +5446,19 @@ export const stats = {
         },
         {
           "name": "Lunar",
-          "score": 70,
+          "score": 69,
           "id": 26,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzExNzgsInB1ciI6ImJsb2JfaWQifX0=--78041930f9ccbd4f8006ac983494136cc7125526/Screen%20Recording%202025-07-25%20100552.gif",
           "author_name": "mohittiwariis97",
           "url": "https://summer.hackclub.com/projects/26"
+        },
+        {
+          "name": "SAT Practice Platform",
+          "score": 67,
+          "id": 7196,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYzNzgsInB1ciI6ImJsb2JfaWQifX0=--1edced5a3745395e4d2a611d2ccbf07c5199cb93/SAT%20Question%20Bank%20Practice%20Platform.png",
+          "author_name": "aldhanekadev",
+          "url": "https://summer.hackclub.com/projects/7196"
         },
         {
           "name": "stock simulator",
@@ -5420,6 +5469,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1522"
         },
         {
+          "name": "MihanSolo Chess Engine",
+          "score": 65,
+          "id": 2317,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b59cc1b5cfc12744f2c3b048adf7b419e5dc9c0c/Ultrasabers-Green-Lightsabers-1024x527.png",
+          "author_name": "dragon314159",
+          "url": "https://summer.hackclub.com/projects/2317"
+        },
+        {
           "name": "Monotony",
           "score": 62,
           "id": 4667,
@@ -5428,36 +5485,68 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/4667"
         },
         {
+          "name": "DarwinX - OSX experience at the cost of nothing but Internet packets",
+          "score": 61,
+          "id": 3282,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMwMzMsInB1ciI6ImJsb2JfaWQifX0=--96c4af3e7b2b4f62648bc5cf2c40f77167a7a317/DarwinX.gif",
+          "author_name": "mr.linux.0",
+          "url": "https://summer.hackclub.com/projects/3282"
+        },
+        {
           "name": "HYRA-0",
-          "score": 60,
+          "score": 59,
           "id": 2138,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAyODcsInB1ciI6ImJsb2JfaWQifX0=--c124864896209f224d05186d384f571649ab37d4/Weixin%20Screenshot_20250724123550.png",
           "author_name": "caisufan",
           "url": "https://summer.hackclub.com/projects/2138"
         },
         {
-          "name": "SAT Practice Platform",
-          "score": 60,
-          "id": 7196,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYzNzgsInB1ciI6ImJsb2JfaWQifX0=--1edced5a3745395e4d2a611d2ccbf07c5199cb93/SAT%20Question%20Bank%20Practice%20Platform.png",
-          "author_name": "aldhanekadev",
-          "url": "https://summer.hackclub.com/projects/7196"
+          "name": "SOM Utils",
+          "score": 59,
+          "id": 7236,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1MzIsInB1ciI6ImJsb2JfaWQifX0=--6060c8007cb413bf0e5d025926c89612d74b1860/Untitled%20design%20(8).png",
+          "author_name": "hridayahoney",
+          "url": "https://summer.hackclub.com/projects/7236"
         },
         {
           "name": "Stageless",
-          "score": 59,
+          "score": 58,
           "id": 3349,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzIwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--a2e12f476c32264fca5559681e7ac9c48aaed466/StagelessThumbnail.png",
           "author_name": "jrbob3094",
           "url": "https://summer.hackclub.com/projects/3349"
         },
         {
-          "name": "VoidOS",
-          "score": 58,
-          "id": 8002,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDEyODMsInB1ciI6ImJsb2JfaWQifX0=--f72983eceeef81362998e236fc55b762ddae1d68/Screenshot%202025-08-05%20192013.png",
-          "author_name": "bandgarbalaji20",
-          "url": "https://summer.hackclub.com/projects/8002"
+          "name": "HyprYou",
+          "score": 56,
+          "id": 3912,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE4NTUsInB1ciI6ImJsb2JfaWQifX0=--7b2d64c3e3c12d03c0c69d9579dcf7810b054a3a/Material%20You.png",
+          "author_name": "petrenkodank",
+          "url": "https://summer.hackclub.com/projects/3912"
+        },
+        {
+          "name": "Blockpanel",
+          "score": 55,
+          "id": 1125,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTA5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--390044baae196398ddfa97b2badf1d87b0a3bfb5/project-icon.png",
+          "author_name": "valentin",
+          "url": "https://summer.hackclub.com/projects/1125"
+        },
+        {
+          "name": "The White Room",
+          "score": 55,
+          "id": 8568,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM2MzIsInB1ciI6ImJsb2JfaWQifX0=--6d83bcead64500fcc8c23ee46008a087087794dd/Banner.png",
+          "author_name": "sapphirerose010",
+          "url": "https://summer.hackclub.com/projects/8568"
+        },
+        {
+          "name": "Oscilloscope Online V2",
+          "score": 54,
+          "id": 837,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM0ODQsInB1ciI6ImJsb2JfaWQifX0=--96c6260b92783b03e07bbb1bc3991b4a138d9873/Oscilloscope%20Online.png",
+          "author_name": "shahbazu628",
+          "url": "https://summer.hackclub.com/projects/837"
         },
         {
           "name": "Chaos Abyss",
@@ -5468,52 +5557,60 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2581"
         },
         {
-          "name": "HyprYou",
-          "score": 53,
-          "id": 3912,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE0MTAsInB1ciI6ImJsb2JfaWQifX0=--5ba42c7dc3369ac3377de8e9079f8fb37caf210c/Material%20You.png",
-          "author_name": "petrenkodank",
-          "url": "https://summer.hackclub.com/projects/3912"
-        },
-        {
-          "name": "Studymate Tracker",
-          "score": 49,
-          "id": 1966,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA2NywicHVyIjoiYmxvYl9pZCJ9fQ==--e7ee9fc6155a54938e44a116981f68e4f1c26f8f/Studymate%20Tracker.png",
-          "author_name": "sheth.neer27",
-          "url": "https://summer.hackclub.com/projects/1966"
-        },
-        {
           "name": "StatePulse",
-          "score": 48,
+          "score": 52,
           "id": 375,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMyMDYsInB1ciI6ImJsb2JfaWQifX0=--2fb0d72aaa86f91273028176e149842fb8a04025/Screenshot%202025-08-07%20at%2011.21.49%E2%80%AFAM.png",
           "author_name": "timberlake2025",
           "url": "https://summer.hackclub.com/projects/375"
         },
         {
+          "name": "TransforMate",
+          "score": 50,
+          "id": 7819,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk0NTIsInB1ciI6ImJsb2JfaWQifX0=--f1f0f851e9c132d0eecde680181aba9eb2fba07f/image.png",
+          "author_name": "pemegomachado",
+          "url": "https://summer.hackclub.com/projects/7819"
+        },
+        {
+          "name": "Keplerian Orbit Simulator",
+          "score": 49,
+          "id": 632,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI3MjEsInB1ciI6ImJsb2JfaWQifX0=--3fbd75b06d472357cd507ec662be517b8e2997f1/banner.png",
+          "author_name": "not_a_normal_robot",
+          "url": "https://summer.hackclub.com/projects/632"
+        },
+        {
           "name": "KontentFlow - AI Content OS",
-          "score": 48,
+          "score": 47,
           "id": 720,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODY3LCJwdXIiOiJibG9iX2lkIn19--3d1939276942f3e3670411a20ecb17fb21964461/HassaanAI%20(2).png",
           "author_name": "hassaankh8",
           "url": "https://summer.hackclub.com/projects/720"
         },
         {
+          "name": "Studymate Tracker",
+          "score": 47,
+          "id": 1966,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA2NywicHVyIjoiYmxvYl9pZCJ9fQ==--e7ee9fc6155a54938e44a116981f68e4f1c26f8f/Studymate%20Tracker.png",
+          "author_name": "sheth.neer27",
+          "url": "https://summer.hackclub.com/projects/1966"
+        },
+        {
           "name": "ende - 3D Procedural Generator",
-          "score": 48,
+          "score": 47,
           "id": 2130,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ0NjUsInB1ciI6ImJsb2JfaWQifX0=--f4726c2ecccffdf9d4de7c3b40075977f225ede6/ende-logo.png",
           "author_name": "mikolajt55",
           "url": "https://summer.hackclub.com/projects/2130"
         },
         {
-          "name": "MacOS UI Simulator - OSX experience at the cost of nothing but Internet packets",
+          "name": "graphite",
           "score": 47,
-          "id": 3282,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM4OTQsInB1ciI6ImJsb2JfaWQifX0=--a8ea29785f40efe2192bfcbea02d621840e4b73e/tlg.gif",
-          "author_name": "mr.linux.0",
-          "url": "https://summer.hackclub.com/projects/3282"
+          "id": 2736,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2MjgsInB1ciI6ImJsb2JfaWQifX0=--50a7f12d56b5d62aa872975e7d5d19937021f90c/Screenshot%202025-07-11%20at%2016.31.05.png",
+          "author_name": "dylanyfraser",
+          "url": "https://summer.hackclub.com/projects/2736"
         },
         {
           "name": "Pepsi Limbo",
@@ -5524,76 +5621,84 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/3605"
         },
         {
-          "name": "Blockpanel",
-          "score": 46,
-          "id": 1125,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTA5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--390044baae196398ddfa97b2badf1d87b0a3bfb5/project-icon.png",
-          "author_name": "valentin",
-          "url": "https://summer.hackclub.com/projects/1125"
-        },
-        {
-          "name": "graphite",
-          "score": 46,
-          "id": 2736,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjA2MjgsInB1ciI6ImJsb2JfaWQifX0=--50a7f12d56b5d62aa872975e7d5d19937021f90c/Screenshot%202025-07-11%20at%2016.31.05.png",
-          "author_name": "dylanyfraser",
-          "url": "https://summer.hackclub.com/projects/2736"
-        },
-        {
-          "name": "MihanSolo Chess Engine",
-          "score": 45,
-          "id": 2317,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzc2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--b59cc1b5cfc12744f2c3b048adf7b419e5dc9c0c/Ultrasabers-Green-Lightsabers-1024x527.png",
-          "author_name": "dragon314159",
-          "url": "https://summer.hackclub.com/projects/2317"
-        },
-        {
-          "name": "BookMyNest 🪹",
-          "score": 44,
-          "id": 2389,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgwNTUsInB1ciI6ImJsb2JfaWQifX0=--0f8f8cced2bbdcde5ebdc8db6fc13ca9e4523a45/Screenshot%202025-07-07%20203057.png",
-          "author_name": "bandgarbalaji20",
-          "url": "https://summer.hackclub.com/projects/2389"
-        },
-        {
           "name": "Chrono Capsule",
-          "score": 44,
+          "score": 47,
           "id": 3842,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQyOTEsInB1ciI6ImJsb2JfaWQifX0=--d441f7b6c32bf35653a365ef87a59450342f285e/x.jpg",
           "author_name": "puneetgopinath",
           "url": "https://summer.hackclub.com/projects/3842"
         },
         {
-          "name": "Filatrack",
-          "score": 42,
-          "id": 138,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODMyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--22de95b64abad515105dacccb0ecb2e9ccd569b3/firefox_TUGcuUlAR0.gif",
-          "author_name": "drewratner27",
-          "url": "https://summer.hackclub.com/projects/138"
+          "name": "CrossCode (Build iOS apps on Windows and Linux!)",
+          "score": 46,
+          "id": 1550,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTU5NzUsInB1ciI6ImJsb2JfaWQifX0=--f0ad9269695e30c59c10715810d15a4a95f3d8ca/image_2025-08-21_132707620.png",
+          "author_name": "nicholasdanielsharp",
+          "url": "https://summer.hackclub.com/projects/1550"
+        },
+        {
+          "name": "Voidborne",
+          "score": 46,
+          "id": 6644,
+          "image": null,
+          "author_name": "fireentity",
+          "url": "https://summer.hackclub.com/projects/6644"
+        },
+        {
+          "name": "for the galaxy",
+          "score": 44,
+          "id": 2678,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODIwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--017be87f341af2c2b589de0f07a8f001c6f5b5d3/Screenshot%202025-06-24%20at%206.31.39%20PM.png",
+          "author_name": "emersonoykim",
+          "url": "https://summer.hackclub.com/projects/2678"
         },
         {
           "name": "Rebirth - 2107",
-          "score": 42,
+          "score": 44,
           "id": 3990,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMzNTAsInB1ciI6ImJsb2JfaWQifX0=--a22844afa94fee3d5103fbadf3cbe4fa18978b3a/Snapshot_2025-07-28_01-06-59.png",
           "author_name": "aarongervais",
           "url": "https://summer.hackclub.com/projects/3990"
         },
         {
-          "name": "TransforMate",
-          "score": 42,
-          "id": 7819,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk0NTIsInB1ciI6ImJsb2JfaWQifX0=--f1f0f851e9c132d0eecde680181aba9eb2fba07f/image.png",
-          "author_name": "pemegomachado",
-          "url": "https://summer.hackclub.com/projects/7819"
+          "name": "BookMyNest 🪹",
+          "score": 43,
+          "id": 2389,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgwNTUsInB1ciI6ImJsb2JfaWQifX0=--0f8f8cced2bbdcde5ebdc8db6fc13ca9e4523a45/Screenshot%202025-07-07%20203057.png",
+          "author_name": "bandgarbalaji20",
+          "url": "https://summer.hackclub.com/projects/2389"
         },
         {
-          "name": "The White Room",
-          "score": 42,
-          "id": 8568,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM2MzIsInB1ciI6ImJsb2JfaWQifX0=--6d83bcead64500fcc8c23ee46008a087087794dd/Banner.png",
+          "name": "Trixie Timer - (It's a working title)",
+          "score": 43,
+          "id": 10723,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA5MDIsInB1ciI6ImJsb2JfaWQifX0=--d9c9091b36e937469920d927db78d512b160b60d/Screenshot%202025-08-14%20at%2016.32.55.png",
           "author_name": "sapphirerose010",
-          "url": "https://summer.hackclub.com/projects/8568"
+          "url": "https://summer.hackclub.com/projects/10723"
+        },
+        {
+          "name": "Gungutils",
+          "score": 43,
+          "id": 11288,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQ4MDAsInB1ciI6ImJsb2JfaWQifX0=--a43b27720dd2aac61e8c964c7376a06c33824779/Screenshot%20from%202025-08-19%2018-36-11.png",
+          "author_name": "ddoggames7",
+          "url": "https://summer.hackclub.com/projects/11288"
+        },
+        {
+          "name": "Walley",
+          "score": 42,
+          "id": 46,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5OTgsInB1ciI6ImJsb2JfaWQifX0=--614479ffacf0145fa2d241554b40bdce083a9adf/Untitled%20design.png",
+          "author_name": "sonntt.az",
+          "url": "https://summer.hackclub.com/projects/46"
+        },
+        {
+          "name": "Filatrack",
+          "score": 41,
+          "id": 138,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODMyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--22de95b64abad515105dacccb0ecb2e9ccd569b3/firefox_TUGcuUlAR0.gif",
+          "author_name": "drewratner27",
+          "url": "https://summer.hackclub.com/projects/138"
         },
         {
           "name": "Hour Zero",
@@ -5604,100 +5709,140 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/582"
         },
         {
-          "name": "Oscilloscope Online V2",
-          "score": 41,
-          "id": 837,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM0ODQsInB1ciI6ImJsb2JfaWQifX0=--96c6260b92783b03e07bbb1bc3991b4a138d9873/Oscilloscope%20Online.png",
-          "author_name": "shahbazu628",
-          "url": "https://summer.hackclub.com/projects/837"
-        },
-        {
-          "name": "Learning Algorithms",
-          "score": 40,
-          "id": 2359,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODMsInB1ciI6ImJsb2JfaWQifX0=--4de8a203208f9664ce9d1ee4bccd3468a3897f1d/banner.png",
-          "author_name": "pakdad.mousavi",
-          "url": "https://summer.hackclub.com/projects/2359"
-        },
-        {
-          "name": "SOM Utils",
-          "score": 40,
-          "id": 7236,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1MzIsInB1ciI6ImJsb2JfaWQifX0=--6060c8007cb413bf0e5d025926c89612d74b1860/Untitled%20design%20(8).png",
-          "author_name": "hridayahoney",
-          "url": "https://summer.hackclub.com/projects/7236"
-        },
-        {
-          "name": "for the galaxy",
-          "score": 39,
-          "id": 2678,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODIwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--017be87f341af2c2b589de0f07a8f001c6f5b5d3/Screenshot%202025-06-24%20at%206.31.39%20PM.png",
-          "author_name": "emersonoykim",
-          "url": "https://summer.hackclub.com/projects/2678"
-        },
-        {
-          "name": "YCode (Build iOS apps on Windows and Linux!)",
-          "score": 38,
-          "id": 1550,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--bdbb47d1bfbd0effbd763f40149590de4fba6628/image_2025-06-18_220832329.png",
-          "author_name": "nicholasdanielsharp",
-          "url": "https://summer.hackclub.com/projects/1550"
-        },
-        {
-          "name": "Voidborne",
-          "score": 38,
-          "id": 6644,
-          "image": null,
-          "author_name": "aaravak",
-          "url": "https://summer.hackclub.com/projects/6644"
-        },
-        {
-          "name": "Orb Browser",
-          "score": 38,
-          "id": 7492,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgxOTYsInB1ciI6ImJsb2JfaWQifX0=--c73e4f5d2c80ee64428db313208677af8fd0aa02/orb_browser_small.png",
-          "author_name": "explorercosmic",
-          "url": "https://summer.hackclub.com/projects/7492"
-        },
-        {
-          "name": "Walley",
-          "score": 37,
-          "id": 46,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5OTgsInB1ciI6ImJsb2JfaWQifX0=--614479ffacf0145fa2d241554b40bdce083a9adf/Untitled%20design.png",
-          "author_name": "sonntt.az",
-          "url": "https://summer.hackclub.com/projects/46"
-        },
-        {
-          "name": "Keplerian Orbit Simulator",
-          "score": 37,
-          "id": 632,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI3MjEsInB1ciI6ImJsb2JfaWQifX0=--3fbd75b06d472357cd507ec662be517b8e2997f1/banner.png",
-          "author_name": "not_a_normal_robot",
-          "url": "https://summer.hackclub.com/projects/632"
-        },
-        {
           "name": "Zero-dependency Algebra Calculator",
-          "score": 37,
+          "score": 41,
           "id": 1160,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--39250fb2ab90ed47572ba122ca368c6094f40df9/2025-06-26-144131_hyprshot.png",
           "author_name": "reynardbrendan",
           "url": "https://summer.hackclub.com/projects/1160"
         },
         {
-          "name": "Making CP algorithms and problem storing web",
-          "score": 37,
-          "id": 10874,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDc4NzIsInB1ciI6ImJsb2JfaWQifX0=--5f382822713d2bbbea2337bf771aa641d656d4a0/YT%20banner.png",
-          "author_name": "hoangquan0111",
-          "url": "https://summer.hackclub.com/projects/10874"
+          "name": "AGE",
+          "score": 40,
+          "id": 2174,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTAyNjMsInB1ciI6ImJsb2JfaWQifX0=--d3914a668c638384ecefd71876d870f46fa38535/Screenshot%202025-08-13%20230419.png",
+          "author_name": "jonathan341",
+          "url": "https://summer.hackclub.com/projects/2174"
+        },
+        {
+          "name": "FreeIdeas",
+          "score": 40,
+          "id": 3418,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ1NTQsInB1ciI6ImJsb2JfaWQifX0=--dcc7ebb57aa4437a5a725d350c6bfa854ec6794a/freeideasHomeScreen.png",
+          "author_name": "gianlucarainis",
+          "url": "https://summer.hackclub.com/projects/3418"
+        },
+        {
+          "name": "ReeTui",
+          "score": 40,
+          "id": 3491,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyNjAsInB1ciI6ImJsb2JfaWQifX0=--2b528e4dfac93229e34bff8d7c825ec4cf79c529/eeTUI.jpg",
+          "author_name": "youssef.pro.coding",
+          "url": "https://summer.hackclub.com/projects/3491"
+        },
+        {
+          "name": "Orb Browser",
+          "score": 40,
+          "id": 7492,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgxOTYsInB1ciI6ImJsb2JfaWQifX0=--c73e4f5d2c80ee64428db313208677af8fd0aa02/orb_browser_small.png",
+          "author_name": "explorercosmic",
+          "url": "https://summer.hackclub.com/projects/7492"
         },
         {
           "name": "My Food",
-          "score": 35,
+          "score": 39,
           "id": 1325,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4ODcsInB1ciI6ImJsb2JfaWQifX0=--3a2dec6d466e9085128fd6009f19441b69fed060/My%20Food-.png",
           "author_name": "wuesteleon",
           "url": "https://summer.hackclub.com/projects/1325"
+        },
+        {
+          "name": "Learning Algorithms",
+          "score": 39,
+          "id": 2359,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODMsInB1ciI6ImJsb2JfaWQifX0=--4de8a203208f9664ce9d1ee4bccd3468a3897f1d/banner.png",
+          "author_name": "pakdad.mousavi",
+          "url": "https://summer.hackclub.com/projects/2359"
+        },
+        {
+          "name": "tungsten",
+          "score": 38,
+          "id": 1041,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
+          "author_name": "riccardotedeschi247",
+          "url": "https://summer.hackclub.com/projects/1041"
+        },
+        {
+          "name": "ACEDIA",
+          "score": 38,
+          "id": 2369,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI1MywicHVyIjoiYmxvYl9pZCJ9fQ==--605d951dfe93a357a5b06c1f3a1b0d770d3b48d9/banner.png",
+          "author_name": "hackclub567",
+          "url": "https://summer.hackclub.com/projects/2369"
+        },
+        {
+          "name": "rInventory",
+          "score": 38,
+          "id": 5035,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgyODMsInB1ciI6ImJsb2JfaWQifX0=--5f34b1ec62501af3b5db7efac23621bf54fc2eb5/rInventory%20(Banner).png",
+          "author_name": "ethanlagera",
+          "url": "https://summer.hackclub.com/projects/5035"
+        },
+        {
+          "name": "3D renderer using nothing but turtle (for rendering) and math (for computing).",
+          "score": 38,
+          "id": 9993,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0OTIsInB1ciI6ImJsb2JfaWQifX0=--4448f52b7d76e417ed86ad7678d0510159c9de00/image_2025-08-10_005529891.png",
+          "author_name": "downright.sillyy",
+          "url": "https://summer.hackclub.com/projects/9993"
+        },
+        {
+          "name": "ProComm (Professional Communicator)",
+          "score": 37,
+          "id": 6581,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI5NzMsInB1ciI6ImJsb2JfaWQifX0=--2179fe28a33c4fcbd4eb7520b88961a5767efd5e/Screenshot%202025-08-07%20202725.png",
+          "author_name": "alricmarvel",
+          "url": "https://summer.hackclub.com/projects/6581"
+        },
+        {
+          "name": "mdllama - Ollama & OpenAI runtime",
+          "score": 36,
+          "id": 3615,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ4NTcsInB1ciI6ImJsb2JfaWQifX0=--fed6362b8a1a87d326b7e5cebdd777c567d003cb/Screenshot_20250703_125744.png",
+          "author_name": "raymontqin_rui",
+          "url": "https://summer.hackclub.com/projects/3615"
+        },
+        {
+          "name": "Skywell",
+          "score": 36,
+          "id": 5997,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTIxMzksInB1ciI6ImJsb2JfaWQifX0=--4b7c8835771af8ae8ecd8f5d8f75df07f8367233/Screenshot_20250815_222609.png",
+          "author_name": "maxwang420",
+          "url": "https://summer.hackclub.com/projects/5997"
+        },
+        {
+          "name": "Icepi Zero - The portable FPGA development board",
+          "score": 35,
+          "id": 29,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
+          "author_name": "cyao",
+          "url": "https://summer.hackclub.com/projects/29"
+        },
+        {
+          "name": "PZChessBot",
+          "score": 35,
+          "id": 380,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgzMzAsInB1ciI6ImJsb2JfaWQifX0=--870ad5f95d5d6214a4bd0e95809443bcae39ed4f/banner.png",
+          "author_name": "kevie.lu8",
+          "url": "https://summer.hackclub.com/projects/380"
+        },
+        {
+          "name": "Mice (Navidrome Client)",
+          "score": 35,
+          "id": 1837,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzA1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--2ea43ccdf4776a97007462187ae11497ccf85838/banner.png",
+          "author_name": "sillyangel3",
+          "url": "https://summer.hackclub.com/projects/1837"
         },
         {
           "name": "Physics Simulation Competition",
@@ -5708,28 +5853,36 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2186"
         },
         {
-          "name": "FreeIdeas",
+          "name": "👑 Queenie von Floof: A Royal Virtual Pet 2.0",
           "score": 35,
-          "id": 3418,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ1NTQsInB1ciI6ImJsb2JfaWQifX0=--dcc7ebb57aa4437a5a725d350c6bfa854ec6794a/freeideasHomeScreen.png",
-          "author_name": "gianlucarainis",
-          "url": "https://summer.hackclub.com/projects/3418"
+          "id": 2223,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc2NzIsInB1ciI6ImJsb2JfaWQifX0=--b7b37e50dbd8576006e0059d661a04d63586b0b3/newBanner.png",
+          "author_name": "kira.iovenko",
+          "url": "https://summer.hackclub.com/projects/2223"
         },
         {
-          "name": "ReeTui",
+          "name": "formsMD (fMD)",
           "score": 35,
-          "id": 3491,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyNjAsInB1ciI6ImJsb2JfaWQifX0=--2b528e4dfac93229e34bff8d7c825ec4cf79c529/eeTUI.jpg",
-          "author_name": "youssef.pro.coding",
-          "url": "https://summer.hackclub.com/projects/3491"
+          "id": 4270,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQwODMsInB1ciI6ImJsb2JfaWQifX0=--542c78f98f2348ebba16914f428e37aa49fa0dbc/thumbnail.png",
+          "author_name": "0yqc",
+          "url": "https://summer.hackclub.com/projects/4270"
         },
         {
-          "name": "rInventory",
-          "score": 35,
-          "id": 5035,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjgyODMsInB1ciI6ImJsb2JfaWQifX0=--5f34b1ec62501af3b5db7efac23621bf54fc2eb5/rInventory%20(Banner).png",
-          "author_name": "ethanlagera",
-          "url": "https://summer.hackclub.com/projects/5035"
+          "name": "JettCRM",
+          "score": 34,
+          "id": 1480,
+          "image": null,
+          "author_name": "advkumar579",
+          "url": "https://summer.hackclub.com/projects/1480"
+        },
+        {
+          "name": "MUS | Bootstrap Portfolio",
+          "score": 34,
+          "id": 1748,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--9fafe3618c01e80995d2feebed1f73207dde9508/image_2025-06-19_155130325.png",
+          "author_name": "shahbazu628",
+          "url": "https://summer.hackclub.com/projects/1748"
         },
         {
           "name": "SoundStash",
@@ -5740,28 +5893,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1825"
         },
         {
-          "name": "3D renderer using nothing but turtle (for rendering) and math (for computing).",
+          "name": "Chronal - Metronome for Android",
           "score": 34,
-          "id": 9993,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0OTIsInB1ciI6ImJsb2JfaWQifX0=--4448f52b7d76e417ed86ad7678d0510159c9de00/image_2025-08-10_005529891.png",
-          "author_name": "downright.sillyy",
-          "url": "https://summer.hackclub.com/projects/9993"
-        },
-        {
-          "name": "OSPedia",
-          "score": 33,
-          "id": 2183,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ3NywicHVyIjoiYmxvYl9pZCJ9fQ==--e38efcefb925e23c0eea66266d7196a4141e8bf8/banner.png",
-          "author_name": "keyboard1000n17",
-          "url": "https://summer.hackclub.com/projects/2183"
-        },
-        {
-          "name": "mdllama - Mark Up Your Ollama Experience",
-          "score": 33,
-          "id": 3615,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ4NTcsInB1ciI6ImJsb2JfaWQifX0=--fed6362b8a1a87d326b7e5cebdd777c567d003cb/Screenshot_20250703_125744.png",
-          "author_name": "raymontqin_rui",
-          "url": "https://summer.hackclub.com/projects/3615"
+          "id": 2218,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQyMjMsInB1ciI6ImJsb2JfaWQifX0=--a2997472d5b63f953835ca3a5e4be4b262b4ccd7/chronal.png",
+          "author_name": "mj80dev",
+          "url": "https://summer.hackclub.com/projects/2218"
         },
         {
           "name": "PiFi",
@@ -5772,28 +5909,36 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/5720"
         },
         {
-          "name": "ProComm (Professional Communication)",
-          "score": 33,
-          "id": 6581,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI5NzMsInB1ciI6ImJsb2JfaWQifX0=--2179fe28a33c4fcbd4eb7520b88961a5767efd5e/Screenshot%202025-08-07%20202725.png",
-          "author_name": "alricmarvel",
-          "url": "https://summer.hackclub.com/projects/6581"
-        },
-        {
-          "name": "Chronal - Metronome for Android",
+          "name": "Ferrum Engine",
           "score": 32,
-          "id": 2218,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQyMjMsInB1ciI6ImJsb2JfaWQifX0=--a2997472d5b63f953835ca3a5e4be4b262b4ccd7/chronal.png",
-          "author_name": "mj80dev",
-          "url": "https://summer.hackclub.com/projects/2218"
+          "id": 2000,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY5OTksInB1ciI6ImJsb2JfaWQifX0=--b386b64c9b700e11f377083575610f9cab0dc878/20250705_17h17m38s_grim.png",
+          "author_name": "luka.trojan",
+          "url": "https://summer.hackclub.com/projects/2000"
         },
         {
-          "name": "Icepi Zero - The portable FPGA development board",
-          "score": 31,
-          "id": 29,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
-          "author_name": "cyao",
-          "url": "https://summer.hackclub.com/projects/29"
+          "name": "TabLift",
+          "score": 32,
+          "id": 2109,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQwODAsInB1ciI6ImJsb2JfaWQifX0=--1e49c5b2ec1fadce80476dae7728be1fe25ea892/banner-wbg.png",
+          "author_name": "ghetumihaieduard",
+          "url": "https://summer.hackclub.com/projects/2109"
+        },
+        {
+          "name": "Wilderlands ",
+          "score": 32,
+          "id": 4482,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
+          "author_name": "laura092",
+          "url": "https://summer.hackclub.com/projects/4482"
+        },
+        {
+          "name": "Grindline",
+          "score": 32,
+          "id": 8348,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzgyNDYsInB1ciI6ImJsb2JfaWQifX0=--d2b7131a826e165b74656e7807fb38b1419e59fb/Screenshot%202025-08-02%20143101.png",
+          "author_name": "swastikbajpaii17969",
+          "url": "https://summer.hackclub.com/projects/8348"
         },
         {
           "name": "College Bank Clicker",
@@ -5804,28 +5949,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/509"
         },
         {
-          "name": "JettCRM",
+          "name": "GoldASM",
           "score": 31,
-          "id": 1480,
-          "image": null,
-          "author_name": "advkumar579",
-          "url": "https://summer.hackclub.com/projects/1480"
+          "id": 939,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3NSwicHVyIjoiYmxvYl9pZCJ9fQ==--4a51e277f20dcf889774480cd708d37096ba9976/goldasm_big.png",
+          "author_name": "colterhardy",
+          "url": "https://summer.hackclub.com/projects/939"
         },
         {
-          "name": "Mice (Navidrome Client)",
+          "name": "OSPedia",
           "score": 31,
-          "id": 1837,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzA1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--2ea43ccdf4776a97007462187ae11497ccf85838/banner.png",
-          "author_name": "sillyangel3",
-          "url": "https://summer.hackclub.com/projects/1837"
-        },
-        {
-          "name": "Ferrum Engine",
-          "score": 31,
-          "id": 2000,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY5OTksInB1ciI6ImJsb2JfaWQifX0=--b386b64c9b700e11f377083575610f9cab0dc878/20250705_17h17m38s_grim.png",
-          "author_name": "luka.trojan",
-          "url": "https://summer.hackclub.com/projects/2000"
+          "id": 2183,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ3NywicHVyIjoiYmxvYl9pZCJ9fQ==--e38efcefb925e23c0eea66266d7196a4141e8bf8/banner.png",
+          "author_name": "keyboard1000n17",
+          "url": "https://summer.hackclub.com/projects/2183"
         },
         {
           "name": "ThouSands Site",
@@ -5836,6 +5973,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2259"
         },
         {
+          "name": "Osmium -- Chess Engine",
+          "score": 31,
+          "id": 2700,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--1c6c4a833a6554135844043d72b03b95dd5ccb3f/Screenshot%202025-06-22%20003257.png",
+          "author_name": "chenyuanxi5",
+          "url": "https://summer.hackclub.com/projects/2700"
+        },
+        {
           "name": "Tic-Tac-Fˣᵒk-You",
           "score": 31,
           "id": 4429,
@@ -5844,36 +5989,52 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/4429"
         },
         {
-          "name": "GoldASM",
-          "score": 30,
-          "id": 939,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3NSwicHVyIjoiYmxvYl9pZCJ9fQ==--4a51e277f20dcf889774480cd708d37096ba9976/goldasm_big.png",
-          "author_name": "colterhardy",
-          "url": "https://summer.hackclub.com/projects/939"
+          "name": "Sulkan",
+          "score": 31,
+          "id": 5480,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYyMzQsInB1ciI6ImJsb2JfaWQifX0=--1835d66214f9dc628f088e54176d62e4594eaf54/light_assoc.PNG",
+          "author_name": "aseedadad",
+          "url": "https://summer.hackclub.com/projects/5480"
         },
         {
-          "name": "AGE",
-          "score": 30,
-          "id": 2174,
-          "image": null,
-          "author_name": "jonathan341",
-          "url": "https://summer.hackclub.com/projects/2174"
+          "name": "Markov Chain Text Generator",
+          "score": 31,
+          "id": 8361,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ2NDUsInB1ciI6ImJsb2JfaWQifX0=--5dfd781764d422f56e80153b91e68f0ea1d97372/Screenshot%202025-07-29%20160730.png",
+          "author_name": "ezraaslan10",
+          "url": "https://summer.hackclub.com/projects/8361"
         },
         {
-          "name": "ACEDIA",
-          "score": 30,
-          "id": 2369,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI1MywicHVyIjoiYmxvYl9pZCJ9fQ==--605d951dfe93a357a5b06c1f3a1b0d770d3b48d9/banner.png",
-          "author_name": "hackclub567",
-          "url": "https://summer.hackclub.com/projects/2369"
+          "name": "Timberly",
+          "score": 31,
+          "id": 11077,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE5MzgsInB1ciI6ImJsb2JfaWQifX0=--e872fafdb06ace22f3f9f1370b95fe9baf91248f/Screenshot%202025-08-16%20012118.png",
+          "author_name": "yogya.developer",
+          "url": "https://summer.hackclub.com/projects/11077"
         },
         {
-          "name": "Osmium -- Chess Engine",
+          "name": "Clark",
           "score": 30,
-          "id": 2700,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTA0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--1c6c4a833a6554135844043d72b03b95dd5ccb3f/Screenshot%202025-06-22%20003257.png",
-          "author_name": "chenyuanxi5",
-          "url": "https://summer.hackclub.com/projects/2700"
+          "id": 1655,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE0NzQsInB1ciI6ImJsb2JfaWQifX0=--fb633bf55dfbfddf0b5e20bb8b4e3ae5a8d2a22d/Screenshot%20(47).png",
+          "author_name": "olusegunkd2017",
+          "url": "https://summer.hackclub.com/projects/1655"
+        },
+        {
+          "name": "syvredits (portfolio-ish web)",
+          "score": 30,
+          "id": 1916,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODUsInB1ciI6ImJsb2JfaWQifX0=--779b5d5f5b845dc7ab78d32f7ee06dcfb467d1e3/image.jpg",
+          "author_name": "yashrajalt42",
+          "url": "https://summer.hackclub.com/projects/1916"
+        },
+        {
+          "name": "Dionysus",
+          "score": 30,
+          "id": 2204,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDIwMjgsInB1ciI6ImJsb2JfaWQifX0=--fa5d6aa388d94af47376140c2a6e4aa03c6c2a82/image9.png",
+          "author_name": "sakshamgoel1107",
+          "url": "https://summer.hackclub.com/projects/2204"
         },
         {
           "name": "Unolike card game",
@@ -5884,28 +6045,28 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/4327"
         },
         {
-          "name": "Sulkan",
+          "name": "Ascendium",
           "score": 30,
-          "id": 5480,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYyMzQsInB1ciI6ImJsb2JfaWQifX0=--1835d66214f9dc628f088e54176d62e4594eaf54/light_assoc.PNG",
-          "author_name": "aseedadad",
-          "url": "https://summer.hackclub.com/projects/5480"
+          "id": 11131,
+          "image": null,
+          "author_name": "meanclient69420",
+          "url": "https://summer.hackclub.com/projects/11131"
         },
         {
-          "name": "Platformer World",
-          "score": 30,
-          "id": 6014,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjUxMDQsInB1ciI6ImJsb2JfaWQifX0=--32b54e6feb6873e6d5df5a50d0d47ed4d4b0a466/CleanShot%202025-07-18%20at%2017.29.17.png",
-          "author_name": "kyle.bendall",
-          "url": "https://summer.hackclub.com/projects/6014"
-        },
-        {
-          "name": "tungsten",
+          "name": "Website for School After class ",
           "score": 29,
-          "id": 1041,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
-          "author_name": "riccardotedeschi247",
-          "url": "https://summer.hackclub.com/projects/1041"
+          "id": 255,
+          "image": null,
+          "author_name": "jacques.s",
+          "url": "https://summer.hackclub.com/projects/255"
+        },
+        {
+          "name": "bedrockR: Minecraft Bedrock GUI Addon Maker",
+          "score": 29,
+          "id": 703,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTI3MDQsInB1ciI6ImJsb2JfaWQifX0=--4f7e8516f9f5b3493a10ff4829ebe65308196378/BrandingWBG.png",
+          "author_name": "mathdudex09",
+          "url": "https://summer.hackclub.com/projects/703"
         },
         {
           "name": "DeepFocus",
@@ -5914,6 +6075,14 @@ export const stats = {
           "image": null,
           "author_name": "nthntrn006",
           "url": "https://summer.hackclub.com/projects/1201"
+        },
+        {
+          "name": "GamePico",
+          "score": 29,
+          "id": 1278,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg4ODcsInB1ciI6ImJsb2JfaWQifX0=--6af5f5490421df47592f381448000314313b7f09/logo.png",
+          "author_name": "vrzalikm",
+          "url": "https://summer.hackclub.com/projects/1278"
         },
         {
           "name": "Remote Workflow",
@@ -5932,6 +6101,22 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1537"
         },
         {
+          "name": "Make New Homepage(Portfolio)",
+          "score": 29,
+          "id": 1805,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQ0MDYsInB1ciI6ImJsb2JfaWQifX0=--2664e4eea62b19f51f0b5c9f4238e9c43450b434/hello.jsna.dev_home2025_(iPad%20Air).png",
+          "author_name": "hello903",
+          "url": "https://summer.hackclub.com/projects/1805"
+        },
+        {
+          "name": "Citronote 3 📝✨️",
+          "score": 29,
+          "id": 2818,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMxNTksInB1ciI6ImJsb2JfaWQifX0=--17cfae72c421999100aeb1923d2f6a8af6bd7e19/Frame%20332.png",
+          "author_name": "korange753",
+          "url": "https://summer.hackclub.com/projects/2818"
+        },
+        {
           "name": "EchoTuner",
           "score": 29,
           "id": 2989,
@@ -5948,44 +6133,52 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/3917"
         },
         {
-          "name": "Wilderlands ",
+          "name": "MyraOS",
           "score": 29,
-          "id": 4482,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
-          "author_name": "laura092",
-          "url": "https://summer.hackclub.com/projects/4482"
+          "id": 5191,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4NjQsInB1ciI6ImJsb2JfaWQifX0=--8ccbefe71fe8f4c1aebecff8b9decfc8d82912f8/MyraOS_logo.png",
+          "author_name": "dvirm.biton",
+          "url": "https://summer.hackclub.com/projects/5191"
         },
         {
-          "name": "Markov Chain Text Generator",
+          "name": "Platformer World",
           "score": 29,
-          "id": 8361,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ2NDUsInB1ciI6ImJsb2JfaWQifX0=--5dfd781764d422f56e80153b91e68f0ea1d97372/Screenshot%202025-07-29%20160730.png",
-          "author_name": "ezraaslan10",
-          "url": "https://summer.hackclub.com/projects/8361"
+          "id": 6014,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjUxMDQsInB1ciI6ImJsb2JfaWQifX0=--32b54e6feb6873e6d5df5a50d0d47ed4d4b0a466/CleanShot%202025-07-18%20at%2017.29.17.png",
+          "author_name": "kyle.bendall",
+          "url": "https://summer.hackclub.com/projects/6014"
         },
         {
-          "name": "Website for School After class ",
-          "score": 28,
-          "id": 255,
+          "name": "GLang",
+          "score": 29,
+          "id": 7475,
           "image": null,
-          "author_name": "jacques.s",
-          "url": "https://summer.hackclub.com/projects/255"
+          "author_name": "hackclub.bovine306",
+          "url": "https://summer.hackclub.com/projects/7475"
+        },
+        {
+          "name": "Rancher's Hope",
+          "score": 29,
+          "id": 8312,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQwNzksInB1ciI6ImJsb2JfaWQifX0=--b939589cea3a2d51ad5d33a235ee959eba1b0a10/Screenshot%202025-08-17%20040903.png",
+          "author_name": "hmzuuu87",
+          "url": "https://summer.hackclub.com/projects/8312"
         },
         {
           "name": "Electron React Soundboard",
           "score": 28,
           "id": 1582,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU5ODQsInB1ciI6ImJsb2JfaWQifX0=--27203c713e3629459fd885fd8e8a736d0879ba36/image_2025-07-04_133848706.png",
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDk3NzYsInB1ciI6ImJsb2JfaWQifX0=--418e6962295f131f65b55f6536aa50f30857ef51/image_2025-08-13_132857412.png",
           "author_name": "simi.git",
           "url": "https://summer.hackclub.com/projects/1582"
         },
         {
-          "name": "ShadcnUI Blocks",
+          "name": "Prompt Wisp",
           "score": 28,
-          "id": 1898,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjYzNTksInB1ciI6ImJsb2JfaWQifX0=--ef94102e249df4793e1f2dbe391ea5fa2b06a984/ShadcnUI%20Vaults%20SoM%20Banner.png",
-          "author_name": "aldhanekadev",
-          "url": "https://summer.hackclub.com/projects/1898"
+          "id": 2325,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjQ0OCwicHVyIjoiYmxvYl9pZCJ9fQ==--20fc4c0b5e7699ca9d28ce8ec64ecb3730f06f44/Component%201.png",
+          "author_name": "leocerva29",
+          "url": "https://summer.hackclub.com/projects/2325"
         },
         {
           "name": "Spellfire",
@@ -5996,6 +6189,22 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/4651"
         },
         {
+          "name": "Minecraft++",
+          "score": 28,
+          "id": 4772,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTcyNDEsInB1ciI6ImJsb2JfaWQifX0=--c8e0b64b5522b149b3ef3c105a8c6ab25c235d58/leafs.png",
+          "author_name": "towermanxxl",
+          "url": "https://summer.hackclub.com/projects/4772"
+        },
+        {
+          "name": "WikiBeachia",
+          "score": 28,
+          "id": 7802,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ1OTksInB1ciI6ImJsb2JfaWQifX0=--d6eb0f2269ac69b0f55cae78a22a87194d002d01/banner1.png",
+          "author_name": "admoore1310",
+          "url": "https://summer.hackclub.com/projects/7802"
+        },
+        {
           "name": "Botanic Code",
           "score": 28,
           "id": 8793,
@@ -6004,194 +6213,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8793"
         },
         {
-          "name": "PZChessBot",
-          "score": 27,
-          "id": 380,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgzMzAsInB1ciI6ImJsb2JfaWQifX0=--870ad5f95d5d6214a4bd0e95809443bcae39ed4f/banner.png",
-          "author_name": "kevie.lu8",
-          "url": "https://summer.hackclub.com/projects/380"
-        },
-        {
-          "name": "Fridgelet",
-          "score": 27,
-          "id": 461,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mzc2NCwicHVyIjoiYmxvYl9pZCJ9fQ==--131eedbebae85afe906364d2ce605633bd27787d/Screenshot%202025-06-20%20at%207.01.08%E2%80%AFPM.png",
-          "author_name": "anpham.0992",
-          "url": "https://summer.hackclub.com/projects/461"
-        },
-        {
-          "name": "Karatasi | Command Line Web Browser",
-          "score": 27,
-          "id": 1169,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQyNDgsInB1ciI6ImJsb2JfaWQifX0=--d4684fbb6cae0971eb6f522a9a8057537a58e342/Screenshot%202025-07-16%20at%206.55.32%E2%80%AFPM.png",
-          "author_name": "sunglassesaj",
-          "url": "https://summer.hackclub.com/projects/1169"
-        },
-        {
-          "name": "MUS | Bootstrap Portfolio",
-          "score": 27,
-          "id": 1748,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--9fafe3618c01e80995d2feebed1f73207dde9508/image_2025-06-19_155130325.png",
-          "author_name": "shahbazu628",
-          "url": "https://summer.hackclub.com/projects/1748"
-        },
-        {
-          "name": "syvredits (portfolio-ish web)",
-          "score": 27,
-          "id": 1916,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk3ODUsInB1ciI6ImJsb2JfaWQifX0=--779b5d5f5b845dc7ab78d32f7ee06dcfb467d1e3/image.jpg",
-          "author_name": "yashrajalt42",
-          "url": "https://summer.hackclub.com/projects/1916"
-        },
-        {
-          "name": "Recipe Finder",
-          "score": 27,
-          "id": 3319,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDkzMTYsInB1ciI6ImJsb2JfaWQifX0=--8724a6b8af20ea7fc3e5ebd4ccc497b9560552f3/Screenshot%202025-08-12%20at%206.14.44%E2%80%AFPM.png",
-          "author_name": "snittur28",
-          "url": "https://summer.hackclub.com/projects/3319"
-        },
-        {
-          "name": "MyraOS",
-          "score": 27,
-          "id": 5191,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4NjQsInB1ciI6ImJsb2JfaWQifX0=--8ccbefe71fe8f4c1aebecff8b9decfc8d82912f8/MyraOS_logo.png",
-          "author_name": "dvirm.biton",
-          "url": "https://summer.hackclub.com/projects/5191"
-        },
-        {
-          "name": "Statz",
-          "score": 27,
-          "id": 6469,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE4MjYsInB1ciI6ImJsb2JfaWQifX0=--177e21242bfda1733d2f3bc39219ba148a5d15b5/STATZ%20Banner-2.png",
-          "author_name": "narangswarit02",
-          "url": "https://summer.hackclub.com/projects/6469"
-        },
-        {
-          "name": "Oncology.AI",
-          "score": 26,
-          "id": 902,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzYwMDIsInB1ciI6ImJsb2JfaWQifX0=--67dce99e75cdffb607a225b8e6d072bfdcdc20f0/cancobannor.png",
-          "author_name": "alricmarvel",
-          "url": "https://summer.hackclub.com/projects/902"
-        },
-        {
-          "name": "C# consoleUI",
-          "score": 26,
-          "id": 952,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE3OTUsInB1ciI6ImJsb2JfaWQifX0=--8aa7c585f4f8dd9bc1ec0e4c190cb9800706ca10/a4fd13dbf0aa167fad5a667e4d2ae414d9e21e8f4da0b68a9f6118819fc879a3.png",
-          "author_name": "iamaunknownpeople",
-          "url": "https://summer.hackclub.com/projects/952"
-        },
-        {
-          "name": "GamePico",
-          "score": 26,
-          "id": 1278,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg4ODcsInB1ciI6ImJsb2JfaWQifX0=--6af5f5490421df47592f381448000314313b7f09/logo.png",
-          "author_name": "vrzalikm",
-          "url": "https://summer.hackclub.com/projects/1278"
-        },
-        {
-          "name": "Auro - AI Productivity Friend",
-          "score": 26,
-          "id": 1646,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjc5NDIsInB1ciI6ImJsb2JfaWQifX0=--8098fa230cc080ede8dea560b9a83d154d6779e0/WhatsApp%20Image%202025-07-10%20at%2019.24.26_eedd8346.jpg",
-          "author_name": "arabymohammedyoussef1",
-          "url": "https://summer.hackclub.com/projects/1646"
-        },
-        {
-          "name": "FIXAPL",
-          "score": 26,
-          "id": 1890,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--1cf2b6f4ecebf02abee1f8810f77df750127637e/Screenshot%202025-06-19%20at%202.42.39%20PM.png",
-          "author_name": "jacobulysseslockwood",
-          "url": "https://summer.hackclub.com/projects/1890"
-        },
-        {
-          "name": "Dionysus",
-          "score": 26,
-          "id": 2204,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDIwMjgsInB1ciI6ImJsb2JfaWQifX0=--fa5d6aa388d94af47376140c2a6e4aa03c6c2a82/image9.png",
-          "author_name": "sakshamgoel1107",
-          "url": "https://summer.hackclub.com/projects/2204"
-        },
-        {
-          "name": "MajorMatch",
-          "score": 26,
-          "id": 3770,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIxODcsInB1ciI6ImJsb2JfaWQifX0=--3696f366582272ce585ef63b89f295200dc4bcb9/Screenshot%202025-06-29%20at%207.34.20%E2%80%AFPM.png",
-          "author_name": "zayndamji",
-          "url": "https://summer.hackclub.com/projects/3770"
-        },
-        {
-          "name": "WEBBER",
-          "score": 26,
-          "id": 6871,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMxNjcsInB1ciI6ImJsb2JfaWQifX0=--e97f38e5144ec20a802801e056f96361b417fdbb/main_logo_webber.png",
-          "author_name": "yogya.developer",
-          "url": "https://summer.hackclub.com/projects/6871"
-        },
-        {
-          "name": "Trip Planner",
-          "score": 26,
-          "id": 8990,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ5NTAsInB1ciI6ImJsb2JfaWQifX0=--e6bc7c698e8ee281218aac200f1667fc85bb6db1/trippp.png",
-          "author_name": "danibura2007",
-          "url": "https://summer.hackclub.com/projects/8990"
-        },
-        {
-          "name": "Emoji Quest",
-          "score": 26,
-          "id": 10945,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDg3MjYsInB1ciI6ImJsb2JfaWQifX0=--6d4a32779f2e70f99cb30a4b2718983bd2fef739/Screenshot%202025-08-12%20122025.png",
-          "author_name": "heygopal67",
-          "url": "https://summer.hackclub.com/projects/10945"
-        },
-        {
-          "name": "OpenGameInstaller v2.0",
-          "score": 25,
-          "id": 423,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMwODUsInB1ciI6ImJsb2JfaWQifX0=--8dc6033ea51280130fbca476c3164d4cd138b923/Screenshot%202025-06-30%20at%206.05.09%E2%80%AFPM.png",
-          "author_name": "2026ronquillon",
-          "url": "https://summer.hackclub.com/projects/423"
-        },
-        {
-          "name": "BusyBob",
-          "score": 25,
-          "id": 1621,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ3MzUsInB1ciI6ImJsb2JfaWQifX0=--7c2b5e12d38729391ef013ee1123f14f42f30d3e/Screenshot%202025-07-02%20at%205.30.23%E2%80%AFPM.png",
-          "author_name": "jaytirthjoshi",
-          "url": "https://summer.hackclub.com/projects/1621"
-        },
-        {
-          "name": "👑 Queenie von Floof: A Royal Virtual Pet 2.0",
-          "score": 25,
-          "id": 2223,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc2NzIsInB1ciI6ImJsb2JfaWQifX0=--b7b37e50dbd8576006e0059d661a04d63586b0b3/newBanner.png",
-          "author_name": "kira.iovenko",
-          "url": "https://summer.hackclub.com/projects/2223"
-        },
-        {
-          "name": "File Manager",
-          "score": 25,
-          "id": 5219,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjczMTUsInB1ciI6ImJsb2JfaWQifX0=--95507bd80efe9789056310440c256c01879a65df/Screenshot%202025-07-18%20at%204.28.33%E2%80%AFPM.png",
-          "author_name": "zayndamji",
-          "url": "https://summer.hackclub.com/projects/5219"
-        },
-        {
-          "name": "\"tangentröra\" C# Terminal Based Text Editor",
-          "score": 25,
-          "id": 7933,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM1ODUsInB1ciI6ImJsb2JfaWQifX0=--5bb65df960a11e61623976f5191d7e0c7c7eab4a/Untitled.png",
-          "author_name": "torkelivinger",
-          "url": "https://summer.hackclub.com/projects/7933"
+          "name": "StarByte",
+          "score": 28,
+          "id": 11363,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQwOTAsInB1ciI6ImJsb2JfaWQifX0=--2281ffebcc6445352622c6c9055346fa41f72c21/starbyte.gif",
+          "author_name": "enfiniq",
+          "url": "https://summer.hackclub.com/projects/11363"
         }
       ],
       "followers": [
         {
           "name": "MemeOS – A Web-Based “Operating System” Filled with Easter Eggs",
-          "score": 74,
+          "score": 79,
           "id": 1014,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk5MTUsInB1ciI6ImJsb2JfaWQifX0=--b99b2da730acfdcdc15f6fe1c4251dac78e8e4d6/2025_07_10_0pc_Kleki.png",
           "author_name": "gabitzu3",
@@ -6199,27 +6232,27 @@ export const stats = {
         },
         {
           "name": "Lunar",
-          "score": 45,
+          "score": 46,
           "id": 26,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzExNzgsInB1ciI6ImJsb2JfaWQifX0=--78041930f9ccbd4f8006ac983494136cc7125526/Screen%20Recording%202025-07-25%20100552.gif",
           "author_name": "mohittiwariis97",
           "url": "https://summer.hackclub.com/projects/26"
         },
         {
-          "name": "Wilderlands ",
-          "score": 30,
-          "id": 4482,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
-          "author_name": "laura092",
-          "url": "https://summer.hackclub.com/projects/4482"
-        },
-        {
           "name": "ReeTui",
-          "score": 27,
+          "score": 36,
           "id": 3491,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDQyNjAsInB1ciI6ImJsb2JfaWQifX0=--2b528e4dfac93229e34bff8d7c825ec4cf79c529/eeTUI.jpg",
           "author_name": "youssef.pro.coding",
           "url": "https://summer.hackclub.com/projects/3491"
+        },
+        {
+          "name": "Wilderlands ",
+          "score": 33,
+          "id": 4482,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDcwNTYsInB1ciI6ImJsb2JfaWQifX0=--422a4abf304e47b1fcfbdf673395ddda8d57687d/test.png",
+          "author_name": "laura092",
+          "url": "https://summer.hackclub.com/projects/4482"
         },
         {
           "name": "stock simulator",
@@ -6230,6 +6263,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1522"
         },
         {
+          "name": "trout",
+          "score": 22,
+          "id": 2753,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU3ODksInB1ciI6ImJsb2JfaWQifX0=--ca31b8aa76d87404f8444bca26e4f1edab676470/gangster_cropped_2.png",
+          "author_name": "lleerraaff",
+          "url": "https://summer.hackclub.com/projects/2753"
+        },
+        {
           "name": "Blueprint Framework",
           "score": 21,
           "id": 257,
@@ -6238,12 +6279,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/257"
         },
         {
-          "name": "trout",
-          "score": 18,
-          "id": 2753,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU3ODksInB1ciI6ImJsb2JfaWQifX0=--ca31b8aa76d87404f8444bca26e4f1edab676470/gangster_cropped_2.png",
-          "author_name": "lleerraaff",
-          "url": "https://summer.hackclub.com/projects/2753"
+          "name": "SOM Utils",
+          "score": 19,
+          "id": 7236,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1MzIsInB1ciI6ImJsb2JfaWQifX0=--6060c8007cb413bf0e5d025926c89612d74b1860/Untitled%20design%20(8).png",
+          "author_name": "hridayahoney",
+          "url": "https://summer.hackclub.com/projects/7236"
+        },
+        {
+          "name": "Icepi Zero - The portable FPGA development board",
+          "score": 17,
+          "id": 29,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
+          "author_name": "cyao",
+          "url": "https://summer.hackclub.com/projects/29"
         },
         {
           "name": "Lenie",
@@ -6252,14 +6301,6 @@ export const stats = {
           "image": null,
           "author_name": "dave9123",
           "url": "https://summer.hackclub.com/projects/32"
-        },
-        {
-          "name": "Icepi Zero - The portable FPGA development board",
-          "score": 16,
-          "id": 29,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NzUsInB1ciI6ImJsb2JfaWQifX0=--52b30808a9c9f20f4d0da577e4715d7eaca0bab8/icepi-zero-angle-02.jpg",
-          "author_name": "cyao",
-          "url": "https://summer.hackclub.com/projects/29"
         },
         {
           "name": "Filatrack",
@@ -6294,20 +6335,36 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1201"
         },
         {
-          "name": "SOM Utils",
-          "score": 14,
-          "id": 7236,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6Mjk1MzIsInB1ciI6ImJsb2JfaWQifX0=--6060c8007cb413bf0e5d025926c89612d74b1860/Untitled%20design%20(8).png",
-          "author_name": "hridayahoney",
-          "url": "https://summer.hackclub.com/projects/7236"
+          "name": "DarwinX - OSX experience at the cost of nothing but Internet packets",
+          "score": 15,
+          "id": 3282,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMwMzMsInB1ciI6ImJsb2JfaWQifX0=--96c4af3e7b2b4f62648bc5cf2c40f77167a7a317/DarwinX.gif",
+          "author_name": "mr.linux.0",
+          "url": "https://summer.hackclub.com/projects/3282"
+        },
+        {
+          "name": "3D renderer using nothing but turtle (for rendering) and math (for computing).",
+          "score": 15,
+          "id": 9993,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0OTIsInB1ciI6ImJsb2JfaWQifX0=--4448f52b7d76e417ed86ad7678d0510159c9de00/image_2025-08-10_005529891.png",
+          "author_name": "downright.sillyy",
+          "url": "https://summer.hackclub.com/projects/9993"
         },
         {
           "name": "n-u-l-l",
-          "score": 13,
+          "score": 14,
           "id": 517,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTE2MTksInB1ciI6ImJsb2JfaWQifX0=--cb787ff4a3611e281b0f5c65f6c1b9a92db1cd15/logo.png",
-          "author_name": "aaravak",
+          "author_name": "fireentity",
           "url": "https://summer.hackclub.com/projects/517"
+        },
+        {
+          "name": "Voidborne",
+          "score": 14,
+          "id": 6644,
+          "image": null,
+          "author_name": "fireentity",
+          "url": "https://summer.hackclub.com/projects/6644"
         },
         {
           "name": "Karatasi | Command Line Web Browser",
@@ -6316,14 +6373,6 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQyNDgsInB1ciI6ImJsb2JfaWQifX0=--d4684fbb6cae0971eb6f522a9a8057537a58e342/Screenshot%202025-07-16%20at%206.55.32%E2%80%AFPM.png",
           "author_name": "sunglassesaj",
           "url": "https://summer.hackclub.com/projects/1169"
-        },
-        {
-          "name": "Voidborne",
-          "score": 13,
-          "id": 6644,
-          "image": null,
-          "author_name": "aaravak",
-          "url": "https://summer.hackclub.com/projects/6644"
         },
         {
           "name": "Summer of Making",
@@ -6358,20 +6407,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2054"
         },
         {
-          "name": "MacOS UI Simulator - OSX experience at the cost of nothing but Internet packets",
+          "name": "Tic-Tac-Fˣᵒk-You",
           "score": 11,
-          "id": 3282,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM4OTQsInB1ciI6ImJsb2JfaWQifX0=--a8ea29785f40efe2192bfcbea02d621840e4b73e/tlg.gif",
-          "author_name": "mr.linux.0",
-          "url": "https://summer.hackclub.com/projects/3282"
-        },
-        {
-          "name": "3D renderer using nothing but turtle (for rendering) and math (for computing).",
-          "score": 11,
-          "id": 9993,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0OTIsInB1ciI6ImJsb2JfaWQifX0=--4448f52b7d76e417ed86ad7678d0510159c9de00/image_2025-08-10_005529891.png",
-          "author_name": "downright.sillyy",
-          "url": "https://summer.hackclub.com/projects/9993"
+          "id": 4429,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE4OTMsInB1ciI6ImJsb2JfaWQifX0=--6117bbdf657b6cd7788459be30d3c043d63255f1/opengraph-image.png",
+          "author_name": "0elijah629",
+          "url": "https://summer.hackclub.com/projects/4429"
         },
         {
           "name": "Diddy Simulator",
@@ -6382,6 +6423,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/992"
         },
         {
+          "name": "CrossCode (Build iOS apps on Windows and Linux!)",
+          "score": 10,
+          "id": 1550,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTU5NzUsInB1ciI6ImJsb2JfaWQifX0=--f0ad9269695e30c59c10715810d15a4a95f3d8ca/image_2025-08-21_132707620.png",
+          "author_name": "nicholasdanielsharp",
+          "url": "https://summer.hackclub.com/projects/1550"
+        },
+        {
           "name": "ende - 3D Procedural Generator",
           "score": 10,
           "id": 2130,
@@ -6390,12 +6439,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2130"
         },
         {
-          "name": "Tic-Tac-Fˣᵒk-You",
+          "name": "ACEDIA",
           "score": 10,
-          "id": 4429,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE4OTMsInB1ciI6ImJsb2JfaWQifX0=--6117bbdf657b6cd7788459be30d3c043d63255f1/opengraph-image.png",
-          "author_name": "0elijah629",
-          "url": "https://summer.hackclub.com/projects/4429"
+          "id": 2369,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI1MywicHVyIjoiYmxvYl9pZCJ9fQ==--605d951dfe93a357a5b06c1f3a1b0d770d3b48d9/banner.png",
+          "author_name": "hackclub567",
+          "url": "https://summer.hackclub.com/projects/2369"
+        },
+        {
+          "name": "Hack Club App",
+          "score": 10,
+          "id": 5619,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTEzOTcsInB1ciI6ImJsb2JfaWQifX0=--c7f438096c4998f921564fa7ec46b9bd9c280a58/Screenshot%202025-08-12%20at%209.39.03%E2%80%AFPM.png",
+          "author_name": "chessthinker600",
+          "url": "https://summer.hackclub.com/projects/5619"
         },
         {
           "name": "Captain Redbeard's Adventure",
@@ -6422,12 +6479,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/582"
         },
         {
-          "name": "YCode (Build iOS apps on Windows and Linux!)",
+          "name": "VoxaEngine - C++ 2D Game Engine",
           "score": 9,
-          "id": 1550,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--bdbb47d1bfbd0effbd763f40149590de4fba6628/image_2025-06-18_220832329.png",
-          "author_name": "nicholasdanielsharp",
-          "url": "https://summer.hackclub.com/projects/1550"
+          "id": 930,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODcyLCJwdXIiOiJibG9iX2lkIn19--2e89947b89db5222ab468401ba6c818098190db0/banner.png",
+          "author_name": "jan.richter2007",
+          "url": "https://summer.hackclub.com/projects/930"
         },
         {
           "name": "Mice (Navidrome Client)",
@@ -6436,6 +6493,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzA1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--2ea43ccdf4776a97007462187ae11497ccf85838/banner.png",
           "author_name": "sillyangel3",
           "url": "https://summer.hackclub.com/projects/1837"
+        },
+        {
+          "name": "HYRA-0",
+          "score": 9,
+          "id": 2138,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAyODcsInB1ciI6ImJsb2JfaWQifX0=--c124864896209f224d05186d384f571649ab37d4/Weixin%20Screenshot_20250724123550.png",
+          "author_name": "caisufan",
+          "url": "https://summer.hackclub.com/projects/2138"
         },
         {
           "name": "Physics Simulation Competition",
@@ -6486,6 +6551,22 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/3349"
         },
         {
+          "name": "HyprYou",
+          "score": 9,
+          "id": 3912,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE4NTUsInB1ciI6ImJsb2JfaWQifX0=--7b2d64c3e3c12d03c0c69d9579dcf7810b054a3a/Material%20You.png",
+          "author_name": "petrenkodank",
+          "url": "https://summer.hackclub.com/projects/3912"
+        },
+        {
+          "name": "UUIDLE",
+          "score": 9,
+          "id": 9418,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzcxNzQsInB1ciI6ImJsb2JfaWQifX0=--c376d625e64126893b6ae0654e2751e0b5ff3f3d/Screenshot_2025-08-01_13-53-53.png",
+          "author_name": "me1978",
+          "url": "https://summer.hackclub.com/projects/9418"
+        },
+        {
           "name": "scramjet",
           "score": 8,
           "id": 15,
@@ -6500,6 +6581,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQxLCJwdXIiOiJibG9iX2lkIn19--798459957a1604e967b41de4295163d1c0036733/Screenshot%202025-06-16%20at%2009.36.41.png",
           "author_name": "msw",
           "url": "https://summer.hackclub.com/projects/50"
+        },
+        {
+          "name": "Pterodactyl Rewritten",
+          "score": 8,
+          "id": 228,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg5MDYsInB1ciI6ImJsb2JfaWQifX0=--4035f8a5fdb3b02b50b6e2fc6f9a48b1964e517c/Screenshot%20From%202025-07-04%2000-37-58.png",
+          "author_name": "jelcovthull",
+          "url": "https://summer.hackclub.com/projects/228"
         },
         {
           "name": "Dofi Fantasy Console",
@@ -6518,6 +6607,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/878"
         },
         {
+          "name": "ASCII Raytracer",
+          "score": 8,
+          "id": 1625,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxOTgsInB1ciI6ImJsb2JfaWQifX0=--04d4267f2cc8347a035e4552906759bbadf13b45/Screenshot%202025-08-03%20at%207.27.15%E2%80%AFpm%201.png",
+          "author_name": "samcjohn",
+          "url": "https://summer.hackclub.com/projects/1625"
+        },
+        {
           "name": "ShadcnUI Blocks",
           "score": 8,
           "id": 1898,
@@ -6526,28 +6623,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/1898"
         },
         {
-          "name": "HYRA-0",
+          "name": "Studymate Tracker",
           "score": 8,
-          "id": 2138,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzAyODcsInB1ciI6ImJsb2JfaWQifX0=--c124864896209f224d05186d384f571649ab37d4/Weixin%20Screenshot_20250724123550.png",
-          "author_name": "caisufan",
-          "url": "https://summer.hackclub.com/projects/2138"
+          "id": 1966,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA2NywicHVyIjoiYmxvYl9pZCJ9fQ==--e7ee9fc6155a54938e44a116981f68e4f1c26f8f/Studymate%20Tracker.png",
+          "author_name": "sheth.neer27",
+          "url": "https://summer.hackclub.com/projects/1966"
         },
         {
-          "name": "ACEDIA",
+          "name": "Linux Custom Desktop Shell",
           "score": 8,
-          "id": 2369,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI1MywicHVyIjoiYmxvYl9pZCJ9fQ==--605d951dfe93a357a5b06c1f3a1b0d770d3b48d9/banner.png",
-          "author_name": "hackclub567",
-          "url": "https://summer.hackclub.com/projects/2369"
-        },
-        {
-          "name": "Hack Club App",
-          "score": 8,
-          "id": 5619,
-          "image": null,
-          "author_name": "chessthinker600",
-          "url": "https://summer.hackclub.com/projects/5619"
+          "id": 2964,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU1ODMsInB1ciI6ImJsb2JfaWQifX0=--67298ee979852fb78c0df45fa7b5931784771e21/July%2004,%202025%20at%2000.15.38.png",
+          "author_name": "stefano.delprete.08",
+          "url": "https://summer.hackclub.com/projects/2964"
         },
         {
           "name": "Summer of making Share votes",
@@ -6556,14 +6645,6 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMwMTEsInB1ciI6ImJsb2JfaWQifX0=--b54456cd8d79505ea0f6e22a1288ffa750486c86/screenshot.png",
           "author_name": "neongamerbot",
           "url": "https://summer.hackclub.com/projects/6"
-        },
-        {
-          "name": "Pterodactyl Rewritten",
-          "score": 7,
-          "id": 228,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTg5MDYsInB1ciI6ImJsb2JfaWQifX0=--4035f8a5fdb3b02b50b6e2fc6f9a48b1964e517c/Screenshot%20From%202025-07-04%2000-37-58.png",
-          "author_name": "jelcovthull",
-          "url": "https://summer.hackclub.com/projects/228"
         },
         {
           "name": "PZOS",
@@ -6590,20 +6671,28 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/791"
         },
         {
-          "name": "VoxaEngine - C++ 2D Game Engine",
+          "name": "tungsten",
           "score": 7,
-          "id": 930,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6ODcyLCJwdXIiOiJibG9iX2lkIn19--2e89947b89db5222ab468401ba6c818098190db0/banner.png",
-          "author_name": "jan.richter2007",
-          "url": "https://summer.hackclub.com/projects/930"
+          "id": 1041,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
+          "author_name": "riccardotedeschi247",
+          "url": "https://summer.hackclub.com/projects/1041"
         },
         {
-          "name": "Studymate Tracker",
+          "name": "The 404",
           "score": 7,
-          "id": 1966,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA2NywicHVyIjoiYmxvYl9pZCJ9fQ==--e7ee9fc6155a54938e44a116981f68e4f1c26f8f/Studymate%20Tracker.png",
-          "author_name": "sheth.neer27",
-          "url": "https://summer.hackclub.com/projects/1966"
+          "id": 1170,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ4NiwicHVyIjoiYmxvYl9pZCJ9fQ==--720da3734a3d16486d8cc5afd5d1c1549fff1aa3/Screenshot%20From%202025-06-18%2010-22-19.png",
+          "author_name": "peter.durdin.superwor",
+          "url": "https://summer.hackclub.com/projects/1170"
+        },
+        {
+          "name": "Chaos Abyss",
+          "score": 7,
+          "id": 2581,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDA0MDgsInB1ciI6ImJsb2JfaWQifX0=--e1701a01771eb94d7eafb147777ffb64b061b922/Chaos%20Abyss%20fig%20actually%20kinda%20symmetrical%20crystal%20(2).png",
+          "author_name": "maksiks.touch",
+          "url": "https://summer.hackclub.com/projects/2581"
         },
         {
           "name": "Balatro Wii U port",
@@ -6630,6 +6719,38 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/3605"
         },
         {
+          "name": "Minecraft++",
+          "score": 7,
+          "id": 4772,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTcyNDEsInB1ciI6ImJsb2JfaWQifX0=--c8e0b64b5522b149b3ef3c105a8c6ab25c235d58/leafs.png",
+          "author_name": "towermanxxl",
+          "url": "https://summer.hackclub.com/projects/4772"
+        },
+        {
+          "name": "MyraOS",
+          "score": 7,
+          "id": 5191,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4NjQsInB1ciI6ImJsb2JfaWQifX0=--8ccbefe71fe8f4c1aebecff8b9decfc8d82912f8/MyraOS_logo.png",
+          "author_name": "dvirm.biton",
+          "url": "https://summer.hackclub.com/projects/5191"
+        },
+        {
+          "name": "Sprig Fishing",
+          "score": 7,
+          "id": 6849,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTYxNjQsInB1ciI6ImJsb2JfaWQifX0=--4ed85d81907bf89cb309addb48cf2a098fafbd63/IMG_3094.jpg",
+          "author_name": "colinvandermeer",
+          "url": "https://summer.hackclub.com/projects/6849"
+        },
+        {
+          "name": "SoM Economy",
+          "score": 7,
+          "id": 7395,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0MTcsInB1ciI6ImJsb2JfaWQifX0=--cd62f7b8a2af8b3f2a6f2fc0aacb9face9129d25/somconomy.png",
+          "author_name": "0elijah629",
+          "url": "https://summer.hackclub.com/projects/7395"
+        },
+        {
           "name": "Retro search engine ",
           "score": 7,
           "id": 8120,
@@ -6644,6 +6765,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0NDcsInB1ciI6ImJsb2JfaWQifX0=--e44eb5a28fb137ff4bc57da5460c8d9cb442834b/sonai.png",
           "author_name": "0elijah629",
           "url": "https://summer.hackclub.com/projects/8258"
+        },
+        {
+          "name": "GWEM",
+          "score": 7,
+          "id": 11971,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTYxMzUsInB1ciI6ImJsb2JfaWQifX0=--e7407fc1e8e9051b414a809b38508e1d05f5fafa/New%20Project%20(1).png",
+          "author_name": "pulaxpola",
+          "url": "https://summer.hackclub.com/projects/11971"
         },
         {
           "name": "Summer of Making!",
@@ -6662,28 +6791,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/408"
         },
         {
-          "name": "tungsten",
-          "score": 6,
-          "id": 1041,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk3MDgsInB1ciI6ImJsb2JfaWQifX0=--d3b4874e61ce53b4d5366457279b2fc7eb5a43a2/tungsten%20logo.png",
-          "author_name": "riccardotedeschi247",
-          "url": "https://summer.hackclub.com/projects/1041"
-        },
-        {
           "name": "Platform Panic",
           "score": 6,
           "id": 1078,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjczNiwicHVyIjoiYmxvYl9pZCJ9fQ==--988737566f99374544f1b5924feabe1b4f002591/Screenshot%202025-06-23%20230558.png",
           "author_name": "mustafaali192012",
           "url": "https://summer.hackclub.com/projects/1078"
-        },
-        {
-          "name": "The 404",
-          "score": 6,
-          "id": 1170,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQ4NiwicHVyIjoiYmxvYl9pZCJ9fQ==--720da3734a3d16486d8cc5afd5d1c1549fff1aa3/Screenshot%20From%202025-06-18%2010-22-19.png",
-          "author_name": "peter.durdin.superwor",
-          "url": "https://summer.hackclub.com/projects/1170"
         },
         {
           "name": "BhavinUnderTheDesk",
@@ -6705,17 +6818,9 @@ export const stats = {
           "name": "feynman",
           "score": 6,
           "id": 2150,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjA3NCwicHVyIjoiYmxvYl9pZCJ9fQ==--22847399c54e5ec8ecf6fa966e99c1c38d81e896/SCR-20250613-srgh.png",
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTE2OTMsInB1ciI6ImJsb2JfaWQifX0=--81db529e6d11a3479b42c87750b9a0dd61d70998/SCR-20250815-txvy.png",
           "author_name": "strawberrypi64",
           "url": "https://summer.hackclub.com/projects/2150"
-        },
-        {
-          "name": "Chaos Abyss",
-          "score": 6,
-          "id": 2581,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDA0MDgsInB1ciI6ImJsb2JfaWQifX0=--e1701a01771eb94d7eafb147777ffb64b061b922/Chaos%20Abyss%20fig%20actually%20kinda%20symmetrical%20crystal%20(2).png",
-          "author_name": "maksiks.touch",
-          "url": "https://summer.hackclub.com/projects/2581"
         },
         {
           "name": "diddler.party",
@@ -6726,28 +6831,20 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2937"
         },
         {
-          "name": "Linux Custom Desktop Shell",
-          "score": 6,
-          "id": 2964,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTU1ODMsInB1ciI6ImJsb2JfaWQifX0=--67298ee979852fb78c0df45fa7b5931784771e21/July%2004,%202025%20at%2000.15.38.png",
-          "author_name": "stefano.delprete.08",
-          "url": "https://summer.hackclub.com/projects/2964"
-        },
-        {
-          "name": "HyprYou",
-          "score": 6,
-          "id": 3912,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE0MTAsInB1ciI6ImJsb2JfaWQifX0=--5ba42c7dc3369ac3377de8e9079f8fb37caf210c/Material%20You.png",
-          "author_name": "petrenkodank",
-          "url": "https://summer.hackclub.com/projects/3912"
-        },
-        {
           "name": "ChessBro",
           "score": 6,
           "id": 4099,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTA0NjAsInB1ciI6ImJsb2JfaWQifX0=--7f114b2b7802900c1c9f41a5c8da6aece6e06463/banner.png",
           "author_name": "ashai.daamin",
           "url": "https://summer.hackclub.com/projects/4099"
+        },
+        {
+          "name": "Monotony",
+          "score": 6,
+          "id": 4667,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDE4MjIsInB1ciI6ImJsb2JfaWQifX0=--21fff0093d3600556189383e92e1cf46d4b4051e/Screenshot%202025-08-06%20114426.png",
+          "author_name": "sharma21",
+          "url": "https://summer.hackclub.com/projects/4667"
         },
         {
           "name": "yourdns",
@@ -6758,28 +6855,12 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/6252"
         },
         {
-          "name": "Grow A Brainrot Inside A Bowl! ",
+          "name": "Grow your Pet!",
           "score": 6,
           "id": 6357,
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDA4NjUsInB1ciI6ImJsb2JfaWQifX0=--685a0094f2887d05b41bf8d98842a5f190eb03db/Screenshot%202025-08-04%20at%204.13.22%E2%80%AFPM.png",
           "author_name": "vrramroop",
           "url": "https://summer.hackclub.com/projects/6357"
-        },
-        {
-          "name": "SoM Economy",
-          "score": 6,
-          "id": 7395,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDU0MTcsInB1ciI6ImJsb2JfaWQifX0=--cd62f7b8a2af8b3f2a6f2fc0aacb9face9129d25/somconomy.png",
-          "author_name": "0elijah629",
-          "url": "https://summer.hackclub.com/projects/7395"
-        },
-        {
-          "name": "UUIDLE",
-          "score": 6,
-          "id": 9418,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzcxNzQsInB1ciI6ImJsb2JfaWQifX0=--c376d625e64126893b6ae0654e2751e0b5ff3f3d/Screenshot_2025-08-01_13-53-53.png",
-          "author_name": "me1978",
-          "url": "https://summer.hackclub.com/projects/9418"
         },
         {
           "name": "dreamland.js",
@@ -6798,6 +6879,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/12"
         },
         {
+          "name": "SoM Harbor",
+          "score": 5,
+          "id": 22,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQ0MTQsInB1ciI6ImJsb2JfaWQifX0=--ce8425eb341e527fa0267064829c627059df4b43/2025-08-18T03-46-43.png",
+          "author_name": "toshit307",
+          "url": "https://summer.hackclub.com/projects/22"
+        },
+        {
           "name": "Summer of Making (SoM)",
           "score": 5,
           "id": 53,
@@ -6806,10 +6895,18 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/53"
         },
         {
+          "name": "BitLace",
+          "score": 5,
+          "id": 61,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDA2MDMsInB1ciI6ImJsb2JfaWQifX0=--591ed4c34a4c9d073a6499387952d64f65398308/photo_2025-08-04_20-13-47.jpg",
+          "author_name": "mail656",
+          "url": "https://summer.hackclub.com/projects/61"
+        },
+        {
           "name": "libsim",
           "score": 5,
           "id": 130,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTA2MTUsInB1ciI6ImJsb2JfaWQifX0=--b369fb814847854004ea22009872a05ff3bc412e/libsim-commit-16%20(copy%201).jpg",
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTI2OTEsInB1ciI6ImJsb2JfaWQifX0=--41a1bdb756ba48f9fa3cec84d2685c2c3157cf83/libsim-commit-23.jpg",
           "author_name": "alexnguyena6",
           "url": "https://summer.hackclub.com/projects/130"
         },
@@ -6844,6 +6941,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTYzODMsInB1ciI6ImJsb2JfaWQifX0=--7c2ca3e4186805b0eb3cee57e224de8b8c1b1e2b/Screenshot%202025-07-04%20181914.png",
           "author_name": "adityam3ndiratta",
           "url": "https://summer.hackclub.com/projects/271"
+        },
+        {
+          "name": "StatePulse",
+          "score": 5,
+          "id": 375,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDMyMDYsInB1ciI6ImJsb2JfaWQifX0=--2fb0d72aaa86f91273028176e149842fb8a04025/Screenshot%202025-08-07%20at%2011.21.49%E2%80%AFAM.png",
+          "author_name": "timberlake2025",
+          "url": "https://summer.hackclub.com/projects/375"
         },
         {
           "name": "PZChessBot",
@@ -6916,78 +7021,6 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDY3MywicHVyIjoiYmxvYl9pZCJ9fQ==--4f0a99c33196739bdb904e142216d49f1cb98429/devlog03.3.png",
           "author_name": "ivo.theis",
           "url": "https://summer.hackclub.com/projects/1395"
-        },
-        {
-          "name": "Shufl Chat",
-          "score": 5,
-          "id": 1575,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--84a98b434f915cf3e9cd59c63f55f53b8a7fb957/thumb.png",
-          "author_name": "shuflduf",
-          "url": "https://summer.hackclub.com/projects/1575"
-        },
-        {
-          "name": "ASCII Raytracer",
-          "score": 5,
-          "id": 1625,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkxOTgsInB1ciI6ImJsb2JfaWQifX0=--04d4267f2cc8347a035e4552906759bbadf13b45/Screenshot%202025-08-03%20at%207.27.15%E2%80%AFpm%201.png",
-          "author_name": "samcjohn",
-          "url": "https://summer.hackclub.com/projects/1625"
-        },
-        {
-          "name": "Space Explorer Game",
-          "score": 5,
-          "id": 1738,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjM4OCwicHVyIjoiYmxvYl9pZCJ9fQ==--45b900fe8c32abde95188fb98696dc3a5b03e8a5/image%20(3).png",
-          "author_name": "yassin.1023059",
-          "url": "https://summer.hackclub.com/projects/1738"
-        },
-        {
-          "name": "Airfleet",
-          "score": 5,
-          "id": 4788,
-          "image": null,
-          "author_name": "aaravak",
-          "url": "https://summer.hackclub.com/projects/4788"
-        },
-        {
-          "name": "Control My Aircon",
-          "score": 5,
-          "id": 5419,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzA5OTQsInB1ciI6ImJsb2JfaWQifX0=--e9fab082d74498ed9425112700bdf3e9012b093c/thumb.png",
-          "author_name": "mateo.desuasido",
-          "url": "https://summer.hackclub.com/projects/5419"
-        },
-        {
-          "name": "WASP: A Wi-Fi Sensing platform using bunch of ESP32!!!",
-          "score": 5,
-          "id": 5451,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY3NzgsInB1ciI6ImJsb2JfaWQifX0=--fe5e1e1a7d417588fb8d421a7184a70e64212b07/Mengenal-ESP32-Mikrokontroler-IoT.png",
-          "author_name": "harokifathan",
-          "url": "https://summer.hackclub.com/projects/5451"
-        },
-        {
-          "name": "SANTA SHIELD",
-          "score": 5,
-          "id": 8586,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzQ4MDgsInB1ciI6ImJsb2JfaWQifX0=--a2471b7f15abba153f780c88485aa5ac54d3c832/Screenshot%202025-07-29%20at%2010.45.28%E2%80%AFPM.png",
-          "author_name": "8lliotzhang",
-          "url": "https://summer.hackclub.com/projects/8586"
-        },
-        {
-          "name": "Whisk",
-          "score": 4,
-          "id": 11,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjAzOTgsInB1ciI6ImJsb2JfaWQifX0=--6332df2577f75a85d2d557becdd49bbb58d1aed4/cover.png",
-          "author_name": "ayaangrover",
-          "url": "https://summer.hackclub.com/projects/11"
-        },
-        {
-          "name": "Nephthys",
-          "score": 4,
-          "id": 40,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4LCJwdXIiOiJibG9iX2lkIn19--3ef8abf08852d0a4e3444a057ee5ebea6e12267c/signal-2025-06-14-145000.png",
-          "author_name": "transcental",
-          "url": "https://summer.hackclub.com/projects/40"
         }
       ],
       "title": [
@@ -7032,6 +7065,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/10655"
         },
         {
+          "name": "3D Voxel renderer using nothing but turtle (for rendering) and math (for computing).",
+          "score": 84,
+          "id": 12007,
+          "image": null,
+          "author_name": "downright.sillyy",
+          "url": "https://summer.hackclub.com/projects/12007"
+        },
+        {
           "name": "Innovative Webentwicklung - Teaching Basics of the Web in our Schools Project Week",
           "score": 82,
           "id": 11048,
@@ -7046,14 +7087,6 @@ export const stats = {
           "image": null,
           "author_name": "22d_lakatosb",
           "url": "https://summer.hackclub.com/projects/3218"
-        },
-        {
-          "name": "MacOS UI Simulator - OSX experience at the cost of nothing but Internet packets",
-          "score": 79,
-          "id": 3282,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM4OTQsInB1ciI6ImJsb2JfaWQifX0=--a8ea29785f40efe2192bfcbea02d621840e4b73e/tlg.gif",
-          "author_name": "mr.linux.0",
-          "url": "https://summer.hackclub.com/projects/3282"
         },
         {
           "name": "Raspberry Pi-Based Surveillance Robot with Live Video Feed and Keyboard Control",
@@ -7128,6 +7161,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/7209"
         },
         {
+          "name": "Minimacro for Debian Linux (and derivatives) and not in a Windows 11 VM",
+          "score": 71,
+          "id": 7924,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE0NjksInB1ciI6ImJsb2JfaWQifX0=--40ac256c442c32e208663d040f766f2984f2fa0f/Screenshot%20From%202025-07-25%2013-05-27.png",
+          "author_name": "sapphirerose010",
+          "url": "https://summer.hackclub.com/projects/7924"
+        },
+        {
           "name": "Undercity badges! (Official merch build by Cyao - Undercity organizer)",
           "score": 70,
           "id": 1279,
@@ -7160,12 +7201,36 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/2044"
         },
         {
+          "name": "AI Gmail Agent With Web UI (Gemini + Next.js + Google ADK) (Deployed)",
+          "score": 69,
+          "id": 11558,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMwOTcsInB1ciI6ImJsb2JfaWQifX0=--ae1bd1a0faaa94e67c5073d707a6b520c4dfba8f/gmailagent.png",
+          "author_name": "sriramnagandla",
+          "url": "https://summer.hackclub.com/projects/11558"
+        },
+        {
+          "name": "DarwinX - OSX experience at the cost of nothing but Internet packets",
+          "score": 68,
+          "id": 3282,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMwMzMsInB1ciI6ImJsb2JfaWQifX0=--96c4af3e7b2b4f62648bc5cf2c40f77167a7a317/DarwinX.gif",
+          "author_name": "mr.linux.0",
+          "url": "https://summer.hackclub.com/projects/3282"
+        },
+        {
           "name": "This is a small website to help me learn English from ICRT For Kids.",
           "score": 68,
           "id": 7654,
           "image": null,
           "author_name": "ambershen2014",
           "url": "https://summer.hackclub.com/projects/7654"
+        },
+        {
+          "name": "BC AI Survey Data Storytelling: Semantic Maps & Roundtable Personas",
+          "score": 67,
+          "id": 11725,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQ0NjAsInB1ciI6ImJsb2JfaWQifX0=--76e740bed35325a8af1a343b3f11ad43a6debacf/Screenshot%202025-08-18%20181613.png",
+          "author_name": "prajwal028",
+          "url": "https://summer.hackclub.com/projects/11725"
         },
         {
           "name": "MechaTag - Apriltag localization for MechaLeague and small robots.",
@@ -7182,6 +7247,14 @@ export const stats = {
           "image": null,
           "author_name": "jmeow3587",
           "url": "https://summer.hackclub.com/projects/7981"
+        },
+        {
+          "name": "FinFlow - Personal Finance Management Dashboard (with AI analysis)",
+          "score": 66,
+          "id": 11652,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQ1NTYsInB1ciI6ImJsb2JfaWQifX0=--58524b1f75ccd87a335a472c14b008ae85717205/finflow-logo.png",
+          "author_name": "sriramnagandla",
+          "url": "https://summer.hackclub.com/projects/11652"
         },
         {
           "name": "Level Up Your Lectures. Ditch the Boring Notes, Get the AI Spark.",
@@ -7224,6 +7297,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/5380"
         },
         {
+          "name": "Drone swarms are used for taking life how about we reverse that ",
+          "score": 64,
+          "id": 11744,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQ1NTgsInB1ciI6ImJsb2JfaWQifX0=--4047993c55e932044202039c1869a55e38564d9d/1.jpg",
+          "author_name": "daudshahbaz4life",
+          "url": "https://summer.hackclub.com/projects/11744"
+        },
+        {
           "name": "MemeOS – A Web-Based “Operating System” Filled with Easter Eggs",
           "score": 63,
           "id": 1014,
@@ -7243,7 +7324,7 @@ export const stats = {
           "name": "DITMail — Secure, Scalable, Developer-First Mail Infrastructure",
           "score": 63,
           "id": 2228,
-          "image": null,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTMzOTIsInB1ciI6ImJsb2JfaWQifX0=--0b82b7704f0a26ef40617d8f691bd7f43bbc8c7e/Untitled%20(14).png",
           "author_name": "dishantsinghdev",
           "url": "https://summer.hackclub.com/projects/2228"
         },
@@ -7278,6 +7359,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDg3MzAsInB1ciI6ImJsb2JfaWQifX0=--8d1629da181fd72991b559e093de1582b3b3ee09/banner.png",
           "author_name": "alexander.hubner",
           "url": "https://summer.hackclub.com/projects/10625"
+        },
+        {
+          "name": "🎵 SnapBeat Auth — Authenticate by Snapping/Tapping Your Rhythm",
+          "score": 63,
+          "id": 11827,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTYyMjEsInB1ciI6ImJsb2JfaWQifX0=--916784e3627c3d03c1a16174c3c4d4bf35c988a9/ChatGPT%20Image%20Aug%2022,%202025,%2009_55_05%20AM-min.png",
+          "author_name": "madushankarajapaksha9",
+          "url": "https://summer.hackclub.com/projects/11827"
         },
         {
           "name": "Elara: The ultimate time tracker, where time meets tranquility",
@@ -7318,14 +7407,6 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDM0MTIsInB1ciI6ImJsb2JfaWQifX0=--288e830ae7a00be7facbda57ed54f520c3a5d24d/Screenshot%202025-08-08%20004830.png",
           "author_name": "sameerahmad70212",
           "url": "https://summer.hackclub.com/projects/10438"
-        },
-        {
-          "name": "DITBlogs - The Effortless Blogging Platform for Your Business",
-          "score": 61,
-          "id": 10463,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI4ODIsInB1ciI6ImJsb2JfaWQifX0=--b62807f4b5970af980c1c8d49c9d20164e0702a7/Untitled%20(2).png",
-          "author_name": "dishantsinghdev",
-          "url": "https://summer.hackclub.com/projects/10463"
         },
         {
           "name": "A Fast Paced Boomer Shooter with an emphasis on air movement",
@@ -7432,6 +7513,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/8036"
         },
         {
+          "name": "Golden Hour - A scientific based Vitamin D tracker for you",
+          "score": 58,
+          "id": 11383,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTQyMDAsInB1ciI6ImJsb2JfaWQifX0=--76c2452e44b1d674fc2557b4912727e959768f74/Screenshot%202025-08-19%20001327.png",
+          "author_name": "olinishrit",
+          "url": "https://summer.hackclub.com/projects/11383"
+        },
+        {
           "name": "Traffic Simulation Using Cellular Automata (of hyderabad)",
           "score": 57,
           "id": 1263,
@@ -7456,6 +7545,14 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/10445"
         },
         {
+          "name": "DITBlogs - The Effortless Blogging Platform for Every App",
+          "score": 57,
+          "id": 10463,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDI4ODIsInB1ciI6ImJsb2JfaWQifX0=--b62807f4b5970af980c1c8d49c9d20164e0702a7/Untitled%20(2).png",
+          "author_name": "dishantsinghdev",
+          "url": "https://summer.hackclub.com/projects/10463"
+        },
+        {
           "name": "MasonNetwork(Captive Portal)(probably will never finish)",
           "score": 56,
           "id": 1405,
@@ -7470,6 +7567,14 @@ export const stats = {
           "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTM4MDksInB1ciI6ImJsb2JfaWQifX0=--4b5638cd44801efdd0bb219f83c06fec6819416a/efwetg.PNG",
           "author_name": "jaigar21",
           "url": "https://summer.hackclub.com/projects/4669"
+        },
+        {
+          "name": "Very simple discord giveaway bot and grow a garden stock",
+          "score": 56,
+          "id": 7105,
+          "image": null,
+          "author_name": "yyc.kevinh",
+          "url": "https://summer.hackclub.com/projects/7105"
         },
         {
           "name": "IndieSeas.net - Browse unique websites, not corporate bs",
@@ -7712,87 +7817,15 @@ export const stats = {
           "url": "https://summer.hackclub.com/projects/10662"
         },
         {
-          "name": "The Trolley Problem (But with infinite AI scenarios)",
-          "score": 52,
-          "id": 824,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTk5NCwicHVyIjoiYmxvYl9pZCJ9fQ==--9052317421a68cbb7ee61129640da9d96c267d48/Screenshot%202025-06-19%20002351.png",
-          "author_name": "nutzusandor",
-          "url": "https://summer.hackclub.com/projects/824"
-        },
-        {
-          "name": "http://prashath.me – My Personal Developer Portfolio",
-          "score": 52,
-          "id": 1249,
-          "image": null,
-          "author_name": "211fa04025",
-          "url": "https://summer.hackclub.com/projects/1249"
-        },
-        {
-          "name": "Drive Clone: A React-Based Cloud Storage Application",
-          "score": 52,
-          "id": 3098,
-          "image": null,
-          "author_name": "sanjeevsudharshan",
-          "url": "https://summer.hackclub.com/projects/3098"
-        },
-        {
-          "name": "Autonomous Robot Control using Large Language Models",
-          "score": 52,
-          "id": 3306,
-          "image": null,
-          "author_name": "aditya.anand3119",
-          "url": "https://summer.hackclub.com/projects/3306"
-        },
-        {
-          "name": "Dark Mode for my Schools Website (Firefox Extension)",
-          "score": 52,
-          "id": 4000,
-          "image": null,
-          "author_name": "henry.naujack",
-          "url": "https://summer.hackclub.com/projects/4000"
-        },
-        {
-          "name": "4 LEDs + 4 Button Games for Pathfinder (PCB+2 Games)",
-          "score": 52,
-          "id": 5217,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY0NzksInB1ciI6ImJsb2JfaWQifX0=--c81dc1384a127740c2eb90e1119bc6759c89d2e8/Screenshot%20from%202025-07-04%2015-05-01.png",
-          "author_name": "guy",
-          "url": "https://summer.hackclub.com/projects/5217"
-        },
-        {
-          "name": "Flip Bot - C# bot for finding iphone deals on olx.pl",
-          "score": 52,
-          "id": 5466,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTY4NDcsInB1ciI6ImJsb2JfaWQifX0=--a5edc3bcd1b9bcc6f783ccb59de54065938fc1d2/Zrzut%20ekranu%202025-07-05%20192456.png",
-          "author_name": "tomek08.konto",
-          "url": "https://summer.hackclub.com/projects/5466"
-        },
-        {
-          "name": "protect.it - insurance powered by prediction markets",
-          "score": 52,
-          "id": 5698,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc5ODgsInB1ciI6ImJsb2JfaWQifX0=--471c2e64d30a70988b1ac473fedc2cf9c6411c00/Capture%20d%E2%80%99e%CC%81cran%202025-07-07%20a%CC%80%2014.22.27.png",
-          "author_name": "elyes.benabid",
-          "url": "https://summer.hackclub.com/projects/5698"
-        },
-        {
-          "name": "Lativion OS | Simulated Operating System in the Web!",
-          "score": 52,
-          "id": 9155,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzU2NTUsInB1ciI6ImJsb2JfaWQifX0=--331bf21c31c25cb2cffa6c6dcd5193fceb1a6c9a/hackclub%20banner%201.png",
-          "author_name": "phillips.e.steven",
-          "url": "https://summer.hackclub.com/projects/9155"
-        },
-        {
-          "name": "Foodify: Mode Based Food Suggester and Life Balancer",
-          "score": 52,
-          "id": 9934,
-          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzkwODYsInB1ciI6ImJsb2JfaWQifX0=--612a2a42b41a0fc41c2a93c7d3700f8fdd960f3f/Screenshot%202025-08-03%20112252.png",
-          "author_name": "sameerahmad70212",
-          "url": "https://summer.hackclub.com/projects/9934"
+          "name": "OrderUp - A POS system built in React Js and Appwrite",
+          "score": 53,
+          "id": 12122,
+          "image": "https://summer.hackclub.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTcwMDksInB1ciI6ImJsb2JfaWQifX0=--7bcf31e719b0fadf5430cf794c83bde68367c0a6/screenshot.png",
+          "author_name": "hashimcpro",
+          "url": "https://summer.hackclub.com/projects/12122"
         }
       ]
     }
   },
-  "last_sync": "2025-08-13T09:48:26.623Z"
+  "last_sync": "2025-08-24T06:35:59.865Z"
 }
