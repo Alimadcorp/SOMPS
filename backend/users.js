@@ -15,41 +15,16 @@ const myCookie = env.COOKIE;
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-async function start() {
-  allUsers = JSON.parse(fs.readFileSync(resultPath));
-  initialLength = Object.keys(allUsers).length;
-  const promises = [];
-
-  for (let i = startPage; i <= endPage; i++) {
-    const promise = fetchPage(i).then((dat) => {
-      parseData(dat);
-      console.log(`Processed ${i}`);
-    });
-    promises.push(promise);
-    await delay(wait);
-  }
-
-  await Promise.all(promises);
-  fs.writeFileSync(resultPath, JSON.stringify(allUsers));
-  console.log(
-    `Processed ${endPage - startPage + 1} new pages and found ${
-      Object.keys(allUsers).length
-    } users`
-  );
-  console.log(
-    `Increase in length: ${Object.keys(allUsers).length - initialLength}`
-  );
-}
-
 function parseData(dat) {
-  let thisusers = {};
-  if(dat.data == {}){
+  if (!dat || !dat.data || !Array.isArray(dat.data) || dat.data.length === 0) {
     return;
   }
+
   dat.data.forEach((el) => {
     const uid = el.id;
-    allUsers[uid] = thisusers[uid] = el;
+    allUsers[uid] = el;
   });
+  // persist intermittently
   fs.writeFileSync(resultPath, JSON.stringify(allUsers));
 }
 
@@ -80,7 +55,7 @@ async function fetchPage(page, retries = 3) {
 
       if (response.status === 101) {
         console.warn(`⚠️ Got 101 Switching Protocols at page ${page}`);
-        return { data: {}, previous: null };
+        return { data: [], previous: null };
       }
 
       if (response.ok) {
@@ -100,25 +75,30 @@ async function fetchPage(page, retries = 3) {
   }
 
   console.error(`❌ Gave up on page ${page} after ${retries} attempts`);
-  return { data: {}, previous: "" };
+  return { data: [], previous: "" };
 }
 
+// Parallel start: kick off requests without waiting for each to complete, but stagger starts by `wait` ms
 async function start() {
   allUsers = JSON.parse(fs.readFileSync(resultPath));
   initialLength = Object.keys(allUsers).length;
+  const promises = [];
 
   for (let i = startPage; i <= endPage; i++) {
-    const dat = await fetchPage(i);
-    parseData(dat);
-    console.log(`✅ Processed ${i}`);
+    const p = fetchPage(i).then((dat) => {
+      parseData(dat);
+      console.log(`✅ Processed ${i}`);
+    });
+
+    promises.push(p);
+    // stagger request starts to avoid bursting the server
     await delay(wait);
   }
 
+  await Promise.all(promises);
   fs.writeFileSync(resultPath, JSON.stringify(allUsers));
   console.log(
-    `Processed ${endPage - startPage + 1} new pages and found ${
-      Object.keys(allUsers).length
-    } users`
+    `Processed ${endPage - startPage + 1} new pages and found ${Object.keys(allUsers).length} users`
   );
   console.log(
     `Increase in length: ${Object.keys(allUsers).length - initialLength}`

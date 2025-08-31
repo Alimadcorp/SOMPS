@@ -1,4 +1,4 @@
-export const stats = {
+{
   "total_projects": 9838,
   "certified": 2568,
   "certified_10": 1172,
