@@ -109,7 +109,7 @@ export default function SearchContent() {
     setcQuery(q);
     const scores = {};
     const rate = 50;
-    const amount = 24;
+    const amount = 48;
     setHighlight(
       q.toLowerCase().replace(/[_-]/g, " ").split(" ").filter(Boolean)
     );
@@ -232,7 +232,7 @@ export default function SearchContent() {
     totalProjects > 0 ? (searchProgress / totalProjects) * 100 : 0;
 
   return (
-    <div className="min-h-screen bg-gray-950 bg-fixed text-gray-100">
+    <div className="min-h-screen bg-gray-950 bg-fixed text-gray-100 font-sans">
       <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur-sm border-b border-gray-800/50 portrait:h-auto h-[10vh] flex items-center w-full portrait:py-3">
         <div className="container mx-auto px-2 sm:px-3 w-full">
           <div className="flex items-center gap-3 portrait:flex-col portrait:gap-2 portrait:items-stretch">

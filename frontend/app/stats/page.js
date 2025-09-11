@@ -24,7 +24,7 @@ export const metadata = {
 export default function StatsPage() {
   return (
     <Suspense fallback={<LoadingSkeleton />}>
-      <main className="font-geist text-center px-4 py-8">
+      <main className="font-[family-name:var(--font-geist-sans)] text-center px-4 py-8">
         <h1 className="text-3xl font-semibold mb-4">Summer Of Making Stats</h1>
         <p className="text-m text-gray-300">
           Part of the{" "}

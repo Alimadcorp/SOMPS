@@ -158,9 +158,9 @@ async function main() {
     //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
-  let c = 1172;
-  let tt = 2568;
-  let votes = 77290;
+  let c = 1362;
+  let tt = 3042;
+  let votes = 123230;
   if (false) {
     let r = await fetch("https://summer.hackclub.com/votes/locked", {
       headers: {
@@ -523,11 +523,11 @@ async function main() {
       title: filt(lb_p_title),
     },
   };
-  let total_bans = 170;
-  let total_burned_shells = 83880;
-  let total_shells = 271242;
-  let total_items = 81;
-  let total_purchased = 8605;
+  let total_bans = 332;
+  let total_burned_shells = 222858;
+  let total_shells = 314698;
+  let total_items = 98;
+  let total_purchased = 11093;
   let stats = {
     total_projects: Object.keys(projects).length,
     certified: tt,
