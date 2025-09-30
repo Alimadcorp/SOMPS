@@ -253,10 +253,10 @@ export default function StatsDashboard({ stats }) {
   return (
     <div className="w-full max-w-7xl mx-auto p-4 space-y-6 min-h-screen">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-        <a href="https://alimadcorp.github.io/hackclubusers" target="_blank">
+        <a href="https://hackclub.alimad.co" target="_blank">
           <Card className="relative overflow-hidden bg-gradient-to-br from-gray-900/80 to-gray-800/80 border-gray-700/50 hover:border-blue-500/50 transition-all duration-300 group">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
-              <CardTitle className="text-sm font-medium text-gray-300 group-hover:text-blue-300 transition-colors">
+              <CardTitle className="text-sm font-medium text-gray-300 g%roup-hover:text-blue-300 transition-colors">
                 HackClub Users
               </CardTitle>
               <div className="p-2 rounded-lg bg-blue-500/20 group-hover:bg-blue-500/30 transition-colors">

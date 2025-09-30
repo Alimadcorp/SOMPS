@@ -1,6 +1,6 @@
 const fs = require("fs");
 const startPage = 1;
-const endPage = 2000;
+const endPage = 20000;
 const wait = 500;
 const resultPath = "projects.json";
 let allProjects = {};

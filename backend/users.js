@@ -1,6 +1,6 @@
 const fs = require("fs");
 const startPage = 1;
-const endPage = 11111;
+const endPage = 20000;
 const wait = 500;
 const resultPath = "user.json";
 let allUsers = {};
@@ -39,7 +39,6 @@ async function fetchPage(page, retries = 3) {
           method: "GET",
           headers: {
             Cookie: myCookie,
-            accept: "application/json",
             referer: "https://summer.hackclub.com/explore",
             "sec-ch-ua": '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
             "sec-ch-ua-mobile": "?0",

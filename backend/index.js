@@ -47,6 +47,8 @@ async function fetchAllUsers() {
         console.log(`Fetched 1000 ${cursor ? "more " : ""}users`);
         let users = {};
         let usersRaw = {};
+        console.log(res.data.members[5]);
+        //return;
         for (let i = 0; i < res.data.members.length; i++) {
           let x = res.data.members[i];
           if (Math.random() < 0.00001) console.log(x);
@@ -158,9 +160,9 @@ async function main() {
     //fs.writeFileSync("../frontend/data/users.js", `export const users = ${JSON.stringify(users).replaceAll("\\\"", "\"").replace(/^\"/g, "").replace(/\"$/g, "")}`);
     return;
   }
-  let c = 1362;
-  let tt = 3042;
-  let votes = 123230;
+  let c = 1530;
+  let tt = 3301;
+  let votes = 137591;
   if (false) {
     let r = await fetch("https://summer.hackclub.com/votes/locked", {
       headers: {
@@ -523,11 +525,11 @@ async function main() {
       title: filt(lb_p_title),
     },
   };
-  let total_bans = 332;
-  let total_burned_shells = 222858;
-  let total_shells = 314698;
-  let total_items = 98;
-  let total_purchased = 11093;
+  let total_bans = 409;
+  let total_burned_shells = 286221;
+  let total_shells = 262546;
+  let total_items = 99;
+  let total_purchased = 14329;
   let stats = {
     total_projects: Object.keys(projects).length,
     certified: tt,
