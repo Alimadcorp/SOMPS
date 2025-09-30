@@ -138,7 +138,8 @@ export default function SearchContent() {
       })
       .sort((a, b) => b[1] - a[1]);
     setResultAmt(sorted.length);
-    sorted = sorted.slice(0, amount).map(([key]) => ProjectList[key]);
+    sorted = sorted.filter((e) => { return ProjectList[e[0]].banner != null }).slice(0, amount).map(([key]) => ProjectList[key]);
+    console.log(sorted);
     return sorted;
   }
 

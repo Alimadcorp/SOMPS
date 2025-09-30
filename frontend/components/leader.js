@@ -8,7 +8,7 @@ export default function Leader(
   scoreIconTop,
   bgFill
 ) {
-  let entries = data.data; // i have no idea why i have to do this but yeah :heavysob:
+  let entries = data.data.filter((e) => { return e.image != null }); // i have no idea why i have to do this but yeah :heavysob:
   let top10 = entries.slice(0, 10);
   let next90 = entries.slice(10, 100);
   scoreIcon = data.scoreIcon;
