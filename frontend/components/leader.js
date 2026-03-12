@@ -1,5 +1,5 @@
 import { Trophy } from "lucide-react";
-
+// slorpy was here
 export default function Leader(
   data,
   title,
