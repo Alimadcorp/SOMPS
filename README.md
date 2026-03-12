@@ -1,6 +1,8 @@
 ## SOMPS
 ### Summer Of Making Project Search
 
+view at https://somps.alimad.co
+
 Allows searching for projects inside the Hackclub Summer Of Making Program
 
 Submission to Summer of Making and Reactive
